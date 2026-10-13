@@ -1,0 +1,123 @@
+{
+  "judge_model": "claude-fable-5-1",
+  "evaluations": [
+    {
+      "label": "A",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 6},
+        {"criterion": "completeness", "score": 8},
+        {"criterion": "decisions_and_actions", "score": 5},
+        {"criterion": "usefulness", "score": 6}
+      ],
+      "overall": 6.25,
+      "errors": [
+        "Action item owner 'Christian' - no such participant; the Industrial Designer is Christine, and nobody was asked to 'continue refinement' of the prototype. The Project Manager decided no more changes to the basic design (18:28).",
+        "Marketing Lead (Ed) assigned to 'develop and propose online sales and promotion strategy, including potential partnerships with Amazon/eBay and media companies like Sony Pictures' - the online drop-ship idea (14:14) and the Sony Pictures idea (21:26) came from the Industrial Designer; nothing was assigned to Ed.",
+        "Ed assigned to 'plan marketing campaigns aligning product launch with major sports events or DVD releases' - the sports-event timing was the Industrial Designer's suggestion (20:34); no one was assigned it.",
+        "'Finalize detailed production budget including promotional and transport costs' (Finance Lead) - never assigned; the Marketing Expert only noted those costs were excluded from the sheet.",
+        "'Organize closing celebration event upon successful completion of production milestone' - the Project Manager proposed meeting that same evening for a party and drinks (23:39, 23:56), not after production.",
+        "'Marketing lead emphasizes brand value and market timing; team urged to monitor post-launch feedback closely' - it was the Project Manager who said Ed can promote the brand value (22:47); nobody urged post-launch monitoring.",
+        "'Closing remarks ... stressed importance of post-launch evaluation' and 'emphasis on monitoring project outcomes after production and adjusting based on market response' - not said; the closing was thanks and an invitation to drinks.",
+        "'Management - Approve current prototype design for market introduction without redesign' listed as a pending action, but the Project Manager made that decision in the meeting (18:28).",
+        "Voice control described as 'integrated on a flip panel' - only the LCD is on the flip panel; the voice-recognition off button is on the left side of the remote."
+      ],
+      "strengths": [
+        "All numbers correct: 9.95 vs 12.50 budget, 2-3 euro for the LCD, 8-9 million market, 2 million units, 25% share, 50 euro price, 25 euro cost cap, 50 million profit, 1 euro case.",
+        "Captures the microphone debate and the side-placement outcome, the weight and egg-shaped-button feedback, and the plasticine caveat.",
+        "Captures the key decision (fixed design, customer feedback feeds a second generation), the 2-4 week external evaluation, and the User Interface Designer's objection about no redesign time.",
+        "Covers the online channel, Amazon/eBay, rotating product views, sports-event timing and Sony Pictures."
+      ],
+      "weaknesses": [
+        "Action items are largely invented or given to the wrong people; a reader would chase Ed for work that was Christine's idea and the Project Manager's commitment.",
+        "The Leadership section and parts of the summary editorialize beyond what was said.",
+        "Verbose with repetition between the summary and the sections; the Project Manager is never identified as the finance presenter ('Unknown (Finance Lead)')."
+      ]
+    },
+    {
+      "label": "B",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 5},
+        {"criterion": "completeness", "score": 6},
+        {"criterion": "decisions_and_actions", "score": 4},
+        {"criterion": "usefulness", "score": 5}
+      ],
+      "overall": 5.0,
+      "errors": [
+        "'IS1008d remote control prototype' - no product name or code was mentioned in the meeting.",
+        "'Agni' - the User Interface Designer is Agnes (01:00, 01:39).",
+        "'Ed proposed shifting from traditional retail to an online drop ship model via platforms like Amazon or eBay' - the Industrial Designer (Christine) proposed this (14:14) and named Amazon/eBay (14:58); Ed only said other companies had gone that way.",
+        "'Ed suggested synchronizing the launch with major sporting events, such as the World Cup' - the Industrial Designer suggested synchronizing the launch (20:34); Ed only named World Cup soccer as the peak season when asked.",
+        "Speaker labels run Speaker 1/2/4/5 for a four-person meeting, and the same person appears as both 'Agni' and 'Speaker 4', while the summary's 'Ed' matches the outline's 'Speaker 2' even though 'Speaker 5' is the one raising the marketing concerns.",
+        "'Current calculations only account for production costs and do not yet include advertising, transportation, or labor' - the Marketing Expert said advertising and transportation were excluded (09:46); labor was not said to be excluded, and the 1 euro case figure included labor (10:48).",
+        "'Action Items: (none)' - the Project Manager committed to negotiating with vendors and speaking to management about cost (10:54) and to convincing management about a Sony Pictures campaign (21:48)."
+      ],
+      "strengths": [
+        "Core numbers right: 9.95 vs 12.50, LCD 2-3 euro, 8-9 million market, 2 million units, 25% share, 50 million profit.",
+        "Records the decision that no more design changes will be made and that feedback goes to a second generation, plus the 2-4 week evaluation.",
+        "Captures the microphone side-placement reasoning and the redesign-time concern as an open question.",
+        "The Outline section attributes the online-channel and sports-timing ideas to the right speaker (Speaker 2), unlike the summary."
+      ],
+      "weaknesses": [
+        "No action items at all, even though the outline itself records the vendor-negotiation plan.",
+        "The summary gives Ed credit for the two main strategy ideas that were Christine's.",
+        "Speaker numbers are unreadable for someone who missed the meeting and conflict with the names used elsewhere.",
+        "Misses Sony Pictures, the 25 euro cost cap and 25 euro profit per unit, the external testing location, the 1 euro case cost, and the possible upside above 2 million units online."
+      ]
+    },
+    {
+      "label": "C",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 8},
+        {"criterion": "completeness", "score": 8},
+        {"criterion": "decisions_and_actions", "score": 8},
+        {"criterion": "usefulness", "score": 7}
+      ],
+      "overall": 7.75,
+      "errors": [
+        "'Moritz' used throughout for the User Interface Designer - there is no Moritz in the meeting; the presenter is Agnes (01:00, 01:39).",
+        "Action-item owner 'Speaker 1' while the same person is 'the company representative' everywhere else - both mean the Project Manager; the labels do not line up.",
+        "'Prototypes would be made outside the company's factory' - the Project Manager said the product evaluation would not be done in the company's factory (17:18-17:34); where the prototypes are made was not clearly stated."
+      ],
+      "strengths": [
+        "Who-said-what is right by role: Christine for the online channel, sports-event timing and Sony Pictures; the Project Manager for the fixed-design decision and the cost commitments; the User Interface Designer for the redesign-time objection.",
+        "The two action items are the two real commitments made in the meeting, correctly owned and time-stamped.",
+        "All numbers correct, including the 25 euro cost cap and profit per unit, the 1 euro case, and the 8 million vs 8-9 million market estimates.",
+        "Five-line summary gives the decision, the numbers and the open doubt; the testing-time disagreement is recorded as a disagreement, with each side's argument."
+      ],
+      "weaknesses": [
+        "The invented name 'Moritz' would confuse anyone who knows the team.",
+        "'Company representative', 'the other team' and 'marketing participant' are awkward; Ed is never named.",
+        "Omits the button layout, the evening celebration, and that the Project Manager presented the finance figures."
+      ]
+    },
+    {
+      "label": "D",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 9},
+        {"criterion": "completeness", "score": 7},
+        {"criterion": "decisions_and_actions", "score": 6},
+        {"criterion": "usefulness", "score": 8}
+      ],
+      "overall": 7.5,
+      "errors": [
+        "'Microphone placement unresolved: under flip ruled out' - the Project Manager argued for under the flip and then said sides 'maybe is good' (05:03-06:16); it was not formally ruled out.",
+        "'Weight intentional: users prefer something substantial in hand' - the Industrial Designer said 'you need to work on the weight a little bit' (06:21); presenting it as settled drops the refinement note.",
+        "'Align launch timing with a major sports event' listed as a Next Step - it was a proposal from the Industrial Designer with no owner or commitment.",
+        "'Web configurator' - term not used; the discussion was pictures and a rotating movie of the product online."
+      ],
+      "strengths": [
+        "No numeric errors; every figure matches the transcript (9.95, 12.50, 2-3 euro LCD, 8-9 million, 2 million, 25%, 50 euro, 25 euro, 50 million).",
+        "Button layout, cost picture and market math laid out step by step and easy to scan.",
+        "Decision stated plainly; the missing redesign window recorded as an open concern; includes Sony Pictures, external evaluation, the above-2-million upside and the diapers example.",
+        "Shortest of the four and still carries the substance."
+      ],
+      "weaknesses": [
+        "No names or roles anywhere and no owners on Next Steps, so a reader cannot tell who does what (the Project Manager owns the vendor negotiation and the management asks).",
+        "Omits that the cost sheet excluded advertising and transport, the egg-shaped-button note, the Marketing Expert's doubt about whether 2 million units can be sold, the Project Manager's commitment to speak to management, and the evening celebration.",
+        "Flattens the Project Manager overruling the User Interface Designer on redesign time into 'concern raised'."
+      ]
+    }
+  ],
+  "ranking": ["C", "D", "A", "B"],
+  "rationale": "C is the most faithful account of who proposed and decided what, and its two action items are exactly the two commitments made (Project Manager: vendor negotiation and management on cost; Project Manager: convince management on Sony Pictures); its one real flaw is the invented name Moritz. D has no factual errors and the cleanest numbers, but names no one and owns nothing, so a reader could not act on it; one next step is a proposal presented as agreed. A is thorough and numerically right in the body but its action-item list is mostly invented or misattributed (Ed given Christine's ideas, a fictional 'Christian', a celebration tied to production rather than that evening) and its leadership section editorializes. B credits Ed with the online channel and sports-event ideas that were Christine's, invents a product code, mixes names with inconsistent speaker numbers, and lists no action items at all."
+}

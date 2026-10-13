@@ -1,0 +1,114 @@
+{
+  "evaluations": [
+    {
+      "label": "A",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 5},
+        {"criterion": "completeness", "score": 5},
+        {"criterion": "decisions_and_actions", "score": 3},
+        {"criterion": "usefulness", "score": 4}
+      ],
+      "overall": 4.3,
+      "errors": [
+        "\"Target group 15-35 years\" presented as a decision; the transcript shows the target group was left open (under 65 floated, then objectives preferred over an age group)",
+        "Action item \"Investigate technical feasibility for rechargeable battery\" was never assigned; the User Interface Designer only mused about whether a battery is needed at all",
+        "Action item \"Provide updated market research data\" is listed as unassigned, though the Marketing Expert said she would email more age numbers if she got them",
+        "\"Chip converts energy to data\" is a loose paraphrase; the Industrial Designer described the chip converting electrical energy into data, acceptable but compressed"
+      ],
+      "strengths": [
+        "Captures key market research numbers (75%, 80%, 10%, over 50% lose remotes)",
+        "Lists the four working-design components and the agreed functions (large buttons, hidden extras, loss prevention)",
+        "Includes the 12.5 euro production cost limit"
+      ],
+      "weaknesses": [
+        "Very terse fragments; hard for an absent reader to follow the reasoning",
+        "States an unsettled target group as decided",
+        "Misses the real action items: questionnaire and summary, individual work assignments, PM posting minutes and slides, coach emails",
+        "Omits the 25 euro retail price and the sliding-panel idea"
+      ]
+    },
+    {
+      "label": "B",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 7},
+        {"criterion": "completeness", "score": 9},
+        {"criterion": "decisions_and_actions", "score": 7},
+        {"criterion": "usefulness", "score": 8}
+      ],
+      "overall": 7.8,
+      "errors": [
+        "Next step says \"Working design presentation not yet on the server; save from email into shared folder\"; in the transcript the Industrial Designer had already uploaded the working design presentation, and it was the Project Manager's presentation that was missing from the server",
+        "\"age segmentation less useful than lifestyle/attitude targeting\"; the alternative discussed was spending power/income and TV ownership, not lifestyle or attitude",
+        "\"Target group: broad appeal, roughly under 65\" reads as settled, while the group explicitly found it hard to narrow and left it open"
+      ],
+      "strengths": [
+        "Rich and well-organized coverage of research findings, including RSI, 65% channel zapping, and voice recognition by age",
+        "Clear list of agreed functions (locator, large buttons, hidden secondary functions, battery, brand aesthetic)",
+        "Includes both price points (25 euro retail, 12.50 production), scope (TV only, no teletext) and brand colors",
+        "Captures post-meeting tasks: questionnaire, summary, individual workstreams, coach emails, possible extra age data"
+      ],
+      "weaknesses": [
+        "One next step misidentifies which presentation was missing from the shared folder",
+        "Does not assign owners to most next steps; misses the PM's commitment to post minutes and slides",
+        "Slight overstatement that the target group was resolved"
+      ]
+    },
+    {
+      "label": "C",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 5},
+        {"criterion": "completeness", "score": 7},
+        {"criterion": "decisions_and_actions", "score": 4},
+        {"criterion": "usefulness", "score": 5}
+      ],
+      "overall": 5.3,
+      "errors": [
+        "Attributes \"potential LCD screens or sliding hatches\" to the technical-interface presenter's talk; the LCD screen came from the Marketing Expert's research and the sliding hatch came up later in group discussion",
+        "\"Management decided against including teletext support or voice recognition\"; management decided teletext only, voice recognition was set aside by the team",
+        "Unresolved question \"Would adding a 'find my remote' beep function fit within budget?\" was never raised, and contradicts its own outline stating the locator was an agreed function",
+        "\"Action Items: (none)\" is wrong; the PM assigned the questionnaire and summary, individual work (components concept, UI concept, market trend watching) and committed to posting minutes and slides",
+        "\"improve convenience and location tracking\" overstates the cradle idea, which was only said to help keep the remote in one place"
+      ],
+      "strengths": [
+        "Reasonably complete outline of the agenda, three presentations, new requirements and agreed functions",
+        "Includes both price points and the 12:13 start with a 40-minute meeting",
+        "Notes the target group debate between 15-35 and a broader range"
+      ],
+      "weaknesses": [
+        "Generic speaker numbers make it hard to know who said what",
+        "No action items at all",
+        "Invented unresolved questions and some misattributions",
+        "Redundant between summary and outline"
+      ]
+    },
+    {
+      "label": "D",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 9},
+        {"criterion": "completeness", "score": 8},
+        {"criterion": "decisions_and_actions", "score": 8},
+        {"criterion": "usefulness", "score": 8}
+      ],
+      "overall": 8.3,
+      "errors": [
+        "Minor: the sidebar of individual work says \"Each area had a corresponding concept or work focus\", which is vague but not wrong; no substantive factual errors found"
+      ],
+      "strengths": [
+        "Correctly states that the target demographic was left open, with the range of suggestions (15-35, under 65, 20-55) and the spending-ability alternative",
+        "Accurate on scope (TV only, no teletext because of the internet), 25 euro separate sale, 12.50 production ceiling, brand colors and slogan",
+        "Captures the agreed functions, sliding panel idea, chip-transmission caveat, cradle idea and living-room space note",
+        "Correctly identifies that the PM's own presentation was missing from the server and that the PM will post minutes and slides",
+        "Timestamps for each point help verification"
+      ],
+      "weaknesses": [
+        "Action items list only the PM's tasks; team questionnaire, summary and individual work are in the body but not in the action list",
+        "Omits the Marketing Expert's offer to email more age data before the next meeting",
+        "Some RSI and channel-zapping detail is compressed"
+      ]
+    }
+  ],
+  "ranking": ["D", "B", "C", "A"],
+  "rationale": "D is the most accurate and correctly represents what was decided versus left open (notably the unsettled target group) and the file follow-ups, with timestamps. B is the most detailed and very useful, but misidentifies which presentation was missing from the shared folder and overstates the target group as settled. C covers the meeting broadly but has misattributions, invents unresolved questions that contradict its own outline, and lists no action items. A is terse, states the 15-35 target group as decided, invents unassigned action items, and misses the actual assignments."
+,
+  "judge_model": "claude-opus-5-5"
+}

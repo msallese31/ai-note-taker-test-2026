@@ -1,0 +1,116 @@
+{
+  "evaluations": [
+    {
+      "label": "A",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 5},
+        {"criterion": "completeness", "score": 7},
+        {"criterion": "decisions_and_actions", "score": 5},
+        {"criterion": "usefulness", "score": 6}
+      ],
+      "overall": 5.8,
+      "errors": [
+        "Project code 'TS3012a' is never mentioned in the transcript",
+        "Project Manager called 'Markoff'; transcript says 'Mark'",
+        "Names misspelled: 'Dirk Mangfelt' (Meinfeld), 'Savier Jokins' (Xavier Juergens)",
+        "UI designer labeled 'Speaker 4' although he introduced himself as Nick Broer",
+        "'Speaker 4 clarifies that the scope of the project is limited to a TV remote control': the UI designer asked; the Project Manager clarified",
+        "Lists 'multi-remote or TV only' as an open question, yet the transcript (and A's own outline) shows it was settled as TV only",
+        "'lightweight materials that are aesthetically impactful': 'aesthetically impactful' is not in the transcript",
+        "Action items with no owners and generic content not assigned in the meeting"
+      ],
+      "strengths": [
+        "Covers the brief, three-phase process, price targets, roles and the animal exercise",
+        "Mentions the 30-minute reconvene and personal assignments"
+      ],
+      "weaknesses": [
+        "Several invented or wrong names and an invented project code",
+        "Internal contradiction about the multi-remote scope",
+        "Action items are unowned and not really stated in the meeting; omits that the personal coach gives assignments",
+        "Repetitive structure (summary and outline overlap)"
+      ]
+    },
+    {
+      "label": "B",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 8},
+        {"criterion": "completeness", "score": 8},
+        {"criterion": "decisions_and_actions", "score": 7},
+        {"criterion": "usefulness", "score": 8}
+      ],
+      "overall": 7.8,
+      "errors": [
+        "'urged familiarity and rational changes': the transcript says 'No rational changes... revolutionary changes', meaning is garbled and B's reading is doubtful",
+        "Action item owner spelled 'Dirk Mengveld' (transcript: Dirk Meinfeld)",
+        "'They set a €25 selling price': the price was given by the Project Manager as a brief, not set by the team (minor)",
+        "Some timestamps are off (e.g. project folder tagged [01:08], said at ~03:23)"
+      ],
+      "strengths": [
+        "Correct names for Mark, Dirk and Xavier and correct attribution of who said what",
+        "Accurately notes that the personal coach gives assignments and the team meets again in 30 minutes",
+        "Captures the scope decision (TV only), accessibility, light material, price targets and the 'not much to work with' reaction",
+        "Clear structure with verdict-style headers and timestamps"
+      ],
+      "weaknesses": [
+        "UI designer is never named",
+        "Only one action item; does not capture the individual-work expectation per role",
+        "Some repetition between summary and sections"
+      ]
+    },
+    {
+      "label": "C",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 5},
+        {"criterion": "completeness", "score": 6},
+        {"criterion": "decisions_and_actions", "score": 4},
+        {"criterion": "usefulness", "score": 5}
+      ],
+      "overall": 5.0,
+      "errors": [
+        "'Dolphin: freedom, smooth design': 'smooth design' is not supported ('Sure looks smooth' was said about the tiger drawing)",
+        "Action item 'Mark: Provide personal assignments to team members': the personal coach gives the assignments, not Mark",
+        "Names misspelled: 'Mark Knopp' (surname never given), 'Xavier Juukens', 'Dirk Mankveld'",
+        "Action items for Xavier ('Address material considerations') and UI designer ('Prepare intuitive design concepts') were not assigned in the meeting",
+        "Many timestamps do not match the transcript (e.g. scope clarified at 10:34, actually ~11:32)"
+      ],
+      "strengths": [
+        "Compact outline covering the main topics: brief, phases, whiteboard, animals, scope, accessibility, light material, pricing",
+        "Notes the limited margin from the price targets"
+      ],
+      "weaknesses": [
+        "Telegraphic fragments hard to understand for someone who missed the meeting",
+        "Action items are largely invented or misattributed",
+        "Misspelled names and an invented surname"
+      ]
+    },
+    {
+      "label": "D",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 7},
+        {"criterion": "completeness", "score": 7},
+        {"criterion": "decisions_and_actions", "score": 6},
+        {"criterion": "usefulness", "score": 8}
+      ],
+      "overall": 7.0,
+      "errors": [
+        "'Mark Knopf': surname never given in the transcript",
+        "Names misspelled: 'Dirk Mengveld' (Meinfeld), 'Xavier Jökens' (Juergens)",
+        "'UI designer also present (name not captured)': he introduced himself as Nick Broer",
+        "'rational changes only' is a doubtful reading of a garbled line ('No rational changes... revolutionary changes')"
+      ],
+      "strengths": [
+        "Clean, scannable structure a newcomer can act on",
+        "Correctly lists Xavier's three questions, the price targets, TV-only scope, accessibility, light material",
+        "Correctly states that personal assignments come via the personal coach and next meeting is in 30 minutes"
+      ],
+      "weaknesses": [
+        "No explicit action items section or owners",
+        "Omits that the marketing expert had no ideas ready yet and the 'not much to work with' reaction",
+        "Invented surname and misspellings"
+      ]
+    }
+  ],
+  "ranking": ["B", "D", "A", "C"],
+  "rationale": "B is the most accurate, with correct attributions, correct first names, the personal-coach detail and a clear next step; its errors are minor. D is concise and mostly correct but invents a surname, misses the UI designer's name and lacks owned action items. A is fairly complete but invents a project code, gets the PM's name wrong, misattributes the scope clarification and lists a settled question as open. C is fragmentary, adds unsupported details ('smooth design') and assigns action items that were never given, including attributing assignment distribution to Mark instead of the personal coach.",
+  "judge_model": "claude-opus-5-5"
+}

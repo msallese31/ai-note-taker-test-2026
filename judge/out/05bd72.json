@@ -1,0 +1,120 @@
+{
+  "judge_model": "claude-opus-5-5",
+  "evaluations": [
+    {
+      "label": "A",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 7},
+        {"criterion": "completeness", "score": 8},
+        {"criterion": "decisions_and_actions", "score": 7},
+        {"criterion": "usefulness", "score": 8}
+      ],
+      "overall": 7.5,
+      "errors": [
+        "Repeatedly names the User Interface Designer 'Moritz' (e.g. 'Moritz presented the wooden, customizable remote'); no Moritz appears in the transcript, the presenter is Agnes",
+        "'Christine estimated the case could cost EUR1 for material and labor' - Christine was reacting to the figure on the PM's cost sheet, not making her own estimate",
+        "Action item owner given as 'Speaker 1', a label that does not appear in the transcript (it is the Project Manager)"
+      ],
+      "strengths": [
+        "Attributes positions correctly by role: Christine on circuit-board dependence, weight, online sales, market testing, sports-event launch and Sony Pictures; the UI Designer on voice-while-closed, egg-shaped buttons and redesign risk",
+        "Gets all the key numbers right (EUR9.95 vs EUR12.50, LCD +EUR2-3, 8 vs 8-9 million market, 25% share, EUR50 price / EUR25 cost / EUR25 profit, EUR50M target, 2-4 weeks)",
+        "Captures the main disagreement over testing versus launching the fixed design, and the PM's decision to go ahead with a second generation to follow",
+        "The action items that are listed (vendor negotiation, convincing management on Sony Pictures) are real commitments the PM made"
+      ],
+      "weaknesses": [
+        "The invented name 'Moritz' makes a reader think someone else was in the meeting",
+        "Uses vague labels ('the company representative', 'the marketing participant') and never names Ed",
+        "Leaves out the button colour layout, the World Cup reference and the disposable diapers example",
+        "Has only two action items; the 2-4 week evaluation is not listed as a next step"
+      ]
+    },
+    {
+      "label": "B",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 8},
+        {"criterion": "completeness", "score": 7},
+        {"criterion": "decisions_and_actions", "score": 6},
+        {"criterion": "usefulness", "score": 8}
+      ],
+      "overall": 7.25,
+      "errors": [
+        "'Align launch timing with a major sports event' is listed as a next step, but it was only suggested and never firmly decided",
+        "'Weight intentional: users prefer something substantial' leaves out that the Industrial Designer said the weight still needs work",
+        "'Web configurator' with '3D rotation' slightly overstates what was discussed (pictures and a rotatable movie)"
+      ],
+      "strengths": [
+        "Clean and accurate on prototype details, including the full colour-coded button layout",
+        "All the cost and market numbers are right, and it notes that customization limits savings on the case",
+        "States the decision clearly: go ahead with the current model and use feedback for a second generation",
+        "Includes the concern that there is no time for redesign, the World Cup, Sony Pictures and the disposable diapers example; it is well structured and easy to scan"
+      ],
+      "weaknesses": [
+        "No names or owners anywhere, so nobody is assigned the next steps (for example, the PM's vendor negotiation and talking to management)",
+        "Does not show who argued which side (the PM wanting the microphone under the flip, the UI Designer against launching untested)",
+        "Leaves out that the market-testing proposal came before production and that the cost figure excludes advertising and transport",
+        "Says little about the doubt over whether the EUR50M target is achievable"
+      ]
+    },
+    {
+      "label": "C",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 4},
+        {"criterion": "completeness", "score": 7},
+        {"criterion": "decisions_and_actions", "score": 3},
+        {"criterion": "usefulness", "score": 5}
+      ],
+      "overall": 4.75,
+      "errors": [
+        "Action item owner 'Christian' - no such participant; and the action 'Continue refinement and adjustment of prototype design details' was never assigned",
+        "'Finalize detailed production budget including promotional and transport costs' - no one took this on",
+        "Assigns Ed (Marketing Lead) to 'Develop and propose online sales and promotion strategy, including potential partnerships with Amazon/eBay and media companies like Sony Pictures' - not assigned; online sales and Sony Pictures were Christine's ideas, and the PM said he would convince management",
+        "'Organize closing celebration event upon successful completion of production milestone' - the PM invited everyone to drinks that same evening",
+        "'Marketing lead emphasizes brand value' - it was the PM who said Ed would promote brand value",
+        "'team urged to monitor post-launch feedback closely' and 'Closing remarks... stressed importance of post-launch evaluation' - not said",
+        "'Target retail price set at EUR50' and event launches 'planned' - EUR50 was posed as a question and the events were only suggestions",
+        "'Recognition of the weight of responsibility to balance technical, financial, and market demands' - padding not supported by the transcript"
+      ],
+      "strengths": [
+        "Wide coverage: prototype features, colour coding, plasticine, the EUR1 case, the fixed case cost under customization, the market maths, online channels, Sony Pictures and the 2-4 week evaluation",
+        "Correctly says the design is fixed with no redesign before launch, and that the risk of failure was raised"
+      ],
+      "weaknesses": [
+        "The action item list is mostly made up, with invented or wrong owners, so it would mislead people about who does what",
+        "Wordy and padded with generic statements",
+        "Barely says who argued what in the debates over the microphone and over testing",
+        "The summary contradicts the body on the microphone (decided 'via side microphone' in one place, 'remains undecided' in another)"
+      ]
+    },
+    {
+      "label": "D",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 5},
+        {"criterion": "completeness", "score": 6},
+        {"criterion": "decisions_and_actions", "score": 4},
+        {"criterion": "usefulness", "score": 5}
+      ],
+      "overall": 5.0,
+      "errors": [
+        "'IS1008d remote control prototype' - this identifier is not in the transcript",
+        "'Ed proposed shifting from traditional retail to an online \"drop ship\" model' - the Industrial Designer (Christine) proposed it",
+        "'Ed suggested synchronizing the launch with major sporting events' - the Industrial Designer suggested synchronizing; Ed only mentioned the World Cup when asked",
+        "Contradicts itself: the summary credits Ed with online sales and the sports timing, while the outline credits 'Speaker 2'; the summary says 'Agni presented', the outline says 'Speaker 4 presented'",
+        "Presenter's name misspelled as 'Agni' (Agnes)",
+        "'Action Items (none)' - the PM committed to negotiate with vendors and to convince management on the Sony Pictures campaign"
+      ],
+      "strengths": [
+        "Cost and market numbers are correct, including the 50 million pound profit target as stated",
+        "Shows the microphone debate with each side's position (the PM for under the flip, others for the side)",
+        "Captures the decision to make no further design changes and to use feedback for a second generation, plus the concern about redesign time"
+      ],
+      "weaknesses": [
+        "Speaker numbers mixed with names make it hard to follow, and the two sections contradict each other",
+        "The action items section is empty even though the PM made clear commitments",
+        "Leaves out Sony Pictures by name, the EUR1 case, the limit customization puts on cost savings, the market-testing proposal and the PM's commitment to talk to management",
+        "Ends the strategy section with an odd open question instead of clearly stating what is still open"
+      ]
+    }
+  ],
+  "ranking": ["A", "B", "D", "C"],
+  "rationale": "A and B are both accurate on the numbers and the main decision. A ranks first because it records who argued what in the microphone and testing debates and lists real commitments by the PM. Its main flaw is the invented name 'Moritz' for the UI Designer, repeated several times. B is the cleanest on facts, but it has no owners or names and is thinner on the disagreements. D has correct numbers but credits two of Christine's proposals to Ed, adds an identifier not in the transcript, contradicts itself between sections and leaves the action items empty. C covers the most ground, but it makes up most of its action items and their owners, misreads the closing celebration and adds several unsupported claims. Invented assignments mislead a reader more than D's omissions, so C ranks last."
+}

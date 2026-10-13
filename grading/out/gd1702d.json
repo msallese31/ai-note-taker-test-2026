@@ -1,0 +1,36 @@
+{
+  "items": [
+    {"id": "S1", "verdict": "missed", "evidence": "Nothing in the notes about the project manager opening the meeting or stating the agenda."},
+    {"id": "S2", "verdict": "correct", "evidence": "Market Research Insights: '80% willing pay more for style', 'Over 50% frustrated losing remotes', 'Users use 10% buttons', 'Channel, volume most used', 'Younger prefer voice recognition'. All five findings are there; the presenter is not named but the section heading makes the source clear."},
+    {"id": "S3", "verdict": "partial", "evidence": "User Interface Design section covers 'Balance simple vs advanced', 'Aim for conventional layout', 'Room for novel design' and desired features, but says nothing about how a remote works (a communication device sending messages to the TV) or the proposed design process (design specifications, several prototypes, user feedback)."},
+    {"id": "S4", "verdict": "partial", "evidence": "'Fully featured vs basic remotes' hints at the two examples, but the notes do not say he showed two existing remotes from the web or lay out the advantages and disadvantages of each (fully featured = slow to learn but can do everything; basic = quick to learn but missing features)."},
+    {"id": "S5", "verdict": "correct", "evidence": "Working Design Components: 'Infrared preferred communication', 'Chip converts energy to data', 'Four parts: battery, chip, user, infrared bulb', plus the design priorities."},
+    {"id": "S6", "verdict": "correct", "evidence": "New Requirements & Target Market and Functional Decisions sections cover the new requirements (no Teletext, TV only, corporate colours), the target group discussion, 'Voice recognition rejected (price)', 'Prevent remote loss feature' and 'Battery options considered'."},
+    {"id": "A1", "verdict": "missed", "evidence": "No mention of the questionnaire and summary each member must complete after the meeting."},
+    {"id": "A2", "verdict": "missed", "evidence": "No mention of the thirty minutes of individual work."},
+    {"id": "A3", "verdict": "missed", "evidence": "No mention of the project manager posting the minutes and project documentation."},
+    {"id": "A4", "verdict": "missed", "evidence": "No mention of the team members posting their documentation / PowerPoint slides."},
+    {"id": "A5", "verdict": "missed", "evidence": "No mention of the industrial designer working on the components concept."},
+    {"id": "A6", "verdict": "missed", "evidence": "No mention of the user interface designer working on the user interface concept."},
+    {"id": "A7", "verdict": "missed", "evidence": "No mention of the marketing expert's trend watching. The only marketing action listed is 'Provide updated market research data (30:22)', which is the conditional offer to e-mail age numbers, not the trend watching assignment."},
+    {"id": "D1", "verdict": "correct", "evidence": "'No Teletext support (21:30)'."},
+    {"id": "D2", "verdict": "correct", "evidence": "'Focus only TV remote'."},
+    {"id": "D3", "verdict": "partial", "evidence": "'Use corporate yellow/black colors' captures the colour but not the requirement itself (corporate image must be recognisable) nor the slogan 'we put the fashion in electronics' that the project manager said must be used."},
+    {"id": "D4", "verdict": "correct", "evidence": "'Emphasize simplicity and fashion (28:55)'."},
+    {"id": "D5", "verdict": "wrong", "evidence": "Notes state 'Target group 15-35 years (23:39)' as a settled target group. In the transcript 15-35 was only the marketing expert's voice-recognition age band; once voice recognition was dropped she said 'I dunno how useful that number is', the group floated under 65, teenagers and families, 20-55, and the project manager concluded it is 'more useful to define objectives like fashion and simplicity than to find specific target group as far as age'. The notes never state that conclusion."},
+    {"id": "D6", "verdict": "correct", "evidence": "'Prevent remote loss feature' under Functional Decisions."},
+    {"id": "D7", "verdict": "correct", "evidence": "'Large buttons for essentials'."},
+    {"id": "D8", "verdict": "correct", "evidence": "'Hidden advanced functions' states that the extra functions will be available."},
+    {"id": "D9", "verdict": "correct", "evidence": "'Hidden advanced functions' states the extra functions are hidden away."},
+    {"id": "D10", "verdict": "partial", "evidence": "Notes say only 'Rechargeable via cradle possible' under 'Battery options considered'. The transcript has the project manager say 'that's a good idea, we'll keep it', so it was adopted, not just considered possible."},
+    {"id": "P1", "verdict": "partial", "evidence": "The notes touch target group but present it as resolved ('Target group 15-35 years') instead of the open problem the transcript shows ('It's hard to narrow it down', 'It's really hard to figure out right now')."},
+    {"id": "P2", "verdict": "correct", "evidence": "'Voice recognition rejected (price)' states the question and its outcome."},
+    {"id": "P3", "verdict": "partial", "evidence": "'Reliable infrared signal' appears only as a priority from the industrial designer's presentation. The later discussion of how to make infra-red more functional (battery, chip quality, quality of all components) is absent."},
+    {"id": "P4", "verdict": "correct", "evidence": "'Battery options considered (33:44)', 'Rechargeable via cradle possible', 'Minimize battery changes'."}
+  ],
+  "errors": [
+    {"claim": "Target group 15-35 years (23:39)", "why_wrong": "Presented as the decided target group. The transcript shows 15-35 was only the age band for voice recognition interest; after voice recognition was dropped the marketing expert questioned the number's usefulness, other ranges were floated, and the project manager concluded the team would define objectives (fashion, simplicity) rather than an age-based target group.", "kind": "decision_described_wrongly"},
+    {"claim": "Investigate technical feasibility for rechargeable battery (33:30)", "why_wrong": "No one took on this task. The user interface designer said 'We should maybe investigate whether it needs a battery at all' (a different question) and the industrial designer floated a charging cradle, which the project manager said they would keep. No feasibility investigation was agreed or assigned.", "kind": "invented_action_item"}
+  ],
+  "judge_model": "claude-fable-5-1"
+}

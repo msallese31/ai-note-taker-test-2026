@@ -1,0 +1,123 @@
+{
+ "items": [
+  {
+   "id": "S1",
+   "verdict": "correct",
+   "evidence": "Notes describe standard component research, wheel sensors costing 'fifty times' more than buttons, and the UI designer's suggestion to explore existing voice-recognition technology."
+  },
+  {
+   "id": "S2",
+   "verdict": "correct",
+   "evidence": "Notes say the UI designer proposed an interface 'based on existing remote designs.'"
+  },
+  {
+   "id": "S3",
+   "verdict": "correct",
+   "evidence": "Notes describe 'removing unnecessary buttons,' large central controls 'for better usability,' and an ergonomic final shape."
+  },
+  {
+   "id": "S4",
+   "verdict": "correct",
+   "evidence": "Notes describe the Marketing Expert presenting market and fashion trends that informed the concept."
+  },
+  {
+   "id": "S5",
+   "verdict": "correct",
+   "evidence": "Notes identify trends involving 'spongy materials and organic fruit or vegetable shapes.'"
+  },
+  {
+   "id": "S6",
+   "verdict": "correct",
+   "evidence": "The 'Final Concept Decisions and Next Steps' section summarizes the selected casing, controls, and components."
+  },
+  {
+   "id": "S7",
+   "verdict": "correct",
+   "evidence": "Notes include a banana-shaped spongy case, lighted buttons, a top-mounted wheel, and standard battery/chip components. The transcript does not explicitly establish that the final chip cannot accommodate speech recognition; that part of the answer key overstates the decision."
+  },
+  {
+   "id": "S8",
+   "verdict": "partial",
+   "evidence": "Notes identify collaboration by the industrial and UI designers and subsequent evaluation, but place evaluation 'before the next meeting.' The transcript describes preparation until the next meeting followed by evaluation, without explicitly setting that earlier deadline."
+  },
+  {
+   "id": "A1",
+   "verdict": "correct",
+   "evidence": "The outline says the Project Manager instructs 'the industrial designer and UI designer to collaborate on developing the prototype's look and feel,' despite the empty Action Items section."
+  },
+  {
+   "id": "A2",
+   "verdict": "correct",
+   "evidence": "Notes state that future tasks include 'evaluating if the new design meets all user requirements.'"
+  },
+  {
+   "id": "D1",
+   "verdict": "correct",
+   "evidence": "Notes explicitly summarize the final concept decisions and selected features."
+  },
+  {
+   "id": "D2",
+   "verdict": "correct",
+   "evidence": "Notes state that the team chose a 'yellow banana shape' with a spongy exterior."
+  },
+  {
+   "id": "D3",
+   "verdict": "correct",
+   "evidence": "Notes state that the remote will have 'backlit buttons' and later repeat the decision to include 'lighted buttons.'"
+  },
+  {
+   "id": "D4",
+   "verdict": "correct",
+   "evidence": "Notes say that despite the wheel sensor's cost, 'the team decided to move forward with a wheel control.'"
+  },
+  {
+   "id": "D5",
+   "verdict": "correct",
+   "evidence": "Notes explicitly identify a 'top-mounted wheel.'"
+  },
+  {
+   "id": "D6",
+   "verdict": "correct",
+   "evidence": "Notes describe standard chip components and recall the prior decision against voice features. The transcript discusses possible voice-chip adaptation but never explicitly makes the answer key's claimed final decision that the selected chip cannot accommodate speech."
+  },
+  {
+   "id": "D7",
+   "verdict": "correct",
+   "evidence": "Notes state that the build will use 'standard batteries.'"
+  }
+ ],
+ "errors": [
+  {
+   "claim": "The concept design was for the 'IS1001c remote control.'",
+   "why_wrong": "The transcript provides no product identifier or model number.",
+   "kind": "other_invented"
+  },
+  {
+   "claim": "The remote will include backlit buttons 'that activate upon movement.'",
+   "why_wrong": "Movement-triggered lighting was proposed and questioned, not adopted. Continuous lighting while the television is on was also discussed. Only having lighted buttons was confirmed.",
+   "kind": "decision_described_wrongly"
+  },
+  {
+   "claim": "An unresolved question is how to prevent the spongy material from interfering with button presses.",
+   "why_wrong": "The group addressed this concern by agreeing on a shaped supporting body with a spongy cover at 19:10\u201319:22. Detailed implementation remained to be developed, but the notes omit the agreed conceptual solution and present the concern as unresolved.",
+   "kind": "decision_described_wrongly"
+  },
+  {
+   "claim": "Action Items: '(none)'",
+   "why_wrong": "The Project Manager assigned the industrial and UI designers to work together on preparing the prototype and described further design and evaluation work. The notes' own outline also records these tasks.",
+   "kind": "wrong_fact"
+  },
+  {
+   "claim": "The final concept includes 'an arched internal structure for component mounting.'",
+   "why_wrong": "The transcript discusses internal component support and a shaped body with a spongy cover, but does not specify or select an arched internal structure.",
+   "kind": "other_invented"
+  },
+  {
+   "claim": "Evaluation of user requirements will occur 'before the next meeting.'",
+   "why_wrong": "No such deadline was agreed. The Project Manager describes working on the designs until the next meeting and then evaluating the product.",
+   "kind": "wrong_fact"
+  }
+ ],
+ "judge_model": "gpt-5.2",
+ "judge_model_served": "gpt-6.1-sol"
+}

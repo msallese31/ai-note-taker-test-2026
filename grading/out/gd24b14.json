@@ -1,0 +1,92 @@
+{
+ "items": [
+  {
+   "id": "S1",
+   "verdict": "partial",
+   "evidence": "The notes capture the components, the wheel's '~50x' cost, and the voice-recognition update, but omit the Industrial Designer's presentation. In the transcript, the User Interface Designer introduces the voice-recognition news."
+  },
+  {
+   "id": "S2",
+   "verdict": "missed",
+   "evidence": "The notes do not mention the User Interface Designer presenting existing remote controls as interface examples."
+  },
+  {
+   "id": "S3",
+   "verdict": "partial",
+   "evidence": "'Simple interface agreed' and 'Ergonomic curve fits hand naturally' capture simplicity and ergonomics, but not the comparison with existing models or eliminating their extra functions."
+  },
+  {
+   "id": "S4",
+   "verdict": "partial",
+   "evidence": "The notes report 'Trend research from Paris and Milan' and ranked market priorities, but do not identify the Marketing Expert's presentation."
+  },
+  {
+   "id": "S5",
+   "verdict": "correct",
+   "evidence": "'Fruits/vegetables theme, spongy materials' are identified as trends and incorporated into the selected banana design."
+  },
+  {
+   "id": "S6",
+   "verdict": "correct",
+   "evidence": "The 'Component Decisions' and 'Design Direction' sections record the finalized features."
+  },
+  {
+   "id": "S7",
+   "verdict": "partial",
+   "evidence": "The notes capture the banana shape, spongy cover, lighted buttons, top-mounted wheel, and standard battery. They identify a chip without explicitly calling it standard. The answer key's final speech-recognition exclusion is not established in the transcript."
+  },
+  {
+   "id": "S8",
+   "verdict": "partial",
+   "evidence": "The notes include joint prototype preparation and product evaluation, but omit the Project Manager's attribution. The transcript proposes these activities without explicitly announcing prototype evaluation at the next meeting."
+  },
+  {
+   "id": "A1",
+   "verdict": "correct",
+   "evidence": "'Industrial designer and UI designer collaborate on prototype prep' accurately reflects the Project Manager's request that they prepare the prototype together."
+  },
+  {
+   "id": "A2",
+   "verdict": "correct",
+   "evidence": "'Evaluate product against user requirements' and 'Check fancy look and feel, innovation, and ease of use against original user brief.'"
+  },
+  {
+   "id": "D1",
+   "verdict": "correct",
+   "evidence": "The notes list the agreed prototype features under 'Component Decisions' and 'Design Direction.'"
+  },
+  {
+   "id": "D2",
+   "verdict": "correct",
+   "evidence": "'Banana shape selected,' 'Yellow,' and 'hard internal structure with spongy outer cover.'"
+  },
+  {
+   "id": "D3",
+   "verdict": "correct",
+   "evidence": "'Backlit buttons confirmed.'"
+  },
+  {
+   "id": "D4",
+   "verdict": "correct",
+   "evidence": "'Wheel sensor retained despite cost,' with innovation and ease of use given as reasons."
+  },
+  {
+   "id": "D5",
+   "verdict": "correct",
+   "evidence": "'Wheel on top, buttons on the side.'"
+  },
+  {
+   "id": "D6",
+   "verdict": "partial",
+   "evidence": "'Chip-on-print: specific chip identified, no issues' captures the chip selection but not explicitly its standard nature. The transcript does not establish a final decision to exclude speech recognition; the notes' deferred discussion is therefore not contradictory."
+  },
+  {
+   "id": "D7",
+   "verdict": "correct",
+   "evidence": "'Standard battery confirmed.'"
+  }
+ ],
+ "errors": [],
+ "judge_model": "ChatGPT",
+ "judge_model_served": "gpt-6.1-sol"
+}

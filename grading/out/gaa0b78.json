@@ -1,0 +1,112 @@
+{
+  "items": [
+    {
+      "id": "S1",
+      "verdict": "partial",
+      "evidence": "Notes cover the wheel sensor cost: \"Wheel sensor cost concern raised (03:10) - Wheel sensor 50x push button cost - Budget max €12 per remote\". Nothing about the components presented (chip, push buttons, wheel sensor) and nothing at all about the voice recognition chip email raised at 04:48-05:44."
+    },
+    {
+      "id": "S2",
+      "verdict": "missed",
+      "evidence": "The notes never mention the User Interface Designer showing existing remote controls from the web (08:34-09:29)."
+    },
+    {
+      "id": "S3",
+      "verdict": "missed",
+      "evidence": "No statement that the new design keeps only the central buttons of the displayed models and drops the rest (08:34-09:45). \"Simple remote interface confirmed (00:30)\" only restates the previous meeting's recap."
+    },
+    {
+      "id": "S4",
+      "verdict": "correct",
+      "evidence": "\"Fancy look prioritized over function (12:25) - Trend toward fruit/vegetable shapes - Spongy material trend noted\". The presenter is not named, but the content matches 11:59-13:14."
+    },
+    {
+      "id": "S5",
+      "verdict": "correct",
+      "evidence": "\"Trend toward fruit/vegetable shapes\", \"Spongy material trend noted\", \"Banana shape proposed for remote (16:30)\", action item \"Develop banana-shaped spongy case design\"."
+    },
+    {
+      "id": "S6",
+      "verdict": "partial",
+      "evidence": "The notes list the design points but frame them as \"proposed\", \"debated\", \"questioned\", \"suggested\"; they never say the group settled the feature list at 17:50-21:51 (standard battery, chip, odd-shaped core with spongy cover, wheel on top, buttons on the side, yellow)."
+    },
+    {
+      "id": "S7",
+      "verdict": "partial",
+      "evidence": "Banana shape and spongy case appear (\"Banana shape proposed\", \"Develop banana-shaped spongy case design\") and lighted buttons appear (\"Lighted buttons to identify side\"). Missing: wheel at the top (19:34, 21:26), standard chip and standard battery (18:19-18:23, 19:22), and the voice recognition chip not being adopted."
+    },
+    {
+      "id": "S8",
+      "verdict": "correct",
+      "evidence": "\"Industrial and UI designers to collaborate on prototype (22:55)\" and \"Prototype evaluation planned to check user requirements fit (22:55)\" match 21:51-23:05."
+    },
+    {
+      "id": "A1",
+      "verdict": "correct",
+      "evidence": "Under Industrial Designer: \"Collaborate with UI designer on prototype (22:44)\"; under UI Designer: \"Collaborate with industrial designer on prototype (22:44)\"."
+    },
+    {
+      "id": "A2",
+      "verdict": "correct",
+      "evidence": "\"Prototype evaluation planned to check user requirements fit (22:55)\" and the PM item \"Arrange prototype development and user evaluation\" match 21:51 (\"evaluate the product... check if it fit the requirement given by the users\")."
+    },
+    {
+      "id": "D1",
+      "verdict": "partial",
+      "evidence": "Design points are present but presented as proposals and debates, not as a decided feature set; the 17:50-21:51 decision round (battery, chip, case, wheel position, button placement, colour) is not recorded as decided."
+    },
+    {
+      "id": "D2",
+      "verdict": "partial",
+      "evidence": "\"Banana shape proposed for remote (16:30) - Yellow color matches company scheme\" and \"Develop banana-shaped spongy case design\" cover the shape, colour and spongy cover, but the notes say \"proposed\" and \"Spongy material for case questioned\" rather than stating the decision taken at 17:08 (\"Maybe we can keep the banana\"), 19:22 (\"odd shape with spongy cover\") and 21:51 (\"the colour is yellow\")."
+    },
+    {
+      "id": "D3",
+      "verdict": "correct",
+      "evidence": "\"Lighted buttons to identify side\" (under Symmetrical design), matching 20:38."
+    },
+    {
+      "id": "D4",
+      "verdict": "partial",
+      "evidence": "\"Innovation through wheel control emphasized (14:40) - Wheel seen as easy and innovative - Potential competitive advantage\" captures the reasoning, but the notes never state the decision at 15:54 (\"we can keep the wheel... even if the cost is a bit higher\") and 19:22 (\"So we agree to put the wheel\"). Instead they leave it open: \"Need discussion on wheel necessity\" and action items to discuss and assess the wheel sensor."
+    },
+    {
+      "id": "D5",
+      "verdict": "missed",
+      "evidence": "No mention of the wheel being on top of the banana (16:42, 19:34, 21:26). Only \"Ergonomic curve for wheel and buttons\"."
+    },
+    {
+      "id": "D6",
+      "verdict": "missed",
+      "evidence": "No mention of the standard chip (18:23, 19:22) and no mention of voice/speech recognition at all."
+    },
+    {
+      "id": "D7",
+      "verdict": "missed",
+      "evidence": "No mention of the standard battery (18:19-18:22, 19:22)."
+    }
+  ],
+  "errors": [
+    {
+      "claim": "Heart-shaped core with spongy cover suggested",
+      "why_wrong": "At 19:10 and 19:22 the Project Manager says \"something odd shaped, with a spongy cover\" and \"odd shape with spongy cover\". Nobody said heart-shaped.",
+      "kind": "wrong_fact"
+    },
+    {
+      "claim": "Project Manager action item: Facilitate discussion on wheel sensor necessity (03:30)",
+      "why_wrong": "The wheel question was settled in this meeting (15:54 \"we can keep the wheel... even if the cost is a bit higher\"; 19:22 \"So we agree to put the wheel\"). No further discussion was assigned to anyone.",
+      "kind": "invented_action_item"
+    },
+    {
+      "claim": "Industrial Designer action item: Assess cost implications of wheel sensor (03:30)",
+      "why_wrong": "The Industrial Designer already reported the cost (50 times a push button) and the group decided to keep the wheel despite it. No one was asked to assess the cost further.",
+      "kind": "invented_action_item"
+    },
+    {
+      "claim": "Symmetrical design for left/right hand users (19:40) - Buttons and wheel placement for ambidextrous use",
+      "why_wrong": "Listed under Design Decisions, but no symmetrical design was decided. The Project Manager floated symmetry at 19:52, the User Interface Designer objected that turning the remote puts the buttons on the other side, and the Project Manager closed it at 20:56 by saying users will use one hand and it \"doesn't change that much\". The layout decided is wheel on top, buttons on the side (21:26).",
+      "kind": "decision_described_wrongly"
+    }
+  ],
+  "judge_model": "Fable 5.1 (claude-fable-5-1)"
+}

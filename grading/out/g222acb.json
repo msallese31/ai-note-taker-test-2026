@@ -1,0 +1,127 @@
+{
+  "items": [
+    {
+      "id": "S1",
+      "verdict": "correct",
+      "evidence": "Notes: \"Agni presented the final design for the remote control\" and outline \"Speaker 4 presented a prototype\". Agnes is the User Interface Designer in the transcript (she presents and says Christine can correct her)."
+    },
+    {
+      "id": "S2",
+      "verdict": "correct",
+      "evidence": "Notes: \"customizable flip panel and an integrated yellow LCD screen\" plus outline \"a customized backing\"."
+    },
+    {
+      "id": "S3",
+      "verdict": "correct",
+      "evidence": "Notes: \"current production cost is 9.95 euro, which is below the initial 12.50 euro budget. However, adding the LCD display will increase costs by approximately 2 to 3 euro per unit, bringing the total near the target limit.\" The transcript supports the notes rather than the key: the Marketing Expert says adding 2-3 euro puts it \"around about twelve, twelve and a half\" and the Industrial Designer concludes \"So that means we can put the LCD in\"; nobody said the budget would not allow the display."
+    },
+    {
+      "id": "S4",
+      "verdict": "correct",
+      "evidence": "Notes: \"Speaker 1 plans to negotiate with vendors to further reduce production costs to allocate more funds toward marketing and promotions.\" In the transcript the Project Manager ties the negotiation to saving money for marketing/promotions, not to the display, so the notes match the transcript."
+    },
+    {
+      "id": "S5",
+      "verdict": "correct",
+      "evidence": "Notes: \"Speaker 5 raised concerns regarding total profitability and market penetration\", the 25% share, 2 million units, 50 euro price, and that costs exclude advertising and transportation."
+    },
+    {
+      "id": "S6",
+      "verdict": "correct",
+      "evidence": "Notes: \"shifting from traditional retail to an online 'drop ship' model via platforms like Amazon or eBay\" and the customization-showcase discussion. The proposer is misattributed to Ed in the summary (see errors), but the discussion itself is stated."
+    },
+    {
+      "id": "S7",
+      "verdict": "correct",
+      "evidence": "Notes: \"Agni expressed concern regarding the lack of time allocated for redesigning based on user feedback\" and \"Speaker 1 decided that no further major design changes will be made for this model\"."
+    },
+    {
+      "id": "S8",
+      "verdict": "correct",
+      "evidence": "Notes: \"synchronizing the launch with major sporting events, such as the World Cup\" and outline \"timing the product launch around major sports events or movie releases\". Attribution to Ed in the summary is wrong (see errors)."
+    },
+    {
+      "id": "A1",
+      "verdict": "correct",
+      "evidence": "Outline: \"Speaker 1 plans to negotiate with vendors to further reduce production costs\". The Action Items section says \"(none)\" but the task and owner are stated in the outline. The transcript's \"speak to the management\" part is not mentioned, a small omission."
+    },
+    {
+      "id": "A2",
+      "verdict": "missed",
+      "evidence": "Nothing in the notes about the Project Manager taking the promotion idea (Sony Pictures / event tie-in) to management; transcript: \"I will convince the management to do that\"."
+    },
+    {
+      "id": "A3",
+      "verdict": "missed",
+      "evidence": "Notes do not say the Marketing Expert's work starts after production; transcript: \"let's leave it to the Ed for later for once production is over\"."
+    },
+    {
+      "id": "A4",
+      "verdict": "correct",
+      "evidence": "Notes: \"The team agreed to conduct product evaluation with real users over a period of two to four weeks before starting full production.\""
+    },
+    {
+      "id": "D1",
+      "verdict": "partial",
+      "evidence": "Microphone on the side is stated (\"placing the microphone on the side of the device rather than under the flip panel\"), though framed as discussed/debated rather than settled. The decision to include the LCD display is not stated; the notes only say it would bring the total near the limit."
+    },
+    {
+      "id": "D2",
+      "verdict": "partial",
+      "evidence": "Negotiation is stated (\"negotiate with vendors to further reduce production costs\") but the purpose given is marketing/promotions. The transcript itself gives that purpose, not the display, so the gap is between the key and the transcript rather than a notes error."
+    },
+    {
+      "id": "D3",
+      "verdict": "partial",
+      "evidence": "Notes: \"timing the product launch around major sports events or movie releases\" as a suggestion. Working with other companies (the Sony Pictures campaign idea) and the Project Manager's agreement to take it to management are not stated."
+    },
+    {
+      "id": "D4",
+      "verdict": "correct",
+      "evidence": "Outline: \"Speaker 1 decided that no further major design changes will be made for this model; instead, customer feedback will inform future second-generation products.\""
+    },
+    {
+      "id": "D5",
+      "verdict": "partial",
+      "evidence": "Notes state the evaluation phase and its two-to-four-week length but not that it waits for produced units (\"let's wait for the production, okay, then you can evaluate\") made outside the company's own factory, rather than evaluating the plasticine prototype."
+    },
+    {
+      "id": "P1",
+      "verdict": "correct",
+      "evidence": "Notes: LCD adds 2-3 euro \"bringing the total near the target limit\" and the profit math showing 25% market share and 2 million units are needed, with advertising/transport not yet counted. Transcript shows the budget lands near, not over, the limit, which the notes reflect."
+    },
+    {
+      "id": "P2",
+      "verdict": "correct",
+      "evidence": "Notes: \"Agni expressed concern regarding the lack of time allocated for redesigning based on user feedback\" and \"Speaker 4 expressed concern regarding lack of redesign time\" against the Project Manager's decision to proceed with no changes."
+    }
+  ],
+  "errors": [
+    {
+      "claim": "Ed proposed shifting from traditional retail to an online \"drop ship\" model via platforms like Amazon or eBay.",
+      "why_wrong": "The Industrial Designer (Christine) proposed internet promotion, ordering and drop-shipping and then Amazon/eBay; Ed is the Marketing Expert and only added that other companies have done this. The outline correctly says Speaker 2.",
+      "kind": "wrong_person"
+    },
+    {
+      "claim": "Ed suggested synchronizing the launch with major sporting events, such as the World Cup, to maximize demand for hands-free voice control.",
+      "why_wrong": "The Industrial Designer asked Ed which season matters and then proposed synchronising the launch with a special event; Ed only answered that the World Cup is the key time. The outline correctly says Speaker 2.",
+      "kind": "wrong_person"
+    },
+    {
+      "claim": "The weight and button shapes (egg-shaped) require further refinement to ensure the product feels substantial and high-quality.",
+      "why_wrong": "The Industrial Designer said the weight needs work and the User Interface Designer said the egg-shaped buttons are not the most economical; the stated reason (to feel substantial and high-quality) was not said. The discussion was that the plasticine model is probably too heavy while still needing some weight.",
+      "kind": "other_invented"
+    },
+    {
+      "claim": "Current calculations only account for production costs and do not yet include advertising, transportation, or labor.",
+      "why_wrong": "The Marketing Expert said the figure excludes advertising and transportation; labour was not named as excluded, and the Industrial Designer notes the one-euro case cost covers material and labour.",
+      "kind": "wrong_fact"
+    },
+    {
+      "claim": "The team met to finalize the detailed design, budget, and market strategy for the IS1008d remote control prototype.",
+      "why_wrong": "Nobody calls the product IS1008d; that label is not in the transcript.",
+      "kind": "other_invented"
+    }
+  ],
+  "judge_model": "claude-fable-5-1"
+}

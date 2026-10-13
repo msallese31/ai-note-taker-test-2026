@@ -1,0 +1,118 @@
+{
+  "judge_model": "claude-sonnet-5-5",
+  "evaluations": [
+    {
+      "label": "A",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 5},
+        {"criterion": "completeness", "score": 5},
+        {"criterion": "decisions_and_actions", "score": 5},
+        {"criterion": "usefulness", "score": 5}
+      ],
+      "overall": 5.0,
+      "errors": [
+        "'Heart-shaped core with spongy cover suggested' is invented; nothing about a heart shape appears in the transcript (it was an odd-shaped structure with a spongy cover).",
+        "UI designer is named 'UL Hazred'; the transcript says Abdul al-Hasred.",
+        "The Project Manager is given 'Provide meeting notes in shared folder' and 'Facilitate discussion on wheel sensor necessity' as action items; the first is only the PM saying he takes notes, and the second was never assigned.",
+        "Assigns 'Develop banana-shaped spongy case design' to the Industrial Designer and 'Finalize UI design' to the UI designer as individual tasks; the PM asked them to work together on look and feel and UI.",
+        "Presents the plastic cover only as 'debated'; the UI designer argued against it but nothing is recorded as decided. The wheel is never stated as kept after the cost discussion.",
+        "Several timestamps do not line up with where the topics occur (for example 22:55 and 20:26 for next steps)."
+      ],
+      "strengths": [
+        "Has an explicit action items section grouped by role.",
+        "Captures the wheel cost (50x, 12 euro budget), the motion-sensor cost concern for the light, the banana and yellow decision, and left/right symmetry.",
+        "Notes the concern about buttons moving through a soft case."
+      ],
+      "weaknesses": [
+        "Omits the voice recognition chip email completely.",
+        "Does not clearly record the decision to keep the wheel despite cost.",
+        "Contains an invented detail and a garbled name.",
+        "Action items are over-assigned and partly invented.",
+        "Weak on what is open versus decided, and has no recap of previous decisions."
+      ]
+    },
+    {
+      "label": "B",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 9},
+        {"criterion": "completeness", "score": 8},
+        {"criterion": "decisions_and_actions", "score": 9},
+        {"criterion": "usefulness", "score": 9}
+      ],
+      "overall": 8.8,
+      "errors": [
+        "Next steps assign the final banana-form design to the Industrial Designer and the layout to the UI designer; the transcript only asks them to work together on look and feel and UI design (mild over-assignment).",
+        "'Hard internal structure' is a slight embellishment of 'odd shaped with a spongy cover'."
+      ],
+      "strengths": [
+        "Cleanly separates the recap of previous decisions, the component decisions, the voice recognition update, the banana direction and next steps.",
+        "States clearly what was decided (wheel retained despite 50x cost, standard battery, chip-on-print, banana in yellow, wheel on top and buttons on the side) and what was deferred (voice chip decision).",
+        "Correctly records the ranked priorities, the 12 euro limit, the plastic cover reconsideration, backlight activation and battery concern, and left/right symmetry."
+      ],
+      "weaknesses": [
+        "Omits the idea of using the wheel push-down for an extra function.",
+        "Does not mention that the Project Manager will send further instructions by email.",
+        "Plastic cover change is framed as a decision more firmly than the transcript supports."
+      ]
+    },
+    {
+      "label": "C",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 6},
+        {"criterion": "completeness", "score": 6},
+        {"criterion": "decisions_and_actions", "score": 5},
+        {"criterion": "usefulness", "score": 6}
+      ],
+      "overall": 5.8,
+      "errors": [
+        "'IS1001c remote control' is not in the transcript.",
+        "Backlit buttons 'that activate upon movement' are stated as a decision; the activation method was debated and not settled.",
+        "'Arched internal structure' is not supported by the transcript.",
+        "The plastic cover is described as rejected; the UI designer advised against it but no group decision was made.",
+        "The voice recognition suggestion is placed under the industrial design section and described as 'to potentially add command features later'; it was raised by the UI designer and left for later decision.",
+        "Action items are listed as '(none)' although the designers were asked to collaborate on the prototype and the PM said instructions would follow by email.",
+        "Speaker numbers and 'UIZ'/'ID' labels are inconsistent and some roles are mismatched."
+      ],
+      "strengths": [
+        "Readable summary plus a topic outline with good coverage of the flow.",
+        "Includes an Unresolved Questions section covering the voice chip, motion sensor cost and spongy material versus button presses.",
+        "Records the wheel decision with its competitive rationale, and the banana, yellow and spongy decisions."
+      ],
+      "weaknesses": [
+        "No action items despite clear next steps (only appears in the outline).",
+        "Anonymous speaker numbers make it hard to know who said what.",
+        "Duplicates content between the summary and the outline.",
+        "Several statements are stated as settled when they were not."
+      ]
+    },
+    {
+      "label": "D",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 8},
+        {"criterion": "completeness", "score": 8},
+        {"criterion": "decisions_and_actions", "score": 7},
+        {"criterion": "usefulness", "score": 8}
+      ],
+      "overall": 7.8,
+      "errors": [
+        "Lists a 'preview button' in the earlier concept; the transcript says previous channel button.",
+        "'The wheel could be pressed down to recall a channel' is not supported; the transcript says the push down could be used 'for the record'.",
+        "'The market presentation ... [12:10]' and some other timestamps are approximate.",
+        "The 'Action items' heading is empty even though next steps are described elsewhere."
+      ],
+      "strengths": [
+        "Accurately captures the wheel cost (50x), the 12 euro limit, the voice chip email with no decision made, and the ranked priorities (look and feel, innovation, ease of use).",
+        "Honestly flags the left/right-handed concern as not resolved.",
+        "Records the banana choice with the yellow, company colour and wheel-on-top reasoning, and the next steps including email instructions and product evaluation.",
+        "Opens with a short summary and uses timestamps."
+      ],
+      "weaknesses": [
+        "Empty action items section and no named owners for next tasks beyond the joint prototype work.",
+        "Little on the battery, standard components and chip beyond a single bullet.",
+        "Dense nested bullets make it somewhat harder to scan for decisions."
+      ]
+    }
+  ],
+  "ranking": ["B", "D", "C", "A"],
+  "rationale": "B is the most accurate and the clearest on decisions: it separates previous decisions, component decisions, the deferred voice chip, the banana direction and next steps, with only minor over-assignment of tasks. D is close in accuracy and completeness and is honest about unresolved points, but has a garbled 'preview button', an unsupported push-down use for the wheel and an empty action items heading. C reads well and lists open questions, but invents a product code, treats the backlight trigger and plastic cover as settled, and lists no action items. A has an explicit action items list, but it contains an invented 'heart-shaped core', a garbled UI designer name, over-assigned tasks, and it omits the voice chip and the wheel decision."
+}

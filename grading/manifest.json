@@ -1,0 +1,317 @@
+{
+ "g7a9360": {
+  "meeting": "IS1008d",
+  "tool": "fireflies",
+  "judge": "opus"
+ },
+ "gaa0e78": {
+  "meeting": "IS1008d",
+  "tool": "granola",
+  "judge": "opus"
+ },
+ "g960df2": {
+  "meeting": "IS1008d",
+  "tool": "otter",
+  "judge": "opus"
+ },
+ "g034ebf": {
+  "meeting": "IS1008d",
+  "tool": "scribbl",
+  "judge": "opus"
+ },
+ "g11ea74": {
+  "meeting": "IS1008d",
+  "tool": "fireflies",
+  "judge": "fable"
+ },
+ "gbd6a30": {
+  "meeting": "IS1008d",
+  "tool": "granola",
+  "judge": "fable"
+ },
+ "g222acb": {
+  "meeting": "IS1008d",
+  "tool": "otter",
+  "judge": "fable"
+ },
+ "g2be25f": {
+  "meeting": "IS1008d",
+  "tool": "scribbl",
+  "judge": "fable"
+ },
+ "gfceb76": {
+  "meeting": "IS1008d",
+  "tool": "fireflies",
+  "judge": "gpt-6.1-sol"
+ },
+ "g2cec4f": {
+  "meeting": "IS1008d",
+  "tool": "granola",
+  "judge": "gpt-6.1-sol"
+ },
+ "gf2b12f": {
+  "meeting": "IS1008d",
+  "tool": "otter",
+  "judge": "gpt-6.1-sol"
+ },
+ "gc67552": {
+  "meeting": "IS1008d",
+  "tool": "scribbl",
+  "judge": "gpt-6.1-sol"
+ },
+ "gcf6657": {
+  "meeting": "IB4003",
+  "tool": "scribbl",
+  "judge": "opus"
+ },
+ "g17c9c0": {
+  "meeting": "IB4003",
+  "tool": "otter",
+  "judge": "opus"
+ },
+ "g348f20": {
+  "meeting": "IB4003",
+  "tool": "scribbl",
+  "judge": "fable"
+ },
+ "g475276": {
+  "meeting": "IB4003",
+  "tool": "otter",
+  "judge": "fable"
+ },
+ "g99ee78": {
+  "meeting": "IB4003",
+  "tool": "scribbl",
+  "judge": "gpt-6.1-sol"
+ },
+ "g76e840": {
+  "meeting": "IB4003",
+  "tool": "otter",
+  "judge": "gpt-6.1-sol"
+ },
+ "g8ded61": {
+  "meeting": "ES2008b",
+  "tool": "scribbl",
+  "judge": "opus"
+ },
+ "g0c17cc": {
+  "meeting": "ES2008b",
+  "tool": "otter",
+  "judge": "opus"
+ },
+ "g4adc2e": {
+  "meeting": "ES2008b",
+  "tool": "scribbl",
+  "judge": "fable"
+ },
+ "gc82996": {
+  "meeting": "ES2008b",
+  "tool": "otter",
+  "judge": "fable"
+ },
+ "gbe2012": {
+  "meeting": "ES2008b",
+  "tool": "scribbl",
+  "judge": "gpt-6.1-sol"
+ },
+ "g285eae": {
+  "meeting": "ES2008b",
+  "tool": "otter",
+  "judge": "gpt-6.1-sol"
+ },
+ "gf0c117": {
+  "meeting": "IS1001c",
+  "tool": "scribbl",
+  "judge": "opus"
+ },
+ "g38775e": {
+  "meeting": "IS1001c",
+  "tool": "otter",
+  "judge": "opus"
+ },
+ "gef9562": {
+  "meeting": "IS1001c",
+  "tool": "scribbl",
+  "judge": "fable"
+ },
+ "gc9ce4e": {
+  "meeting": "IS1001c",
+  "tool": "otter",
+  "judge": "fable"
+ },
+ "g58d726": {
+  "meeting": "IS1001c",
+  "tool": "scribbl",
+  "judge": "gpt-6.1-sol"
+ },
+ "g9ecc80": {
+  "meeting": "IS1001c",
+  "tool": "otter",
+  "judge": "gpt-6.1-sol"
+ },
+ "g99f56d": {
+  "meeting": "TS3012a",
+  "tool": "scribbl",
+  "judge": "opus"
+ },
+ "gf99949": {
+  "meeting": "TS3012a",
+  "tool": "otter",
+  "judge": "opus"
+ },
+ "gdba83b": {
+  "meeting": "TS3012a",
+  "tool": "scribbl",
+  "judge": "fable"
+ },
+ "gcf3258": {
+  "meeting": "TS3012a",
+  "tool": "otter",
+  "judge": "fable"
+ },
+ "g75b00e": {
+  "meeting": "TS3012a",
+  "tool": "scribbl",
+  "judge": "gpt-6.1-sol"
+ },
+ "g4eed3d": {
+  "meeting": "TS3012a",
+  "tool": "otter",
+  "judge": "gpt-6.1-sol"
+ },
+ "ge88c54": {
+  "meeting": "IB4003",
+  "tool": "fireflies",
+  "judge": "opus"
+ },
+ "g753c7f": {
+  "meeting": "IB4003",
+  "tool": "fireflies",
+  "judge": "fable"
+ },
+ "gde2ba7": {
+  "meeting": "IB4003",
+  "tool": "fireflies",
+  "judge": "gpt-6.1-sol"
+ },
+ "g207078": {
+  "meeting": "IS1008d",
+  "tool": "scribbl-corrected",
+  "judge": "opus"
+ },
+ "gf199cd": {
+  "meeting": "IS1008d",
+  "tool": "scribbl-corrected",
+  "judge": "fable"
+ },
+ "g0e9a4e": {
+  "meeting": "IS1008d",
+  "tool": "scribbl-corrected",
+  "judge": "gpt-6.1-sol"
+ },
+ "g548d2a": {
+  "meeting": "ES2008b",
+  "tool": "fireflies",
+  "judge": "opus"
+ },
+ "gd1702d": {
+  "meeting": "ES2008b",
+  "tool": "fireflies",
+  "judge": "fable"
+ },
+ "g2b40f9": {
+  "meeting": "ES2008b",
+  "tool": "fireflies",
+  "judge": "gpt-6.1-sol"
+ },
+ "ga56d53": {
+  "meeting": "IS1001c",
+  "tool": "fireflies",
+  "judge": "opus"
+ },
+ "gaa0b78": {
+  "meeting": "IS1001c",
+  "tool": "fireflies",
+  "judge": "fable"
+ },
+ "gc7d943": {
+  "meeting": "IS1001c",
+  "tool": "fireflies",
+  "judge": "gpt-6.1-sol"
+ },
+ "ge12ccb": {
+  "meeting": "TS3012a",
+  "tool": "fireflies",
+  "judge": "opus"
+ },
+ "g8dfb7f": {
+  "meeting": "TS3012a",
+  "tool": "fireflies",
+  "judge": "fable"
+ },
+ "g09bb1c": {
+  "meeting": "TS3012a",
+  "tool": "fireflies",
+  "judge": "gpt-6.1-sol"
+ },
+ "g62326e": {
+  "meeting": "IB4003",
+  "tool": "granola",
+  "judge": "opus"
+ },
+ "gea5746": {
+  "meeting": "IB4003",
+  "tool": "granola",
+  "judge": "fable"
+ },
+ "g3bacc3": {
+  "meeting": "IB4003",
+  "tool": "granola",
+  "judge": "gpt-6.1-sol"
+ },
+ "g8a70f2": {
+  "meeting": "ES2008b",
+  "tool": "granola",
+  "judge": "opus"
+ },
+ "g59bce6": {
+  "meeting": "ES2008b",
+  "tool": "granola",
+  "judge": "fable"
+ },
+ "ge05283": {
+  "meeting": "ES2008b",
+  "tool": "granola",
+  "judge": "gpt-6.1-sol"
+ },
+ "g912cfe": {
+  "meeting": "IS1001c",
+  "tool": "granola",
+  "judge": "opus"
+ },
+ "gdafa69": {
+  "meeting": "IS1001c",
+  "tool": "granola",
+  "judge": "fable"
+ },
+ "gd24b14": {
+  "meeting": "IS1001c",
+  "tool": "granola",
+  "judge": "gpt-6.1-sol"
+ },
+ "g3b794e": {
+  "meeting": "TS3012a",
+  "tool": "granola",
+  "judge": "opus"
+ },
+ "gb679f5": {
+  "meeting": "TS3012a",
+  "tool": "granola",
+  "judge": "fable"
+ },
+ "g6b1b37": {
+  "meeting": "TS3012a",
+  "tool": "granola",
+  "judge": "gpt-6.1-sol"
+ }
+}

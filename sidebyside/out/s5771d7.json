@@ -1,0 +1,113 @@
+{
+  "judge_model": "claude-fable-5-1",
+  "evaluations": [
+    {
+      "label": "A",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 7},
+        {"criterion": "completeness", "score": 9},
+        {"criterion": "decisions_and_actions", "score": 7},
+        {"criterion": "usefulness", "score": 9}
+      ],
+      "overall": 8.0,
+      "errors": [
+        "Next step 'Working design presentation not yet on the server; save from email into shared folder' is wrong: the Industrial Designer said the working design presentation was already in the shared folder, and the three files listed there included it. It was the Project Manager's own presentation that was missing (sent by email, not on the server).",
+        "'age segmentation less useful than lifestyle/attitude targeting' is a stretch: the group talked about defining the audience by income or spending ability (and how recently they bought a TV), and the Project Manager suggested defining objectives like fashion and simplicity instead of an age group. 'Lifestyle/attitude' was not said.",
+        "Action items carry no owners (e.g. the age-breakdown data offer was the Marketing Expert's; uploading minutes and slides was the Project Manager's), even though the transcript names who will do each."
+      ],
+      "strengths": [
+        "Most complete coverage of the key numbers: 75%/80%, 50%+ lost remotes, 10% of buttons, 65% zapping, 15-35 vs 60+, EUR 25 retail and EUR 12.50 production ceiling.",
+        "Correctly captures every scope decision (TV only, no teletext, no voice recognition, yellow/black branding with the Rs) and all agreed functions including the find-it beep, large essential buttons, hidden secondary functions, and the rechargeable cradle idea.",
+        "Includes the post-meeting process (questionnaire and summary, 30 minutes individual work, coach instructions by email) and the three individual workstreams.",
+        "Clean structure that someone who missed the meeting could act on."
+      ],
+      "weaknesses": [
+        "One clearly wrong next step about which presentation is missing from the shared folder.",
+        "Presents 'roughly under 65' as if it were a settled target group; the discussion ended with the target group still open.",
+        "No owners on action items; no indication of who argued what."
+      ]
+    },
+    {
+      "label": "B",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 6},
+        {"criterion": "completeness", "score": 5},
+        {"criterion": "decisions_and_actions", "score": 5},
+        {"criterion": "usefulness", "score": 5}
+      ],
+      "overall": 5.25,
+      "errors": [
+        "'Speaker 5 discussed the technical interface, noting the need to balance conventional button placement with novel features like potential LCD screens or sliding hatches': the User Interface Designer's presentation mentioned neither LCD screens (raised by the Marketing Expert) nor sliding hatches (raised later in discussion by the Marketing Expert, with the UI Designer describing existing examples).",
+        "'Management decided against including teletext support or voice recognition': management ruled out teletext; voice recognition was dropped by the team in discussion on cost grounds, not by management.",
+        "Invented unresolved question: 'Would adding a find my remote beep function fit within budget?' Nobody questioned the budget for the locator; it was agreed as a function.",
+        "'Action Items: (none)' is wrong: the transcript assigns a questionnaire and summary to everyone, 30 minutes of individual work (components concept, user interface concept, market trend watching), the Project Manager uploading minutes and slides, and the Marketing Expert offering to email further age data.",
+        "Uses 'Speaker 2/3/4/5' labels that cannot be checked against the transcript's role labels."
+      ],
+      "strengths": [
+        "Core numbers (75%, 80%, 10% of buttons, EUR 12.50 production, EUR 25 retail) are correct.",
+        "Correctly summarises the scope decisions (no teletext, TV only, corporate colours and slogan) and the agreed functions (large essential buttons, hidden secondary functions, remote locator, charging cradle idea).",
+        "Correctly leaves the target demographic as debated rather than settled."
+      ],
+      "weaknesses": [
+        "Omits all post-meeting tasks and individual assignments, and declares no action items.",
+        "Summary and Outline sections largely duplicate each other.",
+        "Speaker numbers instead of roles make it hard for a reader to know who presented or who is responsible for what.",
+        "Misattributes ideas across presenters and partly invents the 'Unresolved Questions' list."
+      ]
+    },
+    {
+      "label": "C",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 9},
+        {"criterion": "completeness", "score": 8},
+        {"criterion": "decisions_and_actions", "score": 8},
+        {"criterion": "usefulness", "score": 8}
+      ],
+      "overall": 8.25,
+      "errors": [
+        "Action item owner given as 'Speaker 1' while the rest of the notes say 'project lead'; the transcript labels this person Project Manager, so the label is inconsistent though the substance is right.",
+        "'Each area had a corresponding concept or work focus' is vague filler rather than the actual assignments (components concept for industrial design, user interface concept, market trend watching)."
+      ],
+      "strengths": [
+        "No substantive factual errors; numbers (75%, 80%, 10%, EUR 25, EUR 12.50, 15-35 / under 65 / 20-55) and attributions check out against the transcript.",
+        "Correctly reports the target group as unsettled and explains why (the only age breakdown was about voice recognition, which was dropped).",
+        "Correctly captures the shared-folder situation: the working design presentation was uploaded, the project lead's own presentation was missing and she would sort it out.",
+        "Timestamps on each point make it easy to verify against the recording.",
+        "Covers the sliding panel idea, the chip-transmission caveat, the locator function, the cradle idea and the living-room space remark."
+      ],
+      "weaknesses": [
+        "Action items list only two Project Manager items; the questionnaire and summary for everyone, the 30-minute individual work assignments, and the Marketing Expert's offer to email further age data are not listed as actions (the first two appear only in the body, the third is missing entirely).",
+        "Some phrasing is abstract ('the design needs a ... capable chip', 'corresponding concept or work focus') where the transcript was concrete.",
+        "Does not describe the locator idea itself (button on the TV that makes the remote beep)."
+      ]
+    },
+    {
+      "label": "D",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 6},
+        {"criterion": "completeness", "score": 5},
+        {"criterion": "decisions_and_actions", "score": 4},
+        {"criterion": "usefulness", "score": 5}
+      ],
+      "overall": 5.0,
+      "errors": [
+        "'Target group 15-35 years' stated as a decision: 15-35 was only the voice-recognition age band; the group then discussed under 65, teenagers and families, 20-55, and ended with the Project Manager saying it was more useful to define objectives (fashion, simplicity) than an age group. The target group was left open.",
+        "Action item 'Investigate technical feasibility for rechargeable battery (33:30)' is not assigned to anyone in the transcript; the UI Designer only mused that the team 'should maybe investigate whether it needs a battery at all' and the cradle idea was 'off the top of my head'.",
+        "'Provide updated market research data' is marked Unassigned, but the Marketing Expert explicitly said she would email more age numbers before the next meeting.",
+        "Omits the EUR 25 retail price while giving the EUR 12.50 production limit, and omits the Project Manager's own uploads, the questionnaire and summary, and the individual work assignments, so the 'Action items' section misses every real action item."
+      ],
+      "strengths": [
+        "Terse, scannable, with timestamps for each block.",
+        "Core research numbers (75%, 80%, 10%, over 50% losing remotes) and the main decisions (no teletext, TV only, yellow/black branding, no voice recognition, simplicity and fashion, large essential buttons, hidden advanced functions, locator feature, cradle idea) are correct.",
+        "Working design components and priorities are correctly summarised."
+      ],
+      "weaknesses": [
+        "Wrongly closes the target-group question.",
+        "Misses all post-meeting process and assignments; its two listed action items are the weakest-supported ones in the transcript.",
+        "Fragment style ('80% willing pay more for style', 'Users use 10% buttons') loses context such as the EUR 25 price, the shared-folder issue, and who said what; a reader who missed the meeting could not act on it alone."
+      ]
+    }
+  ],
+  "ranking": ["C", "A", "B", "D"],
+  "rationale": "C is the only set with no substantive factual error: it reports the target group as open, gets the shared-folder situation right (the Project Manager's presentation was the missing one), and names owners for its action items, though its action list is incomplete and some wording is vague. A is the most complete and most actionable set, with every key number and all agreed functions, but it states the wrong presentation as missing from the shared folder, gives no owners, and leans toward presenting 'under 65' as settled. B has correct headline numbers and decisions but declares no action items, misattributes LCD screens and sliding hatches to the UI Designer's presentation, invents an unresolved budget question about the locator, and uses unverifiable speaker numbers. D is scannable and mostly right on decisions but wrongly fixes the target group at 15-35, omits the EUR 25 price and every real action item, and lists two weakly supported actions as unassigned; its fragment style would not let an absent reader act on it."
+}

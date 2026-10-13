@@ -1,0 +1,126 @@
+{
+  "judge_model": "claude-sonnet-5-5",
+  "evaluations": [
+    {
+      "label": "A",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 6},
+        {"criterion": "completeness", "score": 8},
+        {"criterion": "decisions_and_actions", "score": 5},
+        {"criterion": "usefulness", "score": 7}
+      ],
+      "overall": 6.5,
+      "errors": [
+        "Refers to the project as 'TS3012a', which is never said in the transcript.",
+        "Gives inconsistent, garbled names for the same people: 'Markoff', 'Dirk Mangfelt', 'Savier Jokins' (Mark, Dirk Meinfeld, Xavier Juergens).",
+        "Says 'Speaker 4 clarifies that the scope is limited to a TV remote control'; the UI designer asked and the Project Manager answered.",
+        "Says the industrial designer suggested lightweight materials that are 'aesthetically impactful'; he only said the material should be light.",
+        "Action items ('Research current market trends and user needs', 'Design a distinctive, trendy, intuitive TV remote control interface') are generic and unassigned. The meeting assigned neither.",
+        "Never gives the UI designer's name (Nick Broer) and leaves him as 'Speaker 4'."
+      ],
+      "strengths": [
+        "Most detailed and well-organized account of the meeting: roles, three phases, tools, animal exercise, scope, accessibility, light material.",
+        "Correct price figures (25 euros selling, about 12.50 euros production).",
+        "Correctly says personal assignments come later and the team reconvenes in 30 minutes.",
+        "Lists open questions (multi-remote vs TV only, accessibility, materials)."
+      ],
+      "weaknesses": [
+        "Action items are generic and not tied to owners or to anything actually assigned.",
+        "Leaves out the whiteboard responsiveness complaint.",
+        "Redundant: the same material appears in the summary and again in the outline.",
+        "Name inconsistencies and an invented project code reduce trust."
+      ]
+    },
+    {
+      "label": "B",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 8},
+        {"criterion": "completeness", "score": 8},
+        {"criterion": "decisions_and_actions", "score": 7},
+        {"criterion": "usefulness", "score": 8}
+      ],
+      "overall": 7.8,
+      "errors": [
+        "Many timestamps are slightly off (for example the three-phase and project-folder points are tagged [01:08], when they are around 01:47 and 03:23).",
+        "'Dirk Mengveld' is a garbled spelling of Dirk Meinfeld.",
+        "The UI designer is not named (Nick Broer) and appears only as 'the interface designer'."
+      ],
+      "strengths": [
+        "Best fidelity to what was said and who said it: Project Manager confirming the TV-only brief, the UI designer's accessibility question, the industrial designer's light-material point, the elephant 'big and strong player in the market' suggestion.",
+        "Captures the whiteboard's low responsiveness and preference for pen and paper.",
+        "Correctly says the personal coach will give out the individual assignments and the team meets again in 30 minutes.",
+        "Notes that the UI designer found 25 euros selling against 12.50 euros production 'not much to work with'.",
+        "Gives one realistic action item: the marketing expert shares his ideas at the follow-up, owner identified.",
+        "Clear sections and timestamps make it easy to scan."
+      ],
+      "weaknesses": [
+        "Only one action item; it omits the Project Manager posting minutes and the individual work for each role.",
+        "Omits the industrial designer's three questions.",
+        "Slightly wordy, with some repetition between the summary and the sections."
+      ]
+    },
+    {
+      "label": "C",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 4},
+        {"criterion": "completeness", "score": 6},
+        {"criterion": "decisions_and_actions", "score": 3},
+        {"criterion": "usefulness", "score": 5}
+      ],
+      "overall": 4.5,
+      "errors": [
+        "Assigns the Project Manager to 'Provide personal assignments to team members'; he said the personal coach would do that.",
+        "Assigns Xavier 'Address material considerations for lightweight design'; no such task was given.",
+        "Assigns the UI designer 'Prepare intuitive design concepts'; no such task was given.",
+        "Assigns the marketing expert 'Bring marketing insights on user preferences'; this is a loose inference, not a stated commitment.",
+        "Describes the dolphin as 'freedom, smooth design'; 'smooth' was never said about it.",
+        "Garbled and inconsistent names: 'Mark Knopp', 'Xavier Juukens', 'Dirk Mankveld'.",
+        "Timestamps do not match the transcript (for example the scope clarification tagged 10:34 and the pricing tagged 12:10).",
+        "Calls the gap before the next meeting a '30-minute break'; it was time for individual work."
+      ],
+      "strengths": [
+        "Compact, easy to scan.",
+        "Includes the price figures and the TV-only scope.",
+        "Mentions the whiteboard responsiveness issue and the four animal metaphors.",
+        "Has an action-item section with named owners."
+      ],
+      "weaknesses": [
+        "Most action items are invented or wrongly attributed, which is a serious problem for a section meant to say who does what.",
+        "Never names the UI designer.",
+        "Thin on detail about the discussion (accessibility is mentioned only in passing).",
+        "Does not say the personal coach, not the Project Manager, will hand out assignments."
+      ]
+    },
+    {
+      "label": "D",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 8},
+        {"criterion": "completeness", "score": 6},
+        {"criterion": "decisions_and_actions", "score": 5},
+        {"criterion": "usefulness", "score": 6}
+      ],
+      "overall": 6.4,
+      "errors": [
+        "Adds 'openness' to the dolphin and 'precision' to the tiger; neither was said.",
+        "Spelling variants: 'Mark Knopf', 'Dirk Mengveld', 'Xavier Jökens'.",
+        "Says the UI designer's name was 'not captured'; it is stated in the transcript (Nick Broer).",
+        "Does not say who drew which animal, so the exercise is not tied to the people."
+      ],
+      "strengths": [
+        "Mostly faithful and does not invent tasks or owners.",
+        "Includes the industrial designer's three questions (inside, material, look) and the three-phase plan.",
+        "Gets the price figures, the scope confirmation, light material, accessibility and the 30-minute reconvene right.",
+        "Correctly notes that the personal coach distributes individual assignments.",
+        "Short and clear."
+      ],
+      "weaknesses": [
+        "No action-items section; the marketing expert's pending ideas and the Project Manager posting minutes are not called out as to-dos.",
+        "Does not give the UI designer's contributions (the multi-remote question, the familiarity point, the whiteboard issue) to anyone by name.",
+        "Skips the whiteboard responsiveness complaint.",
+        "Little on the discussion detail, so less useful for someone who missed the meeting."
+      ]
+    }
+  ],
+  "ranking": ["B", "A", "D", "C"],
+  "rationale": "B is the most faithful and the most useful. It attributes statements correctly, captures the whiteboard issue, the TV-only scope, accessibility, light material, the 25 euro / 12.50 euro figures, the personal coach and the 30-minute reconvene, and lists one realistic action item with the right owner. A is the most thorough but has an invented project code, a misattributed scope clarification, embellishments, and generic unassigned action items. D is accurate and concise but gives no action items and less detail, and adds small embellishments to the animal traits. C is last because its action items assign tasks that were never given and misattribute the assignment hand-out to the Project Manager (it was the personal coach), which makes its decisions and actions section unreliable."
+}

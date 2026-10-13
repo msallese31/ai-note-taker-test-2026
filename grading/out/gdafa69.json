@@ -1,0 +1,97 @@
+{
+  "items": [
+    {
+      "id": "S1",
+      "verdict": "partial",
+      "evidence": "Notes cover the components (\"Standard battery confirmed\", \"Chip-on-print: specific chip identified\", \"Wheel sensor retained despite cost\", \"~50x more expensive than a push button\") and the voice recognition email, but never say the Industrial Designer presented them. Transcript also shows the voice recognition chip was raised by the User Interface Designer, not the Industrial Designer; the notes do not attribute it to anyone."
+    },
+    {
+      "id": "S2",
+      "verdict": "missed",
+      "evidence": "Nothing in the notes about the User Interface Designer showing existing remote controls found on the web (transcript 08:34 to 09:29)."
+    },
+    {
+      "id": "S3",
+      "verdict": "missed",
+      "evidence": "Notes do not say the new design keeps only the central buttons (volume, channel, mute, power) and drops the rest of the buttons on the displayed models. \"Ergonomic curve fits hand naturally\" refers to the banana shape, not to this comparison."
+    },
+    {
+      "id": "S4",
+      "verdict": "partial",
+      "evidence": "Notes give the content (\"Trend research from Paris and Milan: fruits/vegetables theme, spongy materials\", \"Key priorities ranked: fancy look and feel > technological innovation > ease of use\") but do not say the Marketing Expert presented it."
+    },
+    {
+      "id": "S5",
+      "verdict": "correct",
+      "evidence": "\"Trend research from Paris and Milan: fruits/vegetables theme, spongy materials\", \"Banana shape selected\", \"Construction: hard internal structure with spongy outer cover\"."
+    },
+    {
+      "id": "S6",
+      "verdict": "correct",
+      "evidence": "\"Component Decisions\" and \"Design Direction: Banana Form Factor\" sections list the agreed features: standard battery, chip, wheel kept, backlit buttons, banana shape, spongy cover, wheel on top, buttons on side."
+    },
+    {
+      "id": "S7",
+      "verdict": "partial",
+      "evidence": "Notes state banana shape, spongy cover, \"Backlit buttons confirmed\", \"Wheel on top, buttons on the side\", \"Standard battery confirmed\", \"Chip-on-print: specific chip identified, no issues\". But they leave voice recognition open (\"Decision deferred: revisit after presentations\") rather than recording that the standard chip rules it out. Transcript never explicitly returns to voice recognition; the only chip statement is at 18:23 and 19:22 (standard chip, no specific problem), so the answer key's exclusion of speech recognition is an inference from that, not a spoken decision."
+    },
+    {
+      "id": "S8",
+      "verdict": "correct",
+      "evidence": "\"Industrial designer and UI designer collaborate on prototype prep - Joint work recommended before next meeting\" and \"Evaluate product against user requirements\". Transcript 22:50: the PM suggests the two work together to prepare the prototype."
+    },
+    {
+      "id": "A1",
+      "verdict": "correct",
+      "evidence": "\"Industrial designer and UI designer collaborate on prototype prep - Joint work recommended before next meeting to align physical and interface design.\""
+    },
+    {
+      "id": "A2",
+      "verdict": "correct",
+      "evidence": "\"Evaluate product against user requirements - Check fancy look and feel, innovation, and ease of use against original user brief.\""
+    },
+    {
+      "id": "D1",
+      "verdict": "correct",
+      "evidence": "\"Component Decisions\" and \"Design Direction\" sections record the features chosen for the prototype."
+    },
+    {
+      "id": "D2",
+      "verdict": "correct",
+      "evidence": "\"Banana shape selected\", \"Yellow: matches company color scheme, easy to locate\", \"Construction: hard internal structure with spongy outer cover\"."
+    },
+    {
+      "id": "D3",
+      "verdict": "correct",
+      "evidence": "\"Backlit buttons confirmed\" and \"lighted buttons help orient the correct side\"."
+    },
+    {
+      "id": "D4",
+      "verdict": "correct",
+      "evidence": "\"Wheel sensor retained despite cost - ~50x more expensive than a push button - Kept for innovation and ease-of-use advantage over competitors\"."
+    },
+    {
+      "id": "D5",
+      "verdict": "correct",
+      "evidence": "\"Wheel on top, buttons on the side\"."
+    },
+    {
+      "id": "D6",
+      "verdict": "partial",
+      "evidence": "Notes record the standard chip (\"Chip-on-print: specific chip identified, no issues\") but leave voice recognition as \"Decision deferred: revisit after presentations\" and never close it. Transcript matches the notes more than the key here: nobody says voice recognition is eliminated; the group only confirms the standard chip at 18:23 and 19:22, which implicitly leaves voice recognition out."
+    },
+    {
+      "id": "D7",
+      "verdict": "correct",
+      "evidence": "\"Standard battery confirmed\"."
+    }
+  ],
+  "errors": [
+    {
+      "claim": "Finalize look and feel design: Industrial designer to produce final banana-form design. Complete user interface design: UI designer to finalize layout.",
+      "why_wrong": "The transcript (21:51 to 23:05) names no separate owners for these two tasks; the Project Manager addresses the group, then suggests the Industrial Designer and User Interface Designer work together on the prototype. The split of ownership is the notes' inference from the roles, not something said in the meeting.",
+      "kind": "wrong_person"
+    }
+  ],
+  "judge_model": "Fable 5.1 (claude-fable-5-1)"
+}

@@ -1,0 +1,113 @@
+{
+  "evaluations": [
+    {
+      "label": "A",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 6},
+        {"criterion": "completeness", "score": 7},
+        {"criterion": "decisions_and_actions", "score": 5},
+        {"criterion": "usefulness", "score": 6}
+      ],
+      "overall": 6.0,
+      "errors": [
+        "Names the project 'IS1001c remote control', which never appears in the transcript",
+        "States the remote 'will include backlit buttons that activate upon movement'; motion activation was debated and questioned as too costly, not decided",
+        "'arched internal structure for component mounting' is invented; the PM said 'odd shaped, with a spongy cover'",
+        "'Action Items (none)' contradicts the PM assigning the industrial designer and UI designer to work together on the prototype and the follow-up tasks",
+        "Refers to the UI designer as 'UIZ', a label not used in the meeting"
+      ],
+      "strengths": [
+        "Captures key numbers: wheel sensor about 50x a push button, 12 euro budget",
+        "Includes the voice recognition chip email and lists sensible open questions",
+        "Outline covers the meeting flow from recap through final concept"
+      ],
+      "weaknesses": [
+        "Uses 'Speaker 1/2/3/4' in the outline, so readers cannot tell who said what",
+        "Empty action items section despite clear next steps",
+        "Presents a debated lighting behavior as a specification"
+      ]
+    },
+    {
+      "label": "B",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 8},
+        {"criterion": "completeness", "score": 8},
+        {"criterion": "decisions_and_actions", "score": 7},
+        {"criterion": "usefulness", "score": 8}
+      ],
+      "overall": 7.75,
+      "errors": [
+        "Recap lists a 'preview button'; the transcript says 'previous channel button'",
+        "Says the group kept the wheel at [11:04]; at that point the PM only said 'maybe', and the decision to keep it came later (around 15:54)",
+        "Timestamp [21:24] for asking the designers to work together; that assignment was at about 22:50",
+        "'The group did not document a detailed resolution' on left/right handedness understates the PM's conclusion that it works for both hands"
+      ],
+      "strengths": [
+        "Clear summary with the main decision (yellow banana, wheel on top, buttons on the side) and why",
+        "Covers cost figures, the lighting debate, battery concern, plastic cover concern, and the voice chip with 'no decision'",
+        "Timestamps and role-based attribution make it easy to check"
+      ],
+      "weaknesses": [
+        "Action items heading left empty; the assignment appears only in the body",
+        "Does not say whether the plastic cover idea was dropped or kept"
+      ]
+    },
+    {
+      "label": "C",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 5},
+        {"criterion": "completeness", "score": 6},
+        {"criterion": "decisions_and_actions", "score": 5},
+        {"criterion": "usefulness", "score": 5}
+      ],
+      "overall": 5.25,
+      "errors": [
+        "'Heart-shaped core with spongy cover suggested'; the PM said 'odd shaped, with a spongy cover'",
+        "Gives the UI designer's name as 'UL Hazred'; he said 'Abdul al-Hasred'",
+        "'Banana shape proposed' understates that the banana was chosen",
+        "Invented action items not assigned in the meeting: 'Facilitate discussion on wheel sensor necessity', 'Assess cost implications of wheel sensor', 'Develop banana-shaped spongy case design' as a separate task",
+        "'Simple remote interface confirmed (00:30)' presents the recap of the previous meeting as a new decision",
+        "'Provide meeting notes in shared folder (00:00)'; the PM said notes would be in his folder, and the shared folder was where the UI designer's slides were"
+      ],
+      "strengths": [
+        "Includes the 50x cost ratio and 12 euro budget",
+        "Notes the left/right hand discussion and lighted buttons to identify the side",
+        "Lists per-role tasks, including the designers' joint prototype work"
+      ],
+      "weaknesses": [
+        "Leaves out the voice recognition chip email entirely",
+        "Does not clearly state final decisions (wheel kept, banana chosen, spongy cover)",
+        "Action list padded with inferred tasks, and some timestamps are wrong"
+      ]
+    },
+    {
+      "label": "D",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 8},
+        {"criterion": "completeness", "score": 9},
+        {"criterion": "decisions_and_actions", "score": 8},
+        {"criterion": "usefulness", "score": 9}
+      ],
+      "overall": 8.5,
+      "errors": [
+        "'hard internal structure with spongy outer cover'; 'hard' is not stated, the PM said 'odd shaped, with a spongy cover'",
+        "'recess or offset channel buttons slightly'; the UI designer said to put them 'a bit out of the way', and recessing them was not mentioned",
+        "Splits the joint assignment into separate tasks for the industrial designer (final banana design) and the UI designer (layout), which is inferred, not stated"
+      ],
+      "strengths": [
+        "Complete recap of the previous meeting's decisions",
+        "Clear component decisions: standard battery, chip, wheel kept despite 50x cost, 12 euro limit",
+        "Correctly marks open items: plastic cover reconsidered, light trigger debated, voice chip deferred",
+        "Banana decision with its reasons, construction, and left/right handedness outcome; well-organized next steps"
+      ],
+      "weaknesses": [
+        "No timestamps or speaker attributions",
+        "Leaves out the wheel push-down idea",
+        "Says 'Backlit buttons confirmed' a little too firmly given the open trigger debate"
+      ]
+    }
+  ],
+  "ranking": ["D", "B", "A", "C"],
+  "rationale": "D is the most complete and best organized. It shows what was decided and what stayed open, and it has only small embellishments. B is accurate and well grounded with timestamps, but it has a 'preview button' slip, an early-timed wheel decision and an empty action items heading. A covers the substance but invents a project code and an internal structure, presents motion-activated lighting as decided, uses anonymous speaker labels and lists no action items. C misquotes 'heart-shaped', garbles the name, leaves out the voice chip, does not state the final decisions firmly and pads its action items with invented tasks.",
+  "judge_model": "claude-opus-5-5"
+}

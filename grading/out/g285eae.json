@@ -1,0 +1,163 @@
+{
+ "items": [
+  {
+   "id": "S1",
+   "verdict": "correct",
+   "evidence": "The notes say the project manager opened the meeting at 12:13 and list the agenda."
+  },
+  {
+   "id": "S2",
+   "verdict": "correct",
+   "evidence": "The notes cover preference for fancier remotes, losing remotes, interface simplicity, frequent volume/channel use, and younger users' interest in voice recognition."
+  },
+  {
+   "id": "S3",
+   "verdict": "correct",
+   "evidence": "The notes describe a communication device that sends messages to a television and designing prototypes to gather user feedback."
+  },
+  {
+   "id": "S4",
+   "verdict": "partial",
+   "evidence": "The notes mention comparing feature-heavy and basic remotes, but omit their specific advantages and disadvantages, such as learning difficulty and missing functions."
+  },
+  {
+   "id": "S5",
+   "verdict": "correct",
+   "evidence": "The working-design section describes the energy source, chip, user interface, and infrared bulb."
+  },
+  {
+   "id": "S6",
+   "verdict": "correct",
+   "evidence": "The notes cover the project manager's new requirements and the subsequent discussions of target users, speech recognition, finding a lost remote, and batteries."
+  },
+  {
+   "id": "A1",
+   "verdict": "missed",
+   "evidence": "The requirement for each member to complete a questionnaire and summary is absent; the action-items section says '(none)'."
+  },
+  {
+   "id": "A2",
+   "verdict": "missed",
+   "evidence": "The planned individual work period after lunch is not recorded."
+  },
+  {
+   "id": "A3",
+   "verdict": "missed",
+   "evidence": "The project manager's commitment to post the minutes and project documentation is missing."
+  },
+  {
+   "id": "A4",
+   "verdict": "missed",
+   "evidence": "The request for team members to post their project documentation and slides is missing."
+  },
+  {
+   "id": "A5",
+   "verdict": "missed",
+   "evidence": "The industrial designer's components-concept assignment is not stated."
+  },
+  {
+   "id": "A6",
+   "verdict": "missed",
+   "evidence": "The user interface designer's user-interface-concept assignment is not stated."
+  },
+  {
+   "id": "A7",
+   "verdict": "missed",
+   "evidence": "The marketing expert's trend-watching assignment is not stated."
+  },
+  {
+   "id": "D1",
+   "verdict": "correct",
+   "evidence": "The notes state that the team will not include teletext functionality."
+  },
+  {
+   "id": "D2",
+   "verdict": "correct",
+   "evidence": "The notes say the project scope is 'strictly limited to television remotes'."
+  },
+  {
+   "id": "D3",
+   "verdict": "correct",
+   "evidence": "The notes require incorporating the corporate image, colors, and company slogan."
+  },
+  {
+   "id": "D4",
+   "verdict": "correct",
+   "evidence": "The notes state that the group decided on 'simplicity, fashion, and usability'."
+  },
+  {
+   "id": "D5",
+   "verdict": "partial",
+   "evidence": "The notes capture the demographic discussion and design objectives, but do not state the final preference for defining objectives rather than a specific age group."
+  },
+  {
+   "id": "D6",
+   "verdict": "correct",
+   "evidence": "The outline lists 'a way to locate the remote if lost' among agreed functions."
+  },
+  {
+   "id": "D7",
+   "verdict": "correct",
+   "evidence": "The notes specify 'large, accessible buttons for essential tasks'."
+  },
+  {
+   "id": "D8",
+   "verdict": "correct",
+   "evidence": "The notes retain secondary functions, including hidden settings and sliding hatches for complex functions."
+  },
+  {
+   "id": "D9",
+   "verdict": "correct",
+   "evidence": "The outline explicitly includes 'hidden secondary functions'."
+  },
+  {
+   "id": "D10",
+   "verdict": "correct",
+   "evidence": "The notes say the team considered a charging cradle. The answer key overstates certainty: at 34:08\u201334:40, the transcript presents it as a possibility and an idea to keep, not a firm commitment."
+  },
+  {
+   "id": "P1",
+   "verdict": "correct",
+   "evidence": "The notes describe weighing younger users against a broader age range and discussing several possible demographics."
+  },
+  {
+   "id": "P2",
+   "verdict": "correct",
+   "evidence": "The notes cover the discussion of voice recognition and concerns about its production cost and complexity."
+  },
+  {
+   "id": "P3",
+   "verdict": "partial",
+   "evidence": "The notes mention needing a reliable infrared signal, but omit the discussion of how battery and component quality could improve its functionality."
+  },
+  {
+   "id": "P4",
+   "verdict": "correct",
+   "evidence": "The notes discuss a long-lasting energy source and considering a rechargeable battery with a charging cradle."
+  }
+ ],
+ "errors": [
+  {
+   "claim": "Speaker 5 discussed potential LCD screens as part of the technical-interface discussion.",
+   "why_wrong": "The marketing expert, not the user interface designer represented by Speaker 5, introduced the LCD-screen possibility at 06:45.",
+   "kind": "wrong_person"
+  },
+  {
+   "claim": "Management decided against including teletext support or voice recognition.",
+   "why_wrong": "Management excluded teletext. Voice recognition was dismissed through the team's discussion of cost and usefulness, not through an announced management decision.",
+   "kind": "decision_described_wrongly"
+  },
+  {
+   "claim": "An unresolved question was whether a 'find my remote' beep function would fit within budget.",
+   "why_wrong": "The team discussed a recovery function and agreed to include one, but did not raise its affordability as an unresolved question.",
+   "kind": "other_invented"
+  },
+  {
+   "claim": "A charging cradle would improve location tracking.",
+   "why_wrong": "The proposed cradle could reduce losses by giving the remote a regular storage place. No location-tracking capability was discussed.",
+   "kind": "other_invented"
+  }
+ ],
+ "judge_model": "GPT-5.2",
+ "judge_model_served": "gpt-6.1-sol"
+}

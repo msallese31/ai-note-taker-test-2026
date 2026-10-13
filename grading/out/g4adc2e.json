@@ -1,0 +1,33 @@
+{
+  "items": [
+    {"id": "S1", "verdict": "partial", "evidence": "Notes say 'The project lead and three team members reviewed a television remote-control design' and call it a 'Functional design meeting', but never state that the project manager opened the meeting or stated the agenda."},
+    {"id": "S2", "verdict": "correct", "evidence": "Notes: '75% said remotes were ugly; 80% would pay more for a fancier-looking one', 'More than half cited losing remotes as a major frustration', 'People use about 10% of available buttons; channel and volume changes dominate', 'Voice-recognition interest fell with age'."},
+    {"id": "S3", "verdict": "partial", "evidence": "Notes cover the design approach ('Prototype user interfaces could be tested for feedback', 'The design must balance technical limits and price', 'balancing conventional controls with distinctive design') but do not state the description of how a remote works (a communication device sending messages to the TV)."},
+    {"id": "S4", "verdict": "correct", "evidence": "Notes: 'A fully featured remote is harder to learn; a basic remote omits functions.'"},
+    {"id": "S5", "verdict": "correct", "evidence": "Notes: 'The working-design presentation mapped the remote's key components and needs... energy source, user interface, chip, and infrared bulb... favored infrared transmission.'"},
+    {"id": "S6", "verdict": "correct", "evidence": "Notes cover the new requirements (teletext, television-only, corporate colors and slogan), the target market discussion, voice recognition, the lost-remote function and battery/cradle ideas."},
+    {"id": "A1", "verdict": "correct", "evidence": "Notes: 'The team was asked to complete a questionnaire and summary after the meeting.'"},
+    {"id": "A2", "verdict": "correct", "evidence": "Notes: 'Individual work was allocated across industrial design, user interface, and market-trend watching.'"},
+    {"id": "A3", "verdict": "correct", "evidence": "Notes: 'The project lead will add the minutes and slides to project documentation' and action item 'Add the meeting minutes and presentation slides to the project documentation'."},
+    {"id": "A4", "verdict": "missed", "evidence": "The project manager asked everyone to put their documentation up as well ('If everyone could do that as well'); the notes do not state this."},
+    {"id": "A5", "verdict": "partial", "evidence": "Notes only say individual work was allocated across industrial design and that 'Each area had a corresponding concept or work focus'; the components concept is not named."},
+    {"id": "A6", "verdict": "partial", "evidence": "Notes only say individual work was allocated across user interface and that 'Each area had a corresponding concept or work focus'; the user interface concept is not named."},
+    {"id": "A7", "verdict": "correct", "evidence": "Notes: 'Individual work was allocated across ... market-trend watching.'"},
+    {"id": "D1", "verdict": "correct", "evidence": "Notes: 'The group will not design for teletext because the internet has taken its place.'"},
+    {"id": "D2", "verdict": "correct", "evidence": "Notes: 'The product will focus on television rather than video and other uses.'"},
+    {"id": "D3", "verdict": "correct", "evidence": "Notes: 'kept the company's recognizable colors and slogan in scope' and 'yellow and black and the slogan \"We put the fashion in electronics\" informing its look'."},
+    {"id": "D4", "verdict": "correct", "evidence": "Notes: 'The group named simplicity, fashion, and usability as project priorities.'"},
+    {"id": "D5", "verdict": "partial", "evidence": "Notes say 'The group considered defining the audience by needs or spending ability rather than age alone' and that the demographic 'remained open', but do not state the conclusion the project manager drew and others agreed to: define objectives like fashion and simplicity instead of an age-based target group."},
+    {"id": "D6", "verdict": "correct", "evidence": "Notes: 'The team agreed that a lost-remote finding function would address a frequently reported frustration' and 'The agreed functions included preventing loss'."},
+    {"id": "D7", "verdict": "correct", "evidence": "Notes: 'large accessible essential buttons'."},
+    {"id": "D8", "verdict": "correct", "evidence": "Notes: 'access to extra functions'."},
+    {"id": "D9", "verdict": "correct", "evidence": "Notes: 'Extra controls should be less prominent or tucked away.'"},
+    {"id": "D10", "verdict": "partial", "evidence": "Notes: 'The group raised long battery life and a rechargeable cradle as possibilities' and 'charging remained design considerations'. The transcript has the project manager say 'that's a good idea, we'll keep it', so the cradle was kept, not just raised."},
+    {"id": "P1", "verdict": "correct", "evidence": "Notes: 'The group did not settle on an age-defined target market' and 'The target demographic remained open'."},
+    {"id": "P2", "verdict": "correct", "evidence": "Notes: 'The €12.50 production limit made voice recognition seem costly for a €25 remote' and 'The team questioned whether voice recognition was needed in a remote.'"},
+    {"id": "P3", "verdict": "missed", "evidence": "The discussion of how to make the infra-red more functional (battery, quality of the chip and components) is not in the notes; only the presentation's 'reliable signal' need is mentioned."},
+    {"id": "P4", "verdict": "correct", "evidence": "Notes: 'The group raised long battery life and a rechargeable cradle as possibilities.'"}
+  ],
+  "errors": [],
+  "judge_model": "claude-fable-5-1"
+}

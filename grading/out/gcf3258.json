@@ -1,0 +1,102 @@
+{
+  "items": [
+    {
+      "id": "S1",
+      "verdict": "correct",
+      "evidence": "Notes: \"designing an original, trendy, and user-friendly television remote control\"."
+    },
+    {
+      "id": "S2",
+      "verdict": "correct",
+      "evidence": "Notes name the Project Manager, \"Dirk is the marketing expert responsible for analyzing user needs and market trends\", \"User Interface Designer focusing on technical design from a user perspective\", and the Industrial Designer \"tasked with determining the internal apparatus components, materials, and aesthetics\". Matches the transcript introductions."
+    },
+    {
+      "id": "S3",
+      "verdict": "correct",
+      "evidence": "Notes: \"The project will proceed through three distinct design phases, beginning with functional design\" and \"reconvene in 30 minutes\". The transcript says \"three phase of design. First step will be the functional design\", so the notes match what was said (the key's \"three further meetings\" is the key's own phrasing)."
+    },
+    {
+      "id": "S4",
+      "verdict": "correct",
+      "evidence": "Notes: \"Markoff demonstrates how to use the electronic smart board for presentations and illustrations\" and \"instructed on how to use digital pens, erasers, and different line formats\"; shared project folder also mentioned."
+    },
+    {
+      "id": "S5",
+      "verdict": "correct",
+      "evidence": "Notes: \"target selling price is 25 euros\" and \"approximate production cost is 12.50 euros\"."
+    },
+    {
+      "id": "S6",
+      "verdict": "correct",
+      "evidence": "Notes: \"each member draws a favorite animal\" with dolphin, elephant, tiger and ant listed for all four participants."
+    },
+    {
+      "id": "S7",
+      "verdict": "correct",
+      "evidence": "Notes: \"The team discusses the need for intuitive design and considers usability for disabled users\" and \"suggests using lightweight materials\"."
+    },
+    {
+      "id": "A1",
+      "verdict": "partial",
+      "evidence": "Key has no action items. The notes list two (\"Research current market trends and user needs...\" and \"Design a distinctive, trendy, intuitive TV remote control interface...\"). These are restatements of the role descriptions the PM gave (\"bring us the latest info and what people want\", \"a trendy interface that you design for us\"), not tasks anyone agreed to; the PM said the personal coach will hand out the assignments. No owners are named."
+    },
+    {
+      "id": "D1",
+      "verdict": "partial",
+      "evidence": "Outline says \"the scope of the project is limited to a TV remote control rather than a multi-remote system\", but attributes it to Speaker 4 (the UI designer asked; the PM answered \"The project I got was just for a TV remote control\"), and the Open Design Questions section lists \"Should the device be designed as a multi-remote control or limited strictly to television functions?\" as still open, which contradicts the settled decision."
+    },
+    {
+      "id": "D2",
+      "verdict": "correct",
+      "evidence": "Notes: \"The product must be distinct from competitors while remaining intuitive for users\" and \"remains familiar to users\"; outline: \"the need for intuitive design\"."
+    },
+    {
+      "id": "D3",
+      "verdict": "correct",
+      "evidence": "Notes: \"considers usability for disabled users\" and open question \"How can the design accommodate users with disabilities\". Transcript: PM says \"take it into consideration\", so presenting it as a consideration is accurate."
+    },
+    {
+      "id": "D4",
+      "verdict": "partial",
+      "evidence": "Notes: \"Savier Jokins suggests using lightweight materials\" and an open question about which lightweight materials. The PM accepted it (\"It should be light, okay\"), but the notes present it only as a suggestion and an open question rather than something the team settled on."
+    }
+  ],
+  "errors": [
+    {
+      "claim": "Speaker 4 clarifies that the scope of the project is limited to a TV remote control rather than a multi-remote system.",
+      "why_wrong": "Speaker 4 (the User Interface Designer) asked the question; the Project Manager clarified: \"The project I got was just for a TV remote control.\"",
+      "kind": "wrong_person"
+    },
+    {
+      "claim": "Open Design Questions: Should the device be designed as a multi-remote control or limited strictly to television functions?",
+      "why_wrong": "This was answered in the meeting: the PM said the project is just for a TV remote control and the UI designer accepted it. It is not open.",
+      "kind": "decision_described_wrongly"
+    },
+    {
+      "claim": "Savier Jokins suggests using lightweight materials that are aesthetically impactful.",
+      "why_wrong": "The Industrial Designer only said the material \"should be something light\". Nothing about being aesthetically impactful was said.",
+      "kind": "other_invented"
+    },
+    {
+      "claim": "Open Design Questions: What specific lightweight materials will best suit the industrial design requirements?",
+      "why_wrong": "No one raised which specific materials to use; the only statement was that it should be light.",
+      "kind": "other_invented"
+    },
+    {
+      "claim": "The team met for the first time to kick off TS3012a",
+      "why_wrong": "No project name or code is mentioned anywhere in the transcript.",
+      "kind": "other_invented"
+    },
+    {
+      "claim": "Action item: Research current market trends and user needs to inform the design of the original, trendy, user-friendly TV remote control.",
+      "why_wrong": "Nobody agreed to this as a task in the meeting; it is a restatement of the marketing expert's general role. The PM said the personal coach would give out the assignments. No owner named.",
+      "kind": "invented_action_item"
+    },
+    {
+      "claim": "Action item: Design a distinctive, trendy, intuitive TV remote control interface that remains familiar to users.",
+      "why_wrong": "Nobody agreed to this as a task in the meeting; it blends the PM's role description of the UI designer with the UI designer's own remark about familiarity. No owner named.",
+      "kind": "invented_action_item"
+    }
+  ],
+  "judge_model": "claude-fable-5-1"
+}

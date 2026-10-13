@@ -1,0 +1,67 @@
+[
+ {
+  "id": "S1",
+  "section": "abstract",
+  "item": "The goal of the project is to design an original, trendy and user-friendly remote control for TV."
+ },
+ {
+  "id": "S2",
+  "section": "abstract",
+  "item": "The team comprises the project manager, the marketing expert, who is looking at user needs, the user interface designer, looking at usability, and the industrial designer, working on the engineering and materials."
+ },
+ {
+  "id": "S3",
+  "section": "abstract",
+  "item": "The project will be completed with three further meetings: the following meeting concerns the functional design."
+ },
+ {
+  "id": "S4",
+  "section": "abstract",
+  "item": "The project manager gave a quick overview of the equipment available."
+ },
+ {
+  "id": "S5",
+  "section": "abstract",
+  "item": "The remote  needs to be produced for 12.50 euros in order to be sold for double that amount."
+ },
+ {
+  "id": "S6",
+  "section": "abstract",
+  "item": "The whole team tried out the SMARTboard, by drawing their favourite animals."
+ },
+ {
+  "id": "S7",
+  "section": "abstract",
+  "item": "Afterwards, they discussed briefly their first ideas, including the use of light materials and usability concerns."
+ },
+ {
+  "id": "A1",
+  "section": "actions",
+  "item": "*NA*"
+ },
+ {
+  "id": "D1",
+  "section": "decisions",
+  "item": "The remote is just going to be for TV."
+ },
+ {
+  "id": "D2",
+  "section": "decisions",
+  "item": "The design should generally be intuitive without changes that would render it an unfamiliar object to customers."
+ },
+ {
+  "id": "D3",
+  "section": "decisions",
+  "item": "The team will also take into account possible usability issues concerning disabled people."
+ },
+ {
+  "id": "D4",
+  "section": "decisions",
+  "item": "They also agreed to choose light materials."
+ },
+ {
+  "id": "P1",
+  "section": "problems",
+  "item": "*NA*"
+ }
+]

@@ -1,0 +1,123 @@
+{
+ "items": [
+  {
+   "id": "S1",
+   "verdict": "correct",
+   "evidence": "The notes state that Agni presented the final design and identify Speaker 4 as the prototype presenter, matching the User Interface Designer."
+  },
+  {
+   "id": "S2",
+   "verdict": "correct",
+   "evidence": "The notes describe an integrated LCD screen, a flip panel, and a customized backing."
+  },
+  {
+   "id": "S3",
+   "verdict": "correct",
+   "evidence": "The notes report \u20ac9.95 before the LCD and approximately \u20ac2\u20133 extra for it. Contrary to the answer key, the transcript at 09:24\u201309:36 puts the resulting cost around \u20ac12\u201312.50 and explicitly indicates that the display can be included."
+  },
+  {
+   "id": "S4",
+   "verdict": "correct",
+   "evidence": "The outline says Speaker 1 plans to negotiate lower production costs. The transcript supports this, but describes the savings as funding marketing and promotions, not specifically enabling the LCD as the answer key claims."
+  },
+  {
+   "id": "S5",
+   "verdict": "correct",
+   "evidence": "The notes describe the Marketing Expert's profitability concerns and the requirement to sell two million units at about \u20ac50, capturing 25% of the market. The transcript questions the feasibility of these targets rather than establishing that the price point cannot meet the profit aim."
+  },
+  {
+   "id": "S6",
+   "verdict": "correct",
+   "evidence": "The notes cover internet distribution, drop shipping, Amazon/eBay, and using online images and videos to promote customization."
+  },
+  {
+   "id": "S7",
+   "verdict": "correct",
+   "evidence": "The outline records Speaker 4's concern about insufficient redesign time and Speaker 1's decision to make no further major changes to this model."
+  },
+  {
+   "id": "S8",
+   "verdict": "correct",
+   "evidence": "The outline describes launching around major sporting events or movie releases for promotional synergy."
+  },
+  {
+   "id": "A1",
+   "verdict": "partial",
+   "evidence": "The outline says Speaker 1 will negotiate with vendors to reduce production costs, but omits his commitment to speak with management about further cost reductions."
+  },
+  {
+   "id": "A2",
+   "verdict": "missed",
+   "evidence": "The notes omit the Project Manager's commitment at 21:48 to convince management to support the proposed promotional approach."
+  },
+  {
+   "id": "A3",
+   "verdict": "missed",
+   "evidence": "The notes do not record the closing handover to Ed for marketing. The transcript says this will happen once production is over, rather than merely after production has begun."
+  },
+  {
+   "id": "A4",
+   "verdict": "partial",
+   "evidence": "The notes state that the team will evaluate the product with real users before full production, but do not explicitly say that new physical prototypes will first be produced."
+  },
+  {
+   "id": "D1",
+   "verdict": "correct",
+   "evidence": "The notes retain the LCD in the design and describe side placement of the microphone rather than placement under the flip panel."
+  },
+  {
+   "id": "D2",
+   "verdict": "correct",
+   "evidence": "The notes record the Project Manager's plan to negotiate lower production costs. The answer key's specific LCD-enabling purpose is not stated in the transcript; the stated purpose is to free funds for marketing and promotions."
+  },
+  {
+   "id": "D3",
+   "verdict": "partial",
+   "evidence": "The notes mention suggested launch timing around sports events or movie releases, but omit the proposed partnership with a company such as Sony Pictures and the Project Manager's commitment to seek management support."
+  },
+  {
+   "id": "D4",
+   "verdict": "correct",
+   "evidence": "The outline states that Speaker 1 decided no further major design changes would be made to this model, with feedback reserved for a second generation."
+  },
+  {
+   "id": "D5",
+   "verdict": "partial",
+   "evidence": "The notes place evaluation before full production but omit the explicit sequence of producing new prototypes and then evaluating them. The answer key's claim that this would not be prototype evaluation is inaccurate: at 16:56\u201317:01, the speakers explicitly call the forthcoming units prototypes."
+  },
+  {
+   "id": "P1",
+   "verdict": "partial",
+   "evidence": "The notes capture additional LCD costs, excluded advertising/transport expenses, and challenging profitability targets. They do not state that extensive budget revisions are necessary. The transcript also does not establish the answer key's claim that the LCD cannot fit the budget."
+  },
+  {
+   "id": "P2",
+   "verdict": "correct",
+   "evidence": "The notes describe the User Interface Designer's concerns about insufficient evaluation/redesign time and the Project Manager's refusal to change the first-generation design."
+  }
+ ],
+ "errors": [
+  {
+   "claim": "The team met to finalize the detailed design, budget, and market strategy for the IS1008d remote control prototype.",
+   "why_wrong": "The transcript never identifies the remote control as IS1008d.",
+   "kind": "other_invented"
+  },
+  {
+   "claim": "Current calculations only account for production costs and do not yet include advertising, transportation, or labor.",
+   "why_wrong": "Advertising and transportation are excluded from the initial production-cost calculation, but labor is not established as excluded. At 10:48, the Industrial Designer explicitly discusses the case's \u20ac1 cost as covering material and labor.",
+   "kind": "wrong_fact"
+  },
+  {
+   "claim": "Ed proposed shifting from traditional retail to an online \"drop ship\" model via platforms like Amazon or eBay.",
+   "why_wrong": "The Industrial Designer proposed online promotion, ordering, and drop shipping at 14:14 and suggested Amazon at 14:58. Ed participated in the subsequent discussion but did not originate this proposal.",
+   "kind": "wrong_person"
+  },
+  {
+   "claim": "Ed suggested synchronizing the launch with major sporting events, such as the World Cup, to maximize demand for hands-free voice control.",
+   "why_wrong": "Ed identified the World Cup as a relevant sales season, but the Industrial Designer proposed synchronizing the launch with a major sporting event at 20:34.",
+   "kind": "wrong_person"
+  }
+ ],
+ "judge_model": "gpt-5.2",
+ "judge_model_served": "gpt-6.1-sol"
+}

@@ -1,0 +1,137 @@
+[
+ {
+  "id": "S1",
+  "section": "abstract",
+  "item": "The project manager opened the meeting and described the layout of the new location the group might be moving to."
+ },
+ {
+  "id": "S2",
+  "section": "abstract",
+  "item": "The project manager answered questions regarding the number of people per office and whether a lounge was necessary."
+ },
+ {
+  "id": "S3",
+  "section": "abstract",
+  "item": "The project manager discussed constraints regarding furniture and equipment and addressed the issue that the group may not get the space they are after."
+ },
+ {
+  "id": "S4",
+  "section": "abstract",
+  "item": "The group then discussed how to arrange people within the proposed space."
+ },
+ {
+  "id": "S5",
+  "section": "abstract",
+  "item": "The group discussed grouping  professors and their students together, grouping members of the same project together, the potential disturbance of phone calls to people sharing an office, physically splitting up offices for the sake of privacy by erecting walls, creating a meeting room for people of the same project to converge, how to accommodate visitors, where people can go to smoke, where to place Gisella, and how to allocate space to admin."
+ },
+ {
+  "id": "S6",
+  "section": "abstract",
+  "item": "The group also discussed the possibility of having a cafeteria and the locations of coffee machines."
+ },
+ {
+  "id": "A1",
+  "section": "actions",
+  "item": "The project manager will find out if it is possible to split up offices by putting up walls and doors."
+ },
+ {
+  "id": "A2",
+  "section": "actions",
+  "item": "The project manager will find out whether putting Gisella with the other admin of the school is an option."
+ },
+ {
+  "id": "A3",
+  "section": "actions",
+  "item": "The group members will come up with their own preferences regarding the arrangement of people in the space."
+ },
+ {
+  "id": "A4",
+  "section": "actions",
+  "item": "The group members will poll other people regarding preferences regarding the arrangement of people in the space."
+ },
+ {
+  "id": "A5",
+  "section": "actions",
+  "item": "The team will try to build a proposal on the arrangement of people based on personal preferences."
+ },
+ {
+  "id": "A6",
+  "section": "actions",
+  "item": "The team will merge their proposal on the arrangement of people in the space with that of a different team."
+ },
+ {
+  "id": "A7",
+  "section": "actions",
+  "item": "One team member will ask Maggie and Pierrette about their preferences on the arrangement of people."
+ },
+ {
+  "id": "A8",
+  "section": "actions",
+  "item": "The team will meet next Tuesday at two o'clock"
+ },
+ {
+  "id": "D1",
+  "section": "decisions",
+  "item": "People will not be arranged such that people of the same project are grouped together in offices."
+ },
+ {
+  "id": "D2",
+  "section": "decisions",
+  "item": "Gisella will get an office for two people, where the second spot in the office will be filled by a visitor."
+ },
+ {
+  "id": "D3",
+  "section": "decisions",
+  "item": "There will not be a cafeteria."
+ },
+ {
+  "id": "P1",
+  "section": "problems",
+  "item": "Whether the maximum number of people in an office can be changed."
+ },
+ {
+  "id": "P2",
+  "section": "problems",
+  "item": "How to accommodate personal preferences regarding the arrangement of people in the space."
+ },
+ {
+  "id": "P3",
+  "section": "problems",
+  "item": "Whether to arrange people such that professors and their assistants are grouped together or such that members of the same project are grouped together."
+ },
+ {
+  "id": "P4",
+  "section": "problems",
+  "item": "If it is possible to split rooms via putting up walls or setting up cubicles."
+ },
+ {
+  "id": "P5",
+  "section": "problems",
+  "item": "Whether it is necessary to have a lounge."
+ },
+ {
+  "id": "P6",
+  "section": "problems",
+  "item": "How to accommodate visitors."
+ },
+ {
+  "id": "P7",
+  "section": "problems",
+  "item": "Where to place Gisella in the space, as she tends to be noisy."
+ },
+ {
+  "id": "P8",
+  "section": "problems",
+  "item": "How to allocate space to admin."
+ },
+ {
+  "id": "P9",
+  "section": "problems",
+  "item": "If there will be a cafeteria."
+ },
+ {
+  "id": "P10",
+  "section": "problems",
+  "item": "Locations of coffee machines."
+ }
+]

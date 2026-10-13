@@ -1,0 +1,137 @@
+[
+ {
+  "id": "S1",
+  "section": "abstract",
+  "item": "The project manager opened the meeting and stated the agenda."
+ },
+ {
+  "id": "S2",
+  "section": "abstract",
+  "item": "The marketing expert discussed user preferences in terms of the appearance and use of remotes, finding that users wanted fancier looking remotes, disliked losing their remotes, wanted remotes with fewer buttons, frequently use the channel changing and volume buttons, and that younger users wanted speech recognition."
+ },
+ {
+  "id": "S3",
+  "section": "abstract",
+  "item": "The user interface designer described how a remote works and how to go about designing one."
+ },
+ {
+  "id": "S4",
+  "section": "abstract",
+  "item": "He presented two remotes currently on the market and the advantages and disadvantages to each design."
+ },
+ {
+  "id": "S5",
+  "section": "abstract",
+  "item": "The industrial designer described the interior workings of a remote."
+ },
+ {
+  "id": "S6",
+  "section": "abstract",
+  "item": "The project manager briefed the team on some new requirements and led them in a discussion about their target group, the option to include speech recognition, how to find a remote when lost, and batteries."
+ },
+ {
+  "id": "A1",
+  "section": "actions",
+  "item": "Each team member will complete a questionnaire and a summary."
+ },
+ {
+  "id": "A2",
+  "section": "actions",
+  "item": "The team members will spend time on their individual work."
+ },
+ {
+  "id": "A3",
+  "section": "actions",
+  "item": "The project manager will post the minutes and project documentation."
+ },
+ {
+  "id": "A4",
+  "section": "actions",
+  "item": "The team members will post their project documentation."
+ },
+ {
+  "id": "A5",
+  "section": "actions",
+  "item": "The industrial designer will work on the components concept."
+ },
+ {
+  "id": "A6",
+  "section": "actions",
+  "item": "The user interface designer will work on the user interface concept."
+ },
+ {
+  "id": "A7",
+  "section": "actions",
+  "item": "The marketing expert will work on trend watching"
+ },
+ {
+  "id": "D1",
+  "section": "decisions",
+  "item": "The team will not work with teletext."
+ },
+ {
+  "id": "D2",
+  "section": "decisions",
+  "item": "The remote will be used only with televisions."
+ },
+ {
+  "id": "D3",
+  "section": "decisions",
+  "item": "The corporate image must be recognizable on the remote."
+ },
+ {
+  "id": "D4",
+  "section": "decisions",
+  "item": "The team's design will focus on simplicity and fashion."
+ },
+ {
+  "id": "D5",
+  "section": "decisions",
+  "item": "Rather than define a specific target group by age, the team will define objectives such as fashion and simplicity instead."
+ },
+ {
+  "id": "D6",
+  "section": "decisions",
+  "item": "The remote will contain a function to aid in its recovery when lost."
+ },
+ {
+  "id": "D7",
+  "section": "decisions",
+  "item": "The remote will have large buttons for essential functions."
+ },
+ {
+  "id": "D8",
+  "section": "decisions",
+  "item": "The remote will have a possibility to get extra functions."
+ },
+ {
+  "id": "D9",
+  "section": "decisions",
+  "item": "The buttons for extra, infrequently used functions will be hidden in the design in some manner."
+ },
+ {
+  "id": "D10",
+  "section": "decisions",
+  "item": "The remote will have a charging station."
+ },
+ {
+  "id": "P1",
+  "section": "problems",
+  "item": "Deciding on a target group."
+ },
+ {
+  "id": "P2",
+  "section": "problems",
+  "item": "Whether to include speech recognition in the design of the remote."
+ },
+ {
+  "id": "P3",
+  "section": "problems",
+  "item": "How to make infra-red more functional."
+ },
+ {
+  "id": "P4",
+  "section": "problems",
+  "item": "What sort of battery to use."
+ }
+]

@@ -1,0 +1,142 @@
+{
+ "items": [
+  {
+   "id": "S1",
+   "verdict": "correct",
+   "evidence": "The notes say, \"Andrei presented the new UniMile rooms,\" and describe the sixth-floor layout and room capacities."
+  },
+  {
+   "id": "S2",
+   "verdict": "partial",
+   "evidence": "The notes cover occupancy counts and the lounge's impact on available positions, but omit the question about changing the stated capacity of individual offices."
+  },
+  {
+   "id": "S3",
+   "verdict": "partial",
+   "evidence": "Furniture and equipment constraints are covered, including space for \"a photocopier, fax machine, and printer.\" The discussion about potentially not getting the promised space is missing."
+  },
+  {
+   "id": "S4",
+   "verdict": "correct",
+   "evidence": "The notes describe discussions of staff assignments, room sharing, project grouping, and personal preferences."
+  },
+  {
+   "id": "S5",
+   "verdict": "partial",
+   "evidence": "The notes cover professor/student sharing, project grouping, phone disturbance, splitting rooms, meeting space, visitors, Gisella, and admin space. They mention the no-smoking rule but omit where people can smoke."
+  },
+  {
+   "id": "S6",
+   "verdict": "missed",
+   "evidence": "The cafeteria discussion and coffee-machine locations are absent."
+  },
+  {
+   "id": "A1",
+   "verdict": "correct",
+   "evidence": "\"Find out whether the rooms can be separated, including the required authorization (owner: Andrei).\""
+  },
+  {
+   "id": "A2",
+   "verdict": "missed",
+   "evidence": "The notes omit Andrei's commitment to investigate placing Gisella with the school's other administrative staff."
+  },
+  {
+   "id": "A3",
+   "verdict": "correct",
+   "evidence": "The notes say the group \"planned to bring individual preferences and a draft proposal to a follow-up.\""
+  },
+  {
+   "id": "A4",
+   "verdict": "correct",
+   "evidence": "\"Andrei asked participants to gather preferences and bring a sketch or coherent proposal.\""
+  },
+  {
+   "id": "A5",
+   "verdict": "correct",
+   "evidence": "The notes describe gathering individual preferences and preparing a draft or coherent allocation proposal."
+  },
+  {
+   "id": "A6",
+   "verdict": "partial",
+   "evidence": "\"Another group is developing a separate allocation proposal for later comparison.\" The notes do not explicitly say the proposals will be merged."
+  },
+  {
+   "id": "A7",
+   "verdict": "correct",
+   "evidence": "\"Susan will ask Maggie and Pierrette about their room preferences.\""
+  },
+  {
+   "id": "A8",
+   "verdict": "correct",
+   "evidence": "\"The group discussed meeting the following Tuesday afternoon, around 2 p.m.\""
+  },
+  {
+   "id": "D1",
+   "verdict": "correct",
+   "evidence": "\"The group leaned away from project-based seating.\" This accurately reflects the transcript's rejection of project grouping as the organizing principle, although no final layout was adopted."
+  },
+  {
+   "id": "D2",
+   "verdict": "correct",
+   "evidence": "The answer key overstates a decision: the transcript leaves Gisella's placement unresolved and questions seating a senior visitor with admin. The notes accurately say her placement was \"unresolved\" and describe both single-person and two-person options."
+  },
+  {
+   "id": "D3",
+   "verdict": "missed",
+   "evidence": "The notes do not state that there will be no cafeteria."
+  },
+  {
+   "id": "P1",
+   "verdict": "missed",
+   "evidence": "The notes list nominal room capacities but omit whether extra people or desks could fit in two- or three-person rooms."
+  },
+  {
+   "id": "P2",
+   "verdict": "correct",
+   "evidence": "The notes state that \"preferences and constraints still need to be gathered\" and discuss individual requirements affecting assignments."
+  },
+  {
+   "id": "P3",
+   "verdict": "correct",
+   "evidence": "The notes discuss project-based seating and the difficulties of \"sharing between professors and their students.\""
+  },
+  {
+   "id": "P4",
+   "verdict": "correct",
+   "evidence": "\"Susan proposed asking whether a two-person room could be split for more privacy.\""
+  },
+  {
+   "id": "P5",
+   "verdict": "partial",
+   "evidence": "The notes discuss the lounge's space cost and possible functions, but do not explicitly capture the question of whether a lounge is necessary."
+  },
+  {
+   "id": "P6",
+   "verdict": "correct",
+   "evidence": "The notes describe preserving visitor space and using the lounge as \"overflow workspace for visitors.\""
+  },
+  {
+   "id": "P7",
+   "verdict": "correct",
+   "evidence": "\"Gisela's administrative phone work makes room placement a specific constraint.\""
+  },
+  {
+   "id": "P8",
+   "verdict": "correct",
+   "evidence": "The notes discuss a single-person room for admin and a two-person alternative whose \"second position would need a purpose.\""
+  },
+  {
+   "id": "P9",
+   "verdict": "missed",
+   "evidence": "The question of whether there will be a cafeteria is absent."
+  },
+  {
+   "id": "P10",
+   "verdict": "missed",
+   "evidence": "The locations of the coffee machines are absent."
+  }
+ ],
+ "errors": [],
+ "judge_model": "ChatGPT",
+ "judge_model_served": "gpt-6.1-sol"
+}

@@ -1,0 +1,158 @@
+{
+ "items": [
+  {
+   "id": "S1",
+   "verdict": "missed",
+   "evidence": "The notes omit the project manager's opening and agenda."
+  },
+  {
+   "id": "S2",
+   "verdict": "correct",
+   "evidence": "The notes include willingness to pay more for style, frustration with losing remotes, younger users' preference for voice recognition, frequently used channel/volume buttons, and 'Less is more design principle.'"
+  },
+  {
+   "id": "S3",
+   "verdict": "partial",
+   "evidence": "'Aim for conventional layout' and 'Room for novel design' capture some design guidance, but the notes omit the communication-device explanation and the proposed specifications, prototypes, and feedback process."
+  },
+  {
+   "id": "S4",
+   "verdict": "partial",
+   "evidence": "'Fully featured vs basic remotes' captures the comparison, but does not explicitly identify two existing products or explain each design's advantages and disadvantages."
+  },
+  {
+   "id": "S5",
+   "verdict": "correct",
+   "evidence": "'Chip converts energy to data' and 'Four parts: battery, chip, user, infrared bulb' summarize the industrial designer's explanation."
+  },
+  {
+   "id": "S6",
+   "verdict": "correct",
+   "evidence": "The notes cover new requirements, target-market discussion, voice recognition, a remote-loss feature, and battery options."
+  },
+  {
+   "id": "A1",
+   "verdict": "missed",
+   "evidence": "The requirement for each team member to complete a questionnaire and summary is absent."
+  },
+  {
+   "id": "A2",
+   "verdict": "missed",
+   "evidence": "The planned individual work period is absent."
+  },
+  {
+   "id": "A3",
+   "verdict": "missed",
+   "evidence": "The project manager's commitment to post minutes and project documentation is absent."
+  },
+  {
+   "id": "A4",
+   "verdict": "missed",
+   "evidence": "The request for team members to post their project documentation is absent."
+  },
+  {
+   "id": "A5",
+   "verdict": "missed",
+   "evidence": "The industrial designer's components-concept assignment is absent."
+  },
+  {
+   "id": "A6",
+   "verdict": "missed",
+   "evidence": "The user interface designer's user-interface-concept assignment is absent."
+  },
+  {
+   "id": "A7",
+   "verdict": "missed",
+   "evidence": "The marketing expert's trend-watching assignment is absent; 'Provide updated market research data' is a different follow-up."
+  },
+  {
+   "id": "D1",
+   "verdict": "correct",
+   "evidence": "'No Teletext support.'"
+  },
+  {
+   "id": "D2",
+   "verdict": "correct",
+   "evidence": "'Focus only TV remote.'"
+  },
+  {
+   "id": "D3",
+   "verdict": "partial",
+   "evidence": "'Use corporate yellow/black colors' captures part of the requirement, but omits the slogan and the explicit requirement for a recognizable corporate image."
+  },
+  {
+   "id": "D4",
+   "verdict": "correct",
+   "evidence": "'Emphasize simplicity and fashion.'"
+  },
+  {
+   "id": "D5",
+   "verdict": "wrong",
+   "evidence": "'Target group 15-35 years' presents an abandoned proposal as the target. At 31:32, the project manager instead favors defining objectives such as fashion and simplicity rather than an age group."
+  },
+  {
+   "id": "D6",
+   "verdict": "correct",
+   "evidence": "'Prevent remote loss feature' captures the agreed feature addressing lost remotes."
+  },
+  {
+   "id": "D7",
+   "verdict": "correct",
+   "evidence": "'Large buttons for essentials.'"
+  },
+  {
+   "id": "D8",
+   "verdict": "correct",
+   "evidence": "'Hidden advanced functions' indicates that extra functions will remain available."
+  },
+  {
+   "id": "D9",
+   "verdict": "correct",
+   "evidence": "'Hidden advanced functions.'"
+  },
+  {
+   "id": "D10",
+   "verdict": "correct",
+   "evidence": "'Rechargeable via cradle possible' accurately reflects the transcript. The answer key overstates certainty: the team retained the charging-station idea for consideration, rather than unequivocally deciding the remote would have one."
+  },
+  {
+   "id": "P1",
+   "verdict": "wrong",
+   "evidence": "'Target group 15-35 years' portrays the target as settled, whereas the transcript shows difficulty narrowing it down and ultimately a move away from age-based targeting."
+  },
+  {
+   "id": "P2",
+   "verdict": "correct",
+   "evidence": "'Voice recognition rejected (price)' and '\u20ac12.5 production cost limit' capture the option and its cost concern."
+  },
+  {
+   "id": "P3",
+   "verdict": "partial",
+   "evidence": "'Reliable infrared signal' captures the desired improvement, but the notes omit the discussion of how battery and component quality might improve infrared functionality."
+  },
+  {
+   "id": "P4",
+   "verdict": "correct",
+   "evidence": "'Battery options considered,' 'Rechargeable via cradle possible,' and 'Minimize battery changes' capture the battery discussion."
+  }
+ ],
+ "errors": [
+  {
+   "claim": "Target group 15-35 years",
+   "why_wrong": "This was an initial proposal based on voice-recognition preferences, not the final target. The team subsequently favored fashion and simplicity objectives over a specific age group.",
+   "kind": "decision_described_wrongly"
+  },
+  {
+   "claim": "Unassigned \u2014 Provide updated market research data",
+   "why_wrong": "The marketing expert offered to email additional age-related figures before the next meeting if any became available. That conditional follow-up had an identified owner, rather than being unassigned.",
+   "kind": "wrong_person"
+  },
+  {
+   "claim": "Investigate technical feasibility for rechargeable battery",
+   "why_wrong": "The team considered a rechargeable battery and cradle, but nobody agreed to a technical-feasibility investigation. The separate suggestion to investigate whether a battery was needed at all does not establish this task.",
+   "kind": "invented_action_item"
+  }
+ ],
+ "judge_model": "ChatGPT",
+ "judge_model_served": "gpt-6.1-sol"
+}

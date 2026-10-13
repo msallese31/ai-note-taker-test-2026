@@ -1,0 +1,88 @@
+{
+ "items": [
+  {
+   "id": "S1",
+   "verdict": "correct",
+   "evidence": "The notes describe the objective as designing an 'original, trendy, and user-friendly television remote control.'"
+  },
+  {
+   "id": "S2",
+   "verdict": "correct",
+   "evidence": "The notes identify all four roles and describe marketing's user-needs work, the UI designer's user perspective, and the industrial designer's work on components, materials, and aesthetics."
+  },
+  {
+   "id": "S3",
+   "verdict": "correct",
+   "evidence": "The notes state 'three design phases, starting with functional design' and individual work followed by meetings. The transcript supports this structure, rather than explicitly specifying the answer key's 'three further meetings.'"
+  },
+  {
+   "id": "S4",
+   "verdict": "correct",
+   "evidence": "The notes describe the project manager's smart-board demonstration, including pens, erasers, and line formats."
+  },
+  {
+   "id": "S5",
+   "verdict": "correct",
+   "evidence": "The notes give a target selling price of 25 euros and an approximate production cost of 12.50 euros."
+  },
+  {
+   "id": "S6",
+   "verdict": "correct",
+   "evidence": "The notes describe every team member drawing a favorite animal on the smart board: dolphin, elephant, tiger, and ant."
+  },
+  {
+   "id": "S7",
+   "verdict": "correct",
+   "evidence": "The initial product discussion includes lightweight materials, intuitive design, and usability for disabled users."
+  },
+  {
+   "id": "A1",
+   "verdict": "correct",
+   "evidence": "The answer key marks this NA. The notes' research and interface-design action items reflect role responsibilities and directions actually given in the transcript, rather than additional invented assignments."
+  },
+  {
+   "id": "D1",
+   "verdict": "partial",
+   "evidence": "The outline correctly says the scope is 'limited to a TV remote control rather than a multi-remote system,' but the summary inconsistently presents that settled scope as an open question."
+  },
+  {
+   "id": "D2",
+   "verdict": "correct",
+   "evidence": "The notes call for an intuitive interface that 'remains familiar to users,' accurately capturing the caution against revolutionary changes."
+  },
+  {
+   "id": "D3",
+   "verdict": "correct",
+   "evidence": "The notes say the team 'considers usability for disabled users,' matching the agreement to take those issues into consideration."
+  },
+  {
+   "id": "D4",
+   "verdict": "partial",
+   "evidence": "The notes say the industrial designer 'suggests using lightweight materials,' but do not explicitly record the project manager's acceptance: 'It should be light, okay.'"
+  },
+  {
+   "id": "P1",
+   "verdict": "correct",
+   "evidence": "The answer key marks this NA; the notes do not introduce a separate project-problems list."
+  }
+ ],
+ "errors": [
+  {
+   "claim": "The project is identified as TS3012a.",
+   "why_wrong": "No project identifier is given anywhere in the transcript.",
+   "kind": "wrong_fact"
+  },
+  {
+   "claim": "Whether the device should be a multi-remote or limited to television functions is an open design question.",
+   "why_wrong": "The project manager explicitly confirms that the assignment is for a TV remote control, and the UI designer acknowledges that answer.",
+   "kind": "decision_described_wrongly"
+  },
+  {
+   "claim": "The industrial designer suggests lightweight materials that are aesthetically impactful.",
+   "why_wrong": "The industrial designer proposes light materials, but does not add an 'aesthetically impactful' requirement to that proposal.",
+   "kind": "other_invented"
+  }
+ ],
+ "judge_model": "gpt-5.2",
+ "judge_model_served": "gpt-6.1-sol"
+}

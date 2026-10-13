@@ -1,0 +1,101 @@
+{
+  "items": [
+    {
+      "id": "S1",
+      "verdict": "partial",
+      "evidence": "The notes have a full 'Prototype Design' section describing what was shown, but never say that the User Interface Designer presented it (or that anyone presented it)."
+    },
+    {
+      "id": "S2",
+      "verdict": "correct",
+      "evidence": "'Flip panel with yellow LCD display' and 'Customizable backing panel (front and back)'."
+    },
+    {
+      "id": "S3",
+      "verdict": "correct",
+      "evidence": "'Target budget: €12.50 per unit', 'Current production cost: €9.95 (under budget)', 'LCD display adds ~€2 to €3 per unit, bringing total to ~€12 to €12.50'. Note the transcript does not quite support the key's 'would not allow': after adding the display the Marketing Expert says 'now we're up around about twelve, twelve and a half' and the Industrial Designer concludes 'so that means we can put the LCD in'. The notes match the transcript."
+    },
+    {
+      "id": "S4",
+      "verdict": "partial",
+      "evidence": "'Plan to negotiate with vendors to reduce production cost further' and the next step 'Negotiate with vendors to reduce production cost' are stated, but no owner is given. The notes give the purpose as 'free up budget for marketing and promotions', which is what the Project Manager actually said in the transcript ('save some money to put into our marketing or the promotions'); the key's 'to allow the addition of the display' is not what the transcript shows."
+    },
+    {
+      "id": "S5",
+      "verdict": "partial",
+      "evidence": "The numbers are there ('Market size: 8 to 9 million units/year', 'Company target: 2 million units in year one = 25% market share', 'Required profit per unit: €25 to hit €50M total profit target'), but the notes do not say the Marketing Expert presented them, and do not state his conclusion that reaching the profit aim is doubtful ('a tremendous amount', 'we're gonna have to go a long ways', 'Can the company sell two million units?')."
+    },
+    {
+      "id": "S6",
+      "verdict": "correct",
+      "evidence": "'Online-first sales channel proposed: Drop-ship direct to customer', 'Sell via Amazon or eBay', 'Web configurator lets buyers visualize customization options'."
+    },
+    {
+      "id": "S7",
+      "verdict": "partial",
+      "evidence": "'Concern raised: no redesign window built into timeline if user testing surfaces issues' and 'Decision: proceed with current model for market introduction; gather feedback for second generation'. Neither the person who raised the concern (User Interface Designer) nor the person who decided (Project Manager, over her objection) is named."
+    },
+    {
+      "id": "S8",
+      "verdict": "correct",
+      "evidence": "'Strategy proposed: sync launch with a major sports event (e.g., World Cup)' and 'Partnership idea: work with studios (e.g., Sony Pictures) on DVD release tie-ins'."
+    },
+    {
+      "id": "A1",
+      "verdict": "partial",
+      "evidence": "Next step 'Negotiate with vendors to reduce production cost' is listed, but without an owner (the Project Manager said 'I will try to negotiate with the vendors... I will speak to the management'), and the 'speak to management' part is missing."
+    },
+    {
+      "id": "A2",
+      "verdict": "partial",
+      "evidence": "Next step 'Explore partnership with Sony Pictures or similar studio' is listed, but with no owner and without the point that the Project Manager will take it to management ('I will convince the management to do that')."
+    },
+    {
+      "id": "A3",
+      "verdict": "missed",
+      "evidence": "Nothing in the notes about the Marketing Expert's work starting after production ('let's leave it to the Ed for later for once production is over')."
+    },
+    {
+      "id": "A4",
+      "verdict": "correct",
+      "evidence": "'Complete prototype production evaluation. External facility; target 2 to 4 weeks before production sign-off.' The transcript clarifies these are prototypes ('Prototypes, you mean' / 'Yes, the prototype product evaluation'), which the notes reflect."
+    },
+    {
+      "id": "D1",
+      "verdict": "partial",
+      "evidence": "Microphone: the notes say 'Microphone placement unresolved: under flip ruled out; sides proposed as best option', which is softer than the key's 'will be placed on the side' (the transcript is itself soft: Project Manager 'the sides maybe is good. So that's good idea'). LCD: the notes list the LCD as part of the design and show the cost with it fits the budget, but never state as a decision that the display will be included ('so that means we can put the LCD in')."
+    },
+    {
+      "id": "D2",
+      "verdict": "partial",
+      "evidence": "'Plan to negotiate with vendors to reduce production cost further' is stated but not attributed to the Project Manager. Per the transcript the stated purpose was money for marketing, not the display, and the notes follow the transcript on that."
+    },
+    {
+      "id": "D3",
+      "verdict": "correct",
+      "evidence": "Next steps 'Align launch timing with a major sports event' and 'Explore partnership with Sony Pictures or similar studio. Tie remote launch to a major DVD release for co-marketing.'"
+    },
+    {
+      "id": "D4",
+      "verdict": "partial",
+      "evidence": "'Decision: proceed with current model for market introduction; gather feedback for second generation' covers the substance ('no more changes will be made in this the basic design'), but does not say the Project Manager made the decision, nor that it was over the User Interface Designer's objection."
+    },
+    {
+      "id": "D5",
+      "verdict": "correct",
+      "evidence": "'Prototype evaluation: 2 to 4 weeks (external facility, not in-house)' and 'Complete prototype production evaluation... before production sign-off'. The transcript shows the evaluation is of prototypes produced outside the factory, then 'the real production we will start once we product evaluation'; the key's 'rather than evaluating the prototype' is not what the transcript shows, and the notes follow the transcript."
+    },
+    {
+      "id": "P1",
+      "verdict": "partial",
+      "evidence": "The notes give the cost picture ('LCD display adds ~€2 to €3 per unit, bringing total to ~€12 to €12.50') and the profit math, but do not state the problem that the price point and 25% share make the €50M profit goal doubtful, nor any need to rework the budget. Per the transcript the budget does cover the components once the display is added (~12 to 12.5 against 12.5), so the key's 'would not cover' is not quite supported either."
+    },
+    {
+      "id": "P2",
+      "verdict": "partial",
+      "evidence": "'Concern raised: no redesign window built into timeline if user testing surfaces issues' states one side, but the notes do not show the disagreement (the Project Manager pushing back, 'that's the reason you are here for the design', and the User Interface Designer saying 'your evaluation and redesign turnaround time is too short')."
+    }
+  ],
+  "errors": [],
+  "judge_model": "Fable 5.1 (claude-fable-5-1)"
+}

@@ -1,0 +1,178 @@
+{
+ "05bd72": {
+  "version": "v1-objective",
+  "judge": "opus",
+  "rotation": 0,
+  "mapping": {
+   "A": "scribbl",
+   "B": "granola",
+   "C": "fireflies",
+   "D": "otter"
+  }
+ },
+ "e9212c": {
+  "version": "v1-objective",
+  "judge": "opus",
+  "rotation": 1,
+  "mapping": {
+   "A": "granola",
+   "B": "fireflies",
+   "C": "otter",
+   "D": "scribbl"
+  }
+ },
+ "b85516": {
+  "version": "v1-objective",
+  "judge": "opus",
+  "rotation": 2,
+  "mapping": {
+   "A": "fireflies",
+   "B": "otter",
+   "C": "scribbl",
+   "D": "granola"
+  }
+ },
+ "f29ae6": {
+  "version": "v1-objective",
+  "judge": "opus",
+  "rotation": 3,
+  "mapping": {
+   "A": "otter",
+   "B": "scribbl",
+   "C": "granola",
+   "D": "fireflies"
+  }
+ },
+ "82d062": {
+  "version": "v1-objective",
+  "judge": "fable",
+  "rotation": 0,
+  "mapping": {
+   "A": "scribbl",
+   "B": "granola",
+   "C": "fireflies",
+   "D": "otter"
+  }
+ },
+ "93d387": {
+  "version": "v1-objective",
+  "judge": "fable",
+  "rotation": 1,
+  "mapping": {
+   "A": "granola",
+   "B": "fireflies",
+   "C": "otter",
+   "D": "scribbl"
+  }
+ },
+ "0139da": {
+  "version": "v1-objective",
+  "judge": "fable",
+  "rotation": 2,
+  "mapping": {
+   "A": "fireflies",
+   "B": "otter",
+   "C": "scribbl",
+   "D": "granola"
+  }
+ },
+ "384e97": {
+  "version": "v1-objective",
+  "judge": "fable",
+  "rotation": 3,
+  "mapping": {
+   "A": "otter",
+   "B": "scribbl",
+   "C": "granola",
+   "D": "fireflies"
+  }
+ },
+ "fd9a7c": {
+  "version": "v1-objective",
+  "judge": "sonnet",
+  "rotation": 0,
+  "mapping": {
+   "A": "scribbl",
+   "B": "granola",
+   "C": "fireflies",
+   "D": "otter"
+  }
+ },
+ "383783": {
+  "version": "v1-objective",
+  "judge": "sonnet",
+  "rotation": 1,
+  "mapping": {
+   "A": "granola",
+   "B": "fireflies",
+   "C": "otter",
+   "D": "scribbl"
+  }
+ },
+ "1ad5ed": {
+  "version": "v1-objective",
+  "judge": "sonnet",
+  "rotation": 2,
+  "mapping": {
+   "A": "fireflies",
+   "B": "otter",
+   "C": "scribbl",
+   "D": "granola"
+  }
+ },
+ "00a181": {
+  "version": "v1-objective",
+  "judge": "sonnet",
+  "rotation": 3,
+  "mapping": {
+   "A": "otter",
+   "B": "scribbl",
+   "C": "granola",
+   "D": "fireflies"
+  }
+ },
+ "o8dce9": {
+  "version": "v1-objective",
+  "judge": "gpt-6.1-sol",
+  "rotation": 0,
+  "mapping": {
+   "A": "scribbl",
+   "B": "granola",
+   "C": "fireflies",
+   "D": "otter"
+  }
+ },
+ "o136e9": {
+  "version": "v1-objective",
+  "judge": "gpt-6.1-sol",
+  "rotation": 1,
+  "mapping": {
+   "A": "granola",
+   "B": "fireflies",
+   "C": "otter",
+   "D": "scribbl"
+  }
+ },
+ "o06b54": {
+  "version": "v1-objective",
+  "judge": "gpt-6.1-sol",
+  "rotation": 2,
+  "mapping": {
+   "A": "fireflies",
+   "B": "otter",
+   "C": "scribbl",
+   "D": "granola"
+  }
+ },
+ "oab373": {
+  "version": "v1-objective",
+  "judge": "gpt-6.1-sol",
+  "rotation": 3,
+  "mapping": {
+   "A": "otter",
+   "B": "scribbl",
+   "C": "granola",
+   "D": "fireflies"
+  }
+ }
+}

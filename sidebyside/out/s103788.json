@@ -1,0 +1,120 @@
+{
+  "judge_model": "claude-fable-5-1",
+  "evaluations": [
+    {
+      "label": "A",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 5},
+        {"criterion": "completeness", "score": 8},
+        {"criterion": "decisions_and_actions", "score": 5},
+        {"criterion": "usefulness", "score": 5}
+      ],
+      "overall": 5.75,
+      "errors": [
+        "Action item 'Andrei - Follow up with absent team members (Maggie, Pierrette) to gather their office arrangement preferences' assigns the wrong owner; Susan volunteered to ask Maggie and Pierrette (30:54).",
+        "Action item 'Andrei - Distribute documents of the new office configuration to all participants' is not an action item; the documents were handed out during the meeting (03:07).",
+        "'Coffee and vending machines available within the building, but no dedicated cafeteria' is wrong; Susan says there is a cafeteria downstairs that closes at five (31:46).",
+        "'Management recognizes this [the lounge] as a priority due to previously lengthy discussions on its value' is unsupported; the only reference to lengthy discussions was Martin's aside to Susan about valorizing the time spent debating the room (05:13) and his later remark that the discussion is still open (29:32).",
+        "'This regulation affects seating preferences' (smoking) is unsupported; the transcript says the no-smoking rule removed a constraint, nothing about affecting preferences.",
+        "'Growth is effectively zero unless visitors or temporary staff share existing desks' adds a qualifier nobody said; Martin simply said growth would be zero (05:48).",
+        "'Project grouping seen as less important than proximity to meeting rooms' misstates the argument; the point was that projects change and meeting rooms serve collaboration, not that proximity to meeting rooms matters more.",
+        "'The team expects to manage this through proposals and iterative feedback rather than direct surveys' overstates; Andre still asked everyone to poll colleagues directly (30:30).",
+        "Building spelled 'Unimile'; the transcript says Unimail."
+      ],
+      "strengths": [
+        "Most complete coverage of topics: furniture, equipment, lounge debate, room splitting, Gisella's placement, smoking, coffee, visitor overflow, the other group's parallel proposal.",
+        "Correctly captures the three investigations Andre took on (room splitting, four desks in a 3P room, admin placement with the school) and the request for sketches or slides.",
+        "Opening summary gives a quick orientation."
+      ],
+      "weaknesses": [
+        "Very long and repetitive; growth limits and room-splitting hurdles appear in three or four sections each.",
+        "Little attribution of who said what, so disagreements (Susan questioning the lounge, Martin rejecting project grouping) read as consensus.",
+        "Action items contain a wrong owner and a non-existent task, which undermines trust in the list someone would actually act on.",
+        "Several generic filler statements ('Open dialogue is encouraged', 'Space for these shared devices is a key logistical consideration') add length without information."
+      ]
+    },
+    {
+      "label": "B",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 8},
+        {"criterion": "completeness", "score": 7},
+        {"criterion": "decisions_and_actions", "score": 7},
+        {"criterion": "usefulness", "score": 8}
+      ],
+      "overall": 7.5,
+      "errors": [
+        "'Shared space with another group' implies the physical space is shared; the transcript says another group is separately proposing an allocation for the same rooms (06:02, 09:11).",
+        "'Majority lean toward a mixed-use room' is unsupported; Martin said he belongs to the people who want a mixed room and Susan wanted overflow space, but no majority was established (29:32).",
+        "'Strong support for a dedicated lounge/reading room' omits that Susan openly questioned whether it is needed (05:01).",
+        "'give her a 2P room with a visitor slot' presents the visitor-slot idea without the pushback; Martin said putting a senior visitor in the admin office is not realistic, only an exchange student or intern (26:57-27:14).",
+        "'a corridor of contiguous 1P, 2P, and 3P rooms'; Andre says several corridors.",
+        "Building spelled 'Unimile'; the transcript says Unimail."
+      ],
+      "strengths": [
+        "Concise and well organized; the key numbers (15 people, 18 positions, 16 after a 2P reading room) are correct.",
+        "Correct attributions for Susan's and Martin's positions, the rejection of project grouping, the smoking point, the Gisella options and the room-splitting status.",
+        "Next steps list is the most complete of the four: room separation, four desks in a 3P room, Gisella with school admin, Maggie and Pierrette, draft proposals, Tuesday 2 PM after the MDM meeting."
+      ],
+      "weaknesses": [
+        "Next steps carry no owners; Andre took on the first three investigations and Susan took on Maggie and Pierrette, but the notes do not say so.",
+        "Omits David's stated preference to share with an assistant, the point that there are only two 1P rooms for four professors, and that only one slot is fully free for visitors.",
+        "Omits Martin's warning that people will not say whom they do not want to sit with, which shaped how preferences will be collected."
+      ]
+    },
+    {
+      "label": "C",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 6},
+        {"criterion": "completeness", "score": 5},
+        {"criterion": "decisions_and_actions", "score": 3},
+        {"criterion": "usefulness", "score": 4}
+      ],
+      "overall": 4.5,
+      "errors": [
+        "'Action Items: (none)' is wrong; Andre agreed to find out about room separation, four places in a 3P room and the admin placement, Susan agreed to ask Maggie and Pierrette, and everyone was asked to bring a proposal.",
+        "'to accommodate approximately 15 to 18 people' misstates the numbers; there are 15 people and about 18 positions.",
+        "'Speaker 1 noted that some roles involve frequent phone calls or confidential discussions regarding budgets' blends two speakers; the budget example came from Martin (16:55) while the rectorate confidentiality came from Susan (16:15).",
+        "'negotiation with other groups in the building' overstates; there is one other group proposing an allocation.",
+        "'Members were tasked with consulting colleagues, such as Maggie and Pierrette' misses that Susan specifically volunteered for Maggie and Pierrette.",
+        "Building spelled 'Unimile'; the transcript says Unimail."
+      ],
+      "strengths": [
+        "Open questions list is accurate and useful: partitioning, four in a 3P room, lounge purpose, professors' preference for own offices.",
+        "Correctly records the next meeting as Tuesday 2:00 PM and that concrete proposals are expected."
+      ],
+      "weaknesses": [
+        "Speaker numbers (Speaker 1, 3, 4) are used alongside names, so a reader cannot tell who holds which position.",
+        "Omits the 16-slot consequence of a reading room, the zero-growth concern, the smoking change, the coffee question, the option of placing Gisella with the school's admin, and Martin's point about how to elicit preferences.",
+        "Empty action-item section makes the notes nearly useless for follow-through.",
+        "Summary and outline repeat each other with little added detail."
+      ]
+    },
+    {
+      "label": "D",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 9},
+        {"criterion": "completeness", "score": 7},
+        {"criterion": "decisions_and_actions", "score": 7},
+        {"criterion": "usefulness", "score": 8}
+      ],
+      "overall": 7.75,
+      "errors": [
+        "Building spelled 'UniMile'; the transcript says Unimail.",
+        "'There are 15 people and about 18 office positions, including part-time staff' is slightly muddled; the 18 counts positions including the reading room, the 15 people include the part-timers."
+      ],
+      "strengths": [
+        "Highest accuracy: every attributed statement checks out (Martin on zero growth, Martin on meeting rooms, Susan on rectorate confidentiality and room splitting, Martin on speaking only for oneself).",
+        "Clearly separates what was fixed (room count), what was decided (own desk each, no project grouping, Tuesday 2 PM) and what was left open (lounge purpose, Gisella's placement).",
+        "Action items have correct owners: Andre on room separation, Susan on Maggie and Pierrette.",
+        "Short enough to read in a minute, with timestamps that match the transcript."
+      ],
+      "weaknesses": [
+        "Action items are incomplete: missing Andre checking whether four places fit in a 3P room (20:14), Andre asking about placing Gisella with the school's admin (24:34), and every attendee bringing a sketch or proposal (30:30).",
+        "Omits David's preference to share with an assistant, the two 1P rooms for four professors, the coffee and cafeteria answer, and the MDM meeting reason for the afternoon slot.",
+        "Phrases the next meeting as 'discussed' when it was agreed."
+      ]
+    }
+  ],
+  "ranking": ["D", "B", "A", "C"],
+  "rationale": "D is the most trustworthy: its attributions and numbers are right, it names owners for the two action items it lists, and it distinguishes decided from open, though it leaves out three follow-ups. B is close behind with a fuller next-steps list and good concision, but drops the owners and makes a few overstatements ('majority', 'strong support', 'shared space'). A covers the most ground but is bloated and its action items contain a wrong owner (Andre instead of Susan for Maggie and Pierrette), a fabricated task (distributing documents) and a false claim that there is no cafeteria. C misstates the headcount, mixes speaker numbers with names, and reports no action items at all, so someone who missed the meeting could not act on it."
+}

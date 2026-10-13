@@ -1,0 +1,88 @@
+{
+ "items": [
+  {
+   "id": "S1",
+   "verdict": "correct",
+   "evidence": "The notes describe an 'original, trendy, user-friendly television remote.'"
+  },
+  {
+   "id": "S2",
+   "verdict": "partial",
+   "evidence": "The notes list all four team roles and discuss usability and materials, but omit the marketing expert's responsibility for investigating user needs and the industrial designer's responsibility for the apparatus's internal workings."
+  },
+  {
+   "id": "S3",
+   "verdict": "correct",
+   "evidence": "The notes state that there are 'three design phases,' that 'the first phase is functional design,' and that individual work precedes a meeting. The transcript supports this formulation rather than explicitly specifying the answer key's 'three further meetings.'"
+  },
+  {
+   "id": "S4",
+   "verdict": "missed",
+   "evidence": "The notes mention whiteboard use but omit the project manager's equipment overview and demonstration of the board's pens, eraser, formatting controls, and slides."
+  },
+  {
+   "id": "S5",
+   "verdict": "correct",
+   "evidence": "The notes give a '\u20ac25 selling price and an approximate \u20ac12.50 production price.'"
+  },
+  {
+   "id": "S6",
+   "verdict": "correct",
+   "evidence": "The whiteboard section records all four participants' animal drawings: dolphin, elephant, tiger, and ant."
+  },
+  {
+   "id": "S7",
+   "verdict": "correct",
+   "evidence": "The notes cover the subsequent discussion of intuitive controls, accessibility, and lightweight materials."
+  },
+  {
+   "id": "A1",
+   "verdict": "wrong",
+   "evidence": "The answer key lists no action items, but the notes assign 'Share the marketing ideas at the follow-up' to Dirk. The transcript does not establish that specific follow-up assignment."
+  },
+  {
+   "id": "D1",
+   "verdict": "correct",
+   "evidence": "The notes state: 'The assignment is for a TV remote, not a multi-device remote.'"
+  },
+  {
+   "id": "D2",
+   "verdict": "partial",
+   "evidence": "The notes accurately mention familiarity and intuitive design, but 'urged familiarity and rational changes' misrepresents the designer's warning against revolutionary changes."
+  },
+  {
+   "id": "D3",
+   "verdict": "correct",
+   "evidence": "The notes say the interface designer raised accessibility and Mark 'agreed accessibility should be considered.'"
+  },
+  {
+   "id": "D4",
+   "verdict": "correct",
+   "evidence": "The notes state that Xavier proposed lightweight material and include lightness among the design considerations."
+  },
+  {
+   "id": "P1",
+   "verdict": "correct",
+   "evidence": "No separate problem or blocker is invented. The observations about whiteboard responsiveness and the limited production budget are supported by the transcript."
+  }
+ ],
+ "errors": [
+  {
+   "claim": "The interface designer urged familiarity and rational changes.",
+   "why_wrong": "He urged familiarity and warned against revolutionary changes. He did not advocate 'rational changes'; that wording comes from a disfluent phrase he immediately corrected.",
+   "kind": "wrong_fact"
+  },
+  {
+   "claim": "Share the marketing ideas at the follow-up (owner: Dirk Mengveld).",
+   "why_wrong": "Dirk said he had some ideas, but no one explicitly assigned or agreed to this task for the follow-up meeting.",
+   "kind": "invented_action_item"
+  },
+  {
+   "claim": "Project materials will be kept in the project folder. [01:08]",
+   "why_wrong": "The project-folder instruction occurs at 03:23, not 01:08. The underlying instruction is accurate, but its timestamp is wrong.",
+   "kind": "wrong_fact"
+  }
+ ],
+ "judge_model": "gpt-5",
+ "judge_model_served": "gpt-6.1-sol"
+}

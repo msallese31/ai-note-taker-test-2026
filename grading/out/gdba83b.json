@@ -1,0 +1,77 @@
+{
+  "items": [
+    {
+      "id": "S1",
+      "verdict": "correct",
+      "evidence": "Notes: \"Mark framed the work as a three-phase design project for an original, trendy, user-friendly television remote\" and \"The design should be original, trendy, and user-friendly.\""
+    },
+    {
+      "id": "S2",
+      "verdict": "partial",
+      "evidence": "Notes list the four roles (\"The project manager, marketing expert, user-interface designer, and industrial designer kicked off a TV remote-control project\") but do not state what each is responsible for: user needs (marketing), usability / user point of view (UI designer), what is inside, what it is made of and what it looks like (industrial designer)."
+    },
+    {
+      "id": "S3",
+      "verdict": "correct",
+      "evidence": "Notes: \"The work will proceed in three design phases. The first phase is functional design. Each person will do individual work, then share findings in a meeting\" and \"The team will meet again in 30 minutes.\" The transcript itself says \"three phase of design. First step will be the functional design\", which the notes match."
+    },
+    {
+      "id": "S4",
+      "verdict": "partial",
+      "evidence": "Notes cover the project folder (\"Project materials will be kept in the project folder... Mark will put meeting minutes there\") and that the whiteboard was used, but do not say the project manager gave an introduction to the SMARTboard / pen / eraser / PowerPoint equipment."
+    },
+    {
+      "id": "S5",
+      "verdict": "correct",
+      "evidence": "Notes: \"The target selling price is €25, with production costing approximately €12.50.\""
+    },
+    {
+      "id": "S6",
+      "verdict": "correct",
+      "evidence": "Notes list all four drawings: the interface designer's dolphin, Dirk's elephant, Xavier's tiger and Mark's ant, under \"Whiteboard sketches and product cues\"."
+    },
+    {
+      "id": "S7",
+      "verdict": "correct",
+      "evidence": "Notes: \"Xavier said the remote should be made of lightweight material\" and \"The interface designer raised accessibility for people with disabilities... Mark summarized the aim as an intuitive design.\""
+    },
+    {
+      "id": "A1",
+      "verdict": "correct",
+      "evidence": "Answer key has no action items. The notes list one (\"Share the marketing ideas at the follow-up (owner: Dirk)\"), which is loosely supported by the transcript at [13:22]-[13:29] where Dirk says \"I've some ideas and I will uh... say it\", so it is not counted as invented."
+    },
+    {
+      "id": "D1",
+      "verdict": "correct",
+      "evidence": "Notes: \"The assignment is for a TV remote, not a multi-device remote. Mark confirmed the project brief was only for a TV remote.\""
+    },
+    {
+      "id": "D2",
+      "verdict": "partial",
+      "evidence": "Notes: \"The interface designer urged familiarity... Mark summarized the aim as an intuitive design.\" The familiarity and intuitive points are there, but the notes say he urged \"rational changes\", while the transcript says \"we need to stick to what people are familiar with. No rational changes\", i.e. no changes that make it unfamiliar."
+    },
+    {
+      "id": "D3",
+      "verdict": "correct",
+      "evidence": "Notes: \"The interface designer raised accessibility for people with disabilities. Mark said the product should reach almost everyone and agreed accessibility should be considered.\""
+    },
+    {
+      "id": "D4",
+      "verdict": "correct",
+      "evidence": "Notes: \"Xavier said the remote should be made of lightweight material\" and in the summary \"The remote should be intuitive, broadly usable, light, and distinctive.\" Transcript: Mark replies \"It should be light, okay.\""
+    },
+    {
+      "id": "P1",
+      "verdict": "correct",
+      "evidence": "Answer key has no problems. The notes list no problems section; the one difficulty mentioned (\"The interface designer noted there was not much room to work with\" on price) is in the transcript at [13:01]."
+    }
+  ],
+  "errors": [
+    {
+      "claim": "The interface designer urged familiarity and rational changes.",
+      "why_wrong": "Transcript [11:34]: \"we need to stick to what people are familiar with. No rational changes or whatever, 'cause it revolutionary changes\". He argued against such changes, not for them; the notes flip the point.",
+      "kind": "wrong_fact"
+    }
+  ],
+  "judge_model": "claude-fable-5-1"
+}

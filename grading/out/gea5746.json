@@ -1,0 +1,36 @@
+{
+  "items": [
+    {"id": "S1", "verdict": "correct", "evidence": "Notes open with 'New Office Space Overview': 6th floor of the Unimail building, corridor of contiguous 1P/2P/3P rooms, views, bathrooms, courtyard shaft."},
+    {"id": "S2", "verdict": "partial", "evidence": "Lounge side covered ('Strong support for a dedicated lounge/reading room', 'Using a 2P room leaves 16 slots for 15 people'). The question whether the per-room person counts are strict, and the answer (furniture constraints, not sure three desks fit a 2P office), is not stated; only the later 'Check if a 3P room can fit 4 desks' touches it."},
+    {"id": "S3", "verdict": "partial", "evidence": "Furniture constraints are stated ('corner desk (2 pieces), chair, under-desk filing cabinet, optional hanging shelves'). Missing: the photocopier/fax/printer placement, and the exchange about what happens if the group does not get the space (rooms are promised; otherwise stay put; risk of more people being put in)."},
+    {"id": "S4", "verdict": "correct", "evidence": "'Seating Preferences and Constraints' section covers how to arrange people in the space."},
+    {"id": "S5", "verdict": "correct", "evidence": "Notes cover professors with assistants, project grouping rejected with meeting rooms as the tool, phone calls, room splitting, visitors/overflow, smoking no longer a constraint, Gisela placement and admin space."},
+    {"id": "S6", "verdict": "correct", "evidence": "'Coffee: no machine planned for the lounge; vending machines on floors 1 and 3, cafeteria closes at 5pm' matches the transcript (two machines, third and first floor; downstairs cafeteria closes at five)."},
+    {"id": "A1", "verdict": "partial", "evidence": "'Investigate room separation feasibility' is listed but no owner; the transcript has Andre (Speaker A) saying 'I will try to find this out for the next time'."},
+    {"id": "A2", "verdict": "partial", "evidence": "'Ask if Gisela can share space with another school admin' is listed but no owner; Andre said 'Okay, I'll try to find out'."},
+    {"id": "A3", "verdict": "correct", "evidence": "'Each attendee to prepare a draft seating proposal ... showing preferred room assignments'."},
+    {"id": "A4", "verdict": "correct", "evidence": "'poll nearby colleagues informally beforehand'."},
+    {"id": "A5", "verdict": "partial", "evidence": "Notes say attendees bring proposals and 'regroup around 2:00 PM to compare proposals', but do not state that the team will build one coherent proposal from the preferences (Andre: 'we'll try to at least build up one coherent proposal')."},
+    {"id": "A6", "verdict": "correct", "evidence": "'each proposes a layout independently, then Andrei and Agnès negotiate a merged solution' matches 'we'll merge it with the other one when the other one is available' and David's remark that Andre and Agnes will discuss it with the other group."},
+    {"id": "A7", "verdict": "partial", "evidence": "'Collect seating preferences from Maggie and Pierrette' is listed but the owner is missing; Susan (Speaker C) said 'Okay, I'll ask Maggie and Pierrette'."},
+    {"id": "A8", "verdict": "correct", "evidence": "'Schedule follow-up meeting for next Tuesday afternoon ... regroup around 2:00 PM'."},
+    {"id": "D1", "verdict": "correct", "evidence": "'Grouping by project rejected: projects change, and meeting rooms serve that need better'."},
+    {"id": "D2", "verdict": "partial", "evidence": "Notes list it as one option: 'give her a 2P room with a visitor slot'. The transcript supports the notes more than the key: Andre floated it, Martin said 'that's not realistic either' for a senior visitor, Susan and Andre narrowed it to a younger person or intern, and Andre closed with 'this sets a bit the stage ... we'll try to find out'. Not a firm decision."},
+    {"id": "D3", "verdict": "partial", "evidence": "Notes say 'no machine planned for the lounge' and 'cafeteria closes at 5pm' (the downstairs one), but do not state the answer to David's question that there is no cafeteria, only a reading room."},
+    {"id": "P1", "verdict": "partial", "evidence": "'Check if a 3P room can fit 4 desks' captures one side; the opening question of whether the per-room counts are strict and the furniture-based answer are not stated."},
+    {"id": "P2", "verdict": "correct", "evidence": "'cannot be imposed', 'Each attendee to prepare a draft seating proposal', 'poll nearby colleagues', and the professor preferences listed."},
+    {"id": "P3", "verdict": "correct", "evidence": "'Grouping by project rejected' and 'Professors sharing with assistants is an implicit tradition but cannot be imposed'."},
+    {"id": "P4", "verdict": "partial", "evidence": "'Room splitting (like Faculty of Law) raised as an option: ruled out for now ... but to be confirmed'. The cubicles suggestion (raised by Martin, dismissed by Susan) is not mentioned."},
+    {"id": "P5", "verdict": "partial", "evidence": "Notes say 'Strong support for a dedicated lounge/reading room, despite the space cost' and 'Zero growth margin if this is reserved', but do not state that its necessity was questioned (Susan: 'Do we really need that?')."},
+    {"id": "P6", "verdict": "correct", "evidence": "'visitor overflow', 'Zero growth margin', 'Explore whether an extra visitor position can be squeezed in'."},
+    {"id": "P7", "verdict": "correct", "evidence": "'Gisela (admin) is a known challenge: high phone volume by nature of her role' with placement options."},
+    {"id": "P8", "verdict": "correct", "evidence": "'Not enough 1P rooms to give her one outright' and the 1P / 2P / other-school-admin options."},
+    {"id": "P9", "verdict": "partial", "evidence": "The cafeteria question is only reflected as 'cafeteria closes at 5pm' and 'no machine planned for the lounge'; the question of whether the group would have a cafeteria and the answer (no, it is a reading room) is not stated."},
+    {"id": "P10", "verdict": "correct", "evidence": "'vending machines on floors 1 and 3'."}
+  ],
+  "errors": [
+    {"claim": "Moving to 6th floor of the Unimile building", "why_wrong": "The building is called Unimail in the transcript (and the notes themselves spell it Unimail later). Minor.", "kind": "wrong_fact"},
+    {"claim": "Shared space with another group: each proposes a layout independently", "why_wrong": "The transcript does not say the space is shared with another group. The other group is a second set of people from the same lab working out an alternative arrangement for the same rooms ('find two solutions and see how close they are', 'we could have been eight sitting around here').", "kind": "other_invented"}
+  ],
+  "judge_model": "claude-fable-5-1"
+}

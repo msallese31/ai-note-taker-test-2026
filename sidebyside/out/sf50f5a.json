@@ -1,0 +1,115 @@
+{
+  "judge_model": "claude-fable-5-1",
+  "evaluations": [
+    {
+      "label": "A",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 6},
+        {"criterion": "completeness", "score": 7},
+        {"criterion": "decisions_and_actions", "score": 6},
+        {"criterion": "usefulness", "score": 6}
+      ],
+      "overall": 6.3,
+      "errors": [
+        "\"the IS1001c remote control\": no product name or code is mentioned anywhere in the transcript.",
+        "\"The remote will include backlit buttons that activate upon movement\" stated as a decided feature; in the transcript motion activation was questioned (needs another sensor, \"too expensive\") and the PM said \"we will discuss that after\"; it was never decided.",
+        "\"an arched internal structure for component mounting\": the transcript says \"something odd shaped, with a spongy cover\"; \"arched\" is invented.",
+        "\"Action Items: (none)\" even though the PM asked the Industrial Designer and UI Designer to work together on the prototype and listed next tasks (final look and feel, UI design, evaluation)."
+      ],
+      "strengths": [
+        "Correctly captures the 50x wheel cost, the 12 euro ceiling, the decision to keep the wheel, the banana shape, yellow colour, spongy material and company colour scheme.",
+        "Unresolved Questions section correctly flags the voice recognition chip as open and the battery concern on lighting.",
+        "Outline follows the meeting flow and recaps the previous decisions accurately (plastic cover, lighting, no LCD/voice)."
+      ],
+      "weaknesses": [
+        "Action items left empty while the outline itself mentions the collaboration instruction; a reader would miss who does what.",
+        "Presents a contested lighting mechanism as settled.",
+        "Invented details (product code, arched structure) undermine trust.",
+        "Does not mention further instructions coming by email, the pear alternative, or that the UI designer suggested the wheel push-down."
+      ]
+    },
+    {
+      "label": "B",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 8},
+        {"criterion": "completeness", "score": 8},
+        {"criterion": "decisions_and_actions", "score": 8},
+        {"criterion": "usefulness", "score": 7}
+      ],
+      "overall": 7.75,
+      "errors": [
+        "\"It had a channel wheel, preview button\": the transcript says \"previous channel button\", not a preview button.",
+        "\"The wheel could be pressed down to recall a channel\": the transcript says the push-down could be used \"for the record if we want\"; \"recall a channel\" is an interpretation not supported by the words.",
+        "\"The group did not document a detailed resolution\" on left/right handed use: the PM did state it is okay for both righty and lefty and that lighted buttons identify the right side, and the UI designer accepted with \"Okay. Maybe. Yeah.\"; a tentative resolution was reached."
+      ],
+      "strengths": [
+        "Accurate on the key numbers (50x, up to 12 euros), the ranking fancy > innovative > easy to use, and the final concept (yellow banana, wheel on top, buttons on side, spongy cover over inner structure, standard battery, chip-on-print).",
+        "Correctly notes that no decision was made on voice features and that the battery concern on continuous lighting was raised.",
+        "Next work and who does it (ID and UID together on the prototype; final look and feel, UI design, check against requirements; instructions by email) is stated correctly.",
+        "Timestamps let a reader go back to the recording."
+      ],
+      "weaknesses": [
+        "Action items section is empty; the next-work items are buried as sub-bullets.",
+        "Nested bullet structure is fragmented and repeats the wheel decision three times.",
+        "Omits the lighted-buttons orientation point and the rejected ice/blue LED idea; the \"not documented\" phrasing on handedness undersells what was agreed."
+      ]
+    },
+    {
+      "label": "C",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 5},
+        {"criterion": "completeness", "score": 5},
+        {"criterion": "decisions_and_actions", "score": 4},
+        {"criterion": "usefulness", "score": 4}
+      ],
+      "overall": 4.5,
+      "errors": [
+        "\"Heart-shaped core with spongy cover suggested\": the PM said \"something odd shaped, with a spongy cover\"; heart-shaped is invented.",
+        "Action item \"Facilitate discussion on wheel sensor necessity\" and \"Assess cost implications of wheel sensor\" for the Industrial Designer: the wheel was decided in this meeting (\"we can keep the wheel ... even if the cost is a bit higher\"); no follow-up on wheel cost was assigned.",
+        "\"Arrange prototype development and user evaluation (20:26)\" and \"Coordinate final look and feel and UI collaboration (20:26)\": these were said around 22:50, and the timestamps attached to several actions do not match where they were said.",
+        "\"UI Designer (UL Hazred)\": the name given in the transcript is \"Abdul al-Hasred\".",
+        "\"Fancy look prioritized over function\": the marketing expert ranked fancy look and feel first, technological innovation second, ease of use third; the notes drop the innovation ranking in that line."
+      ],
+      "strengths": [
+        "Captures the 50x cost, 12 euro budget, plastic cover objections (breaks, harder to press, keep digits separate), symmetry concern and lighted buttons to identify the side.",
+        "Names the ID and UID collaboration on the prototype and the evaluation step.",
+        "Short and scannable."
+      ],
+      "weaknesses": [
+        "Entirely omits the voice recognition chip email from the manufacturing division, the battery concern on lighting, the standard battery and chip-on-print decisions, and the no LCD/no voice prior decision.",
+        "Never clearly states that the wheel was kept or that the plastic cover was dropped; outcomes are presented as debates.",
+        "Action items are padded with invented or generic tasks and several wrong timestamps, so a reader cannot trust the list.",
+        "Too terse for someone who missed the meeting to understand why decisions were made."
+      ]
+    },
+    {
+      "label": "D",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 8},
+        {"criterion": "completeness", "score": 8},
+        {"criterion": "decisions_and_actions", "score": 9},
+        {"criterion": "usefulness", "score": 9}
+      ],
+      "overall": 8.5,
+      "errors": [
+        "\"Construction: hard internal structure with spongy outer cover\": the transcript says \"odd shaped, with a spongy cover\"; \"hard\" is an interpretation, though consistent with the UI designer's concern about buttons moving.",
+        "\"Alternative: recess or offset channel buttons slightly\": the UI designer said to put the channel numbers \"somewhere a bit out of the way\" and \"separate a bit\"; \"recess\" is not in the transcript.",
+        "\"Industrial designer to produce final banana-form design\" and \"UI designer to finalize layout\": the PM listed the tasks and asked the two to work together, but did not assign the look-and-feel task specifically to the ID or the UI task specifically to the UID.",
+        "\"Backlit buttons confirmed\": lighting was a prior decision referenced again by the PM, but this meeting did not explicitly re-confirm it; the activation mechanism and battery cost were left open, which the notes do say."
+      ],
+      "strengths": [
+        "Cleanly separates the previous-meeting recap from this meeting's component decisions, so a reader knows what is new.",
+        "Correct on the numbers (50x, under 12 euros), standard battery, chip-on-print, wheel kept for innovation and ease of use, Paris/Milan trend, priority ranking, banana shape with yellow colour, wheel on top and buttons on side, left/right handedness resolution with lighted buttons.",
+        "Voice recognition update is accurate and correctly marked as deferred rather than decided.",
+        "Next Steps list the four tasks the PM named and the collaboration instruction, with a short reason for each."
+      ],
+      "weaknesses": [
+        "Does not say that the voice decision was never actually revisited by the end of the meeting, nor that further instructions will come by email.",
+        "Omits the pear alternative, the rejected ice/blue LED idea, the wheel push-down idea, and the ID's point that the case design also costs money.",
+        "Role assignments in Next Steps go slightly beyond what the PM said."
+      ]
+    }
+  ],
+  "ranking": ["D", "B", "A", "C"],
+  "rationale": "D is the most useful and the most faithful on decisions: it separates the recap from new decisions, gets every number and the final concept right, marks voice as deferred, and gives clear next steps with the collaboration instruction; its only slips are small interpretations (hard structure, recess, role split). B is nearly as accurate and complete, with correct open issues and next work, but has a wrong word (preview vs previous channel button), an unsupported reading of the wheel push-down, an empty action items section and a fragmented structure. A reads well and flags the right open questions but invents a product code and an arched structure, states motion-activated lighting as decided, and lists no action items. C is the weakest: it omits the voice recognition chip and the battery concern entirely, invents a heart-shaped core, pads the action items with tasks nobody assigned and mislabels their timestamps, and never states the wheel and cover outcomes as decisions."
+}

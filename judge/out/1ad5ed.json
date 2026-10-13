@@ -1,0 +1,128 @@
+{
+  "judge_model": "claude-sonnet-5-5",
+  "evaluations": [
+    {
+      "label": "A",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 6},
+        {"criterion": "completeness", "score": 7},
+        {"criterion": "decisions_and_actions", "score": 5},
+        {"criterion": "usefulness", "score": 6}
+      ],
+      "overall": 6.0,
+      "errors": [
+        "Action items are assigned to 'Christian', a name that does not appear in the transcript (the industrial designer is Christine), and the task given, 'Continue refinement and adjustment of prototype design details', was never assigned to anyone.",
+        "Invented action item: 'Finalize detailed production budget including promotional and transport costs'. No one took this on.",
+        "Invented action items for the marketing lead: 'Develop and propose online sales and promotion strategy' and 'Plan marketing campaigns aligning product launch with major sports events or DVD releases'. Ed was not assigned either. The online channel and the sports-event timing were suggested by the industrial designer.",
+        "Invented action item for the 'Technical/Product Team' to 'Prepare product for launch post-evaluation incorporating user feedback', and 'Organize closing celebration event upon successful completion of production milestone'. The celebration was a casual plan to meet that evening, not tied to a production milestone.",
+        "'Marketing lead emphasizes brand value and market timing' and 'Marketing lead Ed positioned as key promoter' misattribute. The project manager said Ed would promote brand and product value. The timing idea came from the industrial designer.",
+        "'Closing remarks ... stressed importance of post-launch evaluation' and 'Emphasis on monitoring project outcomes after production' are not supported. The closing was thanks, a note that cost and evaluation would come later, and a celebration.",
+        "Says event-driven launches 'allow time for user testing', but the notes also state there is no pre-launch redesign. The two are loosely reconciled, and the 'redesign' framing is a bit confused.",
+        "Labels the project manager 'Unknown (Finance Lead)' and 'Management', so the person who made the decisions and took the vendor-negotiation task is never clearly identified."
+      ],
+      "strengths": [
+        "Detailed, well-structured coverage of design features, costs (9.95 vs 12.50, LCD +2-3), market math (8-9M units, 25% share, 50 euro price, 25 euro max cost) and online sales.",
+        "Correctly records the fixed-design decision with feedback going to a second generation, and the 2-4 week external evaluation before production.",
+        "Mentions Sony Pictures and the sports-event launch idea, and the vendor-negotiation task.",
+        "Timestamps on sections help navigation."
+      ],
+      "weaknesses": [
+        "Action items section is padded with tasks nobody was given, and uses a wrong name, which would mislead someone acting on it.",
+        "Misses the project manager's actual follow-up to convince management about the Sony Pictures campaign.",
+        "Leaves out the UI designer's strongest disagreement (no redesign time) as a named concern; it appears only as generic 'acknowledgement' language.",
+        "Little attribution of who said what, and the project manager is mislabelled."
+      ]
+    },
+    {
+      "label": "B",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 5},
+        {"criterion": "completeness", "score": 5},
+        {"criterion": "decisions_and_actions", "score": 4},
+        {"criterion": "usefulness", "score": 5}
+      ],
+      "overall": 4.8,
+      "errors": [
+        "'IS1008d remote control prototype' is not in the transcript.",
+        "'Ed proposed shifting from traditional retail to an online drop ship model'. The industrial designer proposed it. Ed only said several companies had gone that way. The outline credits 'Speaker 2', which contradicts the summary.",
+        "'Ed suggested synchronizing the launch with major sporting events'. The industrial designer proposed synchronizing the launch with a major event. Ed named the World Cup and said any major sport.",
+        "Speaker identity is inconsistent: the summary says 'Agni presented' while the outline says 'Speaker 4 presented'. Speaker 1 is the project manager, but this is never stated.",
+        "'Current calculations only account for production costs and do not yet include advertising, transportation, or labor'. Labor is part of the case cost the project manager showed (the case was one euro for material and labor).",
+        "'Speaker 5 raised concerns... To achieve a 50 million pound profit, the company must capture 25% of a market' conflates the profit target with the 2-million-unit, 25% share requirement.",
+        "'An independent study suggests ... approximately 8 million units' omits that the internal estimate was 8 to 9 million.",
+        "Action Items: '(none)' is wrong. The project manager explicitly said he would negotiate with vendors, talk to management on cost down, and convince management on the Sony campaign.",
+        "'Agni and Speaker 5 argued for side placement' while the 'Speaker 1' under-the-flip suggestion is described as the debate: partly right, but the microphone is then left as debated rather than the side being favored."
+      ],
+      "strengths": [
+        "Captures the main numbers (9.95 vs 12.50, LCD +2-3 euro, 2M units, 25% share, 50 euro).",
+        "Records the microphone disagreement and the UI designer's redesign-time concern.",
+        "Notes the project manager decided no more major design changes and second-generation feedback."
+      ],
+      "weaknesses": [
+        "Empty action items section, despite clear assigned follow-ups.",
+        "Several misattributions and an invented project code.",
+        "Uses anonymous 'Speaker N' labels inconsistently, making it hard to follow who said what.",
+        "Omits the Sony Pictures tie-in, the vendor-negotiation commitment as an action, the external prototype location, and the stage where prototypes are tested.",
+        "Ends a summary bullet with a stray question ('Will the company be able to accommodate a second generation...?') that was not asked in that form."
+      ]
+    },
+    {
+      "label": "C",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 7},
+        {"criterion": "completeness", "score": 8},
+        {"criterion": "decisions_and_actions", "score": 8},
+        {"criterion": "usefulness", "score": 8}
+      ],
+      "overall": 7.8,
+      "errors": [
+        "Names the UI designer who presented 'Moritz'. No such name appears in the transcript (the agenda names Christine and Agnes), so every attribution to Moritz uses a wrong name, although the content attributed is correct.",
+        "Calls the project manager 'the company representative' and the owner 'Speaker 1', which is vague and not how the transcript identifies him.",
+        "'Christine estimated the case could cost EUR 1 for material and labor' comes from the project manager's cost sheet. Christine only remarked on it.",
+        "'The group considered the side as an accessible placement' understates that the project manager himself agreed the side was a good idea, so the microphone is described as unresolved."
+      ],
+      "strengths": [
+        "Accurate, role-correct attribution of the key points: Christine on the circuit board and weight, the UI designer on voice working while closed and on redesign time, Christine on online sales, sports-event timing and Sony Pictures.",
+        "Gets the decision right: keep the basic design, go to market, use customer feedback for a second generation, with the UI designer's warning that insufficient testing could make the first generation fail.",
+        "Correct numbers and details: 9.95 vs 12.50, what the estimate covered, LCD +2-3, 8M vs 8-9M units, 25% share, 50 euro price with 25 euro max cost, evaluation in 2 to 4 weeks outside the factory, approval from technical team and management.",
+        "Includes the Sony Pictures idea and the project manager's promise to convince management.",
+        "Action items are limited to what was actually committed (vendor negotiation and talking to management, convincing management on Sony Pictures) and carry timestamps."
+      ],
+      "weaknesses": [
+        "Wrong name for the presenter and anonymous owner labels weaken traceability.",
+        "Action items list is thin: it omits the evaluation of prototypes and market tests as tasks, and the celebration.",
+        "Leaves out the disposable-diapers example and the closing celebration.",
+        "Does not mention the World Cup by name, and the microphone outcome is left a bit open."
+      ]
+    },
+    {
+      "label": "D",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 9},
+        {"criterion": "completeness", "score": 7},
+        {"criterion": "decisions_and_actions", "score": 6},
+        {"criterion": "usefulness", "score": 7}
+      ],
+      "overall": 7.3,
+      "errors": [
+        "'Weight intentional: users prefer something substantial in hand' leaves out that the industrial designer said the weight needed work and that the prototype was plasticine, so it presents the weight as settled.",
+        "'Web configurator' and '3D rotation' embellish the discussion, which was about images and rotating the object in a movie.",
+        "'Under flip ruled out' is a slightly stronger statement than the transcript, where the project manager preferred under the flip at first and then agreed the side was a good idea."
+      ],
+      "strengths": [
+        "Very accurate across numbers and facts: budget, 9.95, LCD +2-3, circuit board at scale but case cost fixed, 8-9M market, 25% share, 50 euro price, 25 euro max cost, 25 euro per-unit profit.",
+        "Correctly records the decision to proceed with the current model and gather feedback for a second generation, the redesign-window concern, the sports-event launch, Sony Pictures tie-in, and the disposable-diapers example.",
+        "Compact, scannable, and gets the microphone outcome (side placement, voice with the remote closed).",
+        "No wrong names or invented content."
+      ],
+      "weaknesses": [
+        "No attribution at all: no names or roles, so someone could not tell who proposed online sales, who objected on redesign time, or who made the decision.",
+        "Next steps have no owners, and they leave out that the project manager will talk to management and convince management on Sony Pictures.",
+        "Does not mention the closing celebration or the open question of whether the LCD stays (only the cost impact).",
+        "Treats ideas such as the sports-event timing and the Sony partnership as steps to take, when they were suggestions."
+      ]
+    }
+  ],
+  "ranking": ["C", "D", "A", "B"],
+  "rationale": "C is best: it attributes points correctly by role, records the actual decision and the real commitments (vendor negotiation and convincing management on Sony Pictures) and keeps accurate numbers, with the main flaw being a wrong name for the presenter. D is the most accurate and covers the substance concisely, but gives no attribution and no owners, so it is less useful for follow-up. A is detailed but fills its action items with invented tasks and a wrong name ('Christian'), and misattributes some leadership remarks. B is weakest: invented 'IS1008d', credits Ed with ideas the industrial designer proposed, contradicts itself on speakers, and lists no action items even though the project manager clearly took on follow-ups."
+}

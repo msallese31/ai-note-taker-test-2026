@@ -1,0 +1,117 @@
+{
+  "judge_model": "claude-sonnet-5-5",
+  "evaluations": [
+    {
+      "label": "A",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 8},
+        {"criterion": "completeness", "score": 8},
+        {"criterion": "decisions_and_actions", "score": 7},
+        {"criterion": "usefulness", "score": 8}
+      ],
+      "overall": 7.8,
+      "errors": [
+        "Says the wheel could be pressed down 'to recall a channel'; the transcript says the push-down of the wheel could be used 'for the record'.",
+        "Calls it a 'preview button'; the transcript says previous channel button.",
+        "Several timestamps are approximate or slightly off.",
+        "Action items section is left empty even though next steps are listed elsewhere in the notes."
+      ],
+      "strengths": [
+        "Accurately captures the 50x wheel cost, the 12 euro budget, the continuous-light battery concern and the voice chip email (no decision to add voice).",
+        "Correct banana, yellow, wheel-on-top, spongy-cover-over-structure, standard battery and chip-on-print decisions.",
+        "Notes that the left/right-hand concern was not fully resolved, which is honest.",
+        "Clear next steps: industrial and UI designers work together, final look and feel, check requirements, instructions by email."
+      ],
+      "weaknesses": [
+        "Empty action items section; owners are only implied.",
+        "Does not clearly state the UI designer's recommendation to drop the plastic cover or the alternative of moving the channel buttons out of the way.",
+        "Somewhat repetitive across sections."
+      ]
+    },
+    {
+      "label": "B",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 5},
+        {"criterion": "completeness", "score": 5},
+        {"criterion": "decisions_and_actions", "score": 5},
+        {"criterion": "usefulness", "score": 5}
+      ],
+      "overall": 5.0,
+      "errors": [
+        "'Heart-shaped core with spongy cover suggested' is not in the transcript; the project manager said an odd-shaped structure with a spongy cover.",
+        "UI designer named 'UL Hazred'; the transcript gives 'Abdul al-Hasred'.",
+        "Invented action item: Industrial Designer to 'assess cost implications of wheel sensor'; nobody was assigned this.",
+        "Invented action items for the project manager: 'Provide meeting notes in shared folder' and 'Facilitate discussion on wheel sensor necessity' are framed as assigned tasks that were not.",
+        "Says 'Wheel control included' and 'Channel digits' as confirmed simple-interface items under design decisions, blurring the previous meeting recap with this meeting's decisions.",
+        "'Develop banana-shaped spongy case design' and 'Finalize UI design' are assigned to individuals more specifically than the transcript supports."
+      ],
+      "strengths": [
+        "Has a structured action items section with owners.",
+        "Covers the wheel cost (50x), the 12 euro cap, motion sensor cost concern, the spongy material issue with buttons, and left/right symmetry.",
+        "Banana, yellow, company color scheme and the wheel as competitive advantage are captured."
+      ],
+      "weaknesses": [
+        "Omits the voice recognition chip email entirely.",
+        "Does not state the final decision to keep the wheel despite cost clearly, or the rejection of the plastic cover.",
+        "Misses standard battery and chip-on-print decisions.",
+        "Action items are partly fabricated, which makes them unreliable to act on."
+      ]
+    },
+    {
+      "label": "C",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 9},
+        {"criterion": "completeness", "score": 9},
+        {"criterion": "decisions_and_actions", "score": 9},
+        {"criterion": "usefulness", "score": 9}
+      ],
+      "overall": 9.0,
+      "errors": [
+        "Minor: attributes next steps to specific roles (industrial designer produces final design, UI designer finalizes layout) slightly more precisely than the project manager stated, though it is a fair reading.",
+        "Minor: 'Backlit buttons confirmed' slightly overstates; the activation trigger was left open, which the notes also say."
+      ],
+      "strengths": [
+        "Cleanly separates the previous-meeting recap from decisions made in this meeting.",
+        "Correct on wheel kept despite 50x cost, 12 euro limit, plastic cover reconsidered with the offset-button alternative, battery concern for always-on light.",
+        "Correctly records the voice recognition chip as deferred to revisit later.",
+        "Correct construction detail (hard internal structure, spongy cover, controls operable through it), standard battery, chip-on-print, banana, yellow, left/right symmetry.",
+        "Next steps match the closing: final look and feel, UI design, joint prototype work, evaluate against requirements."
+      ],
+      "weaknesses": [
+        "No named owners and no explicit action items heading.",
+        "Does not mention instructions to follow by email."
+      ]
+    },
+    {
+      "label": "D",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 6},
+        {"criterion": "completeness", "score": 6},
+        {"criterion": "decisions_and_actions", "score": 5},
+        {"criterion": "usefulness", "score": 6}
+      ],
+      "overall": 5.8,
+      "errors": [
+        "'IS1001c remote control' is not mentioned anywhere in the transcript.",
+        "Says backlit buttons 'activate upon movement'; this was floated and the UI designer objected on cost, so it was not settled.",
+        "'Arched internal structure' is not in the transcript.",
+        "Uses 'UIZ' and 'ID' labels and speaker numbers instead of the actual roles or names.",
+        "Says the team decided to include lighted buttons in the final concept as if newly decided; they were carried over from the previous meeting.",
+        "Action Items section says '(none)' although the project manager gave next steps."
+      ],
+      "strengths": [
+        "Good unresolved questions section: voice chip adaptation, motion sensor cost against 12 euros, spongy case versus button presses.",
+        "Correct on 50x wheel cost, 12 euro cap, banana, yellow, company color, spongy material and standard battery.",
+        "Includes the plastic cover being advised against by the UI designer."
+      ],
+      "weaknesses": [
+        "No action items; next steps appear only buried in the outline.",
+        "Mixes a narrative summary with an outline, producing redundancy.",
+        "Does not mention the left/right-hand discussion.",
+        "Speaker numbering makes the outline harder to use."
+      ]
+    }
+  ],
+  "ranking": ["C", "A", "D", "B"],
+  "rationale": "C is the most accurate and complete: it separates recap from new decisions, captures the wheel kept despite cost, the plastic cover reconsideration, the deferred voice chip, the construction and banana decisions, and the closing next steps, with almost no unsupported claims. A is also accurate and thorough but leaves action items empty and has small slips (recall versus record, preview button). D has a useful unresolved questions section but invents an 'IS1001c' label, overstates motion-activated lighting as decided, and lists no action items. B has the only owner-based action items, but several are fabricated, it invents a heart-shaped core, garbles the UI designer's name and omits the voice chip email, so it is the least reliable."
+}

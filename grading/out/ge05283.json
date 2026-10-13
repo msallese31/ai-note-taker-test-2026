@@ -1,0 +1,158 @@
+{
+ "items": [
+  {
+   "id": "S1",
+   "verdict": "missed",
+   "evidence": "The notes do not describe the project manager's opening or the meeting agenda."
+  },
+  {
+   "id": "S2",
+   "verdict": "correct",
+   "evidence": "Market Research Findings covers appearance preferences, losing remotes, excessive buttons, frequent channel and volume changes, and younger users' interest in voice recognition."
+  },
+  {
+   "id": "S3",
+   "verdict": "partial",
+   "evidence": "The notes describe the remote as a communication device, but omit the proposed design process: specifications, multiple interface prototypes, and user feedback."
+  },
+  {
+   "id": "S4",
+   "verdict": "missed",
+   "evidence": "The notes do not mention the two existing remotes or the comparison of their advantages and disadvantages."
+  },
+  {
+   "id": "S5",
+   "verdict": "correct",
+   "evidence": "Technical and Working Design describes the energy source, chip, user interface, infrared bulb, and transmission to the receiver."
+  },
+  {
+   "id": "S6",
+   "verdict": "correct",
+   "evidence": "The notes cover the new requirements and discussions of target groups, voice recognition, a locator feature, and battery options."
+  },
+  {
+   "id": "A1",
+   "verdict": "correct",
+   "evidence": "\"Each team member to complete a questionnaire and summary.\""
+  },
+  {
+   "id": "A2",
+   "verdict": "correct",
+   "evidence": "\"Then 30 minutes individual work.\""
+  },
+  {
+   "id": "A3",
+   "verdict": "partial",
+   "evidence": "\"Upload presentations to shared project folder\" captures documentation sharing, but omits the project manager's responsibility and the minutes."
+  },
+  {
+   "id": "A4",
+   "verdict": "partial",
+   "evidence": "\"Upload presentations to shared project folder\" states the upload task, but does not explicitly assign it to each team member."
+  },
+  {
+   "id": "A5",
+   "verdict": "correct",
+   "evidence": "\"Components concept (ID).\""
+  },
+  {
+   "id": "A6",
+   "verdict": "partial",
+   "evidence": "\"User interface concept\" is listed as a workstream, but the user interface designer is not explicitly identified as its owner."
+  },
+  {
+   "id": "A7",
+   "verdict": "partial",
+   "evidence": "\"Market trend watching\" is listed, but the marketing expert is not explicitly identified as its owner."
+  },
+  {
+   "id": "D1",
+   "verdict": "correct",
+   "evidence": "\"No teletext (superseded by internet).\""
+  },
+  {
+   "id": "D2",
+   "verdict": "correct",
+   "evidence": "\"TV only, no video or other devices.\""
+  },
+  {
+   "id": "D3",
+   "verdict": "correct",
+   "evidence": "\"Corporate identity: yellow and black color scheme, emphasis on the Rs in branding, must be visible in final design.\""
+  },
+  {
+   "id": "D4",
+   "verdict": "correct",
+   "evidence": "\"Core emphasis: simplicity and fashion.\""
+  },
+  {
+   "id": "D5",
+   "verdict": "correct",
+   "evidence": "The notes describe broad appeal, say \"age segmentation less useful,\" and identify simplicity and fashion as the core objectives."
+  },
+  {
+   "id": "D6",
+   "verdict": "correct",
+   "evidence": "\"Find-it locator feature\" is included among the agreed functions."
+  },
+  {
+   "id": "D7",
+   "verdict": "correct",
+   "evidence": "\"Large accessible buttons for core functions.\""
+  },
+  {
+   "id": "D8",
+   "verdict": "correct",
+   "evidence": "\"Secondary/advanced functions\" and \"Hidden/less prominent secondary functions\" preserve access to additional functions."
+  },
+  {
+   "id": "D9",
+   "verdict": "correct",
+   "evidence": "\"Secondary/advanced functions hidden or less prominent, possibly behind a sliding panel.\""
+  },
+  {
+   "id": "D10",
+   "verdict": "correct",
+   "evidence": "\"Rechargeable cradle ... proposed as alternative to disposable batteries.\" The answer key overstates certainty: the transcript presents a charging station as a suggestion the manager agrees to keep, not an unconditional requirement."
+  },
+  {
+   "id": "P1",
+   "verdict": "correct",
+   "evidence": "\"Target group: broad appeal\" and \"age segmentation less useful\" capture the difficulty of choosing an age-based target."
+  },
+  {
+   "id": "P2",
+   "verdict": "correct",
+   "evidence": "\"Voice recognition ruled out: too expensive, not essential for a remote.\""
+  },
+  {
+   "id": "P3",
+   "verdict": "correct",
+   "evidence": "\"Chip quality critical for clean signal transmission\" captures the discussion of improving infrared functionality."
+  },
+  {
+   "id": "P4",
+   "verdict": "correct",
+   "evidence": "\"Rechargeable or long-life battery solution\" and the proposed rechargeable cradle capture the battery alternatives."
+  }
+ ],
+ "errors": [
+  {
+   "claim": "Working design presentation not yet on the server; save from email into shared folder.",
+   "why_wrong": "The industrial designer confirms that the working design presentation has already been uploaded, and it appears in the shared-folder listing. The missing presentation belongs to the project manager. Saving that presentation from email is suggested, then abandoned as unavailable; the manager says she will figure it out.",
+   "kind": "wrong_fact"
+  },
+  {
+   "claim": "Agreed functions to carry forward: Find-it locator feature (button on TV to make remote beep).",
+   "why_wrong": "The team agrees to a recovery feature, but a TV button that makes the remote beep is only an example floated by the project manager. That implementation is not selected.",
+   "kind": "decision_described_wrongly"
+  },
+  {
+   "claim": "Complete post-meeting questionnaire and summary ... submit before individual work session.",
+   "why_wrong": "The meeting requires completing the questionnaire and summary before lunch and individual work, but does not specify a submission task or submission deadline.",
+   "kind": "invented_action_item"
+  }
+ ],
+ "judge_model": "unknown",
+ "judge_model_served": "gpt-6.1-sol"
+}

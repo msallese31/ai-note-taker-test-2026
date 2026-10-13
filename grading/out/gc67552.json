@@ -1,0 +1,158 @@
+{
+ "items": [
+  {
+   "id": "S1",
+   "verdict": "wrong",
+   "evidence": "The notes say 'Moritz presented' the prototype. The presenter was the User Interface Designer, identified in the transcript as Agnes, not Moritz."
+  },
+  {
+   "id": "S2",
+   "verdict": "correct",
+   "evidence": "The notes describe a 'flip-panel LCD' and say 'The back and flip case could have customized designs.'"
+  },
+  {
+   "id": "S3",
+   "verdict": "partial",
+   "evidence": "The notes accurately give the \u20ac9.95 estimate, \u20ac12.50 budget, and additional \u20ac2\u2013\u20ac3 LCD cost, but do not identify the Project Manager as the cost presenter. The answer key incorrectly says the budget ruled out the LCD: at 09:34\u201309:36, the Industrial Designer says they can include it."
+  },
+  {
+   "id": "S4",
+   "verdict": "correct",
+   "evidence": "The notes say the company representative will pursue lower costs and list negotiations with vendors and management. The transcript supports this, but specifies savings for marketing/promotions rather than expressly for adding the LCD."
+  },
+  {
+   "id": "S5",
+   "verdict": "partial",
+   "evidence": "The notes cover the two-million-unit target, 25% market share, \u20ac50 selling price, and profit feasibility concerns, but do not identify the Marketing Expert as the presenter of these projections."
+  },
+  {
+   "id": "S6",
+   "verdict": "correct",
+   "evidence": "The notes describe online ordering, direct shipment, Amazon or eBay, and online customization images and rotating views."
+  },
+  {
+   "id": "S7",
+   "verdict": "partial",
+   "evidence": "The notes capture the lack of redesign time and the company representative's decision to keep the basic design, but incorrectly attribute the User Interface Designer's concerns to Moritz."
+  },
+  {
+   "id": "S8",
+   "verdict": "correct",
+   "evidence": "The notes describe coordinating launch with a major sports event and exploring a Sony Pictures campaign around a DVD release."
+  },
+  {
+   "id": "A1",
+   "verdict": "correct",
+   "evidence": "The notes list 'Negotiate lower production costs with vendors and discuss cost reductions with management,' also summarized as the company representative pursuing lower costs."
+  },
+  {
+   "id": "A2",
+   "verdict": "correct",
+   "evidence": "The notes list 'Try to convince management to pursue a campaign with Sony Pictures.'"
+  },
+  {
+   "id": "A3",
+   "verdict": "missed",
+   "evidence": "The notes omit the Marketing Expert's later marketing handoff. The transcript says to leave it to Ed once production is 'over' (23:16\u201323:39), rather than specifically when production begins as the key states."
+  },
+  {
+   "id": "A4",
+   "verdict": "correct",
+   "evidence": "The notes describe developing prototypes, evaluating them within two to four weeks, and beginning production after approval. The transcript identifies the units for evaluation as produced prototypes."
+  },
+  {
+   "id": "D1",
+   "verdict": "wrong",
+   "evidence": "The notes include the LCD in the proposed design but say 'The microphone location was unresolved.' At 05:50\u201306:16, the group accepts side placement so voice activation remains accessible."
+  },
+  {
+   "id": "D2",
+   "verdict": "correct",
+   "evidence": "The notes capture the decision to negotiate production costs. The key's specific LCD rationale is unsupported: the Project Manager says savings could fund marketing or promotions."
+  },
+  {
+   "id": "D3",
+   "verdict": "correct",
+   "evidence": "The notes accurately describe sports-event and Sony Pictures proposals and the commitment to seek management support. The key overstates these as settled partnerships or release arrangements; the transcript treats them as possibilities."
+  },
+  {
+   "id": "D4",
+   "verdict": "correct",
+   "evidence": "The notes say the company representative 'chose to keep the basic design for market introduction and use customer feedback for a second generation.'"
+  },
+  {
+   "id": "D5",
+   "verdict": "correct",
+   "evidence": "The notes describe later evaluation after prototypes are developed. The transcript explicitly calls this 'prototype product evaluation' at 17:01; the key's claim that prototypes would not be evaluated is misleading."
+  },
+  {
+   "id": "P1",
+   "verdict": "correct",
+   "evidence": "The notes capture the omitted LCD cost and doubts about meeting sales and profit targets. The key overstates the budget conclusion: the transcript does not establish that many budget changes are required or definitively rule out all components within budget."
+  },
+  {
+   "id": "P2",
+   "verdict": "correct",
+   "evidence": "The notes describe disagreement over the evaluation turnaround, insufficient time for user testing, and the absence of redesign time."
+  }
+ ],
+ "errors": [
+  {
+   "claim": "Moritz presented the wooden, customizable remote.",
+   "why_wrong": "The User Interface Designer presented it. The opening identifies the designers as Christine and Agnes, and the presenter refers to Christine as the other designer; there is no support for identifying the presenter as Moritz.",
+   "kind": "wrong_person"
+  },
+  {
+   "claim": "Moritz wanted voice activation to work while the remote is closed.",
+   "why_wrong": "This argument was made by the User Interface Designer, Agnes, at 04:58\u201305:24.",
+   "kind": "wrong_person"
+  },
+  {
+   "claim": "The microphone location was unresolved; the group considered the side as an accessible placement.",
+   "why_wrong": "Although exact placement initially depended on the circuit board, the group subsequently accepted placement on the side. The Project Manager repeatedly endorsed that suggestion at 05:52\u201306:16.",
+   "kind": "decision_described_wrongly"
+  },
+  {
+   "claim": "Moritz said the egg-shaped buttons might not be economical.",
+   "why_wrong": "The User Interface Designer, Agnes, made this comment at 06:25.",
+   "kind": "wrong_person"
+  },
+  {
+   "claim": "Christine estimated the case could cost \u20ac1 for material and labor.",
+   "why_wrong": "The \u20ac1 figure came from the Project Manager's cost analysis. Christine reacted with surprise to that figure at 10:48 rather than supplying the estimate.",
+   "kind": "wrong_person"
+  },
+  {
+   "claim": "The marketing participant said an online channel might support sales above two million units and lower unit costs.",
+   "why_wrong": "At 16:11, the Marketing Expert suggests that higher sales might lower the unit's selling price, not its production cost.",
+   "kind": "wrong_fact"
+  },
+  {
+   "claim": "Prototypes would be made outside the company's factory.",
+   "why_wrong": "The exchange at 17:18\u201317:34 concerns conducting product evaluation outside the factory. It does not establish an external manufacturing location for the prototypes.",
+   "kind": "wrong_fact"
+  },
+  {
+   "claim": "Moritz warned that taking prototypes to places and observing users would take time.",
+   "why_wrong": "The User Interface Designer, Agnes, made this warning at 17:15.",
+   "kind": "wrong_person"
+  },
+  {
+   "claim": "Moritz said the project had no redesign time if users found problems.",
+   "why_wrong": "The User Interface Designer, Agnes, raised this concern at 18:15 and 19:58.",
+   "kind": "wrong_person"
+  },
+  {
+   "claim": "Moritz warned that insufficient testing could cause the first generation to fail.",
+   "why_wrong": "The User Interface Designer, Agnes, gave this warning at 18:57 and continued the argument at 19:12\u201319:29.",
+   "kind": "wrong_person"
+  },
+  {
+   "claim": "Moritz agreed that a sports event could also provide an advertising opportunity.",
+   "why_wrong": "The User Interface Designer, Agnes, made the advertising observation at 21:23.",
+   "kind": "wrong_person"
+  }
+ ],
+ "judge_model": "GPT-5.2",
+ "judge_model_served": "gpt-6.1-sol"
+}

@@ -1,0 +1,153 @@
+{
+ "items": [
+  {
+   "id": "S1",
+   "verdict": "correct",
+   "evidence": "The overview describes the move to the sixth floor and the layout of contiguous 1P, 2P and 3P rooms."
+  },
+  {
+   "id": "S2",
+   "verdict": "correct",
+   "evidence": "The notes cover room capacities, the possibility of fitting four desks in a 3P room, and the lounge's necessity and space cost."
+  },
+  {
+   "id": "S3",
+   "verdict": "partial",
+   "evidence": "The notes list the furniture per person, but omit finding space for the photocopier, fax and printer, and the discussion about potentially not obtaining the promised space."
+  },
+  {
+   "id": "S4",
+   "verdict": "correct",
+   "evidence": "The 'Seating Preferences and Constraints' section summarizes how to arrange people within the offices."
+  },
+  {
+   "id": "S5",
+   "verdict": "partial",
+   "evidence": "The notes cover professor\u2013assistant sharing, project grouping, phone disturbance, room splitting, meeting space, visitors and Gisella's administrative space. They omit the discussion of smoking on the balcony or terrace."
+  },
+  {
+   "id": "S6",
+   "verdict": "partial",
+   "evidence": "The notes give coffee-machine locations and the existing cafeteria's closing time, but omit the question of whether the group's new space would include its own cafeteria."
+  },
+  {
+   "id": "A1",
+   "verdict": "partial",
+   "evidence": "'Investigate room separation feasibility' captures the task, but does not identify the project manager as its owner."
+  },
+  {
+   "id": "A2",
+   "verdict": "partial",
+   "evidence": "'Ask if Gisela can share space with another school admin' captures the task, but omits the project manager's ownership."
+  },
+  {
+   "id": "A3",
+   "verdict": "correct",
+   "evidence": "Attendees are asked to bring proposals 'showing preferred room assignments,' capturing the request to provide their own preferences."
+  },
+  {
+   "id": "A4",
+   "verdict": "correct",
+   "evidence": "The notes instruct attendees to 'poll nearby colleagues informally beforehand.'"
+  },
+  {
+   "id": "A5",
+   "verdict": "correct",
+   "evidence": "The notes describe gathering preferred assignments and preparing a group layout proposal before merging it with the other group's proposal."
+  },
+  {
+   "id": "A6",
+   "verdict": "correct",
+   "evidence": "'Each proposes a layout independently, then Andrei and Agn\u00e8s negotiate a merged solution.'"
+  },
+  {
+   "id": "A7",
+   "verdict": "partial",
+   "evidence": "'Collect seating preferences from Maggie and Pierrette' is included, but Susan's commitment to do this is not attributed."
+  },
+  {
+   "id": "A8",
+   "verdict": "correct",
+   "evidence": "'Next Tuesday afternoon' and 'around 2:00 PM' accurately capture the agreed follow-up."
+  },
+  {
+   "id": "D1",
+   "verdict": "correct",
+   "evidence": "'Grouping by project rejected: projects change, and meeting rooms serve that need better.'"
+  },
+  {
+   "id": "D2",
+   "verdict": "correct",
+   "evidence": "The answer key overstates this as a decision. The transcript leaves Gisella's placement unresolved. The notes accurately present a 1P office or a 2P office with a visitor slot as options, rather than a finalized allocation."
+  },
+  {
+   "id": "D3",
+   "verdict": "missed",
+   "evidence": "The notes do not state that the group will not have its own cafeteria. Having no lounge coffee machine is a different point."
+  },
+  {
+   "id": "P1",
+   "verdict": "correct",
+   "evidence": "'Check if a 3P room can fit 4 desks' captures the question of exceeding the indicated capacity."
+  },
+  {
+   "id": "P2",
+   "verdict": "correct",
+   "evidence": "The notes discuss individual sharing preferences and collecting preferred room assignments from attendees and absent colleagues."
+  },
+  {
+   "id": "P3",
+   "verdict": "correct",
+   "evidence": "The notes cover professor\u2013assistant sharing and the rejection of project-based grouping."
+  },
+  {
+   "id": "P4",
+   "verdict": "correct",
+   "evidence": "Room splitting is discussed, with a follow-up to check whether adding walls and doors is permitted."
+  },
+  {
+   "id": "P5",
+   "verdict": "correct",
+   "evidence": "The lounge section addresses support for a lounge alongside its space cost and competing uses."
+  },
+  {
+   "id": "P6",
+   "verdict": "correct",
+   "evidence": "The notes discuss visitor overflow in the lounge and fitting an extra visitor desk into a 3P room."
+  },
+  {
+   "id": "P7",
+   "verdict": "correct",
+   "evidence": "'Gisela (admin) is a known challenge: high phone volume by nature of her role,' followed by placement options."
+  },
+  {
+   "id": "P8",
+   "verdict": "correct",
+   "evidence": "The notes consider a 1P administrative office, a 2P office and sharing with another school administrator."
+  },
+  {
+   "id": "P9",
+   "verdict": "missed",
+   "evidence": "The notes mention the existing downstairs cafeteria but not the question of providing a cafeteria in the group's new space."
+  },
+  {
+   "id": "P10",
+   "verdict": "correct",
+   "evidence": "'Vending machines on floors 1 and 3' accurately records the coffee-machine locations."
+  }
+ ],
+ "errors": [
+  {
+   "claim": "Shared space with another group.",
+   "why_wrong": "The transcript establishes another group developing an alternative seating proposal, not a separate group sharing occupancy of the allocated offices.",
+   "kind": "other_invented"
+  },
+  {
+   "claim": "Each attendee to prepare a draft seating proposal; come to the next meeting with a sketch.",
+   "why_wrong": "The final request allowed attendees to bring their own preferences or poll colleagues. A sketch was encouraged, not required from every attendee.",
+   "kind": "decision_described_wrongly"
+  }
+ ],
+ "judge_model": "ChatGPT",
+ "judge_model_served": "gpt-6.1-sol"
+}

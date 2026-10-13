@@ -1,0 +1,171 @@
+{
+ "evaluations": [
+  {
+   "label": "A",
+   "criterion_scores": [
+    {
+     "criterion": "accuracy",
+     "score": 10
+    },
+    {
+     "criterion": "completeness",
+     "score": 9
+    },
+    {
+     "criterion": "decisions_and_actions",
+     "score": 8
+    },
+    {
+     "criterion": "usefulness",
+     "score": 9
+    }
+   ],
+   "overall": 9,
+   "errors": [],
+   "strengths": [
+    "Accurately captures the research figures, television-only scope, teletext exclusion, branding requirements, \u20ac25 selling price, and \u20ac12.50 production limit.",
+    "Clearly distinguishes agreed priorities and functions from unresolved age targeting and tentative charging-cradle ideas.",
+    "Correctly identifies the Project Manager's presentation\u2014not the working-design presentation\u2014as the file-sharing problem.",
+    "Includes the post-meeting questionnaire, summary, individual workstreams, and forthcoming coach instructions."
+   ],
+   "weaknesses": [
+    "The action list includes only the Project Manager's documentation tasks. Other participants' questionnaire, summary, presentation-upload, and concept-development responsibilities are not consolidated into actionable entries.",
+    "Individual deliverables are described vaguely rather than explicitly naming the components concept and user-interface concept.",
+    "Omits the lunch break followed by 30 minutes of individual work.",
+    "Uses the undefined owner label 'Speaker 1' instead of the transcript's Project Manager role."
+   ]
+  },
+  {
+   "label": "B",
+   "criterion_scores": [
+    {
+     "criterion": "accuracy",
+     "score": 7
+    },
+    {
+     "criterion": "completeness",
+     "score": 6
+    },
+    {
+     "criterion": "decisions_and_actions",
+     "score": 4
+    },
+    {
+     "criterion": "usefulness",
+     "score": 5
+    }
+   ],
+   "overall": 5.5,
+   "errors": [
+    "'Target group 15\u201335 years' presents an early suggestion as the final target. Participants subsequently questioned that range because its evidence concerned voice recognition; no age-defined target was settled.",
+    "'Provide updated market research data' turns a conditional offer into an unconditional, unassigned task. The Marketing Expert offered to email additional age figures before the next meeting if available.",
+    "'Investigate technical feasibility for rechargeable battery' is presented as an action item, but the transcript assigns no such task. A rechargeable cradle was discussed as a possibility."
+   ],
+   "strengths": [
+    "Concise and easy to scan, with useful coverage of the principal research findings and interface priorities.",
+    "Correctly records the television-only scope, teletext exclusion, production ceiling, and simplicity-and-fashion emphasis.",
+    "Captures the agreed distinction between prominent essential controls and less-prominent secondary functions.",
+    "Repeats the presenter's infrared line-of-sight claim faithfully; its technical correctness outside the meeting is not a transcript-accuracy issue."
+   ],
+   "weaknesses": [
+    "Omits all explicit closing assignments: questionnaire and summary, concept workstreams, market-trend watching, coach emails, and document uploads.",
+    "Omits the \u20ac25 selling price, corporate slogan, 100-person sample, and discussion of the sample's limited age-group representativeness.",
+    "Fails to capture the eventual shift away from age segmentation toward broader appeal and purchasing capacity.",
+    "Its action list substitutes inferred tasks for the actual responsibilities, making it unreliable for follow-up."
+   ]
+  },
+  {
+   "label": "C",
+   "criterion_scores": [
+    {
+     "criterion": "accuracy",
+     "score": 7
+    },
+    {
+     "criterion": "completeness",
+     "score": 8
+    },
+    {
+     "criterion": "decisions_and_actions",
+     "score": 6
+    },
+    {
+     "criterion": "usefulness",
+     "score": 7
+    }
+   ],
+   "overall": 7,
+   "errors": [
+    "'Working design presentation not yet on the server' contradicts the closing exchange. The Industrial Designer said it had been uploaded, and participants confirmed seeing the three team presentations. The missing presentation was the Project Manager's.",
+    "'Save from email into shared folder' presents an agreed upload procedure that was not established. The Marketing Expert considered saving the Project Manager's emailed presentation, then encountered a limitation; the Project Manager said they would sort it out.",
+    "'Find-it locator feature (button on TV to make remote beep)' treats an illustrative implementation as agreed. The group agreed to a loss-prevention or finding function, but did not select the TV-button-and-beep mechanism.",
+    "Listing a 'rechargeable or long-life battery solution' under agreed functions overstates the charging decision. Long battery life was supported, but the rechargeable cradle remained a possibility to consider.",
+    "'Submit before individual work session' adds a submission requirement not stated in the transcript. Participants were told to complete a questionnaire and summary before the subsequent activities, but no explicit submission instruction was given.",
+    "'Channel-zapping ~65% of use time' specifies a time-share metric that the transcript does not clearly establish; the speaker says approximately 65% during an hour of use."
+   ],
+   "strengths": [
+    "Broad coverage of research, pricing, scope, branding, core controls, loss prevention, and battery ideas.",
+    "Explicitly names the components concept, user-interface concept, and market-trend workstreams.",
+    "Includes the 30-minute individual-work period and forthcoming personal-coach instructions.",
+    "Preserves the conditional nature of sharing additional demographic data if available."
+   ],
+   "weaknesses": [
+    "The incorrect file identification could send someone to fix a presentation that was already available.",
+    "Several suggestions become firmer specifications or commitments than the transcript supports.",
+    "'Roughly under 65' gives one tentative age suggestion undue prominence; the discussion ultimately left age targeting unsettled.",
+    "Does not clearly assign the Project Manager's minutes/documentation upload and file-resolution commitments.",
+    "Provides limited coverage of prototype feedback, conventional button placement, and the comparison between fully featured and basic interfaces."
+   ]
+  },
+  {
+   "label": "D",
+   "criterion_scores": [
+    {
+     "criterion": "accuracy",
+     "score": 7
+    },
+    {
+     "criterion": "completeness",
+     "score": 7
+    },
+    {
+     "criterion": "decisions_and_actions",
+     "score": 5
+    },
+    {
+     "criterion": "usefulness",
+     "score": 6
+    }
+   ],
+   "overall": 6.25,
+   "errors": [
+    "'Management decided against including teletext support or voice recognition' incorrectly attributes both exclusions to management. Teletext was an announced management requirement; voice recognition was opposed during the team's feature discussion.",
+    "The technical-interface summary attributes potential LCD screens to the User Interface Designer. The Marketing Expert raised the LCD-screen possibility; the User Interface Designer discussed existing sliding covers after the Marketing Expert proposed concealed controls.",
+    "'Would adding a find my remote beep function fit within budget?' is introduced as an unresolved meeting question, but no specific locator-budget question was raised. The group agreed to a finding or loss-prevention function while leaving its implementation unspecified.",
+    "'Action Items (none)' contradicts explicit next steps: completing questionnaires and summaries, uploading documentation and slides, developing role-specific concepts, and watching market trends."
+   ],
+   "strengths": [
+    "Accurately covers the main research figures, interface trade-offs, prototype-feedback proposal, and working-design components.",
+    "Includes both the selling price and production ceiling, along with television-only scope and branding requirements.",
+    "The outline correctly identifies the agreed essential controls, less-prominent secondary functions, and remote-finding objective.",
+    "Shows that target demographics were debated rather than declaring ages 15\u201335 the settled audience."
+   ],
+   "weaknesses": [
+    "Omits the actual closing work assignments, their owners, the questionnaire/summary requirement, and the document-sharing problem.",
+    "The summary treats the locator as unresolved, while the outline correctly lists a finding function as agreed.",
+    "Duplicates much of its content between the summary and outline without improving follow-up usability.",
+    "Uses undefined numbered speaker labels instead of the provided roles.",
+    "Invented unresolved questions blur the distinction between questions actually discussed and reasonable future engineering questions."
+   ]
+  }
+ ],
+ "ranking": [
+  "A",
+  "C",
+  "D",
+  "B"
+ ],
+ "rationale": "Overall scores are the equally weighted averages of the four criterion scores. A is the most faithful and best distinguishes decisions from proposals, although its action list is incomplete. C provides substantial follow-up detail but misidentifies the missing presentation and overstates several implementations. D covers the discussion reasonably well but misattributes decisions and omits explicit actions. B is readable but incorrectly finalizes the age target and replaces actual assignments with inferred tasks.",
+ "judge_model": "unknown (exact model identifier is not exposed in this environment)",
+ "judge_model_served": "gpt-6.1-sol"
+}

@@ -1,0 +1,83 @@
+{
+ "items": [
+  {
+   "id": "S1",
+   "verdict": "correct",
+   "evidence": "Notes state 'Designing a new TV remote control' with goals 'original, trendy, user-friendly.'"
+  },
+  {
+   "id": "S2",
+   "verdict": "partial",
+   "evidence": "Notes identify all four roles, describe marketing's focus on user needs, and list the industrial designer's responsibilities. They do not describe the UI designer's responsibility for technical design from the user's perspective."
+  },
+  {
+   "id": "S3",
+   "verdict": "partial",
+   "evidence": "Notes capture a 'Three-Phase Design Process' and individual work followed by meetings, but label functional design the 'current phase' rather than the forthcoming first design step. The transcript explicitly specifies three phases, not an exact count of three further meetings."
+  },
+  {
+   "id": "S4",
+   "verdict": "partial",
+   "evidence": "Notes mention using the electronic whiteboard, but omit the project manager's equipment demonstration and the availability of PowerPoint presentations."
+  },
+  {
+   "id": "S5",
+   "verdict": "correct",
+   "evidence": "Notes state 'Selling price: \u20ac25; production price: ~\u20ac12.50.'"
+  },
+  {
+   "id": "S6",
+   "verdict": "correct",
+   "evidence": "Notes state that the team drew favorite animals on the electronic whiteboard and list all four drawings."
+  },
+  {
+   "id": "S7",
+   "verdict": "correct",
+   "evidence": "The 'Early Design Considerations' section covers familiar design, disability-related usability, and lightweight materials."
+  },
+  {
+   "id": "A1",
+   "verdict": "correct",
+   "evidence": "The answer key marks this item as not applicable; there is no action item to match."
+  },
+  {
+   "id": "D1",
+   "verdict": "correct",
+   "evidence": "Notes state 'Scope confirmed: TV remote only, not a multi-device controller.'"
+  },
+  {
+   "id": "D2",
+   "verdict": "correct",
+   "evidence": "Notes state 'Intuitive design: stick to what users are familiar with,' capturing the decision to avoid unfamiliar, revolutionary changes."
+  },
+  {
+   "id": "D3",
+   "verdict": "correct",
+   "evidence": "Notes state 'Accessibility: consider users with disabilities as a potential design requirement.'"
+  },
+  {
+   "id": "D4",
+   "verdict": "correct",
+   "evidence": "Notes state 'Material: should be lightweight,' matching the industrial designer's suggestion and the project manager's acceptance."
+  },
+  {
+   "id": "P1",
+   "verdict": "correct",
+   "evidence": "The answer key marks this item as not applicable; there is no problem item to match."
+  }
+ ],
+ "errors": [
+  {
+   "claim": "Mark Knopf: project manager",
+   "why_wrong": "The project manager introduces himself only as Mark. The surname Knopf is not supplied anywhere in the transcript.",
+   "kind": "wrong_fact"
+  },
+  {
+   "claim": "Phase 1: Functional design (current phase)",
+   "why_wrong": "The meeting is the project kickoff. The project manager introduces functional design as the first forthcoming design step, with individual work followed by a meeting, rather than identifying this kickoff as the functional-design phase.",
+   "kind": "wrong_fact"
+  }
+ ],
+ "judge_model": "gpt-5",
+ "judge_model_served": "gpt-6.1-sol"
+}

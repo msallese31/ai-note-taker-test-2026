@@ -1,0 +1,123 @@
+{
+  "judge_model": "claude-fable-5-1",
+  "evaluations": [
+    {
+      "label": "A",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 8},
+        {"criterion": "completeness", "score": 8},
+        {"criterion": "decisions_and_actions", "score": 8},
+        {"criterion": "usefulness", "score": 8}
+      ],
+      "overall": 8.0,
+      "errors": [
+        "Action item owner written as 'Dirk Mengveld'; the transcript has him introduce himself as 'Dirk Meinfeld'.",
+        "'The interface designer urged familiarity and rational changes' - the transcript says 'No rational changes or whatever, 'cause it revolutionary changes', i.e. he argued against big changes, not for 'rational changes'.",
+        "The User Interface Designer is never named even though he introduced himself as Nick Broer."
+      ],
+      "strengths": [
+        "Nearly every claim traces to the transcript, with who-said-what kept straight (Mark confirmed TV-only scope, Xavier raised light material, UI designer raised accessibility and the tight margin).",
+        "Captures the key numbers (EUR 25 selling price, ~EUR 12.50 production), the scope decision, the three-phase plan, the project folder, the personal coach giving assignments, and the 30-minute reconvene.",
+        "Records that Dirk had no marketing ideas ready yet, and turns that into the one action item that is actually supported by the transcript.",
+        "Clear sectioning with timestamps, readable by someone who missed the meeting."
+      ],
+      "weaknesses": [
+        "Omits Xavier's three industrial-design questions (what happens inside, what it is made of, what it should look like).",
+        "Spends a lot of space on the animal-drawing warmup relative to its importance.",
+        "Only one action item; does not spell out that each person goes off to do individual work before the next meeting as an assignment for everyone."
+      ]
+    },
+    {
+      "label": "B",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 5},
+        {"criterion": "completeness", "score": 6},
+        {"criterion": "decisions_and_actions", "score": 5},
+        {"criterion": "usefulness", "score": 5}
+      ],
+      "overall": 5.25,
+      "errors": [
+        "'Mark Knopp' - the project manager only gave his first name, Mark; the surname is invented.",
+        "'Xavier Juukens' and 'Dirk Mankveld' - the transcript has Xavier Juergens and Dirk Meinfeld.",
+        "Action item 'Provide personal assignments to team members' assigned to Mark; the transcript says the personal coach will give the assignments.",
+        "Action items 'Prepare intuitive design concepts' (UI designer) and 'Address material considerations for lightweight design' (Xavier) were never assigned in the meeting; they are inferred from remarks.",
+        "'Dolphin: freedom, smooth design' - nothing about smooth design was said of the dolphin; 'looks smooth' was Mark's comment on the tiger drawing.",
+        "'30-minute break before next meeting' - it is 30 minutes of individual work with assignments, not a break.",
+        "Timestamp (13:53) for an action item is after the meeting ended at 13:42; (10:34) for scope clarification is wrong (it happened around 11:25-11:34)."
+      ],
+      "strengths": [
+        "Covers all the main topics in order: project goals, three phases, whiteboard, animal metaphors, scope, usability, light material, price points, next steps.",
+        "Correct numbers (EUR 25 and ~EUR 12.5) and correct scope decision (TV only, no multi-device).",
+        "Attempts per-person action items with owners."
+      ],
+      "weaknesses": [
+        "Telegraphic fragments with almost no attribution of who said or decided what.",
+        "Most of the action items are invented or misassigned, which is the one place a reader would act on these notes.",
+        "Several name transcription errors and an invented surname.",
+        "Does not mention that the marketing expert has no findings yet, or Xavier's three questions."
+      ]
+    },
+    {
+      "label": "C",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 7},
+        {"criterion": "completeness", "score": 7},
+        {"criterion": "decisions_and_actions", "score": 6},
+        {"criterion": "usefulness", "score": 7}
+      ],
+      "overall": 6.75,
+      "errors": [
+        "'Mark Knopf: project manager' - the surname is not in the transcript; Mark gave only his first name.",
+        "'Dirk Mengveld' and 'Xavier Jökens' - the transcript has Dirk Meinfeld and Xavier Juergens.",
+        "'UI designer also present (name not captured)' - he introduced himself as Nick Broer.",
+        "'Intuitive design: stick to what users are familiar with, rational changes only' - the transcript says 'No rational changes or whatever', so 'rational changes only' reverses the garbled wording.",
+        "'Dolphin: freedom, openness' - 'openness' was not said; he mentioned freedom, the ocean and swimming."
+      ],
+      "strengths": [
+        "Compact and well organized; a reader gets the project, the goals, the prices, the scope decision and the next step in under a minute.",
+        "Only set of notes to record Xavier's three industrial-design questions.",
+        "Correct on the key facts: TV-only scope, EUR 25 / ~EUR 12.50, three phases with functional design first, personal coach giving assignments, 30-minute reconvene, lightweight material.",
+        "The 'distinct and stand out from competitors' takeaway is supported by Mark's closing remark."
+      ],
+      "weaknesses": [
+        "No action items section and no owners; a reader does not learn that Dirk still owes marketing input.",
+        "Design considerations are listed without saying who raised them (UI designer raised scope and accessibility, Xavier raised material, Mark confirmed TV-only).",
+        "Invented surname for the project manager and mangled names for two others.",
+        "Omits the whiteboard responsiveness complaint and Mark's note that accessibility for seriously disabled users 'might be a problem'."
+      ]
+    },
+    {
+      "label": "D",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 4},
+        {"criterion": "completeness", "score": 6},
+        {"criterion": "decisions_and_actions", "score": 4},
+        {"criterion": "usefulness", "score": 5}
+      ],
+      "overall": 4.75,
+      "errors": [
+        "'kick off TS3012a' - no project code was mentioned anywhere in the transcript; this is invented.",
+        "'Markoff' - the project manager's name is Mark.",
+        "'Savier' / 'Savier Jokins' and 'Dirk Mangfelt' - the transcript has Xavier Juergens and Dirk Meinfeld.",
+        "'Speaker 4 acts as the User Interface Designer' - he introduced himself as Nick Broer.",
+        "'Speaker 4 clarifies that the scope of the project is limited to a TV remote control' - the UI designer asked the question; Mark clarified that the project is TV-only.",
+        "Open Design Questions lists 'Should the device be designed as a multi-remote control or limited strictly to television functions?' - this was settled in the meeting (TV only), not left open.",
+        "'Savier Jokins suggests using lightweight materials that are aesthetically impactful' - he only said the material should be light; 'aesthetically impactful' is invented.",
+        "Both action items are unowned and were not assigned in the meeting; they are rewritten from the project brief and role descriptions."
+      ],
+      "strengths": [
+        "Prose summary plus outline gives a readable narrative of the meeting flow.",
+        "Correct prices (25 euros selling, ~12.50 production), correct three-phase plan, correct roles and role descriptions, correct 30-minute reconvene.",
+        "Captures the accessibility question and the light-material point."
+      ],
+      "weaknesses": [
+        "The most name errors of the four plus an invented project code, which undermines trust in everything else.",
+        "Lists a decided item (TV-only scope) as an open question, and misattributes the clarification.",
+        "Action items are generic restatements of the brief with no owner and no link to anything said.",
+        "Summary and Outline sections repeat each other, so the notes are long without adding information; omits that the personal coach gives the assignments and that Dirk has no marketing input yet."
+      ]
+    }
+  ],
+  "ranking": ["A", "C", "B", "D"],
+  "rationale": "A is the most faithful to the transcript: attributions are right, the numbers and the TV-only scope decision are right, it records the personal coach, the 30-minute reconvene and the fact that Dirk owes marketing input, and its only slips are a mangled surname, one garbled phrase and the missing UI designer name. C is accurate and compact and is the only set to capture Xavier's three questions, but it invents a surname for Mark, mangles two others, gives no action items or owners and does not say who raised what. B covers the topics but in fragments, invents a surname, misassigns the personal-assignment task to Mark when the personal coach does it, invents two action items and has a timestamp after the meeting ended. D has the most fabrication (a project code, 'Markoff', 'Savier', 'aesthetically impactful'), lists the settled TV-only scope as an open question, misattributes that clarification to the UI designer and offers only generic unowned action items, so it ranks last despite its readable prose."
+}

@@ -1,0 +1,121 @@
+{
+  "judge_model": "claude-sonnet-5-5",
+  "evaluations": [
+    {
+      "label": "A",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 6},
+        {"criterion": "completeness", "score": 6},
+        {"criterion": "decisions_and_actions", "score": 3},
+        {"criterion": "usefulness", "score": 5}
+      ],
+      "overall": 5.0,
+      "errors": [
+        "Says 'Management decided against including teletext support or voice recognition'; management only ruled out teletext, the group itself dropped voice recognition.",
+        "Cites 'changing consumer habits' as a reason voice recognition was dropped; this was never said.",
+        "Lists 'Would adding a find my remote beep function fit within budget?' as an unresolved question, but the group agreed to want a lost-remote function. This also contradicts its own outline.",
+        "Lists 'Is it feasible to include advanced features without exceeding the production cost limit?' as an open question; this was not raised that way.",
+        "Attributes the LCD screen idea to the technical presentation (Speaker 5); it came from the marketing presentation.",
+        "Action Items section says '(none)'; the transcript clearly has follow-ups (minutes and slides to documentation, questionnaire and summary, individual work, age data email)."
+      ],
+      "strengths": [
+        "Detailed outline following the meeting order.",
+        "Correct key numbers: 75%, 80%, 10% of buttons, EUR 12.50 production cost, EUR 25 retail.",
+        "Captures teletext exclusion, TV-only scope, corporate yellow and black, and the infrared component schematic."
+      ],
+      "weaknesses": [
+        "No action items at all and no mention of the questionnaire, individual work assignments or the coach emails.",
+        "Invents unresolved questions that were actually settled.",
+        "Uses anonymous speaker numbers without clear mapping.",
+        "Does not clearly state that the target group was left open."
+      ]
+    },
+    {
+      "label": "B",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 8},
+        {"criterion": "completeness", "score": 7},
+        {"criterion": "decisions_and_actions", "score": 7},
+        {"criterion": "usefulness", "score": 7}
+      ],
+      "overall": 7.3,
+      "errors": [
+        "Several timestamps are approximate or slightly off (for example [15:20], [34:48]).",
+        "States the working-design presentation was placed in the shared folder; the speaker said 'I just did that' in reply to a question that is ambiguous about which file.",
+        "Does not mention the Marketing Expert's promise to email more age-breakdown numbers."
+      ],
+      "strengths": [
+        "Correctly says the target demographic was not settled and records the range of suggestions (15-35, under 65, 20-55, income-based).",
+        "Correct action items with the project lead as owner: add minutes and slides to project documentation, sort out the missing presentation.",
+        "Reports questionnaire and summary, individual work areas and coach emails.",
+        "Timestamps make it easy to verify, and it records the concern that a pull-out panel must not interfere with chip transmission.",
+        "Hedged, faithful wording with little invention."
+      ],
+      "weaknesses": [
+        "Action items are limited to the project lead's tasks; the questionnaire and other follow-ups are not listed as actions.",
+        "Misses the Marketing Expert's follow-up to email age data and does not list individual assignments as actions.",
+        "Somewhat vague on the agreed function list and the voice-recognition decision.",
+        "Uses 'Speaker 1' as the owner label."
+      ]
+    },
+    {
+      "label": "C",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 6},
+        {"criterion": "completeness", "score": 5},
+        {"criterion": "decisions_and_actions", "score": 4},
+        {"criterion": "usefulness", "score": 5}
+      ],
+      "overall": 5.0,
+      "errors": [
+        "States 'Target group 15-35 years' as a decision; the group explicitly left the target group open (under 65, 20-55, income-based) and moved to objectives instead.",
+        "Presents the younger-prefer-voice finding under 'Market Research' with Over 50% / 'Less is more' fine, but timestamps are frequently off (for example 04:50, 06:26, 28:55).",
+        "'Investigate technical feasibility for rechargeable battery' is overstated; the discussion was a loose idea, with only a suggestion to investigate whether a battery is needed.",
+        "Omits who owns each action and mislabels the post-meeting follow-ups; the real actions (minutes and slides, questionnaire, individual work) are missing."
+      ],
+      "strengths": [
+        "Compact, scannable bullets with timestamps.",
+        "Correct core facts: 75%, 80%, 10% of buttons, EUR 12.5 production limit, no teletext, TV only, infrared, yellow and black.",
+        "Includes a feasibility action and the age data follow-up as unassigned items."
+      ],
+      "weaknesses": [
+        "Very terse and fragmentary; a reader who missed the meeting would struggle to follow the reasoning.",
+        "Wrong on the target group outcome.",
+        "Missing the project lead's actions, the questionnaire, the individual assignments, and the missing-presentation problem.",
+        "No owners on action items."
+      ]
+    },
+    {
+      "label": "D",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 7},
+        {"criterion": "completeness", "score": 9},
+        {"criterion": "decisions_and_actions", "score": 7},
+        {"criterion": "usefulness", "score": 9}
+      ],
+      "overall": 8.0,
+      "errors": [
+        "Next steps says the working design presentation is not yet on the server; it was the project lead's own presentation that was missing, while the working design file had been uploaded.",
+        "'Channel-zapping ~65% of use time' is loosely worded; the figure was about zapping during an hour of use.",
+        "'Age segmentation less useful than lifestyle/attitude targeting' slightly overreaches; the discussion pointed to income or spending ability and to objectives, not lifestyle or attitude.",
+        "Says the questionnaire must be submitted 'before individual work session'; it was due after the meeting, before lunch, but this is minor.",
+        "Does not capture the project lead's action to put minutes and slides in the project documentation."
+      ],
+      "strengths": [
+        "Most complete and readable: research numbers, RSI, losing remotes, voice recognition by age, LCD screen idea with no data.",
+        "Clear design direction, agreed functions list (find-it feature, large buttons, hidden secondary functions, battery or cradle, fashionable), price EUR 25 and EUR 12.50 ceiling.",
+        "Includes the corporate identity detail (yellow and black, emphasis on the Rs).",
+        "Records individual workstreams, coach emails and the Marketing Expert's follow-up to email age data.",
+        "Good structure for someone who missed the meeting."
+      ],
+      "weaknesses": [
+        "Misattributes which presentation was missing from the server.",
+        "Next steps omits the project lead's documentation task and has no owners.",
+        "Does not clearly state that the target group stayed unresolved, beyond 'broad appeal'.",
+        "Some paraphrase drift."
+      ]
+    }
+  ],
+  "ranking": ["D", "B", "A", "C"],
+  "rationale": "D is the most complete and useful: it covers the research, the design direction, the agreed functions, the price limits and the post-meeting steps, with one real error (which presentation was missing from the server) and a few minor ones. B is the most careful and accurate and has correct owned action items, but it is thinner on detail and misses the age-data follow-up. A has good detail but wrongly says there are no action items, attributes the voice recognition decision to management, and invents unresolved questions that the group had actually settled. C is too terse and wrongly records 15-35 as the decided target group, and it lacks the real action items. A is placed slightly above C because it is more informative and has fewer decision errors, although both are weak on actions."
+}

@@ -1,0 +1,36 @@
+{
+  "items": [
+    {"id": "S1", "verdict": "missed", "evidence": "The notes never mention the opening or the agenda; they start at 'Market Research Findings'."},
+    {"id": "S2", "verdict": "correct", "evidence": "'75% of 100 subjects found remotes ugly; 80% willing to pay more', 'Losing the remote (50%+ cited as biggest issue)', 'Too many buttons', 'Users only use 10% of available buttons; most common actions are channel and volume changes', 'Desire for voice recognition inversely related to age: 15-35 age group most interested'. Not attributed to the marketing expert, but every finding is there."},
+    {"id": "S3", "verdict": "partial", "evidence": "'Remote is a communication device: user input -> chip -> infrared signal -> TV receiver' covers how a remote works, but the user interface designer's method (design specifications, several prototypes, user feedback, conventional layout with room for novelty, technology and price constraints) is absent."},
+    {"id": "S4", "verdict": "missed", "evidence": "No mention of the two example remotes (fully featured engineering design vs basic design) or their advantages and disadvantages."},
+    {"id": "S5", "verdict": "correct", "evidence": "'Four core components: 1. Energy source 2. Chip 3. User interface 4. Infrared bulb', 'Infrared chosen over alternatives: no line-of-sight required', 'Chip quality critical for clean signal transmission'. Not attributed to the industrial designer by name."},
+    {"id": "S6", "verdict": "correct", "evidence": "'Scope confirmed: TV only...; no teletext', 'Corporate identity: yellow and black...', 'Target group: broad appeal, roughly under 65', 'Voice recognition ruled out', 'Find-it locator feature', 'Rechargeable cradle ... proposed'."},
+    {"id": "A1", "verdict": "correct", "evidence": "'Post-meeting: each team member to complete a questionnaire and summary'."},
+    {"id": "A2", "verdict": "correct", "evidence": "'then 30 minutes individual work'."},
+    {"id": "A3", "verdict": "partial", "evidence": "'Upload presentations to shared project folder' has no owner and does not mention the minutes; the transcript has the project manager saying 'I'll make sure to put up the minutes and the project documentation and including these PowerPoint slides'."},
+    {"id": "A4", "verdict": "partial", "evidence": "'Upload presentations to shared project folder' is stated without saying the team members are to do it ('If everyone could do that as well')."},
+    {"id": "A5", "verdict": "correct", "evidence": "'Individual workstreams: components concept (ID)'."},
+    {"id": "A6", "verdict": "partial", "evidence": "'user interface concept' is listed but the owner (user interface designer) is not stated."},
+    {"id": "A7", "verdict": "partial", "evidence": "'market trend watching' is listed but the owner (marketing expert) is not stated."},
+    {"id": "D1", "verdict": "correct", "evidence": "'no teletext (superseded by internet)'."},
+    {"id": "D2", "verdict": "correct", "evidence": "'Scope confirmed: TV only, no video or other devices'."},
+    {"id": "D3", "verdict": "correct", "evidence": "'Corporate identity: yellow and black color scheme, emphasis on the Rs in branding, must be visible in final design'. The slogan is not mentioned, but the requirement is captured."},
+    {"id": "D4", "verdict": "correct", "evidence": "'Core emphasis: simplicity and fashion'."},
+    {"id": "D5", "verdict": "partial", "evidence": "'age segmentation less useful than lifestyle/attitude targeting' gets the direction but not the decision as stated: the project manager said it is more useful to define objectives like fashion and simplicity than a specific age group, and the alternative floated was income / TV ownership, not lifestyle or attitude."},
+    {"id": "D6", "verdict": "correct", "evidence": "'Find-it locator feature (button on TV to make remote beep)'."},
+    {"id": "D7", "verdict": "correct", "evidence": "'Large accessible buttons for core functions'."},
+    {"id": "D8", "verdict": "correct", "evidence": "'Hidden/less prominent secondary functions' under agreed functions."},
+    {"id": "D9", "verdict": "correct", "evidence": "'Secondary/advanced functions hidden or less prominent, possibly behind a sliding panel'."},
+    {"id": "D10", "verdict": "partial", "evidence": "'Rechargeable cradle (like a phone dock) proposed as alternative' and 'Rechargeable or long-life battery solution' hedge it; the transcript has the project manager say 'that's a good idea, we'll keep it'."},
+    {"id": "P1", "verdict": "partial", "evidence": "'Target group: broad appeal, roughly under 65; age segmentation less useful' reflects the outcome, but the notes do not convey that settling the target group was an open difficulty ('It's hard to narrow it down')."},
+    {"id": "P2", "verdict": "correct", "evidence": "'Voice recognition ruled out: too expensive, not essential for a remote'."},
+    {"id": "P3", "verdict": "partial", "evidence": "'Chip quality critical for clean signal transmission' touches it, but the question of how to make infra-red more functional (battery plus chip and component quality) is not framed as an issue."},
+    {"id": "P4", "verdict": "correct", "evidence": "'Rechargeable cradle (like a phone dock) proposed as alternative to disposable batteries' and 'Battery?' discussion captured as 'Rechargeable or long-life battery solution'."}
+  ],
+  "errors": [
+    {"claim": "Working design presentation not yet on the server; save from email into shared folder.", "why_wrong": "The transcript shows the industrial designer's working design presentation is already in the shared folder ('technical functions presentation, working design presentation and the functional requirements'); the file that is only in email is the project manager's own document.", "kind": "wrong_fact"},
+    {"claim": "age segmentation less useful than lifestyle/attitude targeting", "why_wrong": "Nobody proposed lifestyle or attitude targeting; the marketing expert suggested defining the group by how much money they have to spend and how recently they bought a television, and the project manager concluded it is more useful to define objectives like fashion and simplicity.", "kind": "wrong_fact"}
+  ],
+  "judge_model": "claude-fable-5-1"
+}

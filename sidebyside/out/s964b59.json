@@ -1,0 +1,110 @@
+{
+  "judge_model": "claude-sonnet-5-5",
+  "evaluations": [
+    {
+      "label": "A",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 7},
+        {"criterion": "completeness", "score": 8},
+        {"criterion": "decisions_and_actions", "score": 7},
+        {"criterion": "usefulness", "score": 8}
+      ],
+      "overall": 7.5,
+      "errors": [
+        "Next step says the 'working design presentation' is not yet on the server and should be saved from email; in the transcript the industrial designer's working design presentation was already in the shared folder, and it was the project manager's own file that was missing.",
+        "'channel-zapping ~65% of use time' misstates the finding that people zap about 65% during an hour of use.",
+        "'submit before individual work session' for the questionnaire and summary is not stated in the transcript.",
+        "The locator is described as a 'button on TV'. This was only the project manager's suggestion, and the group agreed to want something to prevent loss."
+      ],
+      "strengths": [
+        "Covers the market numbers, the technical components, the infrared choice, the cradle idea and the price points (25 euro retail, 12.50 production) correctly.",
+        "Correctly shows the target group as not fixed to an age band, with simplicity and fashion as the emphasis.",
+        "Captures the agreed functions, the corporate colors, the TV-only scope and the no-teletext requirement.",
+        "Includes the individual workstreams and the marketing expert's promise to email more age data."
+      ],
+      "weaknesses": [
+        "The action items are generic, have no owners, and one of them is wrong.",
+        "The project manager's own follow-ups are missing: put the minutes and slides in project documentation, and sort out the missing presentation.",
+        "No indication of who said what."
+      ]
+    },
+    {
+      "label": "B",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 5},
+        {"criterion": "completeness", "score": 6},
+        {"criterion": "decisions_and_actions", "score": 3},
+        {"criterion": "usefulness", "score": 5}
+      ],
+      "overall": 4.8,
+      "errors": [
+        "'Management decided against including teletext support or voice recognition': only teletext was a management decision; voice recognition was dismissed by the team on cost and need.",
+        "The 'Unresolved Questions' (would the beep function fit the budget, whether a rechargeable system doubles as storage, whether advanced features fit the cost limit) were not raised that way in the meeting. The find-it function was agreed.",
+        "Speaker numbers (Speaker 2/3/4/5) are used inconsistently, and the notes say Speaker 2 'emphasized' corporate identity, so the reader cannot tell who is who.",
+        "The 'under 65' and 'teenagers and families' target remarks are presented as a discussion of ages 15-35 versus broad appeal, which blurs what was actually proposed.",
+        "Action Items section says '(none)' although the meeting ended with explicit follow-ups."
+      ],
+      "strengths": [
+        "Clear outline of the meeting's sections, with the research numbers and technical components right.",
+        "Gets the cost limit, the 25 euro price, the infrared choice and the cradle idea right."
+      ],
+      "weaknesses": [
+        "No action items, even though the meeting closed with individual assignments, a questionnaire and summary, and the project manager's follow-ups.",
+        "Contains invented open questions and a misattributed decision.",
+        "Anonymous speaker numbers cut its usefulness for someone who missed the meeting."
+      ]
+    },
+    {
+      "label": "C",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 8},
+        {"criterion": "completeness", "score": 9},
+        {"criterion": "decisions_and_actions", "score": 8},
+        {"criterion": "usefulness", "score": 9}
+      ],
+      "overall": 8.5,
+      "errors": [
+        "Several timestamps are approximate or slightly off (for example the 15:20 working-design marker and the 32:02 and 34:48 markers).",
+        "Action items name only the project manager's follow-ups ('Speaker 1') and omit the marketing expert's promise to email further age data."
+      ],
+      "strengths": [
+        "Reports the target market as open, consistent with the transcript, and records the age ranges suggested (15-35, under 65, 20-55) and the alternative of defining by income.",
+        "Gives the reasoning behind decisions: voice recognition against the 12.50 production ceiling and 25 euro price, the hatch or slide idea for secondary buttons, and the check that it does not impede the chip.",
+        "Includes owned action items (add the minutes and slides to project documentation; resolve where the project manager's presentation is saved).",
+        "Covers the individual assignments, the questionnaire and summary, the personal coach emails and the shared-folder issue.",
+        "Timestamps make it easy to verify and navigate."
+      ],
+      "weaknesses": [
+        "Long and somewhat repetitive.",
+        "Does not list the marketing expert's promised email, nor the explicit per-role concept assignments as action items with owners."
+      ]
+    },
+    {
+      "label": "D",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 5},
+        {"criterion": "completeness", "score": 5},
+        {"criterion": "decisions_and_actions", "score": 4},
+        {"criterion": "usefulness", "score": 5}
+      ],
+      "overall": 4.8,
+      "errors": [
+        "'Target group 15-35 years' is stated as a decision; the group explicitly did not settle on an age range and moved toward defining objectives and income instead.",
+        "'Investigate technical feasibility for rechargeable battery' is presented as an action item; it was only a suggestion that the group should maybe investigate whether a battery is needed.",
+        "Many timestamps are off or approximate (for example 04:50, 06:26, 23:39 and 28:55 do not match the matching content)."
+      ],
+      "strengths": [
+        "Compact and scannable, with the main numbers correct (75%, 80%, 10%, over 50% losing remotes, 12.50 production cost).",
+        "Records the infrared choice, the four components, the no-teletext rule, the TV-only scope and the yellow/black colors.",
+        "Has a short action list, labeled unassigned."
+      ],
+      "weaknesses": [
+        "Very terse; leaves out the 25 euro price rationale, RSI, the sliding hatch discussion and the reasoning behind decisions.",
+        "Misses the individual assignments, the questionnaire and summary, and the project manager's documentation follow-ups.",
+        "Presents an unresolved target group as decided."
+      ]
+    }
+  ],
+  "ranking": ["C", "A", "D", "B"],
+  "rationale": "C is the most accurate and the most useful: it keeps the target market open as the transcript does, gives the reasoning behind the voice-recognition and secondary-button decisions, and lists owned follow-ups for the project manager. A is close and covers most content well, but its action item about the working-design presentation reverses who was missing a file and its next steps are generic and unowned. D is short and wrongly treats a 15-35 target group as decided, and it misses most of the closing assignments, though it does include some action items. B has well-organized sections but no action items, misattributes the voice-recognition decision to management, invents unresolved questions, and uses opaque speaker numbers."
+}

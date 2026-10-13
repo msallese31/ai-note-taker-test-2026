@@ -1,0 +1,116 @@
+{
+  "judge_model": "claude-sonnet-5-5",
+  "evaluations": [
+    {
+      "label": "A",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 6},
+        {"criterion": "completeness", "score": 9},
+        {"criterion": "decisions_and_actions", "score": 6},
+        {"criterion": "usefulness", "score": 7}
+      ],
+      "overall": 7.0,
+      "errors": [
+        "Action item assigns Andrei to 'Follow up with absent team members (Maggie, Pierrette)'; in the transcript Susan volunteers to ask Maggie and Pierrette.",
+        "Action item 'Distribute documents of the new office configuration to all participants' is listed as a to-do, but Andre handed out the documents during the meeting.",
+        "Says 'Management recognizes this [lounge] as a priority'; no one said that. Susan questioned whether the lounge was needed and the purpose was left open.",
+        "Says splitting rooms is 'not feasible due to building and security regulations'; Andre said the answer is 'no for the moment' because of the work involved, and a colleague mentioned authorisation. He will check.",
+        "Says 'Staff can bring coffee into the reading room or lounge' and that 'cafeterias close by 5 PM'; the transcript has one cafeteria downstairs closing at five, plus vending machines. This is a minor distortion.",
+        "Timestamps are often wrong or imprecise (e.g. first section stamped 00:06, 'Schedule next meeting' at 32:46)."
+      ],
+      "strengths": [
+        "Most complete coverage: desk counts, 16 slots with a reading room, zero growth, visitor needs, project grouping rejected, smoking, Gisela options, other group, and the Tuesday 2pm follow-up.",
+        "Captures the four-desks-in-a-three-person-room question and the idea of placing Gisela with the school admin.",
+        "Has a dedicated action items section."
+      ],
+      "weaknesses": [
+        "Misattributes the Maggie and Pierrette follow-up to Andrei and lists an already-done handout as an action.",
+        "Very long and repetitive; the same points (growth, building approvals, admin noise) appear in several sections, which makes the notes harder to use.",
+        "Frames some open discussion as settled (lounge priority).",
+        "Action owners are generic ('All participants', 'Meeting organizer')."
+      ]
+    },
+    {
+      "label": "B",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 8},
+        {"criterion": "completeness", "score": 8},
+        {"criterion": "decisions_and_actions", "score": 7},
+        {"criterion": "usefulness", "score": 8}
+      ],
+      "overall": 7.8,
+      "errors": [
+        "Says there was 'strong support' for the lounge and that a majority leaned toward mixed use; Susan questioned the need and nobody reached a decision.",
+        "Lists 'a 2P room with a visitor slot' as an option for Gisela without noting that Martin and others called putting a senior visitor in the admin office unrealistic.",
+        "Next steps carry no owners, so Susan's commitment to ask Maggie and Pierrette is not attributed."
+      ],
+      "strengths": [
+        "Concise, accurate and well organized into overview, preferences and constraints, lounge, and next steps.",
+        "Correct numbers: 15 people, about 18 positions, 16 with a two-person room used as the reading room, zero growth.",
+        "Correctly attributes positions to Susan and Martin, and records the part-time staff and the no-hot-desking point.",
+        "Next steps include the key items: room separation, four desks in a three-person room, Gisela with other admin, Maggie and Pierrette, and a Tuesday 2pm meeting."
+      ],
+      "weaknesses": [
+        "No owners on action items.",
+        "Does not mention that Susan questioned the need for the lounge, and slightly overstates agreement on it.",
+        "Does not capture the discussion of whether to ask professors to share rooms in order to free a one-person room for Gisela beyond a brief line."
+      ]
+    },
+    {
+      "label": "C",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 4},
+        {"criterion": "completeness", "score": 5},
+        {"criterion": "decisions_and_actions", "score": 3},
+        {"criterion": "usefulness", "score": 4}
+      ],
+      "overall": 4.0,
+      "errors": [
+        "Uses anonymous 'Speaker 1/2/3/4' labels that do not match the transcript. 'Speaker 3 announced the relocation' and 'Speaker 3 will investigate' room partitioning is Andre, but nothing identifies him.",
+        "Action Items section says '(none)', although Andre agreed to investigate room separation and Susan agreed to ask Maggie and Pierrette.",
+        "Says 'Members were tasked with consulting colleagues, such as Maggie and Pierrette'; this was Susan's specific commitment.",
+        "Says the view is of 'the old town or mountains'; the transcript has the old town on one side and mountains on the other two.",
+        "Says 'Speaker 1 noted ... confidential discussions regarding budgets'; the content is roughly right but ties to nobody by name."
+      ],
+      "strengths": [
+        "Concise and readable.",
+        "Lists the main open questions: partitioning rooms, four people in a three-person room, lounge purpose, and professors' preferences for individual offices.",
+        "Gives the next meeting as Tuesday 2:00 PM."
+      ],
+      "weaknesses": [
+        "Anonymous speaker labels make it hard to know who said or owes what.",
+        "Empty action items despite clear commitments.",
+        "Omits Gisela as the key constraint beyond a passing mention, the 16 slots and zero growth, the idea of placing Gisela with the school admin, and project grouping being rejected.",
+        "Treats project grouping as undecided, when the group leaned against it."
+      ]
+    },
+    {
+      "label": "D",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 8},
+        {"criterion": "completeness", "score": 6},
+        {"criterion": "decisions_and_actions", "score": 8},
+        {"criterion": "usefulness", "score": 7}
+      ],
+      "overall": 7.2,
+      "errors": [
+        "The 'Preferences' section stamps the Tuesday meeting at 32:04, a minor timestamp slip.",
+        "Describes the 'lounge' as possibly reducing space and attributes the growth warning to Martin; this is correct, but it omits that Susan was the one who questioned the lounge."
+      ],
+      "strengths": [
+        "Accurate attribution by name: Andrei, Susan, Martin.",
+        "Action items name owners correctly: Andrei on room separation and authorisation, Susan on Maggie and Pierrette.",
+        "Correctly states what was decided (nothing final) and what stays open (lounge purpose, Gisela's placement).",
+        "Captures the fixed room count versus open assignments, the 16 slots for 15 people, and the no-growth point."
+      ],
+      "weaknesses": [
+        "Action items list only two items; it leaves out the four-desks-in-a-three-person-room check, asking about Gisela sharing with the school admin, and each person preparing preferences or a sketch.",
+        "The Tuesday 2pm follow-up appears only as a bullet, not as a next step.",
+        "Less detail on options for Gisela and on the debate about professors sharing with assistants.",
+        "Section headers and the leading summary are somewhat generic."
+      ]
+    }
+  ],
+  "ranking": ["B", "D", "A", "C"],
+  "rationale": "B is accurate, concise and covers nearly all the real next steps and numbers, though it has no owners. D is the most accurate on who does what but omits several next steps. A is the most thorough but misattributes the Maggie and Pierrette follow-up to Andrei, lists an already-done handout as an action, overstates agreement on the lounge, and is repetitive. C is weakest: anonymous speaker labels, misattributed items and an empty action items section."
+}

@@ -1,0 +1,120 @@
+{
+  "judge_model": "claude-sonnet-5-5",
+  "evaluations": [
+    {
+      "label": "A",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 4},
+        {"criterion": "completeness", "score": 6},
+        {"criterion": "decisions_and_actions", "score": 3},
+        {"criterion": "usefulness", "score": 4}
+      ],
+      "overall": 4.3,
+      "errors": [
+        "Names are misspelled and inconsistent: 'Mark Knopp', 'Xavier Juukens', 'Dirk Mankveld'.",
+        "Action item 'Prepare intuitive design concepts' assigned to the User Interface Designer was never assigned in the meeting.",
+        "Action item 'Address material considerations for lightweight design' assigned to Xavier was never assigned; he only said the material should be light.",
+        "'Dolphin: freedom, smooth design' - nothing in the transcript says the dolphin stands for smooth design.",
+        "'Provide personal assignments' is attributed to Mark; the transcript says the personal coach gives them.",
+        "'Marketing expert to provide trend input later' and 'Bring marketing insights on user preferences' overstate what Dirk said (he only said he has some ideas).",
+        "Timestamps are often off (for example product scope at 10:34, pricing at 12:10)."
+      ],
+      "strengths": [
+        "Notes the whiteboard responsiveness problem and the preference for pen and paper.",
+        "Covers the four animals, scope, accessibility, light material, the price numbers and the 30-minute return.",
+        "Has timestamps and an action-item section."
+      ],
+      "weaknesses": [
+        "Action items are mostly invented or mis-assigned, which makes the decisions and actions section misleading.",
+        "Name errors and a vague UI designer label.",
+        "Terse bullets give little context, for example no reason for the 'limited margin' remark."
+      ]
+    },
+    {
+      "label": "B",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 7},
+        {"criterion": "completeness", "score": 7},
+        {"criterion": "decisions_and_actions", "score": 5},
+        {"criterion": "usefulness", "score": 7}
+      ],
+      "overall": 6.5,
+      "errors": [
+        "Names are misspelled: 'Mark Knopf', 'Dirk Mengveld', 'Xavier Jökens'.",
+        "'UI designer also present (name not captured)' - he introduced himself as Nick Broer.",
+        "'Rational changes only' garbles the UI designer's remark about avoiding revolutionary changes.",
+        "'Positioning: fashion electronics' is a reasonable paraphrase, but 'Dirk ... focused on user needs and new product direction' is a loose summary."
+      ],
+      "strengths": [
+        "Clear structure: goals, introductions, process, early design considerations, whiteboard exercise.",
+        "Gets the €25 selling price and about €12.50 production cost right, and flags the tight budget.",
+        "Correctly captures that personal assignments come via the personal coach, that the next meeting is in 30 minutes, and that minutes go in the shared folder.",
+        "Lists Xavier's three questions accurately.",
+        "No invented action items."
+      ],
+      "weaknesses": [
+        "No explicit action-item or owner section; Dirk's pending marketing ideas are not captured.",
+        "Does not mention the whiteboard responsiveness issue.",
+        "Misses the UI designer's name."
+      ]
+    },
+    {
+      "label": "C",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 5},
+        {"criterion": "completeness", "score": 7},
+        {"criterion": "decisions_and_actions", "score": 4},
+        {"criterion": "usefulness", "score": 5}
+      ],
+      "overall": 5.2,
+      "errors": [
+        "'TS3012a' project code does not appear in the transcript.",
+        "Names are wrong or inconsistent: 'Markoff', 'Dirk Mangfelt', 'Savier Jokins'; the UI designer is only 'Speaker 4'.",
+        "'Speaker 4 clarifies that the scope ... is limited to a TV remote' - the UI designer asked the question and the Project Manager clarified.",
+        "'Lightweight materials that are aesthetically impactful' - aesthetic impact was not said.",
+        "'Savier ... tasked with determining internal components, materials and aesthetics' is a paraphrase of his three questions, but the roles list is repeated several times, padding the notes.",
+        "Action items (research market trends; design a distinctive interface) were not assigned in the meeting and have no owners.",
+        "Open questions are framed as unresolved, but the light-material and accessibility points were stated as considerations, not open questions."
+      ],
+      "strengths": [
+        "Most detailed outline of the meeting, including all four animals and what each stood for.",
+        "Has the €25 and €12.50 figures and the 30-minute reconvene.",
+        "Includes a separate section of open design questions."
+      ],
+      "weaknesses": [
+        "Invented project code and generic, unowned action items.",
+        "Redundant structure (summary, roles, outline repeat the same facts).",
+        "Speaker labels and mangled names reduce usefulness for someone who missed the meeting.",
+        "Does not mention that Dirk has marketing ideas still to share or that the coach hands out assignments by name."
+      ]
+    },
+    {
+      "label": "D",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 8},
+        {"criterion": "completeness", "score": 8},
+        {"criterion": "decisions_and_actions", "score": 7},
+        {"criterion": "usefulness", "score": 8}
+      ],
+      "overall": 7.8,
+      "errors": [
+        "'Dirk Mengveld' is misspelled in the action item.",
+        "Timestamps are approximate and a few are off by a minute or more.",
+        "'The interface designer urged familiarity and rational changes' repeats the garbled transcript wording."
+      ],
+      "strengths": [
+        "Attributes statements to the right people: dolphin to the UI designer, elephant to Dirk, tiger to Xavier, ant to Mark, scope question to the UI designer and answer to Mark.",
+        "Captures the whiteboard responsiveness problem, the €25 / €12.50 numbers and the comment that there is not much room to work with.",
+        "Correctly records that Dirk has ideas but has not prepared them, that the personal coach gives individual assignments, and the 30-minute reconvene.",
+        "Single action item is grounded in the transcript and has an owner."
+      ],
+      "weaknesses": [
+        "Only one action item; does not list Mark putting minutes in the folder or the personal coach assignments as actions.",
+        "The summary is somewhat generic and the animal-exercise detail is wordy.",
+        "Does not name the UI designer."
+      ]
+    }
+  ],
+  "ranking": ["D", "B", "C", "A"],
+  "rationale": "D is the most faithful: speakers and statements are attributed correctly, numbers are right, it captures the whiteboard issue and Dirk's pending ideas, and its one action item is real. B is accurate and well organised with the key numbers and next steps but has no action-item section and misses the UI designer's name. C is the most detailed outline but invents a project code, uses speaker labels and mangled names, misattributes the scope clarification, and lists generic unowned action items. A has the weakest decisions and actions: its owner-assigned items (UI designer preparing concepts, Xavier addressing materials) were never assigned, and names are wrong."
+}

@@ -1,0 +1,163 @@
+{
+ "items": [
+  {
+   "id": "S1",
+   "verdict": "partial",
+   "evidence": "The notes describe the 'Prototype presentation' but do not identify the User Interface Designer as its presenter."
+  },
+  {
+   "id": "S2",
+   "verdict": "correct",
+   "evidence": "The notes describe a 'flip panel LCD display option' and 'Customizable front and back panels.'"
+  },
+  {
+   "id": "S3",
+   "verdict": "partial",
+   "evidence": "The notes report \u20ac9.95 excluding the LCD and an additional \u20ac2\u20133, but omit the Project Manager's presentation role. Contrary to the answer key, the transcript indicates that the LCD could fit approximately within the budget."
+  },
+  {
+   "id": "S4",
+   "verdict": "partial",
+   "evidence": "'Negotiations with vendors planned to reduce costs further' captures the undertaking but omits the Project Manager as owner. The transcript specifies savings for marketing/promotions, not explicitly for adding the LCD."
+  },
+  {
+   "id": "S5",
+   "verdict": "partial",
+   "evidence": "The notes give the market size, two-million-unit target, 25% share requirement and profit calculations, but do not identify the Marketing Expert as presenter or clearly convey his doubts about achieving those targets."
+  },
+  {
+   "id": "S6",
+   "verdict": "correct",
+   "evidence": "'Online sales and drop shipping proposed' and the discussion of Amazon/eBay capture internet distribution and promotion."
+  },
+  {
+   "id": "S7",
+   "verdict": "wrong",
+   "evidence": "Although the notes mention inadequate redesign time and failure risks, they say 'The team agreed on a fixed design.' The transcript shows the Project Manager imposing that decision while the User Interface Designer objected."
+  },
+  {
+   "id": "S8",
+   "verdict": "correct",
+   "evidence": "The notes describe launches associated with the World Cup, major sporting events and DVD releases, including possible Sony Pictures collaboration."
+  },
+  {
+   "id": "A1",
+   "verdict": "partial",
+   "evidence": "The supplier-negotiation action appears under 'Unknown (Finance Lead),' rather than the Project Manager, and omits his commitment to speak with management about reducing costs."
+  },
+  {
+   "id": "A2",
+   "verdict": "missed",
+   "evidence": "The notes do not record the Project Manager's promise to convince management to pursue the proposed promotion approach."
+  },
+  {
+   "id": "A3",
+   "verdict": "missed",
+   "evidence": "The notes assign marketing tasks to Ed but omit their production-dependent timing. The transcript actually says to leave matters to Ed once production is over, rather than merely begun."
+  },
+  {
+   "id": "A4",
+   "verdict": "correct",
+   "evidence": "The notes describe developing prototypes and then conducting market usability tests before final production. The transcript explicitly identifies these forthcoming units as prototypes."
+  },
+  {
+   "id": "D1",
+   "verdict": "wrong",
+   "evidence": "The notes capture the LCD design and side microphone in the summary, but explicitly say microphone placement 'remains undecided.' The discussion ends with agreement that side placement is suitable."
+  },
+  {
+   "id": "D2",
+   "verdict": "partial",
+   "evidence": "Cost-reduction negotiations are recorded without the Project Manager as owner. The transcript supports negotiating to fund marketing/promotions; the answer key's specific LCD-integration purpose is not stated."
+  },
+  {
+   "id": "D3",
+   "verdict": "correct",
+   "evidence": "The notes record event-linked launches and possible collaboration with Sony Pictures. Their wording 'proposed' and 'considered' matches the transcript more closely than a firm commitment to partnerships."
+  },
+  {
+   "id": "D4",
+   "verdict": "wrong",
+   "evidence": "'The team agreed on a fixed design' misrepresents a decision made by the Project Manager despite the User Interface Designer's objections."
+  },
+  {
+   "id": "D5",
+   "verdict": "correct",
+   "evidence": "The notes place evaluation after prototype development and before final production. Contrary to the answer key's exclusion of prototype evaluation, the Project Manager explicitly confirms 'prototype product evaluation.'"
+  },
+  {
+   "id": "P1",
+   "verdict": "correct",
+   "evidence": "The notes identify omitted advertising/distribution costs, tight margins and demanding sales/share targets. The transcript supports these concerns, but not the answer key's stronger assertion that the component budget definitively fails or that major budget changes were agreed."
+  },
+  {
+   "id": "P2",
+   "verdict": "partial",
+   "evidence": "The notes mention no redesign time and the risk of missing user needs, but omit the explicit disagreement over evaluation/redesign timing and misleadingly describe agreement on the fixed design."
+  }
+ ],
+ "errors": [
+  {
+   "claim": "The microphone placement remains undecided but likely on the side.",
+   "why_wrong": "After considering placement under the flip, the participants accept side placement so voice activation remains accessible when the remote is closed.",
+   "kind": "decision_described_wrongly"
+  },
+  {
+   "claim": "Labor for the wooden case [was] estimated at about \u20ac1.",
+   "why_wrong": "The Industrial Designer describes \u20ac1 as the case's combined material and labor cost, not labor alone.",
+   "kind": "wrong_fact"
+  },
+  {
+   "claim": "The team agreed on a fixed design for initial launch.",
+   "why_wrong": "The Project Manager decided against changes; the User Interface Designer explicitly objected to launching without time for testing-driven redesign.",
+   "kind": "decision_described_wrongly"
+  },
+  {
+   "claim": "Marketing lead emphasizes brand value.",
+   "why_wrong": "The Project Manager, not the Marketing Expert, says that Ed can promote the brand and product value.",
+   "kind": "wrong_person"
+  },
+  {
+   "claim": "Closing remarks ... stressed importance of post-launch evaluation; emphasis on monitoring project outcomes after production and adjusting based on market response.",
+   "why_wrong": "The closing remarks mention forthcoming evaluation, thank the team, leave later marketing to Ed and propose drinks. They do not stress post-launch monitoring or adjustment. Second-generation feedback was discussed earlier.",
+   "kind": "other_invented"
+  },
+  {
+   "claim": "Christian: Continue refinement and adjustment of prototype design details as per feedback discussion.",
+   "why_wrong": "Weight and button shapes were discussed, but no refinement task was assigned to Christine or anyone else.",
+   "kind": "invented_action_item"
+  },
+  {
+   "claim": "Unknown (Finance Lead): Finalize detailed production budget including promotional and transport costs.",
+   "why_wrong": "The Marketing Expert identified omitted overhead costs, but nobody agreed to or was assigned this budget-finalization task.",
+   "kind": "invented_action_item"
+  },
+  {
+   "claim": "Marketing Lead (Ed): Develop and propose online sales and promotion strategy, including partnerships; plan campaigns aligning launch with sporting events or DVD releases.",
+   "why_wrong": "These approaches were discussed, but these specific planning tasks were not assigned to Ed. The explicit undertaking concerning the event/media promotion proposal was the Project Manager's promise to convince management.",
+   "kind": "invented_action_item"
+  },
+  {
+   "claim": "Prototypes to be developed externally; produce prototypes at an external location.",
+   "why_wrong": "The discussion specifies that product evaluation should occur outside the company's factory. It does not establish external prototype manufacture.",
+   "kind": "other_invented"
+  },
+  {
+   "claim": "Management: Coordinate with external production/testing partner.",
+   "why_wrong": "No external production/testing partner or management coordination assignment was established.",
+   "kind": "invented_action_item"
+  },
+  {
+   "claim": "Complete prototype evaluation within two weeks.",
+   "why_wrong": "Two weeks was initially the estimate for prototypes to be ready. The subsequent evaluation discussion allowed a minimum of two and a maximum of four weeks.",
+   "kind": "wrong_fact"
+  },
+  {
+   "claim": "Organize closing celebration event upon successful completion of production milestone.",
+   "why_wrong": "The Project Manager proposed meeting that evening for a party and drinks, not waiting until a production milestone had been completed.",
+   "kind": "wrong_fact"
+  }
+ ],
+ "judge_model": "unknown",
+ "judge_model_served": "gpt-6.1-sol"
+}

@@ -1,0 +1,26 @@
+{
+  "items": [
+    {"id": "S1", "verdict": "partial", "evidence": "Notes cover the wheel-sensor cost ('The industrial designer flagged the wheel sensor's cost', 'A standard wheel sensor costs 50 times as much as a push button') and the voice-recognition chip email, but do not say the Industrial Designer presented the functional components (standard chip, push buttons, wheel sensor). Per the transcript the voice chip was raised by the UI Designer, not the Industrial Designer; the notes do not misattribute it."},
+    {"id": "S2", "verdict": "partial", "evidence": "Notes say 'The UI designer favored a simple layout with large volume and channel controls' and 'Some buttons on existing remotes were hard to reach with a thumb', which implies existing remotes were shown, but never states that he presented existing remote controls as examples for the interface."},
+    {"id": "S3", "verdict": "partial", "evidence": "Notes mention a simple layout and thumb reachability, but do not state that the new design is simpler and more ergonomic by eliminating extra functions (keep only the central buttons, drop input buttons, etc.)."},
+    {"id": "S4", "verdict": "correct", "evidence": "'The market presentation ranked fancy look and feel first, innovation second, and ease of use third' and 'It reported a trend toward fruit and vegetable forms.'"},
+    {"id": "S5", "verdict": "correct", "evidence": "'It reported a trend toward fruit and vegetable forms', 'A spongy material was suggested', and the decision 'yellow, banana-shaped remote' with 'a spongy cover over an inner structure.'"},
+    {"id": "S6", "verdict": "correct", "evidence": "'The group settled the main concept' and the chosen-concept bullets (banana shape, wheel on top, buttons on side, spongy cover, standard battery, chip)."},
+    {"id": "S7", "verdict": "partial", "evidence": "Notes state banana shape, spongy cover, wheel on top, standard battery and the chip, but do not state that the buttons will be lighted. On speech recognition the notes say 'No decision was made to add voice features', which matches the transcript (the PM deferred it at 05:38 and the topic never returned) rather than the key's claim that it was explicitly eliminated."},
+    {"id": "S8", "verdict": "correct", "evidence": "'The industrial designer and UI designer were asked to work together on the prototype' and 'The next work included final look-and-feel design, UI design, and checking the product against user requirements.'"},
+    {"id": "A1", "verdict": "correct", "evidence": "'The industrial and UI designers will work together on the next design and prototype.' Stated in the body even though the Action items section is empty."},
+    {"id": "A2", "verdict": "correct", "evidence": "'The next work included ... checking the product against user requirements.'"},
+    {"id": "D1", "verdict": "correct", "evidence": "'The group settled the main concept' plus the listed concept features."},
+    {"id": "D2", "verdict": "correct", "evidence": "'The chosen concept was a yellow, banana-shaped remote' and 'The case would have a spongy cover over an inner structure.'"},
+    {"id": "D3", "verdict": "missed", "evidence": "Notes only mention the light as part of the earlier concept ('a light to help find it') and the debate about motion sensing and battery use; they never state that the buttons will be lighted. The transcript confirms it at 20:38 ('the button ar are lighted')."},
+    {"id": "D4", "verdict": "correct", "evidence": "'The wheel stays despite its higher cost, for ease of use and innovation.'"},
+    {"id": "D5", "verdict": "correct", "evidence": "'a yellow, banana-shaped remote with a wheel on top and buttons on the side.'"},
+    {"id": "D6", "verdict": "partial", "evidence": "Notes state the standard chip ('the selected chip-on-print component') and 'No decision was made to add voice features', but do not say speech recognition was eliminated. The transcript supports the notes here: the PM deferred the voice chip at 05:38 and it was never explicitly rejected; the chip was simply confirmed at 18:23-19:22."},
+    {"id": "D7", "verdict": "correct", "evidence": "'The design would use a standard battery'."}
+  ],
+  "errors": [
+    {"claim": "It had a channel wheel, preview button, and protected channel-number buttons.", "why_wrong": "The transcript at 00:33 says 'a wheel to change channel previous channel button', i.e. a previous-channel button, not a preview button.", "kind": "wrong_fact"},
+    {"claim": "The wheel could be pressed down to recall a channel. [10:42]", "why_wrong": "The UI Designer said the push-down of the wheel could be used 'for the record if we want'; nothing in the transcript says it recalls a channel.", "kind": "wrong_fact"}
+  ],
+  "judge_model": "Fable 5.1 (claude-fable-5-1)"
+}

@@ -1,0 +1,66 @@
+{
+  "items": [
+    {
+      "id": "S1",
+      "verdict": "correct",
+      "evidence": "Notes: \"Designing a new TV remote control\" and \"Design goals: original, trendy, user-friendly\"."
+    },
+    {
+      "id": "S2",
+      "verdict": "partial",
+      "evidence": "Notes list Mark (project manager), Dirk (marketing expert, user needs) and Xavier (industrial designer, three questions covering internals, materials, looks). The UI designer is only \"also present (name not captured)\"; the transcript gives his name (Nick Broer) and his focus (\"look at the technical design from the user point of view\"), both missing."
+    },
+    {
+      "id": "S3",
+      "verdict": "correct",
+      "evidence": "Notes: \"Three-Phase Design Process\", \"Phase 1: Functional design (current phase)\", \"Next meeting in 30 minutes\". Transcript says three phases of design with the first being functional design; it does not literally say \"three further meetings\", so the notes match the transcript."
+    },
+    {
+      "id": "S4",
+      "verdict": "partial",
+      "evidence": "Notes mention the electronic whiteboard and \"Minutes and materials stored in the shared projects folder\" but do not state that the project manager gave an overview of the equipment (SMARTboard demo, PowerPoint, project folder)."
+    },
+    {
+      "id": "S5",
+      "verdict": "correct",
+      "evidence": "Notes: \"Selling price: €25; production price: ~€12.50\"."
+    },
+    {
+      "id": "S6",
+      "verdict": "correct",
+      "evidence": "Notes: \"Team used the electronic whiteboard to draw favorite animals as a creative warmup\" with dolphin, elephant, tiger, ant listed."
+    },
+    {
+      "id": "S7",
+      "verdict": "correct",
+      "evidence": "Notes section \"Early Design Considerations\" includes \"Material: should be lightweight\" and \"Accessibility: consider users with disabilities\"."
+    },
+    {
+      "id": "A1",
+      "verdict": "correct",
+      "evidence": "Answer key has no action items; the notes do not invent any (next meeting in 30 minutes and assignments via personal coach are stated in the transcript)."
+    },
+    {
+      "id": "D1",
+      "verdict": "correct",
+      "evidence": "Notes: \"Scope confirmed: TV remote only, not a multi-device controller\"."
+    },
+    {
+      "id": "D2",
+      "verdict": "correct",
+      "evidence": "Notes: \"Intuitive design: stick to what users are familiar with, rational changes only\". The transcript wording is garbled (\"No rational changes or whatever, 'cause it revolutionary changes\"), but the core point, keep it familiar and intuitive, is captured."
+    },
+    {
+      "id": "D3",
+      "verdict": "correct",
+      "evidence": "Notes: \"Accessibility: consider users with disabilities as a potential design requirement\"; transcript: the project manager says to take it into consideration."
+    },
+    {
+      "id": "D4",
+      "verdict": "correct",
+      "evidence": "Notes: \"Material: should be lightweight\"; transcript: industrial designer proposes light material, project manager agrees."
+    }
+  ],
+  "errors": [],
+  "judge_model": "claude-fable-5-1"
+}

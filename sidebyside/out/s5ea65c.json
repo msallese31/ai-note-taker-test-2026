@@ -1,0 +1,114 @@
+{
+  "judge_model": "claude-fable-5-1",
+  "evaluations": [
+    {
+      "label": "A",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 7},
+        {"criterion": "completeness", "score": 7},
+        {"criterion": "decisions_and_actions", "score": 7},
+        {"criterion": "usefulness", "score": 8}
+      ],
+      "overall": 7.25,
+      "errors": [
+        "\"Mark Knopf: project manager\" - the transcript gives only the first name Mark; the surname is not in the transcript.",
+        "\"Dirk Mengveld\" and \"Xavier Jökens\" - transcript names are Dirk Meinfeld and Xavier Juergens.",
+        "\"UI designer also present (name not captured)\" - the UI designer introduced himself as Nick Broer at [00:44].",
+        "\"Dolphin: freedom, openness\" - the UI designer said freedom, the ocean and swimming; \"openness\" is not in the transcript."
+      ],
+      "strengths": [
+        "Compact and well organized; key numbers (EUR 25 selling price, ~EUR 12.50 production) and the three-phase process are stated correctly.",
+        "Captures the scope decision (TV only), the familiarity/intuitive principle, accessibility, lightweight material and the 30-minute reconvene with assignments via the personal coach.",
+        "Correctly records the industrial designer's three questions and the takeaway that the design should be distinct from competitors."
+      ],
+      "weaknesses": [
+        "Names are unreliable: an invented surname for Mark, misspelled surnames, and a named participant (Nick Broer) reported as not captured.",
+        "Omits that the marketing expert had no concrete ideas yet to share, and that the PM flagged that severely disabled users might be a problem.",
+        "No explicit action-item list with owners, though the meeting itself assigned little."
+      ]
+    },
+    {
+      "label": "B",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 4},
+        {"criterion": "completeness", "score": 6},
+        {"criterion": "decisions_and_actions", "score": 4},
+        {"criterion": "usefulness", "score": 5}
+      ],
+      "overall": 4.75,
+      "errors": [
+        "\"kick off TS3012a\" - no project code appears anywhere in the transcript.",
+        "\"Markoff\" as the project manager's name - he introduced himself as Mark.",
+        "\"Speaker 4 clarifies that the scope of the project is limited to a TV remote control\" - the UI designer asked the question; the Project Manager clarified it was TV only [11:32].",
+        "Open Design Questions lists \"Should the device be designed as a multi-remote control or limited strictly to television functions?\" - this was resolved in the meeting (TV only), not left open.",
+        "\"What specific lightweight materials will best suit the industrial design requirements?\" - no such question was raised; the industrial designer only said the material should be light.",
+        "\"Savier Jokins suggests using lightweight materials that are aesthetically impactful\" - \"aesthetically impactful\" is not in the transcript.",
+        "\"Dirk Mangfelt\", \"Savier Jokins\" - transcript names are Dirk Meinfeld and Xavier Juergens; the UI designer (Nick Broer) is left as \"Speaker 4\".",
+        "Action items (research market trends; design a distinctive interface) were not assigned in the meeting; the PM said the personal coach would hand out assignments."
+      ],
+      "strengths": [
+        "Covers the full arc of the meeting including the whiteboard training, the animal exercise, pricing and next steps.",
+        "Prices and the three-phase process are correct; the summary correctly states the product must be distinct yet intuitive."
+      ],
+      "weaknesses": [
+        "Presents a settled decision (TV only) as an open question, which would mislead someone acting on the notes.",
+        "Wrong speaker attribution for the scope clarification and an invented project code.",
+        "Heavy redundancy: Summary and Outline repeat the same content, making it long without adding information.",
+        "Action items are generic and ownerless."
+      ]
+    },
+    {
+      "label": "C",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 9},
+        {"criterion": "completeness", "score": 8},
+        {"criterion": "decisions_and_actions", "score": 8},
+        {"criterion": "usefulness", "score": 8}
+      ],
+      "overall": 8.25,
+      "errors": [
+        "\"owner: Dirk Mengveld\" - transcript name is Dirk Meinfeld.",
+        "The action item \"Share the marketing ideas at the follow-up\" is an inference: Dirk said he has some ideas and \"will uh\" before being cut off; no explicit commitment to present them was made."
+      ],
+      "strengths": [
+        "Nearly every statement checks out against the transcript, with correct attributions (Mark confirmed TV-only scope, the interface designer raised familiarity and accessibility, Xavier raised lightweight material).",
+        "Records the nuance others miss: the whiteboard was slow to respond, the interface designer said the price leaves little room, Dirk had not prepared marketing ideas yet, and the personal coach assigns the individual work.",
+        "Summary-first structure with timestamps lets a reader verify claims quickly."
+      ],
+      "weaknesses": [
+        "Never names the user interface designer (Nick Broer) and omits the industrial designer's three guiding questions.",
+        "Does not capture the PM's caveat that severely disabled users might be a problem, only that accessibility should be considered.",
+        "Only one action item, and it is inferred rather than explicitly assigned."
+      ]
+    },
+    {
+      "label": "D",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 5},
+        {"criterion": "completeness", "score": 5},
+        {"criterion": "decisions_and_actions", "score": 5},
+        {"criterion": "usefulness", "score": 5}
+      ],
+      "overall": 5.0,
+      "errors": [
+        "\"Mark Knopp\" - the surname is not in the transcript.",
+        "\"Xavier Juukens\" and \"Dirk Mankveld\" - transcript names are Xavier Juergens and Dirk Meinfeld.",
+        "\"Dolphin: freedom, smooth design\" - \"smooth design\" was not said; the dolphin stood for freedom, the ocean and swimming.",
+        "Action item \"Mark Knopp - Provide personal assignments to team members (13:53)\" - the PM said the personal coach would give the assignments, and 13:53 is after the meeting ended at 13:42.",
+        "Action item \"User Interface Designer - Prepare intuitive design concepts (11:20)\" - no such assignment was made in the meeting.",
+        "Action item \"Xavier Juukens - Address material considerations for lightweight design\" - Xavier only stated the material should be light; no task was assigned."
+      ],
+      "strengths": [
+        "Correct on the headline facts: TV-only scope, three phases, intuitive and accessible design, light material, EUR 25 / EUR 12.5 pricing, 30-minute reconvene.",
+        "Short and scannable with timestamps."
+      ],
+      "weaknesses": [
+        "Too skeletal to stand alone: no introductions of who is who in the body, no mention of the industrial designer's three questions, no mention of the familiarity principle or that Dirk had nothing ready yet.",
+        "Action items are largely invented from roles rather than taken from what was said, and one is misattributed to Mark instead of the personal coach.",
+        "Names are unreliable (invented surname, misspellings)."
+      ]
+    }
+  ],
+  "ranking": ["C", "A", "D", "B"],
+  "rationale": "C is the most faithful to the transcript: correct attributions, correct numbers, the settled scope decision stated as settled, and the small details (whiteboard lag, tight margin, Dirk not ready, personal coach assigns work) that let an absent reader understand the meeting; its only slip is a misspelled surname and one inferred action item. A is accurate on substance and well organized but invents a surname for Mark, misspells the others and reports a named participant as unnamed. D gets the headline facts right but is skeletal and pads its action items with assignments nobody made, including one misattributed to Mark. B has the richest coverage but the most damaging errors: an invented project code, a wrong name for the PM, a misattributed scope clarification, and a resolved decision listed as an open question, plus heavy repetition."
+}

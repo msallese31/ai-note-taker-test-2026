@@ -1,0 +1,113 @@
+{
+ "items": [
+  {
+   "id": "S1",
+   "verdict": "partial",
+   "evidence": "The notes record the wheel sensor's cost and other controls, but omit the Industrial Designer's component presentation and the speech-recognition discussion. In the transcript, the User Interface Designer introduces the available recognition chip."
+  },
+  {
+   "id": "S2",
+   "verdict": "missed",
+   "evidence": "The notes do not mention the User Interface Designer presenting existing remote-control designs."
+  },
+  {
+   "id": "S3",
+   "verdict": "partial",
+   "evidence": "\"Simple remote interface confirmed\" and \"Ergonomic curve for wheel and buttons\" cover simplicity and ergonomics, but not the comparison with existing models or elimination of their extra functions."
+  },
+  {
+   "id": "S4",
+   "verdict": "partial",
+   "evidence": "Fashion trends and market priorities are recorded, but their presentation by the Marketing Expert is not."
+  },
+  {
+   "id": "S5",
+   "verdict": "correct",
+   "evidence": "\"Trend toward fruit/vegetable shapes,\" \"Spongy material trend noted,\" and \"Develop banana-shaped spongy case design\" capture the trends and their application."
+  },
+  {
+   "id": "S6",
+   "verdict": "correct",
+   "evidence": "The \"Design Decisions\" section records selected controls and design features, followed by prototype-development steps."
+  },
+  {
+   "id": "S7",
+   "verdict": "partial",
+   "evidence": "The notes include the banana shape, yellow color, spongy case, lighted buttons, and wheel. They omit the wheel's top placement and the standard chip and battery. The transcript does not explicitly reaffirm excluding speech recognition after discussing the newly available chip."
+  },
+  {
+   "id": "S8",
+   "verdict": "partial",
+   "evidence": "\"Industrial and UI designers to collaborate on prototype\" and \"Prototype evaluation planned\" capture the work and evaluation, but do not explicitly place evaluation at the next meeting."
+  },
+  {
+   "id": "A1",
+   "verdict": "correct",
+   "evidence": "Both designers have the action \"Collaborate ... on prototype,\" and the notes explicitly say they will collaborate on its development."
+  },
+  {
+   "id": "A2",
+   "verdict": "correct",
+   "evidence": "\"Prototype evaluation planned to check user requirements fit\" captures the evaluation criterion."
+  },
+  {
+   "id": "D1",
+   "verdict": "correct",
+   "evidence": "The notes list selected prototype features under \"Design Decisions\" and identify subsequent design and prototype work."
+  },
+  {
+   "id": "D2",
+   "verdict": "correct",
+   "evidence": "\"Banana shape proposed,\" \"Yellow color matches company scheme,\" and \"Develop banana-shaped spongy case design\" together capture the chosen shape, color, and covering."
+  },
+  {
+   "id": "D3",
+   "verdict": "correct",
+   "evidence": "\"Lighted buttons to identify side\" states that the buttons will be illuminated."
+  },
+  {
+   "id": "D4",
+   "verdict": "correct",
+   "evidence": "\"Wheel control included\" is recorded alongside \"Wheel sensor 50x push button cost\" and its innovative, competitive value."
+  },
+  {
+   "id": "D5",
+   "verdict": "missed",
+   "evidence": "The notes mention wheel placement and ergonomics, but never state that the wheel will be at the top."
+  },
+  {
+   "id": "D6",
+   "verdict": "missed",
+   "evidence": "The notes omit the standard chip and speech recognition. The transcript supports using the standard chip, but does not explicitly make the answer key's final decision to exclude speech recognition after the new-chip discussion."
+  },
+  {
+   "id": "D7",
+   "verdict": "missed",
+   "evidence": "Standard batteries are not mentioned in the notes."
+  }
+ ],
+ "errors": [
+  {
+   "claim": "Heart-shaped core with spongy cover suggested.",
+   "why_wrong": "The Project Manager describes an \"odd shaped\" structure with a spongy cover at 19:10\u201319:22. No heart-shaped core is proposed.",
+   "kind": "wrong_fact"
+  },
+  {
+   "claim": "Light turns on with motion sensor.",
+   "why_wrong": "Motion-triggered lighting is discussed as a possibility, not established as the final mechanism. Continuous lighting is also proposed, and the activation method remains unresolved.",
+   "kind": "decision_described_wrongly"
+  },
+  {
+   "claim": "Project Manager action: Facilitate discussion on wheel sensor necessity.",
+   "why_wrong": "The wheel discussion occurs during this meeting and concludes with retaining the wheel. No separate follow-up facilitation task is assigned.",
+   "kind": "invented_action_item"
+  },
+  {
+   "claim": "Industrial Designer action: Assess cost implications of wheel sensor.",
+   "why_wrong": "The Industrial Designer reports the cost concern during the presentation, but is not assigned a subsequent cost-assessment task.",
+   "kind": "invented_action_item"
+  }
+ ],
+ "judge_model": "ChatGPT",
+ "judge_model_served": "gpt-6.1-sol"
+}

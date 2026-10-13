@@ -1,0 +1,24 @@
+{
+  "items": [
+    {"id": "S1", "verdict": "correct", "evidence": "Notes: \"Remote control design kickoff\" with \"Original, trendy, user friendly\" and later \"Only TV remote control, no multi-device\"."},
+    {"id": "S2", "verdict": "partial", "evidence": "Names appear only in the action items (Mark, Xavier, User Interface Designer, Dirk) and the marketing expert is mentioned once; the notes never state the team makeup or what each role is looking at (user needs, usability, engineering and materials)."},
+    {"id": "S3", "verdict": "correct", "evidence": "Notes: \"Three-phase design approach\", \"Functional design first phase\", \"Individual work then group meetings\". Transcript frames it as three phases of design with functional design first, which the notes match."},
+    {"id": "S4", "verdict": "correct", "evidence": "Notes: \"Electronic whiteboard introduction\", \"Pen tool, erase, color, line width\", \"Use for presentations and sharing\", plus \"Share meeting minutes and project files\"."},
+    {"id": "S5", "verdict": "correct", "evidence": "Notes: \"Selling price €25, production cost approx €12.5\"."},
+    {"id": "S6", "verdict": "correct", "evidence": "Notes: \"Drawing demo of animals for creativity\" and the Design Inspirations section listing dolphin, elephant, tiger, ant."},
+    {"id": "S7", "verdict": "correct", "evidence": "Notes: \"Usability and inclusivity discussed\", \"Intuitive design, accessible for disabled users\", \"Material should be light\"."},
+    {"id": "A1", "verdict": "correct", "evidence": "Answer key has no action items. The notes do list action items; those are assessed in the errors list."},
+    {"id": "D1", "verdict": "correct", "evidence": "Notes: \"Product scope clarified\", \"Only TV remote control, no multi-device\"."},
+    {"id": "D2", "verdict": "partial", "evidence": "Notes say only \"Intuitive design\". Missing the key point from the UI designer at 11:34 that the design must stick to what people are familiar with, with no radical changes."},
+    {"id": "D3", "verdict": "correct", "evidence": "Notes: \"accessible for disabled users\" under \"Usability and inclusivity discussed\". Transcript: PM says to take it into consideration (12:16)."},
+    {"id": "D4", "verdict": "correct", "evidence": "Notes: \"Material should be light\" (industrial designer at 12:33, PM agrees at 12:43)."}
+  ],
+  "errors": [
+    {"claim": "Mark Knopp: Provide personal assignments to team members (13:53)", "why_wrong": "At 13:25 the project manager says the personal coach will give the personal assignments, not him.", "kind": "wrong_person"},
+    {"claim": "Xavier Juukens: Address material considerations for lightweight design (12:00)", "why_wrong": "The industrial designer only suggested the material should be light; no one assigned or agreed to a task. Assignments come from the personal coach.", "kind": "invented_action_item"},
+    {"claim": "User Interface Designer: Prepare intuitive design concepts (11:20)", "why_wrong": "The UI designer raised intuitive design as a point to keep in mind; no task was agreed in the meeting.", "kind": "invented_action_item"},
+    {"claim": "Dolphin: freedom, smooth design", "why_wrong": "The UI designer tied the dolphin to freedom only. \"Sure looks smooth\" was the PM's comment on the tiger drawing (08:13), not a dolphin trait.", "kind": "other_invented"},
+    {"claim": "Mark Knopp", "why_wrong": "The transcript gives the project manager's name only as Mark; the surname Knopp does not appear anywhere.", "kind": "other_invented"}
+  ],
+  "judge_model": "claude-fable-5-1"
+}

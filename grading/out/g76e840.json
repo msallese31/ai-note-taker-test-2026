@@ -1,0 +1,153 @@
+{
+ "items": [
+  {
+   "id": "S1",
+   "verdict": "correct",
+   "evidence": "The notes state that Speaker 3 announced the relocation and presented the sixth-floor layout, including one-, two-, and three-person rooms."
+  },
+  {
+   "id": "S2",
+   "verdict": "partial",
+   "evidence": "The notes cover room capacities and possible lounge uses, but do not explicitly capture the question of whether a lounge is necessary or the project manager's response."
+  },
+  {
+   "id": "S3",
+   "verdict": "partial",
+   "evidence": "The notes describe furniture requirements and locations needed for the photocopier, printer, and fax. They omit the discussion about possibly not getting the promised space."
+  },
+  {
+   "id": "S4",
+   "verdict": "correct",
+   "evidence": "The notes describe the debate over organizing staff by project, professional role, preferences, and working styles."
+  },
+  {
+   "id": "S5",
+   "verdict": "partial",
+   "evidence": "The notes cover professor/assistant sharing, projects, phone calls, partitions, meeting space, visitors, and Gisella's administrative space. They omit the discussion of smoking locations."
+  },
+  {
+   "id": "S6",
+   "verdict": "missed",
+   "evidence": "The notes do not mention the cafeteria discussion or the locations of coffee machines."
+  },
+  {
+   "id": "A1",
+   "verdict": "correct",
+   "evidence": "The outline states: 'Speaker 3 will investigate if rooms can be partitioned with walls or doors to increase privacy.'"
+  },
+  {
+   "id": "A2",
+   "verdict": "missed",
+   "evidence": "The notes discuss accommodating Gisella within the layout, but omit the project manager's undertaking to investigate placing her with the school's other administrative staff."
+  },
+  {
+   "id": "A3",
+   "verdict": "partial",
+   "evidence": "The notes say the next meeting will 'review concrete proposals from participants,' but do not explicitly assign members to provide their own placement preferences."
+  },
+  {
+   "id": "A4",
+   "verdict": "correct",
+   "evidence": "The outline states: 'Members were tasked with consulting colleagues ... to gather their preferences before the next meeting.'"
+  },
+  {
+   "id": "A5",
+   "verdict": "partial",
+   "evidence": "The notes mention gathering preferences, drafting a final proposal, and reviewing participants' proposals, but do not explicitly state that the team will consolidate preferences into one coherent proposal."
+  },
+  {
+   "id": "A6",
+   "verdict": "missed",
+   "evidence": "The notes mention another group's solution and later negotiation, but not the agreed plan to merge the two proposals."
+  },
+  {
+   "id": "A7",
+   "verdict": "partial",
+   "evidence": "The notes name Maggie and Pierrette as colleagues to consult, but omit that Susan specifically volunteered to ask them."
+  },
+  {
+   "id": "A8",
+   "verdict": "correct",
+   "evidence": "The outline states: 'The next meeting is scheduled for next Tuesday at 2:00 PM.'"
+  },
+  {
+   "id": "D1",
+   "verdict": "wrong",
+   "evidence": "The notes say there is 'uncertainty' about project-based grouping. In the transcript, participants explicitly oppose that approach at 17:27 and reaffirm their opposition at 20:42\u201320:56."
+  },
+  {
+   "id": "D2",
+   "verdict": "correct",
+   "evidence": "The notes accurately describe discussion of a one-person room versus a larger room with a visitor slot. The answer key overstates a decision: the transcript leaves placement unresolved and rejects sharing with a senior visitor, while considering an exchange student or intern."
+  },
+  {
+   "id": "D3",
+   "verdict": "missed",
+   "evidence": "The notes omit the clarification that there will not be a dedicated cafeteria in the new space."
+  },
+  {
+   "id": "P1",
+   "verdict": "correct",
+   "evidence": "The notes ask: 'Is it feasible to fit four people into a three-person room through intelligent desk arrangement?'"
+  },
+  {
+   "id": "P2",
+   "verdict": "correct",
+   "evidence": "The notes discuss individual preferences, privacy needs, compatible roommates, and consulting colleagues before preparing proposals."
+  },
+  {
+   "id": "P3",
+   "verdict": "correct",
+   "evidence": "The outline states: 'Participants discussed whether to organize offices by project or by role (professor and assistant).'"
+  },
+  {
+   "id": "P4",
+   "verdict": "correct",
+   "evidence": "The notes ask whether rooms can be 'partitioned with walls and new doors to provide more privacy.'"
+  },
+  {
+   "id": "P5",
+   "verdict": "partial",
+   "evidence": "The notes discuss whether the lounge should be a reading room or a multipurpose room, but omit the explicit question of whether a lounge is needed at all."
+  },
+  {
+   "id": "P6",
+   "verdict": "correct",
+   "evidence": "The notes discuss using the lounge as overflow space for visitors and fitting additional people into larger offices."
+  },
+  {
+   "id": "P7",
+   "verdict": "correct",
+   "evidence": "The notes identify Gisella's noise levels and discuss whether she should have a one-person room or share a larger office."
+  },
+  {
+   "id": "P8",
+   "verdict": "correct",
+   "evidence": "The notes state that the group addressed 'the challenge of accommodating administrative staff like Gisella in the new layout.'"
+  },
+  {
+   "id": "P9",
+   "verdict": "missed",
+   "evidence": "The notes do not mention the question of whether there will be a cafeteria."
+  },
+  {
+   "id": "P10",
+   "verdict": "missed",
+   "evidence": "The notes omit the coffee vending machines on the first and third floors."
+  }
+ ],
+ "errors": [
+  {
+   "claim": "There is uncertainty regarding whether grouping should be based on specific projects or by professional roles such as professor and assistant.",
+   "why_wrong": "Although the final arrangement remains unresolved, participants clearly oppose project-based office grouping. The notes present that approach as still undecided rather than recording the expressed conclusion.",
+   "kind": "decision_described_wrongly"
+  },
+  {
+   "claim": "The group considered whether professors should share offices with their assistants, noting this is common in other faculties but not necessarily here.",
+   "why_wrong": "This reverses the transcript. Professor/assistant sharing is described as common within their school, whereas Susan says professors in other faculties have their own offices.",
+   "kind": "wrong_fact"
+  }
+ ],
+ "judge_model": "unknown",
+ "judge_model_served": "gpt-6.1-sol"
+}

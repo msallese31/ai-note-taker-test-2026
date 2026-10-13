@@ -1,0 +1,113 @@
+{
+  "judge_model": "claude-sonnet-5-5",
+  "evaluations": [
+    {
+      "label": "A",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 8},
+        {"criterion": "completeness", "score": 6},
+        {"criterion": "decisions_and_actions", "score": 6},
+        {"criterion": "usefulness", "score": 7}
+      ],
+      "overall": 6.8,
+      "errors": [
+        "Action items list only two items (room separation, asking Maggie and Pierrette); the transcript also has Andre checking whether four places fit in the three-person room and asking about placing Gisella with the school's other admin staff, and everyone preparing preferences or a sketch.",
+        "Says Martin 'warned' the reading room leaves no growth capacity; he only remarked that growth would be zero, a minor framing stretch.",
+        "Says the group 'discussed meeting' Tuesday around 2 p.m.; this was actually agreed."
+      ],
+      "strengths": [
+        "Mostly faithful to the transcript, with timestamps and almost no invented content.",
+        "Correctly states that nothing was decided: the room count is fixed, assignments are open, and the lounge purpose and Gisela's placement are unresolved.",
+        "Gets the owners right for the two actions it lists (Andrei for room separation, Susan for Maggie and Pierrette).",
+        "Includes the 15 people versus 18 positions count, the 16 versus 15 arithmetic with the reading room, the smoking point and the Tuesday 2 p.m. follow-up."
+      ],
+      "weaknesses": [
+        "Omits the four-places-in-a-three-person-room question, the idea of placing Gisella with the school's other admin staff, the vending machine and coffee discussion, and the equipment and other-group negotiation details.",
+        "The follow-up for participants to bring preferences and a sketch sits in a section rather than the action items.",
+        "Thin on how the lounge debate went (the 'do we need it' pushback and the mixed-use leaning)."
+      ]
+    },
+    {
+      "label": "B",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 7},
+        {"criterion": "completeness", "score": 9},
+        {"criterion": "decisions_and_actions", "score": 7},
+        {"criterion": "usefulness", "score": 8}
+      ],
+      "overall": 7.8,
+      "errors": [
+        "Assigns to Andrei the task of following up with Maggie and Pierrette on their preferences; in the transcript Susan volunteered to ask them.",
+        "Lists 'Distribute documents' as an action item for Andrei; he handed out copies during the meeting, so this is not a follow-up.",
+        "Says the lounge is a 'key', 'priority' item that management recognizes; the transcript shows Susan questioning whether it is needed and the purpose is explicitly left open.",
+        "Says the team 'considers the current move a partial solution' and that 'project grouping [is] less important than proximity to meeting rooms'; neither is stated.",
+        "Says 'Others require private offices'; only Susan expressed that, and Martin said he is fine sharing.",
+        "The attributed timestamps are often inaccurate (e.g. '00:06' for the opening)."
+      ],
+      "strengths": [
+        "Most complete coverage: the 18 versus 15 count, zero growth, one free visitor slot, the four-in-a-three-person-room idea, the room-splitting authorization hurdle, Gisella's options, the school-admin idea, the other group, coffee and vending machines, smoking, equipment and the Tuesday afternoon follow-up.",
+        "Action items are grouped by person and include the participant task of polling colleagues and bringing a sketch or slides.",
+        "Clearly states that the meeting was for collecting constraints and not finalizing assignments."
+      ],
+      "weaknesses": [
+        "Very long and repetitive; the same points (visitors, room splitting, growth) appear in several sections.",
+        "Loads nearly all follow-ups onto Andrei, which misattributes owners.",
+        "Some overstated or padded inferences presented as the group's views."
+      ]
+    },
+    {
+      "label": "C",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 9},
+        {"criterion": "completeness", "score": 9},
+        {"criterion": "decisions_and_actions", "score": 8},
+        {"criterion": "usefulness", "score": 9}
+      ],
+      "overall": 8.8,
+      "errors": [
+        "Says 'Strong support for a dedicated lounge/reading room'; Susan questioned the need and Martin wanted it to be more than a pure reading room, so 'strong' is somewhat overstated.",
+        "Next-step items have no owners, even though Susan clearly took the Maggie and Pierrette task and Andre took the room-separation question.",
+        "Describes 'Majority lean toward a mixed-use room'; only a few speakers said so and it was left an open question."
+      ],
+      "strengths": [
+        "Accurate, compact and well organized by topic: space overview, seating constraints, lounge, next steps.",
+        "Captures Gisella's two options precisely (a one-person room if a professor volunteers to share, or a two-person room with a visitor slot) plus the idea of placing her with other school admin.",
+        "States that room splitting is ruled out for now but is to be confirmed, and that smoking is no longer a constraint.",
+        "Includes the 16 versus 15 slots and zero growth margin, the four-desks-in-a-three-person-room question, vending machines on floors 1 and 3 and the 5 pm cafeteria closing, and the Tuesday afternoon follow-up with the morning meeting conflict."
+      ],
+      "weaknesses": [
+        "No owners on the next steps, so who does what must be inferred.",
+        "Does not say plainly that no allocation decision was reached.",
+        "Leaves out the point about asking everyone for a sketch only indirectly and omits the point that nobody will volunteer who they do not want to share with."
+      ]
+    },
+    {
+      "label": "D",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 6},
+        {"criterion": "completeness", "score": 4},
+        {"criterion": "decisions_and_actions", "score": 3},
+        {"criterion": "usefulness", "score": 4}
+      ],
+      "overall": 4.3,
+      "errors": [
+        "Action Items section says '(none)' although the meeting produced clear follow-ups (room separation, Maggie and Pierrette, Gisella, bring proposals).",
+        "Uses 'Speaker 1/2/3/4' labels that are not the speaker names, with a confusing mapping (e.g. 'Speaker 3 announced the relocation'; 'Speaker 3, Speaker 1, Speaker 2, and Speaker 4 debated'), so attributions cannot be checked or used.",
+        "Calls the 'Speaker 3 will investigate' item an unresolved question list rather than assigning owners, and gives no owner for asking Maggie and Pierrette.",
+        "'Participants discussed ... noise levels produced by administrative staff' is an unfair framing, though it traces to the discussion of Gisella."
+      ],
+      "strengths": [
+        "Correct on the main facts: sixth floor, one-, two- and three-person rooms, 15 people versus about 18 slots including the reading room, furniture, equipment and the Tuesday 2 p.m. follow-up.",
+        "The Unresolved Questions list (partitions, four in a three-person room, lounge purpose, individual offices) is a useful open-issues view."
+      ],
+      "weaknesses": [
+        "Generic speaker numbers make the notes hard to act on.",
+        "Misses zero growth, the one free visitor slot, the smoking point, the coffee and vending machines, the school-admin idea and the concrete options for Gisella.",
+        "No usable action items and no owners; the summary of who does what is effectively missing.",
+        "Repeats the same content in the summary and the outline."
+      ]
+    }
+  ],
+  "ranking": ["C", "B", "A", "D"],
+  "rationale": "No allocation decision was made; the useful content is the constraints, the open questions and the follow-ups (Andre checks room separation and the four-in-a-three-person-room and admin-placement questions, Susan asks Maggie and Pierrette, everyone brings preferences or a sketch, meeting Tuesday 2 pm). C is accurate, compact and covers nearly all of these, including Gisella's two options, with only the missing owners as a weakness. B is the most complete but has the wrong owner for the Maggie and Pierrette task, a few unsupported claims and heavy repetition. A is accurate but omits several open questions and action items. D uses unnamed speaker numbers, states there are no action items and misses much of the substance."
+}

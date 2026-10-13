@@ -1,0 +1,178 @@
+{
+ "items": [
+  {
+   "id": "S1",
+   "verdict": "partial",
+   "evidence": "The notes describe the sixth-floor location and room layout, but do not state that the project manager opened the meeting and presented that overview."
+  },
+  {
+   "id": "S2",
+   "verdict": "partial",
+   "evidence": "The notes cover occupancy limits and say the lounge's purpose remains open, but do not clearly capture the question of whether a lounge was necessary or the project manager's response."
+  },
+  {
+   "id": "S3",
+   "verdict": "partial",
+   "evidence": "Furniture and shared-equipment constraints are covered. The discussion about possibly not getting the space is missing. The transcript clarifies that the rooms were promised; the more substantive concern was accommodating additional people."
+  },
+  {
+   "id": "S4",
+   "verdict": "correct",
+   "evidence": "\"The group is tasked with developing a room assignment plan that balances preferences, project teams, and space constraints.\""
+  },
+  {
+   "id": "S5",
+   "verdict": "correct",
+   "evidence": "The notes cover professor/assistant sharing, project grouping, phone noise, physical room splitting, meeting spaces, visitors, smoking, Gisella, and administrative-office allocation."
+  },
+  {
+   "id": "S6",
+   "verdict": "correct",
+   "evidence": "The amenities section covers the absence of a dedicated cafeteria and coffee machines on the first and third floors."
+  },
+  {
+   "id": "A1",
+   "verdict": "correct",
+   "evidence": "Andrei is assigned to \"Investigate the possibility and administrative feasibility of physically splitting rooms\"; the notes also identify walls and doors as the relevant modifications."
+  },
+  {
+   "id": "A2",
+   "verdict": "correct",
+   "evidence": "Andrei is assigned to ask about administrative location options outside the new space, \"including possibility of sharing with related admin staff.\""
+  },
+  {
+   "id": "A3",
+   "verdict": "correct",
+   "evidence": "The notes call for collecting proposals and \"names and preferences from all members.\""
+  },
+  {
+   "id": "A4",
+   "verdict": "correct",
+   "evidence": "\"All participants\" are assigned to \"Poll colleagues and assistants for their personal preferences.\""
+  },
+  {
+   "id": "A5",
+   "verdict": "correct",
+   "evidence": "The notes describe collecting concrete seating proposals with names and preferences and developing a plan that balances individual needs."
+  },
+  {
+   "id": "A6",
+   "verdict": "correct",
+   "evidence": "\"Multiple proposals will be merged and negotiated with the other group's suggestions.\""
+  },
+  {
+   "id": "A7",
+   "verdict": "wrong",
+   "evidence": "The action list assigns following up with Maggie and Pierrette to Andrei. Susan explicitly volunteers to ask them at 30:54."
+  },
+  {
+   "id": "A8",
+   "verdict": "correct",
+   "evidence": "\"Schedule next meeting for Tuesday afternoon (around 14:00).\" The transcript likewise agrees to next Tuesday at about two o'clock."
+  },
+  {
+   "id": "D1",
+   "verdict": "partial",
+   "evidence": "\"Grouping by project is less practical\" captures the reasoning, but the notes describe it as a lower priority rather than clearly stating that project grouping was rejected as the organizing principle."
+  },
+  {
+   "id": "D2",
+   "verdict": "correct",
+   "evidence": "\"Options include giving admin a one-person room or a two-person room, but the second desk's use remains unclear.\" This matches the transcript: no final assignment was made. The answer key overstates a proposal as a decision; senior visitors sharing with Gisella were rejected."
+  },
+  {
+   "id": "D3",
+   "verdict": "correct",
+   "evidence": "\"No dedicated cafeteria.\" This accurately refers to the group's own space, not the building, which already has a downstairs cafeteria."
+  },
+  {
+   "id": "P1",
+   "verdict": "correct",
+   "evidence": "The notes discuss furniture limiting occupancy and investigating \"four desks in a three-person room.\""
+  },
+  {
+   "id": "P2",
+   "verdict": "correct",
+   "evidence": "\"Preference gathering emphasized as critical for success to avoid unnecessary rework and respect individual needs.\""
+  },
+  {
+   "id": "P3",
+   "verdict": "correct",
+   "evidence": "The notes discuss sharing with assistants and separately evaluate grouping people by project."
+  },
+  {
+   "id": "P4",
+   "verdict": "correct",
+   "evidence": "\"Splitting rooms to create private offices was discussed\" and investigating physical splits or partitions is listed."
+  },
+  {
+   "id": "P5",
+   "verdict": "partial",
+   "evidence": "The notes emphasize a need for the lounge and uncertainty about its functions, but omit Susan's explicit question, \"Do we really need that?\""
+  },
+  {
+   "id": "P6",
+   "verdict": "correct",
+   "evidence": "The notes cover limited visitor capacity, denser room layouts, lounge overflow, and appropriate accommodation for senior visitors."
+  },
+  {
+   "id": "P7",
+   "verdict": "correct",
+   "evidence": "\"Gisela's role involves high communication and noise, making shared office space difficult.\""
+  },
+  {
+   "id": "P8",
+   "verdict": "correct",
+   "evidence": "The notes discuss allocating a one-person or two-person administrative office and exploring placement with other school administrators."
+  },
+  {
+   "id": "P9",
+   "verdict": "correct",
+   "evidence": "The amenities section addresses the cafeteria question and distinguishes the group's space from the building's existing cafeteria."
+  },
+  {
+   "id": "P10",
+   "verdict": "correct",
+   "evidence": "\"There are two vending machines on the first and third floors for coffee.\""
+  }
+ ],
+ "errors": [
+  {
+   "claim": "There are \"18 desks for 15 people including a reading room\" and \"18 desks for 15 people, including reading room and visitor spaces.\"",
+   "why_wrong": "Eighteen is the nominal capacity of all the rooms before allocating a lounge. The transcript explicitly calculates that using a two-person room as the reading room leaves sixteen work positions for fifteen people, not eighteen usable desks with the lounge already provided.",
+   "kind": "wrong_fact"
+  },
+  {
+   "claim": "\"Merge proposals with another group before next Tuesday's review meeting.\"",
+   "why_wrong": "No such deadline was agreed. The next meeting was intended to develop a coherent proposal, which would then be merged with the other group's proposal when available.",
+   "kind": "wrong_fact"
+  },
+  {
+   "claim": "\"Part-time schedules reduce desk demand, offering some flexibility.\"",
+   "why_wrong": "The group explicitly agreed that every person, including part-time staff, needs a separate desk. Part-time attendance reduces simultaneous occupancy and congestion, not the number of desks required.",
+   "kind": "wrong_fact"
+  },
+  {
+   "claim": "\"Growth is effectively zero unless visitors or temporary staff share existing desks.\"",
+   "why_wrong": "Sharing existing desks was not the agreed solution. The discussion considered adding a fourth separate place to larger rooms and using the lounge for overflow, while explicitly rejecting two people using the same desk.",
+   "kind": "wrong_fact"
+  },
+  {
+   "claim": "\"Desk sizes and filing cabinet needs limit sharing desks between part-time personnel.\"",
+   "why_wrong": "Desk size was discussed as a constraint on fitting additional desks into rooms, not on sharing a desk. Desk sharing was rejected because each person wanted their own desk and personal storage.",
+   "kind": "other_invented"
+  },
+  {
+   "claim": "Under Andrei: \"Follow up with absent team members (Maggie, Pierrette) to gather their office arrangement preferences before next meeting.\"",
+   "why_wrong": "Susan, not Andre, explicitly undertook to ask Maggie and Pierrette about their preferences.",
+   "kind": "wrong_person"
+  },
+  {
+   "claim": "\"New office space details and constraints clarified ... (00:06).\"",
+   "why_wrong": "The transcript contains no office-layout discussion at 00:06. The substantive opening begins at 00:54, followed by the layout overview.",
+   "kind": "wrong_fact"
+  }
+ ],
+ "judge_model": "gpt-5",
+ "judge_model_served": "gpt-6.1-sol"
+}

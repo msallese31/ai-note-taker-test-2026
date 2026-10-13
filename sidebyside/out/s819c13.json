@@ -1,0 +1,110 @@
+{
+  "evaluations": [
+    {
+      "label": "A",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 5},
+        {"criterion": "completeness", "score": 6},
+        {"criterion": "decisions_and_actions", "score": 3},
+        {"criterion": "usefulness", "score": 5}
+      ],
+      "overall": 4.8,
+      "errors": [
+        "\"Management decided against including teletext support or voice recognition\" - management only ruled out teletext; voice recognition was set aside by the team in discussion",
+        "Attributes \"potential LCD screens or sliding hatches\" to the technical-functions presenter; the LCD screen came from the Marketing Expert's research and the sliding panel from later group discussion",
+        "\"Infrared was selected as the preferred method\" presented as a decision; it was the Industrial Designer's opinion",
+        "Unresolved questions such as \"Would adding a 'find my remote' beep function fit within budget?\" were never raised in the meeting",
+        "\"Action Items (none)\" - the meeting assigned a questionnaire and summary, individual concept work per role, and the PM uploading minutes and slides",
+        "Voice recognition dismissed partly for \"potential complexity for the target user\" - not a reason given"
+      ],
+      "strengths": [
+        "Captures key market research numbers (75%, 80%, 10% of buttons)",
+        "Covers the four-component working design, the corporate image requirement and the 12.50/25 euro figures",
+        "Outline follows the meeting order"
+      ],
+      "weaknesses": [
+        "No action items at all despite clear assignments",
+        "Generic speaker labels (Speaker 2, 3, 4, 5) make roles hard to follow",
+        "Several misattributions and invented open questions",
+        "Target group outcome (left open) is muddled"
+      ]
+    },
+    {
+      "label": "B",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 9},
+        {"criterion": "completeness", "score": 9},
+        {"criterion": "decisions_and_actions", "score": 8},
+        {"criterion": "usefulness", "score": 8}
+      ],
+      "overall": 8.5,
+      "errors": [
+        "Some timestamps are slightly off (e.g. working design at [15:20], selling point at [14:21]) - minor"
+      ],
+      "strengths": [
+        "Correctly states the target demographic was left open and lists the ranges floated (15-35, under 65, 20-55) and the spending-ability idea",
+        "Accurate on scope (TV only, no teletext), brand requirements, 25 euro retail and 12.50 production cap",
+        "Covers the hidden secondary buttons idea including the PM's chip-transmission caveat",
+        "Captures post-meeting tasks, individual workstreams, coach emails and the file-sharing issue with the PM's presentation"
+      ],
+      "weaknesses": [
+        "Formal action item list only names the PM; individual role assignments and questionnaire are not listed as owned actions",
+        "Omits the Marketing Expert's offer to email more age data before the next meeting",
+        "Owner given as 'Speaker 1' rather than the role"
+      ]
+    },
+    {
+      "label": "C",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 6},
+        {"criterion": "completeness", "score": 5},
+        {"criterion": "decisions_and_actions", "score": 4},
+        {"criterion": "usefulness", "score": 5}
+      ],
+      "overall": 5.0,
+      "errors": [
+        "\"Target group 15-35 years\" presented as settled; the group left the target open and leaned toward broad appeal / under 65",
+        "\"Investigate technical feasibility for rechargeable battery\" as an action item is a stretch; the UI Designer only mused about whether a battery is needed",
+        "\"Quick market rollout\" listed as a requirement - loosely based on PM wanting it out quickly, minor"
+      ],
+      "strengths": [
+        "Concise and mostly accurate on research figures, infrared preference, four components and the 12.5 euro cost limit",
+        "Captures core functional decisions: simplicity and fashion, large buttons, hidden functions, loss prevention, cradle idea"
+      ],
+      "weaknesses": [
+        "Telegraphic fragments with little context for someone who missed the meeting",
+        "Misses questionnaire, summary, individual role assignments, coach instructions, 25 euro retail price, slogan",
+        "Action items unassigned and partly speculative"
+      ]
+    },
+    {
+      "label": "D",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 8},
+        {"criterion": "completeness", "score": 9},
+        {"criterion": "decisions_and_actions", "score": 7},
+        {"criterion": "usefulness", "score": 8}
+      ],
+      "overall": 8.0,
+      "errors": [
+        "\"Working design presentation not yet on the server; save from email into shared folder\" - the Industrial Designer said the working design was uploaded; it was the Project Manager's presentation that was missing from the server",
+        "\"age segmentation less useful than lifestyle/attitude targeting\" - the discussion was about income/spending ability and focusing on objectives, not lifestyle/attitude",
+        "\"Infrared chosen over alternatives\" overstates the Industrial Designer's personal recommendation as a decision"
+      ],
+      "strengths": [
+        "Rich and well organized: research numbers including RSI and 65% channel zapping, LCD idea, sliding panel, branding details (yellow/black, Rs)",
+        "Clear list of agreed functions and scope (TV only, no teletext, 25/12.50 euro)",
+        "Covers questionnaire, summary, 30 minutes individual work, role workstreams, coach email, and the Marketing Expert's offer to send more age data"
+      ],
+      "weaknesses": [
+        "Next steps lack owners",
+        "Misstates which presentation was missing from the shared folder",
+        "Presents some ideas (battery solution) as more settled than they were"
+      ]
+    }
+  ],
+  "ranking": ["B", "D", "A", "C"],
+  "rationale": "B is the most accurate and correctly conveys what was decided versus left open (target group open, voice recognition disfavored), with timestamps and follow-up items; its main gap is thin owner assignment. D is the most detailed and very useful but misidentifies the presentation missing from the shared folder and slightly reframes the targeting discussion. A has decent content but misattributes the voice recognition decision to management, invents unresolved questions and lists no action items. C is terse, states the 15-35 target group as decided, and omits most follow-up tasks."
+  ,
+  "judge_model": "claude-opus-5-5"
+}

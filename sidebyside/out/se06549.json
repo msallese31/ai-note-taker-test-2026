@@ -1,0 +1,111 @@
+{
+  "judge_model": "claude-fable-5-1",
+  "evaluations": [
+    {
+      "label": "A",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 9},
+        {"criterion": "completeness", "score": 8},
+        {"criterion": "decisions_and_actions", "score": 8},
+        {"criterion": "usefulness", "score": 8}
+      ],
+      "overall": 8.3,
+      "errors": [
+        "Action items are owned by 'Speaker 1' while the body calls the same person 'the project lead'; the transcript labels this person Project Manager (Rose), so the owner label is inconsistent and unverifiable on its own."
+      ],
+      "strengths": [
+        "Every number checks out against the transcript: 100 subjects, 75%, 80%, over half losing remotes, 10% of buttons, EUR 25 retail, EUR 12.50 production.",
+        "Correctly reports that the target group was left open and lists the age ranges actually floated (15-35, under 65, 20-55) and the shift to defining by objectives or spending ability.",
+        "Captures the closing logistics correctly, including that it was the project lead's own presentation that was missing from the shared folder.",
+        "Agreed functions (loss prevention, large essential buttons, hidden extras, fashionable look) match the transcript's wrap-up."
+      ],
+      "weaknesses": [
+        "Does not record the Marketing Expert's offer to email more age-broken-down numbers before the next meeting.",
+        "Individual assignments are summarized by area rather than listed as per-person action items (components concept, user interface concept, market trend watching).",
+        "Omits a few concrete details others caught: the 65% channel-zapping figure, the LCD screen mention, the name Real Reaction, and the open question of why anyone would buy a new remote."
+      ]
+    },
+    {
+      "label": "B",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 6},
+        {"criterion": "completeness", "score": 5},
+        {"criterion": "decisions_and_actions", "score": 5},
+        {"criterion": "usefulness", "score": 5}
+      ],
+      "overall": 5.3,
+      "errors": [
+        "'Target group 15-35 years' is presented as a settled point; in the transcript 15-35 was raised, then questioned as not useful without voice recognition, and the Project Manager concluded it was more useful to define objectives like fashion and simplicity than an age-based target group.",
+        "'Investigate technical feasibility for rechargeable battery' is listed as an action item, but nobody was asked to do this; the cradle was an idea the Project Manager said they would keep.",
+        "'Provide updated market research data' is listed as unassigned although it was clearly the Marketing Expert who offered to email more numbers."
+      ],
+      "strengths": [
+        "Core research figures (75%, 80%, 10% of buttons, over 50% losing remotes) are correct.",
+        "Correctly records no teletext, TV-only scope, yellow/black corporate colours, voice recognition rejected on price, and the EUR 12.50 production limit.",
+        "Final functional decisions (simplicity and fashion, large essential buttons, hidden advanced functions, loss-prevention feature) are right."
+      ],
+      "weaknesses": [
+        "Misses the actual action items: questionnaire and summary after the meeting, the three individual work assignments, and the Project Manager uploading minutes and slides.",
+        "Misses the shared folder problem (Project Manager's presentation not on the server).",
+        "Omits the corporate slogan, the prototype-and-feedback suggestion, the LCD screen mention, and the whole unresolved debate about target group.",
+        "Telegraphic phrasing with no attribution; someone who missed the meeting gets little sense of what was argued or left open."
+      ]
+    },
+    {
+      "label": "C",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 7},
+        {"criterion": "completeness", "score": 8},
+        {"criterion": "decisions_and_actions", "score": 7},
+        {"criterion": "usefulness", "score": 8}
+      ],
+      "overall": 7.5,
+      "errors": [
+        "'Working design presentation not yet on the server; save from email into shared folder' is wrong: the Industrial Designer confirmed the working design presentation was in the folder; it was the Project Manager's own presentation that was only in email, and the Project Manager said they would figure it out.",
+        "'age segmentation less useful than lifestyle/attitude targeting' overstates the transcript; the suggestion was to define the group by income, how much money they have to spend, or how recently they bought a TV, and the Project Manager said objectives like fashion and simplicity were more useful than an age target.",
+        "'Rechargeable or long-life battery solution' is listed among 'agreed functions to carry forward'; the cradle was only an idea the Project Manager said they would keep, not a decided function."
+      ],
+      "strengths": [
+        "Densest correct coverage of the research: 100 subjects, 75%, 80%, 15-35 vs 60+ on voice, 50%+ losing remotes, RSI, 10% of buttons, ~65% channel zapping, and the LCD screen mention with no preference data.",
+        "Correct on scope (TV only, no teletext), EUR 25 retail and EUR 12.50 production, corporate yellow/black with the double R, and voice recognition ruled out.",
+        "Captures the four working-design components, infrared rationale, the sliding-panel idea, the find-it beep button, and the charging cradle with its lost-remote side benefit.",
+        "Lists the post-meeting questionnaire and summary, the 30 minutes of individual work, the three individual workstreams, and the pending age-breakdown email."
+      ],
+      "weaknesses": [
+        "The one next step about uploading is attributed to the wrong presentation, which would send the wrong person to fix it.",
+        "No speaker attribution anywhere, so a reader cannot tell who argued what or who owns the next steps.",
+        "Does not mention the Project Manager's commitment to post minutes and slides, nor the caution that a hidden-button panel must not impede the chip's transmission."
+      ]
+    },
+    {
+      "label": "D",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 6},
+        {"criterion": "completeness", "score": 6},
+        {"criterion": "decisions_and_actions", "score": 4},
+        {"criterion": "usefulness", "score": 6}
+      ],
+      "overall": 5.5,
+      "errors": [
+        "'Speaker 5 discussed the technical interface, noting the need to balance conventional button placement with novel features like potential LCD screens or sliding hatches': the User Interface Designer's presentation mentioned neither; the LCD screen came from the Marketing Expert's research and the sliding panel came up later in discussion after the Marketing Expert's pull-out suggestion.",
+        "'Management decided against including teletext support or voice recognition': management ruled out teletext; voice recognition was dropped by the team in discussion on cost and need, not by management.",
+        "'Unresolved Questions: Would adding a find my remote beep function fit within budget?' is invented; the loss-finder was agreed without any budget discussion.",
+        "'Action Items (none)' is wrong: the Project Manager assigned a questionnaire and summary, individual work (components concept, user interface concept, market trend watching), and said they would post minutes and slides.",
+        "Speakers are labelled Speaker 2 through Speaker 5, which cannot be checked against the transcript's role labels and names (Rose, Ian)."
+      ],
+      "strengths": [
+        "Research numbers (100 subjects, Real Reaction, 75%, 80%, 10% of buttons), the 12:13 start and 40-minute length, and EUR 12.50 / EUR 25 are correct.",
+        "Correct on no teletext, TV-only scope, yellow/black with slogan, infrared, the four components, and the agreed functions (large buttons, hidden secondary functions, loss locator).",
+        "The outline gives a readable chronological walk through the meeting."
+      ],
+      "weaknesses": [
+        "Declaring no action items is the biggest failing; the closing assignments are the most actionable content in the meeting.",
+        "Summary and outline repeat each other, and the 'Unresolved Questions' are partly fabricated framing rather than what was actually left open (the target group).",
+        "Misses the Marketing Expert's offer to email more age data and the shared folder problem with the Project Manager's presentation.",
+        "Opaque speaker numbering makes it hard to know who said or owns what."
+      ]
+    }
+  ],
+  "ranking": ["A", "C", "D", "B"],
+  "rationale": "A is the only set with no substantive factual error; it correctly reports the target group as unresolved, gets the shared-folder detail right, and records the closing assignments, losing a little for the 'Speaker 1' owner label and for omitting the Marketing Expert's conditional email. C is the richest on numbers and design detail and lists real next steps, but its upload next step names the wrong presentation and it has no attribution. D reads well and is mostly right on facts but misattributes LCD screens and sliding hatches to the UI presentation, credits management with the voice decision, invents a budget question, and states there were no action items when several were assigned. B is accurate on the headline numbers but presents a 15-35 target group as settled when it was explicitly not, invents one action item, and omits most of the closing assignments and logistics, leaving too little for someone who missed the meeting."
+}

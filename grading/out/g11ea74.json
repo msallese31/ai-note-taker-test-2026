@@ -1,0 +1,152 @@
+{
+  "items": [
+    {
+      "id": "S1",
+      "verdict": "partial",
+      "evidence": "Notes say 'Prototype presentation highlighted core functions...' but never say who presented. The transcript shows the User Interface Designer gave it ('I've done a presentation, but it pretty much covers work that we've both done'). The only name attached to the prototype in the notes is the action item for 'Christian', who in the transcript is Christine, the Industrial Designer."
+    },
+    {
+      "id": "S2",
+      "verdict": "correct",
+      "evidence": "'ergonomic, customizable wooden remote with a flip panel LCD display option' and 'Customizable front and back panels allow users to personalize their remote'."
+    },
+    {
+      "id": "S3",
+      "verdict": "correct",
+      "evidence": "Notes: 'Initial unit cost estimated at €9.95, under the €12.50 budget, excluding the LCD display cost' and 'Adding the LCD would raise cost by €2-3, pushing unit cost closer to €12.50'. The transcript does not quite support the answer key's 'budget would not allow the LCD': the Marketing Expert says with the LCD 'we're up around about twelve, twelve and a half' and the Industrial Designer concludes 'so that means we can put the LCD in' with no objection. The notes match the transcript here."
+    },
+    {
+      "id": "S4",
+      "verdict": "partial",
+      "evidence": "Notes: 'Negotiations with vendors planned to reduce costs further to allocate more budget for marketing and promotions', and the action item is owned by 'Unknown (Finance Lead)'. The Project Manager is not named as the one who will negotiate. On the purpose, the transcript sides with the notes: the PM says the savings are 'to put into our marketing or the promotions', not to pay for the display."
+    },
+    {
+      "id": "S5",
+      "verdict": "partial",
+      "evidence": "Notes give the numbers ('8-9 million units annually; company aims for 2 million units, requiring 25% market share', '€50 per unit... €25... €50 million profit goal') but do not say the Marketing Expert presented them, and only say 'indicating tight margins'. The transcript's point that the profit aim is doubtful ('we're gonna have to go a long ways', 'Can the company sell two million units? Can it sell it for fifty Euros?') is not stated."
+    },
+    {
+      "id": "S6",
+      "verdict": "correct",
+      "evidence": "'Online sales and drop shipping proposed to reduce storage and retail distribution costs', 'Selling via platforms like Amazon or eBay', 'Online visualization tools (rotating images, videos)'."
+    },
+    {
+      "id": "S7",
+      "verdict": "partial",
+      "evidence": "Notes state 'No redesign time allocated before launch; initial model to go directly to market' and 'Acknowledgement that lacking redesign before launch risks failure', but do not say the User Interface Designer raised the concern, and frame the outcome as 'The team agreed on a fixed design' when the transcript shows the Project Manager deciding ('So no more changes will be made') over the UI Designer's objection ('we have no redesign time')."
+    },
+    {
+      "id": "S8",
+      "verdict": "correct",
+      "evidence": "'Launch synchronization with major sports events like the World Cup or popular movie releases proposed', 'Collaboration with media companies such as Sony Pictures considered'."
+    },
+    {
+      "id": "A1",
+      "verdict": "partial",
+      "evidence": "Action item 'Negotiate with suppliers and vendors to reduce production costs further' exists but is assigned to 'Unknown (Finance Lead)'. The transcript has the Project Manager saying 'I will try to negotiate with the vendors... I will speak to the management'. Owner missing."
+    },
+    {
+      "id": "A2",
+      "verdict": "missed",
+      "evidence": "Transcript: PM says 'I will convince the management to do that' about the event/Sony Pictures promotion plan. The notes never record the PM taking the promotion plan to management; instead they assign the promotion strategy to Ed."
+    },
+    {
+      "id": "A3",
+      "verdict": "missed",
+      "evidence": "Transcript: PM says 'let's leave it to the Ed for later for once production is over'. Nothing in the notes says the Marketing Expert's work begins after production."
+    },
+    {
+      "id": "A4",
+      "verdict": "correct",
+      "evidence": "'Prototypes to be developed externally and tested in real market environments' and 'Final production to begin only after product evaluation confirms readiness', matching the PM's 'let's wait for the production, then you can evaluate the product... it will be ready in two weeks'."
+    },
+    {
+      "id": "D1",
+      "verdict": "partial",
+      "evidence": "Microphone: notes say 'The microphone placement remains undecided but likely on the side' and 'The side placement of the microphone was favored'; the transcript has the PM accepting it ('the sides maybe is good. So that's good idea') with the Marketing Expert and UI Designer agreeing, so 'remains undecided' is hedged. LCD: the notes only say the LCD is an 'option' that 'can be removed if too costly' and that adding it matches targets; they never state it will be included."
+    },
+    {
+      "id": "D2",
+      "verdict": "partial",
+      "evidence": "Negotiation is recorded ('Negotiations with vendors planned to reduce costs further') but without the Project Manager as the decider. The transcript ties the negotiation to marketing money rather than the display, so the notes' stated purpose is actually closer to what was said."
+    },
+    {
+      "id": "D3",
+      "verdict": "correct",
+      "evidence": "'Launch synchronization with major sports events like the World Cup or popular movie releases proposed' and 'Collaboration with media companies such as Sony Pictures considered for co-marketing opportunities'. The transcript is also soft here (PM: 'I will convince the management to do that')."
+    },
+    {
+      "id": "D4",
+      "verdict": "partial",
+      "evidence": "The decision itself is stated ('Fixed design with no pre-launch redesign', 'No redesign time allocated before launch'), but attributed to 'The team agreed' rather than the Project Manager deciding over the UI Designer's objection."
+    },
+    {
+      "id": "D5",
+      "verdict": "correct",
+      "evidence": "'Prototype production and market testing timeline set at 2-4 weeks', 'Prototypes to be developed externally', 'Final production to begin only after product evaluation confirms readiness'."
+    },
+    {
+      "id": "P1",
+      "verdict": "partial",
+      "evidence": "Notes say 'Additional costs like advertising and distribution are not included, indicating tight margins' but do not state that the current price point probably will not reach the €50M profit goal, and do not record any need to rework the budget. On the component-cost half, the transcript does not really support the answer key: with the LCD the unit lands 'around about twelve, twelve and a half', i.e. at the €12.50 budget, and the notes reflect that."
+    },
+    {
+      "id": "P2",
+      "verdict": "partial",
+      "evidence": "The UI Designer's concern is noted ('Acknowledgement that lacking redesign before launch risks failure if initial product misses key user needs') but the disagreement is not: the notes say 'The team agreed on a fixed design', hiding the back-and-forth where the UI Designer says 'your evaluation and redesign turnaround time is too short' and the PM holds firm."
+    }
+  ],
+  "errors": [
+    {
+      "claim": "The team agreed on a fixed design for initial launch with plans for iterative improvement based on user feedback.",
+      "why_wrong": "The Project Manager decided ('So no more changes will be made, okay, in this the basic design') while the User Interface Designer objected ('there might not be a second generation if the first generation flops', 'we have no redesign time'). It was not a team agreement.",
+      "kind": "decision_described_wrongly"
+    },
+    {
+      "claim": "Leadership Focus: Marketing lead emphasizes brand value and market timing; team urged to monitor post-launch feedback closely.",
+      "why_wrong": "The Project Manager said Ed 'can promote the brand value and the product value', and the Industrial Designer said 'timing is very important'. The Marketing Expert emphasized neither, and nobody urged the team to monitor post-launch feedback.",
+      "kind": "wrong_person"
+    },
+    {
+      "claim": "Closing remarks encouraged celebration but stressed importance of post-launch evaluation... Emphasis on monitoring project outcomes after production and adjusting based on market response.",
+      "why_wrong": "The PM's closing said 'are the costs within the budget and is the product evaluated, okay, so that will come soon' and then proposed drinks that evening. No one stressed post-launch monitoring or adjusting based on market response.",
+      "kind": "other_invented"
+    },
+    {
+      "claim": "Action item for Christian: Continue refinement and adjustment of prototype design details as per feedback discussion.",
+      "why_wrong": "No one was asked to refine the prototype; the PM explicitly ruled out further changes ('no more changes will be made'). Christine (the Industrial Designer) was never given this task.",
+      "kind": "invented_action_item"
+    },
+    {
+      "claim": "Action item for Unknown (Finance Lead): Negotiate with suppliers and vendors to reduce production costs further.",
+      "why_wrong": "The owner is the Project Manager, who said 'I will try to negotiate with the vendors... I will speak to the management'. He is identifiable from the transcript, not unknown.",
+      "kind": "wrong_person"
+    },
+    {
+      "claim": "Action item for Unknown (Finance Lead): Finalize detailed production budget including promotional and transport costs.",
+      "why_wrong": "Nobody agreed to produce a revised budget. The Marketing Expert only pointed out that the PM's cost sheet excluded advertising and transport.",
+      "kind": "invented_action_item"
+    },
+    {
+      "claim": "Action item for Marketing Lead (Ed): Develop and propose online sales and promotion strategy, including potential partnerships with Amazon/eBay and media companies like Sony Pictures.",
+      "why_wrong": "The online sales idea came from the Industrial Designer and the UI Designer, the Sony Pictures idea from the Industrial Designer, and the PM said 'I will convince the management to do that'. Ed was not assigned this.",
+      "kind": "invented_action_item"
+    },
+    {
+      "claim": "Action item for Marketing Lead (Ed): Plan marketing campaigns aligning product launch with major sports events or DVD releases.",
+      "why_wrong": "The Industrial Designer proposed the event-timed launch and the PM took it on ('I will convince the management'). No task was given to Ed; the PM only said Ed's role starts 'once production is over'.",
+      "kind": "invented_action_item"
+    },
+    {
+      "claim": "Action item for Management: Approve current prototype design for market introduction without redesign prior to launch.",
+      "why_wrong": "The PM already decided this in the meeting; no approval step by management was set as a task.",
+      "kind": "invented_action_item"
+    },
+    {
+      "claim": "Action item for Unknown (Meeting Organizer): Organize closing celebration event upon successful completion of production milestone.",
+      "why_wrong": "The PM said 'let's meet up this evening to hang up for some party' and 'see you in the evening for drinks'. The celebration is that evening, not tied to a production milestone.",
+      "kind": "wrong_fact"
+    }
+  ],
+  "judge_model": "claude-fable-5-1"
+}

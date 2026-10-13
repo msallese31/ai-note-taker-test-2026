@@ -1,0 +1,123 @@
+{
+  "judge_model": "claude-fable-5-1",
+  "evaluations": [
+    {
+      "label": "A",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 5},
+        {"criterion": "completeness", "score": 7},
+        {"criterion": "decisions_and_actions", "score": 5},
+        {"criterion": "usefulness", "score": 6}
+      ],
+      "overall": 5.75,
+      "errors": [
+        "\"kick off TS3012a, a project\" - no project name or code is mentioned anywhere in the transcript.",
+        "Project manager is called \"Markoff\" throughout; he introduces himself as Mark.",
+        "Industrial designer is called \"Savier\" / \"Savier Jokins\"; the transcript has Xavier Juergens.",
+        "User interface designer is called \"Speaker 4\" although he introduced himself as Nick Broer.",
+        "\"Speaker 4 clarifies that the scope of the project is limited to a TV remote control\" - the UI designer asked the question; the project manager answered that the brief was for a TV remote only.",
+        "Lists \"Should the device be designed as a multi-remote control or limited strictly to television functions?\" as an open question; it was answered in the meeting (TV only).",
+        "\"Savier Jokins suggests using lightweight materials that are aesthetically impactful\" - he only said the material should be light; nothing about aesthetic impact.",
+        "Next steps omit that the personal coach, not the project manager, hands out the personal assignments."
+      ],
+      "strengths": [
+        "Broadest coverage: roles, three questions for the industrial designer (paraphrased), three-phase process, whiteboard training, project folder, animal exercise, scope, accessibility, material, prices, 30-minute reconvene.",
+        "Captures the price targets (25 euros selling, 12.50 production) correctly.",
+        "Readable structure with summary, outline and open questions."
+      ],
+      "weaknesses": [
+        "Invents a project code and misspells or mislabels three of four participants.",
+        "Misattributes the scope clarification and lists a settled point as open.",
+        "Action items are generic restatements of the brief with no owners, and miss the only concrete commitment (marketing expert to bring ideas).",
+        "Omits that the marketing expert had nothing ready yet and that the whiteboard was found unresponsive."
+      ]
+    },
+    {
+      "label": "B",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 8},
+        {"criterion": "completeness", "score": 8},
+        {"criterion": "decisions_and_actions", "score": 8},
+        {"criterion": "usefulness", "score": 8}
+      ],
+      "overall": 8.0,
+      "errors": [
+        "Action item owner written as \"Dirk Mengveld\"; the transcript has Dirk Meinfeld (minor spelling).",
+        "\"The interface designer urged familiarity and rational changes\" - the transcript line is garbled (\"No rational changes or whatever, 'cause it revolutionary changes, yes\"); the direction of the second half is uncertain, so \"rational changes\" is a guess.",
+        "Several timestamps are a few seconds early relative to the transcript (e.g. scope at [11:32] vs 11:25-11:34, lightweight material at [12:35] vs [12:33]); not materially misleading."
+      ],
+      "strengths": [
+        "Names Mark, Dirk and Xavier correctly and attributes statements to the right people throughout.",
+        "Correctly states the scope decision (TV only), the price targets, the lightweight-material point, the accessibility discussion and the 30-minute reconvene with assignments from the personal coach.",
+        "Only set that records the marketing expert had no ideas ready yet and turns that into the one real action item with an owner.",
+        "Captures the whiteboard responsiveness complaint and the pen-and-paper preference.",
+        "Clear summary up top plus timestamped detail someone could check."
+      ],
+      "weaknesses": [
+        "Omits the industrial designer's three guiding questions (what happens inside, what it is made of, what it looks like).",
+        "Never names the user interface designer (Nick Broer) even though he introduced himself.",
+        "Slight over-interpretation of the elephant as chosen \"as a market image\"; the market framing came from Mark, not Dirk."
+      ]
+    },
+    {
+      "label": "C",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 6},
+        {"criterion": "completeness", "score": 6},
+        {"criterion": "decisions_and_actions", "score": 5},
+        {"criterion": "usefulness", "score": 6}
+      ],
+      "overall": 5.5,
+      "errors": [
+        "\"Mark Knopp\" - the project manager gives only his first name; no surname appears in the transcript.",
+        "\"Xavier Juukens\" and \"Dirk Mankveld\" - transcript has Xavier Juergens and Dirk Meinfeld.",
+        "\"Provide personal assignments to team members\" assigned to Mark - the project manager said the personal coach will give the assignments.",
+        "\"Address material considerations for lightweight design\" assigned to Xavier and \"Prepare intuitive design concepts\" assigned to the UI designer - no such assignments were made in the meeting; these are inferred.",
+        "\"Dolphin: freedom, smooth design\" - nothing about smooth design was said; the dolphin stood for freedom, the ocean and swimming.",
+        "Timestamps are often off: scope clarification marked (10:34) actually occurs at 11:25-11:34; pricing marked (12:10) occurs at 12:43; assignments marked (13:53) is past the end of the transcript."
+      ],
+      "strengths": [
+        "Compact and scannable; hits the main points (scope TV only, intuitive, accessible, light, 25 / 12.5 euro prices, 30-minute break).",
+        "Records that the marketing expert will bring input later.",
+        "Captures the whiteboard responsiveness issue."
+      ],
+      "weaknesses": [
+        "Invents surnames and invents action items with owners that were never assigned, which could send people off doing the wrong work.",
+        "Wrongly credits Mark with handing out personal assignments.",
+        "Skips the team introductions and roles, including the industrial designer's three questions.",
+        "Too terse for someone who missed the meeting to understand context (who is who, why the animals were drawn)."
+      ]
+    },
+    {
+      "label": "D",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 8},
+        {"criterion": "completeness", "score": 7},
+        {"criterion": "decisions_and_actions", "score": 7},
+        {"criterion": "usefulness", "score": 7}
+      ],
+      "overall": 7.25,
+      "errors": [
+        "\"Mark Knopf\" - no surname is given in the transcript.",
+        "\"Dirk Mengveld\" and \"Xavier Jökens\" - transcript has Dirk Meinfeld and Xavier Juergens (spelling).",
+        "\"UI designer also present (name not captured)\" - he introduced himself as Nick Broer.",
+        "\"Dolphin: freedom, openness\" - \"openness\" is not in the transcript (freedom, ocean, swimming were).",
+        "\"Tiger: speed, efficiency, security, precision\" - \"precision\" is a stretch of \"well-thought way\"; minor.",
+        "\"rational changes only\" repeats the garbled transcript line as if it were a clear statement."
+      ],
+      "strengths": [
+        "Accurate on all the substantive points: TV-only scope, intuitive/familiar design, accessibility consideration, lightweight material, 25 / 12.50 euro prices, three phases, project folder, 30-minute reconvene with assignments from the personal coach.",
+        "Only set besides A to record the industrial designer's three questions, and it lists them verbatim.",
+        "Captures the tight-budget remark and the distinct-from-competitors takeaway.",
+        "Short, well organised, easy to act on."
+      ],
+      "weaknesses": [
+        "No action items or owners; misses that the marketing expert had nothing ready and will bring ideas later.",
+        "Omits the whiteboard responsiveness complaint.",
+        "Invents a surname for Mark and fails to name the UI designer."
+      ]
+    }
+  ],
+  "ranking": ["B", "D", "A", "C"],
+  "rationale": "B is the most reliable: correct first names, correct attribution of who asked versus who decided, all key numbers and decisions, and the one genuine follow-up (Dirk to bring marketing ideas) captured as an owned action item; its only gaps are the industrial designer's three questions and the UI designer's name. D is nearly as accurate and includes the three questions, but has no action items, invents a surname and misses the marketing expert's pending ideas. A covers the most ground but invents a project code, garbles or omits most names, misattributes the scope clarification to the UI designer, lists the settled multi-remote question as open, and offers only generic unowned action items. C is terse and invents the most consequential content: surnames, three action items that were never assigned, and credits Mark with handing out assignments that the personal coach gives, so someone acting on it could do the wrong work."
+}

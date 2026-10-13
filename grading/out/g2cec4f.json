@@ -1,0 +1,108 @@
+{
+ "items": [
+  {
+   "id": "S1",
+   "verdict": "partial",
+   "evidence": "The 'Prototype Design' section describes the prototype, but does not say that the User Interface Designer presented it."
+  },
+  {
+   "id": "S2",
+   "verdict": "correct",
+   "evidence": "Notes include 'Flip panel with yellow LCD display' and 'Customizable backing panel (front and back).'"
+  },
+  {
+   "id": "S3",
+   "verdict": "partial",
+   "evidence": "Notes report the component-cost total and LCD increment, but omit the Project Manager's presentation. The answer key's exclusion decision is unsupported: at 09:24\u201309:36, participants say the display brings the total to about \u20ac12\u2013\u20ac12.50 and can be included."
+  },
+  {
+   "id": "S4",
+   "verdict": "partial",
+   "evidence": "Notes state 'Plan to negotiate with vendors to reduce production cost further,' but omit the Project Manager as owner. Contrary to the key, his stated purpose at 10:54 is to free money for marketing/promotions, not specifically to enable the display."
+  },
+  {
+   "id": "S5",
+   "verdict": "partial",
+   "evidence": "Notes capture the sales target, market share, price and profit calculations, but omit the Marketing Expert's presentation and his explicit concern about the feasibility of achieving those targets."
+  },
+  {
+   "id": "S6",
+   "verdict": "correct",
+   "evidence": "Notes describe online sales, direct shipping, Amazon/eBay and online visualization of customization options."
+  },
+  {
+   "id": "S7",
+   "verdict": "partial",
+   "evidence": "Notes capture 'no redesign window' and proceeding with the current model, with feedback for a second generation. They omit the User Interface Designer and Project Manager's respective roles."
+  },
+  {
+   "id": "S8",
+   "verdict": "correct",
+   "evidence": "Notes describe synchronizing launch with a major sporting event and pursuing DVD-release tie-ins with studios."
+  },
+  {
+   "id": "A1",
+   "verdict": "partial",
+   "evidence": "The vendor-negotiation task is included, but the Project Manager's ownership and his commitment to speak with management about reducing costs are missing."
+  },
+  {
+   "id": "A2",
+   "verdict": "missed",
+   "evidence": "Notes mention exploring promotional partnerships, but not the Project Manager's commitment to take the promotion proposal to management."
+  },
+  {
+   "id": "A3",
+   "verdict": "missed",
+   "evidence": "Notes do not state that the Marketing Expert will take over marketing once production is underway."
+  },
+  {
+   "id": "A4",
+   "verdict": "correct",
+   "evidence": "Notes include 'Complete prototype production evaluation' before production sign-off. At 16:47\u201317:34, the transcript describes producing prototypes and then evaluating/test-marketing them."
+  },
+  {
+   "id": "D1",
+   "verdict": "wrong",
+   "evidence": "The LCD is included, but notes call microphone placement 'unresolved.' At 05:50\u201306:16, the group accepts side placement so voice control remains accessible with the flip closed."
+  },
+  {
+   "id": "D2",
+   "verdict": "partial",
+   "evidence": "Cost negotiation is recorded without the Project Manager as owner. The transcript supports negotiation to fund marketing/promotions; it does not specifically make display integration the purpose."
+  },
+  {
+   "id": "D3",
+   "verdict": "correct",
+   "evidence": "Notes record aligning launch with a sporting event and exploring studio/DVD partnerships. These accurately reflect supported proposals; the transcript does not establish a finalized partnership or release agreement."
+  },
+  {
+   "id": "D4",
+   "verdict": "partial",
+   "evidence": "'Decision: proceed with current model for market introduction; gather feedback for second generation' captures the direction, but omits the Project Manager's explicit freeze on changes to the basic design."
+  },
+  {
+   "id": "D5",
+   "verdict": "correct",
+   "evidence": "Notes place prototype production evaluation before production sign-off. The answer key's contrast with evaluating a prototype needs qualification: the transcript calls the forthcoming real test units 'prototypes,' distinct from the plasticine presentation model."
+  },
+  {
+   "id": "P1",
+   "verdict": "partial",
+   "evidence": "Notes give the budget and profit calculations, but do not explicitly identify the threatened profit goal or substantial budget revisions. The key's claim that the budget cannot cover the components is not established; the spoken LCD-inclusive estimate is about \u20ac12\u2013\u20ac12.50."
+  },
+  {
+   "id": "P2",
+   "verdict": "correct",
+   "evidence": "Notes capture the concern about insufficient evaluation/redesign time and the decision to proceed with the current model rather than redesign it."
+  }
+ ],
+ "errors": [
+  {
+   "claim": "Microphone placement unresolved: under flip ruled out; sides proposed as best option",
+   "why_wrong": "The discussion progresses beyond an unresolved proposal: at 05:50\u201306:16, the Project Manager and other participants accept placing the microphone on the side for continuous voice access.",
+   "kind": "decision_described_wrongly"
+  }
+ ],
+ "judge_model": "ChatGPT",
+ "judge_model_served": "gpt-6.1-sol"
+}

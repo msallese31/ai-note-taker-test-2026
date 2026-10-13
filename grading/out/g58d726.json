@@ -1,0 +1,103 @@
+{
+ "items": [
+  {
+   "id": "S1",
+   "verdict": "partial",
+   "evidence": "The notes cover the industrial designer's wheel-cost concern and the possible voice-recognition chip, but do not clearly describe his presentation of the prototype's functional components. The transcript shows the UI designer introduced the voice-recognition news."
+  },
+  {
+   "id": "S2",
+   "verdict": "partial",
+   "evidence": "The notes discuss 'buttons on existing remotes' and the UI designer's preferred layout, but do not explicitly say he presented existing remotes as examples for the prototype."
+  },
+  {
+   "id": "S3",
+   "verdict": "partial",
+   "evidence": "The notes describe 'a simple layout with large volume and channel controls' and thumb-reach problems, but omit simplifying the displayed designs by eliminating unnecessary functions."
+  },
+  {
+   "id": "S4",
+   "verdict": "correct",
+   "evidence": "The notes describe the market-trend presentation, its ranking of design priorities, and its influence on the chosen fruit-shaped design."
+  },
+  {
+   "id": "S5",
+   "verdict": "correct",
+   "evidence": "The notes report 'a trend toward fruit and vegetable forms' and spongy material, then specify a banana-shaped case with a spongy cover."
+  },
+  {
+   "id": "S6",
+   "verdict": "correct",
+   "evidence": "The notes state that 'the group settled the main concept' and list the selected shape, color, controls, cover, battery, and chip."
+  },
+  {
+   "id": "S7",
+   "verdict": "partial",
+   "evidence": "The notes specify the yellow banana shape, spongy cover, top-mounted wheel, standard battery, and selected chip, but omit the final lighted-button feature. The transcript does not explicitly establish the answer key's claim that the selected chip cannot accommodate speech recognition."
+  },
+  {
+   "id": "S8",
+   "verdict": "partial",
+   "evidence": "The notes say the industrial and UI designers were asked to work together on the prototype and include checking user requirements, but do not specify evaluation at the next meeting."
+  },
+  {
+   "id": "A1",
+   "verdict": "correct",
+   "evidence": "'The industrial designer and UI designer were asked to work together on the prototype.'"
+  },
+  {
+   "id": "A2",
+   "verdict": "correct",
+   "evidence": "'The next work included final look-and-feel design, UI design, and checking the product against user requirements.'"
+  },
+  {
+   "id": "D1",
+   "verdict": "correct",
+   "evidence": "The notes state that the group settled the main concept and enumerate the features selected for the prototype."
+  },
+  {
+   "id": "D2",
+   "verdict": "correct",
+   "evidence": "'The chosen concept was a yellow, banana-shaped remote' and 'The case would have a spongy cover over an inner structure.'"
+  },
+  {
+   "id": "D3",
+   "verdict": "missed",
+   "evidence": "The notes discuss general lighting options but never state that the chosen design has lighted buttons. The Project Manager explicitly refers to lighted buttons at 20:38."
+  },
+  {
+   "id": "D4",
+   "verdict": "correct",
+   "evidence": "'The wheel stays despite its higher cost, for ease of use and innovation.'"
+  },
+  {
+   "id": "D5",
+   "verdict": "correct",
+   "evidence": "'The group chose a yellow, banana-shaped remote with a wheel on top.'"
+  },
+  {
+   "id": "D6",
+   "verdict": "partial",
+   "evidence": "The notes mention the 'selected chip-on-print component' without calling it standard, and say no decision was made to add voice features. The transcript supports selecting the existing chip, but does not explicitly say it cannot support speech recognition or announce a renewed decision to eliminate speech."
+  },
+  {
+   "id": "D7",
+   "verdict": "correct",
+   "evidence": "'The design would use a standard battery.'"
+  }
+ ],
+ "errors": [
+  {
+   "claim": "It had a channel wheel, preview button, and protected channel-number buttons.",
+   "why_wrong": "The opening recap specifies a previous-channel button, not a preview button.",
+   "kind": "wrong_fact"
+  },
+  {
+   "claim": "The wheel could be pressed down to recall a channel.",
+   "why_wrong": "At 10:42, the supplied transcript says the wheel's push-down action could be used 'for the record if we want'; it does not specify recalling a channel.",
+   "kind": "wrong_fact"
+  }
+ ],
+ "judge_model": "unknown",
+ "judge_model_served": "gpt-6.1-sol"
+}

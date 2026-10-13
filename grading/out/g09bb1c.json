@@ -1,0 +1,113 @@
+{
+ "items": [
+  {
+   "id": "S1",
+   "verdict": "correct",
+   "evidence": "The notes identify a remote-control project that is 'Original, trendy, user friendly' and clarify that it is only for TV."
+  },
+  {
+   "id": "S2",
+   "verdict": "partial",
+   "evidence": "The notes identify the four roles through their action items and mention user preferences, intuitive design and materials, but omit the industrial designer's responsibility for the device's internal engineering."
+  },
+  {
+   "id": "S3",
+   "verdict": "correct",
+   "evidence": "'Three-phase design approach,' 'Functional design first phase,' and 'Individual work then group meetings' accurately reflect the transcript. The answer key's specific claim of three further meetings is not explicitly established in the transcript."
+  },
+  {
+   "id": "S4",
+   "verdict": "correct",
+   "evidence": "'Electronic whiteboard introduction' includes the pen, eraser, color and line-width controls and its use for presentations."
+  },
+  {
+   "id": "S5",
+   "verdict": "correct",
+   "evidence": "'Selling price \u20ac25, production cost approx \u20ac12.5.'"
+  },
+  {
+   "id": "S6",
+   "verdict": "partial",
+   "evidence": "'Drawing demo of animals for creativity' and the four animal descriptions capture the exercise, but do not explicitly say that every team member tried the SMARTboard by drawing their favorite animal."
+  },
+  {
+   "id": "S7",
+   "verdict": "correct",
+   "evidence": "The product-considerations section records intuitive design, disability-related accessibility and lightweight material."
+  },
+  {
+   "id": "A1",
+   "verdict": "correct",
+   "evidence": "The answer key marks this N/A, so there is no substantive keyed action item to evaluate. The transcript does contain file-sharing and assignment arrangements; inaccuracies in the notes' actions are addressed below."
+  },
+  {
+   "id": "D1",
+   "verdict": "correct",
+   "evidence": "'Only TV remote control, no multi-device.'"
+  },
+  {
+   "id": "D2",
+   "verdict": "partial",
+   "evidence": "'Intuitive design' captures the general direction, but the notes omit the explicit requirement to retain what customers are familiar with and avoid revolutionary changes."
+  },
+  {
+   "id": "D3",
+   "verdict": "correct",
+   "evidence": "Under 'Usability and inclusivity discussed,' the notes mention accessibility for disabled users, consistent with the agreement to take disability-related usability into consideration."
+  },
+  {
+   "id": "D4",
+   "verdict": "correct",
+   "evidence": "'Material should be light.'"
+  },
+  {
+   "id": "P1",
+   "verdict": "correct",
+   "evidence": "The answer key marks this N/A. The notes' additional whiteboard-responsiveness issue is supported by the transcript, including the preference for pen and paper."
+  }
+ ],
+ "errors": [
+  {
+   "claim": "Dolphin: freedom, smooth design",
+   "why_wrong": "Freedom is supported, but smooth design was not attributed to the dolphin. The project manager's later comment that something 'looks smooth' concerned the tiger drawing.",
+   "kind": "other_invented"
+  },
+  {
+   "claim": "Mark Knopp",
+   "why_wrong": "The transcript identifies the project manager only as Mark; it does not supply the surname Knopp.",
+   "kind": "wrong_fact"
+  },
+  {
+   "claim": "Mark Knopp \u2014 Provide personal assignments to team members (13:53)",
+   "why_wrong": "At 13:25, the project manager says the personal coach will provide the assignments, not that he will provide them himself. The timestamp 13:53 also falls after the supplied transcript ends.",
+   "kind": "wrong_person"
+  },
+  {
+   "claim": "Three-phase design approach (01:28)",
+   "why_wrong": "The three-phase approach is introduced in the project manager's turn beginning at 01:47, not at 01:28.",
+   "kind": "wrong_fact"
+  },
+  {
+   "claim": "Product scope clarified (10:34)",
+   "why_wrong": "At 10:34 the discussion concerns animal metaphors and a distinctive interface. The TV-only clarification occurs at 11:32, following the question at 11:25.",
+   "kind": "wrong_fact"
+  },
+  {
+   "claim": "Pricing constraints noted (12:10)",
+   "why_wrong": "The selling and production prices are introduced in the project manager's turn beginning at 12:43. The discussion around 12:10 concerns disabled users.",
+   "kind": "wrong_fact"
+  },
+  {
+   "claim": "Share meeting minutes and project files (02:50)",
+   "why_wrong": "The project-folder and meeting-minutes arrangements are discussed at 03:23, not 02:50.",
+   "kind": "wrong_fact"
+  },
+  {
+   "claim": "Address material considerations for lightweight design (12:00)",
+   "why_wrong": "The industrial designer proposes lightweight material at 12:33, not 12:00.",
+   "kind": "wrong_fact"
+  }
+ ],
+ "judge_model": "unknown",
+ "judge_model_served": "gpt-6.1-sol"
+}

@@ -1,0 +1,118 @@
+{
+ "items": [
+  {
+   "id": "S1",
+   "verdict": "correct",
+   "evidence": "\u201cAgnes presented the wooden, customizable remote.\u201d Agnes is the User Interface Designer."
+  },
+  {
+   "id": "S2",
+   "verdict": "correct",
+   "evidence": "The notes describe a \u201cflip-panel LCD\u201d and say \u201cThe back and flip case could have customized designs.\u201d"
+  },
+  {
+   "id": "S3",
+   "verdict": "correct",
+   "evidence": "The notes report the \u20ac9.95 estimate, \u20ac12.50 budget, and missing \u20ac2\u2013\u20ac3 LCD cost. The answer key is inaccurate: at 09:24\u201309:36, participants say the total would be around \u20ac12\u2013\u20ac12.50 and that the display could be included, not that it was rejected."
+  },
+  {
+   "id": "S4",
+   "verdict": "correct",
+   "evidence": "The notes state that the company representative will pursue lower production costs. The transcript supports negotiation, but identifies savings for marketing and promotions\u2014not specifically funding the LCD\u2014as the purpose."
+  },
+  {
+   "id": "S5",
+   "verdict": "correct",
+   "evidence": "The notes describe the market estimates, the required 25% market share, and doubts about reaching the two-million-unit and \u20ac50 million profit targets."
+  },
+  {
+   "id": "S6",
+   "verdict": "correct",
+   "evidence": "The notes cover online ordering, direct shipment, Amazon or eBay, and customization images or rotation views."
+  },
+  {
+   "id": "S7",
+   "verdict": "correct",
+   "evidence": "\u201cAgnes said the project had no redesign time if users found problems,\u201d while the company representative chose to retain the basic design and defer changes to a second generation."
+  },
+  {
+   "id": "S8",
+   "verdict": "correct",
+   "evidence": "The notes describe a launch coordinated with a major sports event and a possible Sony Pictures campaign around a DVD release."
+  },
+  {
+   "id": "A1",
+   "verdict": "correct",
+   "evidence": "The action list says: \u201cNegotiate lower production costs with vendors and discuss cost reductions with management.\u201d"
+  },
+  {
+   "id": "A2",
+   "verdict": "correct",
+   "evidence": "The action list says: \u201cTry to convince management to pursue a campaign with Sony Pictures.\u201d"
+  },
+  {
+   "id": "A3",
+   "verdict": "missed",
+   "evidence": "No marketing-start task for the Marketing Expert is recorded. The transcript\u2019s closing statement says to leave it to Ed once production is \u201cover,\u201d rather than explicitly when production begins."
+  },
+  {
+   "id": "A4",
+   "verdict": "correct",
+   "evidence": "The notes describe developing prototypes and then market-testing them, with evaluation expected within two to four weeks."
+  },
+  {
+   "id": "D1",
+   "verdict": "wrong",
+   "evidence": "Although the LCD is described, the notes say \u201cThe microphone location was unresolved.\u201d At 05:52\u201306:16, the group accepts side placement; at 09:34\u201309:36, participants also accept including the LCD."
+  },
+  {
+   "id": "D2",
+   "verdict": "correct",
+   "evidence": "The notes record the decision to negotiate lower production costs. As with S4, the transcript links the savings to marketing and promotions, not specifically LCD integration."
+  },
+  {
+   "id": "D3",
+   "verdict": "correct",
+   "evidence": "The notes cover the sports-event launch proposal, Sony Pictures campaign proposal, and management follow-up. The transcript supports exploring these plans, not a finalized partnership or release arrangement."
+  },
+  {
+   "id": "D4",
+   "verdict": "correct",
+   "evidence": "\u201cThe company representative chose to keep the basic design for market introduction and use customer feedback for a second generation.\u201d"
+  },
+  {
+   "id": "D5",
+   "verdict": "correct",
+   "evidence": "The notes schedule later evaluation after prototypes are developed. The transcript explicitly calls this \u201cprototype product evaluation\u201d at 17:01, so the answer key\u2019s contrast with evaluating prototypes is misleading."
+  },
+  {
+   "id": "P1",
+   "verdict": "correct",
+   "evidence": "The notes capture the omitted LCD, promotion and transportation costs, and sales/profit feasibility concerns. The transcript does not establish that extensive budget revisions are required; participants say the LCD can fit at approximately \u20ac12\u2013\u20ac12.50."
+  },
+  {
+   "id": "P2",
+   "verdict": "correct",
+   "evidence": "The notes contrast the company representative\u2019s short evaluation schedule and refusal to redesign with Agnes\u2019s concerns about testing time and responding to user feedback."
+  }
+ ],
+ "errors": [
+  {
+   "claim": "The microphone location was unresolved.",
+   "why_wrong": "At 05:52\u201306:16, the Project Manager and other participants accept placing the microphone on the side so voice activation remains accessible with the flip closed.",
+   "kind": "decision_described_wrongly"
+  },
+  {
+   "claim": "Christine estimated the case could cost \u20ac1 for material and labor.",
+   "why_wrong": "The figure belongs to the Project Manager\u2019s cost analysis. At 10:48, Christine reacts with surprise to the quoted \u20ac1 case cost rather than presenting her own estimate.",
+   "kind": "wrong_person"
+  },
+  {
+   "claim": "Prototypes would be made outside the company's factory.",
+   "why_wrong": "At 17:18\u201317:34, the discussion concerns conducting product evaluation outside the factory. It does not establish where the prototypes would be manufactured.",
+   "kind": "wrong_fact"
+  }
+ ],
+ "judge_model": "gpt-5.2",
+ "judge_model_served": "gpt-6.1-sol"
+}

@@ -1,0 +1,102 @@
+{
+  "items": [
+    {
+      "id": "S1",
+      "verdict": "correct",
+      "evidence": "Notes: \"ID presented research on standard components, noting that while push buttons are inexpensive, a wheel sensor is significantly more costly—approximately 50 times the price of a button\" and \"Speaker 2 suggests exploring existing voice recognition technology from the manufacturing division\". Transcript confirms the voice recognition email was raised by the User Interface Designer during the ID presentation, which the notes attribute correctly."
+    },
+    {
+      "id": "S2",
+      "verdict": "correct",
+      "evidence": "Notes: \"Speaker 2 proposes a simplified UI based on existing remote designs by removing unnecessary buttons.\""
+    },
+    {
+      "id": "S3",
+      "verdict": "partial",
+      "evidence": "Notes cover the simplification (\"removing unnecessary buttons\", \"central area containing big volume and channel controls for better usability\") but do not state the ergonomic point the UI Designer made about buttons being hard to reach with the thumb and moving them to the side."
+    },
+    {
+      "id": "S4",
+      "verdict": "correct",
+      "evidence": "Notes: \"Speaker 4 presents market trends suggesting that products should have a fancy look, be innovative, and remain easy to use.\""
+    },
+    {
+      "id": "S5",
+      "verdict": "correct",
+      "evidence": "Notes: \"Current fashion trends suggest utilizing 'spongy' materials and organic fruit or vegetable shapes.\""
+    },
+    {
+      "id": "S6",
+      "verdict": "correct",
+      "evidence": "Notes have a \"Final Concept Decisions and Next Steps\" section listing banana shape, spongy casing, lighted buttons, top-mounted wheel, standard batteries and chip."
+    },
+    {
+      "id": "S7",
+      "verdict": "partial",
+      "evidence": "Notes state banana shape, spongy material, lighted buttons, top-mounted wheel, standard batteries and \"chip-on-print technology\". But the notes list \"Can the existing voice recognition chip ... be adapted\" as an unresolved question rather than stating speech recognition is out. Transcript: the PM deferred the voice chip question and later the group confirmed the standard chip they already know; speech recognition was never explicitly rejected, so the key's wording is slightly stronger than the transcript."
+    },
+    {
+      "id": "S8",
+      "verdict": "correct",
+      "evidence": "Notes: \"Speaker 1 instructs the industrial designer and UI designer to collaborate on developing the prototype's look and feel\" and \"Future tasks involve evaluating if the new design meets all user requirements before the next meeting.\""
+    },
+    {
+      "id": "A1",
+      "verdict": "partial",
+      "evidence": "The Action Items section says \"(none)\". The task appears only in the outline: \"Speaker 1 instructs the industrial designer and UI designer to collaborate on developing the prototype's look and feel.\""
+    },
+    {
+      "id": "A2",
+      "verdict": "partial",
+      "evidence": "Action Items says \"(none)\"; the outline says \"Future tasks involve evaluating if the new design meets all user requirements before the next meeting\" without saying who does it."
+    },
+    {
+      "id": "D1",
+      "verdict": "correct",
+      "evidence": "Notes: \"The final concept combines a banana-shaped spongy casing...\" and \"Decisions were made to include lighted buttons and a top-mounted wheel\"."
+    },
+    {
+      "id": "D2",
+      "verdict": "correct",
+      "evidence": "Notes: \"ultimately deciding on a yellow banana shape\" and \"The exterior will feature a spongy material for robustness\"."
+    },
+    {
+      "id": "D3",
+      "verdict": "correct",
+      "evidence": "Notes: \"Decisions were made to include lighted buttons\". (The added detail that they \"activate upon movement\" is not supported; see errors.)"
+    },
+    {
+      "id": "D4",
+      "verdict": "correct",
+      "evidence": "Notes: \"Despite this, the team decided to move forward with a wheel control to provide a competitive advantage and enhance innovation.\""
+    },
+    {
+      "id": "D5",
+      "verdict": "correct",
+      "evidence": "Notes: \"a top-mounted wheel\"."
+    },
+    {
+      "id": "D6",
+      "verdict": "partial",
+      "evidence": "Notes state \"The build will utilize standard batteries and chip-on-print technology\" but leave voice recognition as an open question (\"Can the existing voice recognition chip from the manufacturing division be adapted\"). Transcript: PM said to decide later, then the group confirmed the chip they already know; speech recognition was never explicitly discussed again, so the notes' open question is not contradicted outright, but the elimination the key describes is not stated."
+    },
+    {
+      "id": "D7",
+      "verdict": "correct",
+      "evidence": "Notes: \"The build will utilize standard batteries\"."
+    }
+  ],
+  "errors": [
+    {
+      "claim": "The remote will include backlit buttons that activate upon movement to assist in dark environments",
+      "why_wrong": "Motion-activated lighting was floated by the PM, the UI Designer objected that it needs another sensor and is too expensive, the ID instead suggested a continuous light when the on button is pressed, and the PM said to discuss it later. No decision that the light activates on movement was made; the only later statement is that the buttons are lighted.",
+      "kind": "decision_described_wrongly"
+    },
+    {
+      "claim": "the concept design for the IS1001c remote control",
+      "why_wrong": "No product name or code is mentioned anywhere in the transcript.",
+      "kind": "other_invented"
+    }
+  ],
+  "judge_model": "claude-fable-5-1"
+}

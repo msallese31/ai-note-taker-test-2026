@@ -1,0 +1,120 @@
+{
+  "evaluations": [
+    {
+      "label": "A",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 7},
+        {"criterion": "completeness", "score": 7},
+        {"criterion": "decisions_and_actions", "score": 6},
+        {"criterion": "usefulness", "score": 8}
+      ],
+      "overall": 7.0,
+      "errors": [
+        "\"Mark Knopf: project manager\" - surname Knopf never said; only \"Mark\"",
+        "\"Dirk Mengveld\" - transcript says Dirk Meinfeld",
+        "\"Xavier Jökens\" - transcript says Xavier Juergens",
+        "\"UI designer also present (name not captured)\" - he introduced himself as Nick Broer",
+        "\"Dolphin: freedom, openness\" - 'openness' not stated; he said freedom, ocean, swimming",
+        "\"rational changes only\" - garbled transcript; the point was to avoid revolutionary changes, not that rational changes are the rule"
+      ],
+      "strengths": [
+        "Clear, well-organized sections covering goals, price, roles, process and early design considerations",
+        "Correctly records scope as TV-only, accessibility, lightweight material, and both price figures",
+        "Mentions next meeting in 30 minutes and assignments coming from the personal coach"
+      ],
+      "weaknesses": [
+        "Several misspelled or invented surnames and the UI designer's name missed",
+        "No explicit action items with owners; Dirk's pending marketing ideas not captured",
+        "Whiteboard takeaways slightly embellished"
+      ]
+    },
+    {
+      "label": "B",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 5},
+        {"criterion": "completeness", "score": 7},
+        {"criterion": "decisions_and_actions", "score": 4},
+        {"criterion": "usefulness", "score": 6}
+      ],
+      "overall": 5.5,
+      "errors": [
+        "\"kick off TS3012a\" - project code never mentioned in the transcript",
+        "PM called \"Markoff\"; he only said \"Mark\"",
+        "\"Savier\" / \"Savier Jokins\" and \"Dirk Mangfelt\" - names wrong (Xavier Juergens, Dirk Meinfeld)",
+        "UI designer referred to as \"Speaker 4\" though he gave his name, Nick Broer",
+        "Open question \"Should the device be designed as a multi-remote control or limited strictly to television functions?\" - this was settled: TV only",
+        "\"Speaker 4 clarifies that the scope of the project is limited to a TV remote control\" - the UI designer asked; the PM clarified",
+        "\"Savier Jokins suggests using lightweight materials that are aesthetically impactful\" - 'aesthetically impactful' not said",
+        "\"Markoff introduced the team\" - each member introduced themselves"
+      ],
+      "strengths": [
+        "Detailed outline covering kickoff, process, whiteboard training, icebreaker, constraints and next steps",
+        "Captures both price figures, three-phase process, project folder for minutes",
+        "Mentions accessibility, intuitive design and lightweight material"
+      ],
+      "weaknesses": [
+        "Contradicts itself: lists TV-only scope as open while also saying it was clarified",
+        "Action items have no owners and are generic restatements of the brief",
+        "Many name errors and 'Speaker 4' placeholder reduce usefulness; repetitive between summary and outline",
+        "Omits that the personal coach hands out assignments and that Dirk owes marketing ideas"
+      ]
+    },
+    {
+      "label": "C",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 9},
+        {"criterion": "completeness", "score": 8},
+        {"criterion": "decisions_and_actions", "score": 8},
+        {"criterion": "usefulness", "score": 8}
+      ],
+      "overall": 8.25,
+      "errors": [
+        "\"Dirk Mengveld\" in action items - surname is Meinfeld",
+        "\"The interface designer urged familiarity and rational changes\" - transcript garbled; intent was no revolutionary changes",
+        "\"Dirk chose an elephant as a market image\" - he chose it for being big and strong; the PM made the market link (later line states this correctly)",
+        "\"They set a €25 selling price\" - the PM presented the given targets rather than the team setting them"
+      ],
+      "strengths": [
+        "Most faithful to the transcript, with correct attributions (PM confirmed TV-only scope, Mark agreed accessibility should be considered)",
+        "Captures the UI designer's comment that the budget leaves little room, Dirk's unprepared marketing ideas, and the personal coach giving assignments",
+        "Timestamps and summary-first structure make it easy to scan and verify",
+        "Action item for Dirk is grounded in what he said"
+      ],
+      "weaknesses": [
+        "UI designer's name (Nick Broer) not given",
+        "Some timestamps are coarse (several items tagged [01:08])",
+        "Only one action item; PM's commitment to post minutes not listed as an action"
+      ]
+    },
+    {
+      "label": "D",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 5},
+        {"criterion": "completeness", "score": 6},
+        {"criterion": "decisions_and_actions", "score": 4},
+        {"criterion": "usefulness", "score": 6}
+      ],
+      "overall": 5.25,
+      "errors": [
+        "\"Mark Knopp\" - surname never said",
+        "\"Xavier Juukens\" and \"Dirk Mankveld\" - names wrong (Juergens, Meinfeld)",
+        "\"Dolphin: freedom, smooth design\" - 'smooth design' not said about the dolphin",
+        "Action item \"Mark Knopp - Provide personal assignments to team members\" - the personal coach gives assignments, not Mark",
+        "Action items \"Xavier - Address material considerations\" and \"UI Designer - Prepare intuitive design concepts\" are not assignments made in the meeting",
+        "Timestamps misplaced, e.g. scope clarified at (10:34) when it was at 11:32; Mark's action at (13:53) after the meeting ended"
+      ],
+      "strengths": [
+        "Compact and scannable; covers scope, intuitive design, accessibility, light material, pricing and the 30-minute break",
+        "Correctly notes the whiteboard was low-responsive and the PM will share minutes in the project files"
+      ],
+      "weaknesses": [
+        "Action items list is largely invented and misattributes who hands out assignments",
+        "Terse fragments give little context to someone who missed the meeting",
+        "Name errors throughout"
+      ]
+    }
+  ],
+  "ranking": ["C", "A", "B", "D"],
+  "rationale": "C is the most accurate and best attributed, captures the key numbers, scope decision, accessibility and material points, the personal coach and Dirk's pending marketing ideas, with only minor issues. A is clean and broadly correct but invents or misspells surnames, misses the UI designer's name and gives no owned action items. B is thorough but adds an unsupported project code, lists the settled TV-only scope as an open question, misattributes the scope clarification, and has ownerless generic actions. D is concise but its action items are mostly invented and misattribute assignment distribution, with name and timestamp errors, making it the least reliable.",
+  "judge_model": "claude-opus-5-5"
+}

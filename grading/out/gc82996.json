@@ -1,0 +1,38 @@
+{
+  "items": [
+    {"id": "S1", "verdict": "correct", "evidence": "\"Speaker 2 opened the functional design meeting at 12:13 with a 40-minute agenda. The agenda includes reviewing minutes, discussing general objectives, three presentations, new project requirements, and deciding on remote control functions.\""},
+    {"id": "S2", "verdict": "correct", "evidence": "\"75% of subjects found remotes ugly, while 80% would pay more for a 'fancier' looking device\", \"frustration with losing remotes\", \"users only utilize about 10% of available buttons, primarily focusing on volume and channel changes\"; younger users wanting voice recognition appears later as \"younger users (ages 15-35) interested in voice recognition\"."},
+    {"id": "S3", "verdict": "correct", "evidence": "\"Speaker 5 discussed the technical aspects of designing a communication device that sends messages to a television. The presentation emphasized the need for prototypes to gather feedback...\""},
+    {"id": "S4", "verdict": "correct", "evidence": "\"A comparison was made between engineering-based designs with many features and basic designs with essential functions only.\""},
+    {"id": "S5", "verdict": "correct", "evidence": "\"Speaker 4 explained the working design process... The proposed schematic includes four main components: an energy source, a chip to convert data, a user interface, and an infrared bulb.\""},
+    {"id": "S6", "verdict": "correct", "evidence": "New requirements section (teletext, TV only, corporate image) plus \"Target Group and Core Functions\" covering target group, voice recognition, locating a lost remote, and the charging cradle instead of batteries."},
+    {"id": "A1", "verdict": "missed", "evidence": "Action Items section says \"(none)\"; the questionnaire and summary are not mentioned anywhere."},
+    {"id": "A2", "verdict": "missed", "evidence": "No mention of the thirty minutes of individual work."},
+    {"id": "A3", "verdict": "missed", "evidence": "No mention of the project manager posting minutes and project documentation."},
+    {"id": "A4", "verdict": "missed", "evidence": "No mention of team members posting their documentation."},
+    {"id": "A5", "verdict": "missed", "evidence": "No mention of the components concept assignment."},
+    {"id": "A6", "verdict": "missed", "evidence": "No mention of the user interface concept assignment."},
+    {"id": "A7", "verdict": "missed", "evidence": "No mention of trend watching."},
+    {"id": "D1", "verdict": "correct", "evidence": "\"Speaker 2 announced that the team will not include teletext functionality as it has been replaced by the internet.\""},
+    {"id": "D2", "verdict": "correct", "evidence": "\"The project scope is strictly limited to television remotes to avoid unnecessary complexity.\""},
+    {"id": "D3", "verdict": "correct", "evidence": "\"The design must incorporate the corporate image, specifically using yellow and black colors and the company slogan.\""},
+    {"id": "D4", "verdict": "correct", "evidence": "\"The group decided on core design principles of simplicity, fashion, and usability.\""},
+    {"id": "D5", "verdict": "missed", "evidence": "Notes only say \"The team discussed targeting a demographic of teenagers and families or those under age 65\" and never state the conclusion that the team would define objectives (fashion, simplicity) instead of an age-based target group."},
+    {"id": "D6", "verdict": "correct", "evidence": "\"Agreed functions include ... a way to locate the remote if lost.\" (Though the Summary separately lists a find-my-remote beep as an unresolved question, see errors.)"},
+    {"id": "D7", "verdict": "correct", "evidence": "\"Agreed functions include large buttons for essentials\""},
+    {"id": "D8", "verdict": "correct", "evidence": "\"Agreed functions include ... hidden secondary functions\" and \"keeping secondary settings less prominent\""},
+    {"id": "D9", "verdict": "correct", "evidence": "\"hidden secondary functions\""},
+    {"id": "D10", "verdict": "partial", "evidence": "Notes say the charging cradle was only \"considered\" / \"Potential Innovations: Consider a charging cradle\" and list it under unresolved questions; transcript has the project manager say \"that's a good idea, we'll keep it.\""},
+    {"id": "P1", "verdict": "correct", "evidence": "\"The group discussed defining a target demographic, weighing the benefits of targeting younger users (ages 15-35)... versus a broader age range\""},
+    {"id": "P2", "verdict": "correct", "evidence": "\"Voice recognition was largely dismissed due to high production costs and potential complexity for the target user.\""},
+    {"id": "P3", "verdict": "missed", "evidence": "The discussion of how to make infra-red more functional (battery, chip quality, component quality) is absent; notes only carry the presentation point \"a reliable infrared signal\"."},
+    {"id": "P4", "verdict": "correct", "evidence": "\"The team also considered using a charging cradle instead of traditional batteries\" and \"Could we implement a rechargeable battery system...\""}
+  ],
+  "errors": [
+    {"claim": "Speaker 5 discussed the technical interface, noting the need to balance conventional button placement with novel features like potential LCD screens or sliding hatches to hide complex functions.", "why_wrong": "The LCD screen idea was raised by the marketing expert in her presentation, not by the user interface designer; the sliding hatch came up in the later group discussion (marketing expert's pull-out idea, user interface designer noting such remotes exist), not in his presentation.", "kind": "wrong_person"},
+    {"claim": "Management decided against including teletext support or voice recognition due to complexity, cost, and changing consumer habits.", "why_wrong": "Management ruled out teletext only; voice recognition was dropped by the team itself in discussion (user interface designer citing the 12.5 euro production limit, others agreeing).", "kind": "decision_described_wrongly"},
+    {"claim": "Unresolved Questions: Would adding a \"find my remote\" beep function fit within budget?", "why_wrong": "Nobody raised budget about this feature; the group agreed to include a way to find a lost remote (\"Yeah, that'll probably be good\", \"so we want something to keep it from getting lost\" - \"Yep\", \"Yeah\").", "kind": "decision_described_wrongly"},
+    {"claim": "Unresolved Questions: Could we implement a rechargeable battery system that doubles as a storage solution?", "why_wrong": "The project manager closed this with \"that's a good idea, we'll keep it\"; it was kept, not left open.", "kind": "decision_described_wrongly"}
+  ],
+  "judge_model": "claude-fable-5-1"
+}

@@ -1,0 +1,142 @@
+{
+ "items": [
+  {
+   "id": "S1",
+   "verdict": "missed",
+   "evidence": "The notes identify the meeting but do not describe the project manager's opening or stated agenda."
+  },
+  {
+   "id": "S2",
+   "verdict": "correct",
+   "evidence": "The market-research section covers fancier appearance, losing remotes, simpler controls, frequent channel and volume changes, and voice-recognition interest falling with age."
+  },
+  {
+   "id": "S3",
+   "verdict": "partial",
+   "evidence": "The notes describe prototype testing and balancing conventional design, technology, and price, but omit the explanation that a remote communicates commands to the television."
+  },
+  {
+   "id": "S4",
+   "verdict": "partial",
+   "evidence": "\"A fully featured remote is harder to learn; a basic remote omits functions.\" This captures part of the comparison but does not identify the two existing market examples or fully describe their respective advantages."
+  },
+  {
+   "id": "S5",
+   "verdict": "correct",
+   "evidence": "\"The working-design presentation mapped the remote's key components and needs,\" including the energy source, user interface, chip, and infrared bulb."
+  },
+  {
+   "id": "S6",
+   "verdict": "correct",
+   "evidence": "The notes cover the project lead's new requirements and the discussions of target demographics, voice recognition, lost-remote recovery, and batteries."
+  },
+  {
+   "id": "A1",
+   "verdict": "correct",
+   "evidence": "\"The team was asked to complete a questionnaire and summary after the meeting.\""
+  },
+  {
+   "id": "A2",
+   "verdict": "correct",
+   "evidence": "\"Individual work was allocated across industrial design, user interface, and market-trend watching.\""
+  },
+  {
+   "id": "A3",
+   "verdict": "correct",
+   "evidence": "\"Add the meeting minutes and presentation slides to the project documentation (owner: Speaker 1).\" Speaker 1 is the project manager."
+  },
+  {
+   "id": "A4",
+   "verdict": "missed",
+   "evidence": "The notes mention one member having uploaded a presentation but omit the instruction that team members should also post their project documentation."
+  },
+  {
+   "id": "A5",
+   "verdict": "partial",
+   "evidence": "Industrial design is included in the individual-work allocation, but the components concept is not specified."
+  },
+  {
+   "id": "A6",
+   "verdict": "partial",
+   "evidence": "The notes mention individual work in \"user interface\" and a \"corresponding concept or work focus,\" but do not explicitly specify developing the user interface concept."
+  },
+  {
+   "id": "A7",
+   "verdict": "partial",
+   "evidence": "\"Market-trend watching\" is listed as individual work, but the marketing expert is not identified as its owner."
+  },
+  {
+   "id": "D1",
+   "verdict": "correct",
+   "evidence": "\"The group will not design for teletext because the internet has taken its place.\""
+  },
+  {
+   "id": "D2",
+   "verdict": "correct",
+   "evidence": "\"The product will focus on television rather than video and other uses.\""
+  },
+  {
+   "id": "D3",
+   "verdict": "correct",
+   "evidence": "\"The project lead ... kept the company's recognizable colors and slogan in scope.\""
+  },
+  {
+   "id": "D4",
+   "verdict": "correct",
+   "evidence": "\"The group named simplicity, fashion, and usability as project priorities.\""
+  },
+  {
+   "id": "D5",
+   "verdict": "partial",
+   "evidence": "The notes say the age-defined target remained open and mention needs or spending ability as alternatives, but do not explicitly capture the concluding preference for defining fashion and simplicity objectives instead of an age group."
+  },
+  {
+   "id": "D6",
+   "verdict": "correct",
+   "evidence": "\"The team agreed that a lost-remote finding function would address a frequently reported frustration.\""
+  },
+  {
+   "id": "D7",
+   "verdict": "correct",
+   "evidence": "\"The agreed functions included ... large accessible essential buttons.\""
+  },
+  {
+   "id": "D8",
+   "verdict": "correct",
+   "evidence": "\"The agreed functions included ... access to extra functions.\""
+  },
+  {
+   "id": "D9",
+   "verdict": "correct",
+   "evidence": "\"Extra controls should be less prominent or tucked away,\" with a sliding panel or hatch suggested."
+  },
+  {
+   "id": "D10",
+   "verdict": "correct",
+   "evidence": "\"The group raised long battery life and a rechargeable cradle as possibilities.\" The answer key overstates the commitment: the transcript presents a charging station as a tentative idea to retain, not an unequivocal decision that the remote will have one."
+  },
+  {
+   "id": "P1",
+   "verdict": "correct",
+   "evidence": "\"The target demographic remained open,\" with several age ranges and other targeting approaches discussed."
+  },
+  {
+   "id": "P2",
+   "verdict": "correct",
+   "evidence": "The notes describe the production-cost concern and say, \"The team questioned whether voice recognition was needed in a remote.\""
+  },
+  {
+   "id": "P3",
+   "verdict": "partial",
+   "evidence": "The notes identify the need for a \"reliable signal\" and avoiding interference with transmission, but omit the specific discussion of improving infrared performance through battery and chip quality."
+  },
+  {
+   "id": "P4",
+   "verdict": "correct",
+   "evidence": "The notes discuss a long-lasting energy source, long battery life, and a rechargeable cradle as possibilities."
+  }
+ ],
+ "errors": [],
+ "judge_model": "unknown (exact model identifier is not exposed in this conversation)",
+ "judge_model_served": "gpt-6.1-sol"
+}

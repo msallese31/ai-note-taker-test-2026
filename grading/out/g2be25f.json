@@ -1,0 +1,112 @@
+{
+  "items": [
+    {
+      "id": "S1",
+      "verdict": "partial",
+      "evidence": "Notes: 'Moritz presented the wooden, customizable remote'. The presentation by the User Interface Designer is covered, but the presenter is named Moritz; the transcript names the presenters Christine and Agnes (01:00-01:01) and the presenter says 'Christine can just correct me' (01:39), so the presenter is Agnes. No Moritz appears."
+    },
+    {
+      "id": "S2",
+      "verdict": "correct",
+      "evidence": "Notes: 'A flip-panel LCD is included provisionally; it could be removed if too expensive.' and 'The back and flip case could have customized designs.'"
+    },
+    {
+      "id": "S3",
+      "verdict": "partial",
+      "evidence": "Notes: 'The initial estimate was €9.95 against a €12.50 budget... The LCD price was not included; adding it could cost about €2–€3 per remote.' The cost display is covered, but the notes state no conclusion about whether the LCD fits the budget. The transcript itself differs from the key: the Marketing Expert says with the LCD 'we're up around about twelve, twelve and a half as to what the company had initially requested' (09:24) and the Industrial Designer concludes 'So that means we can put the LCD in' (09:34-09:36), so the group treated the LCD as fitting within the budget."
+    },
+    {
+      "id": "S4",
+      "verdict": "correct",
+      "evidence": "Notes: 'Negotiate lower production costs with vendors and discuss cost reductions with management' and 'the company representative will pursue lower costs and management support.' In the transcript (10:54) the stated purpose was to save money for marketing and promotions, not specifically to allow the display, so the notes match the transcript."
+    },
+    {
+      "id": "S5",
+      "verdict": "correct",
+      "evidence": "Notes: 'Selling two million units in year one would require 25% of the market', 'At €50 per unit, production cost could not exceed €25 to leave €25 profit per unit', and 'The group questioned whether the company could reach its two-million-unit and €50 million profit targets.'"
+    },
+    {
+      "id": "S6",
+      "verdict": "correct",
+      "evidence": "Notes: 'Christine proposed online ordering and direct shipment as an alternative sales channel... The group suggested Amazon or eBay and product customization images or rotation views.'"
+    },
+    {
+      "id": "S7",
+      "verdict": "correct",
+      "evidence": "Notes: 'Moritz said the project had no redesign time if users found problems' and 'The company representative chose to keep the basic design for market introduction and use customer feedback for a second generation.' (Presenter name issue logged separately.)"
+    },
+    {
+      "id": "S8",
+      "verdict": "correct",
+      "evidence": "Notes: 'Christine suggested coordinating a user-tested launch with a major sports event' and 'Christine suggested exploring a campaign with Sony Pictures around a DVD release.'"
+    },
+    {
+      "id": "A1",
+      "verdict": "correct",
+      "evidence": "Notes: 'Negotiate lower production costs with vendors and discuss cost reductions with management (owner: Speaker 1) [11:00]' plus summary 'the company representative will pursue lower costs and management support.' The owner label 'Speaker 1' is not defined in the notes, but the summary ties the task to the company representative (the Project Manager)."
+    },
+    {
+      "id": "A2",
+      "verdict": "correct",
+      "evidence": "Notes: 'Try to convince management to pursue a campaign with Sony Pictures (owner: Speaker 1) [21:48]' and 'The company representative said they would try to convince management.' Matches 21:48 in the transcript."
+    },
+    {
+      "id": "A3",
+      "verdict": "missed",
+      "evidence": "The notes do not mention that the marketing work is left to Ed once production is over (transcript 23:16-23:39: 'let's leave it to the Ed for later for once production is over')."
+    },
+    {
+      "id": "A4",
+      "verdict": "correct",
+      "evidence": "Notes: 'The company representative expected the production evaluation in two weeks, with the process taking up to four weeks. Prototypes would be made outside the company's factory.' Transcript (16:29-17:34) shows this is a prototype product evaluation done outside the factory, which the notes reflect."
+    },
+    {
+      "id": "D1",
+      "verdict": "partial",
+      "evidence": "Microphone: notes say only 'The group considered the side as an accessible placement', while the transcript shows agreement ('Yeah, the sides maybe is good. So That's good idea.' 05:52; Marketing Expert agrees 06:01). LCD: notes say it is 'included provisionally; it could be removed if too expensive' but do not state the outcome of the cost discussion ('So that means we can put the LCD in', 09:34-09:36)."
+    },
+    {
+      "id": "D2",
+      "verdict": "correct",
+      "evidence": "Notes: 'Negotiate lower production costs with vendors and discuss cost reductions with management.' The transcript (10:54) gives the purpose as saving money for marketing and promotions rather than the display, so the notes match what happened."
+    },
+    {
+      "id": "D3",
+      "verdict": "correct",
+      "evidence": "Notes: 'Christine suggested coordinating a user-tested launch with a major sports event', 'Christine suggested exploring a campaign with Sony Pictures around a DVD release', and 'The company representative said they would try to convince management.'"
+    },
+    {
+      "id": "D4",
+      "verdict": "correct",
+      "evidence": "Notes: 'The company representative chose to keep the basic design for market introduction and use customer feedback for a second generation.'"
+    },
+    {
+      "id": "D5",
+      "verdict": "correct",
+      "evidence": "Notes: 'The company representative expected the production evaluation in two weeks, with the process taking up to four weeks. Prototypes would be made outside the company's factory. Production would begin after approval...' Per the transcript (16:29-17:01) the evaluation is of produced prototypes, which the notes state."
+    },
+    {
+      "id": "P1",
+      "verdict": "partial",
+      "evidence": "Notes: 'The base unit estimate came in under budget, but the LCD and the company's sales and profit goals put feasibility in doubt' and 'The cost estimate excluded promotion and transportation.' The profit-goal problem is covered. The notes do not say the budget would not cover all components; the transcript itself shows the LCD brought the cost to roughly the budget (09:24-09:36) and the real concern was promotion, transport and profit (09:46-10:06)."
+    },
+    {
+      "id": "P2",
+      "verdict": "correct",
+      "evidence": "Notes: 'The company representative expected evaluation within weeks and wanted to proceed with the current design, while the others argued for user testing and enough time to respond' and 'Moritz said the project had no redesign time if users found problems.'"
+    }
+  ],
+  "errors": [
+    {
+      "claim": "Moritz presented the wooden, customizable remote (and all other 'Moritz' attributions for the User Interface Designer)",
+      "why_wrong": "No one named Moritz is in the transcript. The Project Manager names the presenters 'Christine and Agnes' (01:00), the Industrial Designer answers 'Agnes, yes' (01:01), and the presenter says 'Christine can just correct me' (01:39), so the presenter is Agnes.",
+      "kind": "wrong_person"
+    },
+    {
+      "claim": "Christine estimated the case could cost €1 for material and labor.",
+      "why_wrong": "The €1 case figure came from the Project Manager's cost sheet; the Industrial Designer (Christine) was reacting to it ('you got some pretty cheap labour that can do this case for one Euro... that's really outstanding', 10:48), not estimating it.",
+      "kind": "wrong_person"
+    }
+  ],
+  "judge_model": "claude-fable-5-1"
+}

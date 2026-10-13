@@ -1,0 +1,113 @@
+{
+  "evaluations": [
+    {
+      "label": "A",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 8},
+        {"criterion": "completeness", "score": 9},
+        {"criterion": "decisions_and_actions", "score": 7},
+        {"criterion": "usefulness", "score": 9}
+      ],
+      "overall": 8.2,
+      "errors": [
+        "'Strong support for a dedicated lounge/reading room' overstates it: Susan asked 'Do we really need that?' and Martin questioned its use",
+        "'Majority lean toward a mixed-use room' is not supported; Martin said it was an open discussion with no decision",
+        "'Andrei and Agnès negotiate a merged solution' slightly overstates; the transcript says Andre and Agnes will discuss it with the other group"
+      ],
+      "strengths": [
+        "Captures key numbers correctly (15 people, ~18 positions, 16 slots if a 2P room becomes the reading room, zero growth)",
+        "Correct attributions (Susan wants own office for confidential rectorate work; Martin open to sharing but on the phone a lot)",
+        "Most complete next-steps list: room separation, 4 desks in a 3P room, Gisela with the school admin, Maggie and Pierrette, draft proposals, Tuesday 2 PM after the MDM meeting",
+        "Clear, well organized, easy to act on"
+      ],
+      "weaknesses": [
+        "Next steps have no owners (e.g. Susan volunteered to ask Maggie and Pierrette; Andre to check room separation)",
+        "Omits the photocopier/fax/printer placement constraint",
+        "Some editorializing on lounge consensus"
+      ]
+    },
+    {
+      "label": "B",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 5},
+        {"criterion": "completeness", "score": 5},
+        {"criterion": "decisions_and_actions", "score": 3},
+        {"criterion": "usefulness", "score": 4}
+      ],
+      "overall": 4.3,
+      "errors": [
+        "'accommodate approximately 15 to 18 people' is wrong; there are 15 people and about 18 positions",
+        "'noting this is common in other faculties but not necessarily here' reverses the transcript: Andre said sharing with assistants is common at the school, Susan said other faculties all have their own offices",
+        "'Action Items (none)' is wrong; Andre committed to check room separation and Susan to ask Maggie and Pierrette, and everyone was asked to bring proposals",
+        "'Members were tasked with consulting colleagues, such as Maggie and Pierrette' misattributes; Susan volunteered for that",
+        "Lounge described as 'a significant requirement... to serve as a meeting or overflow space' while its purpose was explicitly left open"
+      ],
+      "strengths": [
+        "Mentions equipment constraints (photocopier, printer, fax)",
+        "Lists the unresolved questions (partitions, 4 in a 3P room, lounge purpose)",
+        "Gets the next meeting time (Tuesday 2 PM)"
+      ],
+      "weaknesses": [
+        "Generic 'Speaker 1/3/4' labels make it hard to know who said what",
+        "Empty action items section despite clear commitments",
+        "Repetitive summary and outline; thin on decisions such as rejecting project-based grouping"
+      ]
+    },
+    {
+      "label": "C",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 8},
+        {"criterion": "completeness", "score": 7},
+        {"criterion": "decisions_and_actions", "score": 7},
+        {"criterion": "usefulness", "score": 7}
+      ],
+      "overall": 7.3,
+      "errors": [
+        "'Susan and Martin both raised concerns about sharing offices' overstates Martin's position; he said he has nothing against sharing"
+      ],
+      "strengths": [
+        "Accurate and well attributed (Martin warned of zero growth, Susan's confidential rectorate work, Martin's point to speak only for oneself)",
+        "Correct owners on action items: Andrei for room separation, Susan for Maggie and Pierrette",
+        "Clearly states what is fixed (room count) vs open (assignments), and that no layout was decided",
+        "Timestamps help verification"
+      ],
+      "weaknesses": [
+        "Action items omit checking 4 desks in a 3P room, asking about Gisela with the school admin, and everyone bringing a draft proposal",
+        "Gisela options and visitor-in-admin-room objection only briefly covered",
+        "Omits MDM morning conflict and amenities"
+      ]
+    },
+    {
+      "label": "D",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 6},
+        {"criterion": "completeness", "score": 8},
+        {"criterion": "decisions_and_actions", "score": 6},
+        {"criterion": "usefulness", "score": 6}
+      ],
+      "overall": 6.5,
+      "errors": [
+        "Action item assigns 'Follow up with absent team members (Maggie, Pierrette)' to Andrei; Susan volunteered for this",
+        "'Distribute documents of the new office configuration' listed as an action item; it was done during the meeting",
+        "'no dedicated cafeteria' contradicts the transcript: there is a cafeteria downstairs that closes at five",
+        "'Smoking is allowed only outside, even on balconies' is garbled",
+        "'Splitting rooms... currently not feasible due to building and security regulations' overstates; Andre will check",
+        "'Project grouping seen as less important than proximity to meeting rooms' is an invented framing",
+        "'The session will focus on refining the plan rather than final decisions' is unsupported",
+        "'Management recognizes this as a priority due to previously lengthy discussions' is unsupported"
+      ],
+      "strengths": [
+        "Covers nearly every topic: Gisela options, visitors, smoking, coffee, whiteboards, equipment, 4 in a 3P room",
+        "Action list includes most commitments plus the all-participant proposal task"
+      ],
+      "weaknesses": [
+        "Very long and repetitive (growth, room splitting and admin noise repeated several times)",
+        "Several embellishments and one wrong action owner",
+        "Timestamps often misplaced, hard to skim for someone who missed the meeting"
+      ]
+    }
+  ],
+  "ranking": ["A", "C", "D", "B"],
+  "rationale": "A is accurate, complete and has the best next-steps list, losing points only for missing owners and slight overstatement of lounge consensus. C is equally accurate with correct owners but drops several action items. D is comprehensive but verbose, with a wrong owner for the Maggie/Pierrette follow-up and several embellishments. B uses unhelpful speaker numbers, reverses the faculty-sharing point, and lists no action items.",
+  "judge_model": "claude-opus-5-5"
+}

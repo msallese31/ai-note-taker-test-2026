@@ -1,0 +1,706 @@
+{
+ "sc23b12": {
+  "meeting": "IB4003",
+  "judge": "opus",
+  "rotation": 0,
+  "mapping": {
+   "A": "fireflies",
+   "B": "granola",
+   "C": "otter",
+   "D": "scribbl"
+  }
+ },
+ "sbb0e32": {
+  "meeting": "IB4003",
+  "judge": "opus",
+  "rotation": 1,
+  "mapping": {
+   "A": "granola",
+   "B": "otter",
+   "C": "scribbl",
+   "D": "fireflies"
+  }
+ },
+ "sb3053a": {
+  "meeting": "IB4003",
+  "judge": "opus",
+  "rotation": 2,
+  "mapping": {
+   "A": "otter",
+   "B": "scribbl",
+   "C": "fireflies",
+   "D": "granola"
+  }
+ },
+ "s2be48a": {
+  "meeting": "IB4003",
+  "judge": "opus",
+  "rotation": 3,
+  "mapping": {
+   "A": "scribbl",
+   "B": "fireflies",
+   "C": "granola",
+   "D": "otter"
+  }
+ },
+ "s103788": {
+  "meeting": "IB4003",
+  "judge": "fable",
+  "rotation": 0,
+  "mapping": {
+   "A": "fireflies",
+   "B": "granola",
+   "C": "otter",
+   "D": "scribbl"
+  }
+ },
+ "s6e037b": {
+  "meeting": "IB4003",
+  "judge": "fable",
+  "rotation": 1,
+  "mapping": {
+   "A": "granola",
+   "B": "otter",
+   "C": "scribbl",
+   "D": "fireflies"
+  }
+ },
+ "s02c3af": {
+  "meeting": "IB4003",
+  "judge": "fable",
+  "rotation": 2,
+  "mapping": {
+   "A": "otter",
+   "B": "scribbl",
+   "C": "fireflies",
+   "D": "granola"
+  }
+ },
+ "see1280": {
+  "meeting": "IB4003",
+  "judge": "fable",
+  "rotation": 3,
+  "mapping": {
+   "A": "scribbl",
+   "B": "fireflies",
+   "C": "granola",
+   "D": "otter"
+  }
+ },
+ "s431de9": {
+  "meeting": "IB4003",
+  "judge": "sonnet",
+  "rotation": 0,
+  "mapping": {
+   "A": "fireflies",
+   "B": "granola",
+   "C": "otter",
+   "D": "scribbl"
+  }
+ },
+ "s623d96": {
+  "meeting": "IB4003",
+  "judge": "sonnet",
+  "rotation": 1,
+  "mapping": {
+   "A": "granola",
+   "B": "otter",
+   "C": "scribbl",
+   "D": "fireflies"
+  }
+ },
+ "s0a63c7": {
+  "meeting": "IB4003",
+  "judge": "sonnet",
+  "rotation": 2,
+  "mapping": {
+   "A": "otter",
+   "B": "scribbl",
+   "C": "fireflies",
+   "D": "granola"
+  }
+ },
+ "sebbec6": {
+  "meeting": "IB4003",
+  "judge": "sonnet",
+  "rotation": 3,
+  "mapping": {
+   "A": "scribbl",
+   "B": "fireflies",
+   "C": "granola",
+   "D": "otter"
+  }
+ },
+ "sf02f33": {
+  "meeting": "IB4003",
+  "judge": "gpt-6.1-sol",
+  "rotation": 0,
+  "mapping": {
+   "A": "fireflies",
+   "B": "granola",
+   "C": "otter",
+   "D": "scribbl"
+  }
+ },
+ "s77e36f": {
+  "meeting": "IB4003",
+  "judge": "gpt-6.1-sol",
+  "rotation": 1,
+  "mapping": {
+   "A": "granola",
+   "B": "otter",
+   "C": "scribbl",
+   "D": "fireflies"
+  }
+ },
+ "s00ec9f": {
+  "meeting": "IB4003",
+  "judge": "gpt-6.1-sol",
+  "rotation": 2,
+  "mapping": {
+   "A": "otter",
+   "B": "scribbl",
+   "C": "fireflies",
+   "D": "granola"
+  }
+ },
+ "s67feda": {
+  "meeting": "IB4003",
+  "judge": "gpt-6.1-sol",
+  "rotation": 3,
+  "mapping": {
+   "A": "scribbl",
+   "B": "fireflies",
+   "C": "granola",
+   "D": "otter"
+  }
+ },
+ "s844f1f": {
+  "meeting": "ES2008b",
+  "judge": "opus",
+  "rotation": 0,
+  "mapping": {
+   "A": "fireflies",
+   "B": "granola",
+   "C": "otter",
+   "D": "scribbl"
+  }
+ },
+ "se8b23c": {
+  "meeting": "ES2008b",
+  "judge": "opus",
+  "rotation": 1,
+  "mapping": {
+   "A": "granola",
+   "B": "otter",
+   "C": "scribbl",
+   "D": "fireflies"
+  }
+ },
+ "s819c13": {
+  "meeting": "ES2008b",
+  "judge": "opus",
+  "rotation": 2,
+  "mapping": {
+   "A": "otter",
+   "B": "scribbl",
+   "C": "fireflies",
+   "D": "granola"
+  }
+ },
+ "s32e170": {
+  "meeting": "ES2008b",
+  "judge": "opus",
+  "rotation": 3,
+  "mapping": {
+   "A": "scribbl",
+   "B": "fireflies",
+   "C": "granola",
+   "D": "otter"
+  }
+ },
+ "sd51db4": {
+  "meeting": "ES2008b",
+  "judge": "fable",
+  "rotation": 0,
+  "mapping": {
+   "A": "fireflies",
+   "B": "granola",
+   "C": "otter",
+   "D": "scribbl"
+  }
+ },
+ "s5771d7": {
+  "meeting": "ES2008b",
+  "judge": "fable",
+  "rotation": 1,
+  "mapping": {
+   "A": "granola",
+   "B": "otter",
+   "C": "scribbl",
+   "D": "fireflies"
+  }
+ },
+ "s4421bf": {
+  "meeting": "ES2008b",
+  "judge": "fable",
+  "rotation": 2,
+  "mapping": {
+   "A": "otter",
+   "B": "scribbl",
+   "C": "fireflies",
+   "D": "granola"
+  }
+ },
+ "se06549": {
+  "meeting": "ES2008b",
+  "judge": "fable",
+  "rotation": 3,
+  "mapping": {
+   "A": "scribbl",
+   "B": "fireflies",
+   "C": "granola",
+   "D": "otter"
+  }
+ },
+ "s0c0959": {
+  "meeting": "ES2008b",
+  "judge": "sonnet",
+  "rotation": 0,
+  "mapping": {
+   "A": "fireflies",
+   "B": "granola",
+   "C": "otter",
+   "D": "scribbl"
+  }
+ },
+ "s964b59": {
+  "meeting": "ES2008b",
+  "judge": "sonnet",
+  "rotation": 1,
+  "mapping": {
+   "A": "granola",
+   "B": "otter",
+   "C": "scribbl",
+   "D": "fireflies"
+  }
+ },
+ "s1ca7dc": {
+  "meeting": "ES2008b",
+  "judge": "sonnet",
+  "rotation": 2,
+  "mapping": {
+   "A": "otter",
+   "B": "scribbl",
+   "C": "fireflies",
+   "D": "granola"
+  }
+ },
+ "saac85f": {
+  "meeting": "ES2008b",
+  "judge": "sonnet",
+  "rotation": 3,
+  "mapping": {
+   "A": "scribbl",
+   "B": "fireflies",
+   "C": "granola",
+   "D": "otter"
+  }
+ },
+ "saca91c": {
+  "meeting": "ES2008b",
+  "judge": "gpt-6.1-sol",
+  "rotation": 0,
+  "mapping": {
+   "A": "fireflies",
+   "B": "granola",
+   "C": "otter",
+   "D": "scribbl"
+  }
+ },
+ "s7d2bf2": {
+  "meeting": "ES2008b",
+  "judge": "gpt-6.1-sol",
+  "rotation": 1,
+  "mapping": {
+   "A": "granola",
+   "B": "otter",
+   "C": "scribbl",
+   "D": "fireflies"
+  }
+ },
+ "s18abbc": {
+  "meeting": "ES2008b",
+  "judge": "gpt-6.1-sol",
+  "rotation": 2,
+  "mapping": {
+   "A": "otter",
+   "B": "scribbl",
+   "C": "fireflies",
+   "D": "granola"
+  }
+ },
+ "sdb44de": {
+  "meeting": "ES2008b",
+  "judge": "gpt-6.1-sol",
+  "rotation": 3,
+  "mapping": {
+   "A": "scribbl",
+   "B": "fireflies",
+   "C": "granola",
+   "D": "otter"
+  }
+ },
+ "s11b443": {
+  "meeting": "IS1001c",
+  "judge": "opus",
+  "rotation": 0,
+  "mapping": {
+   "A": "fireflies",
+   "B": "granola",
+   "C": "otter",
+   "D": "scribbl"
+  }
+ },
+ "s534103": {
+  "meeting": "IS1001c",
+  "judge": "opus",
+  "rotation": 1,
+  "mapping": {
+   "A": "granola",
+   "B": "otter",
+   "C": "scribbl",
+   "D": "fireflies"
+  }
+ },
+ "sdf2c3e": {
+  "meeting": "IS1001c",
+  "judge": "opus",
+  "rotation": 2,
+  "mapping": {
+   "A": "otter",
+   "B": "scribbl",
+   "C": "fireflies",
+   "D": "granola"
+  }
+ },
+ "s11db1b": {
+  "meeting": "IS1001c",
+  "judge": "opus",
+  "rotation": 3,
+  "mapping": {
+   "A": "scribbl",
+   "B": "fireflies",
+   "C": "granola",
+   "D": "otter"
+  }
+ },
+ "s7c53f8": {
+  "meeting": "IS1001c",
+  "judge": "fable",
+  "rotation": 0,
+  "mapping": {
+   "A": "fireflies",
+   "B": "granola",
+   "C": "otter",
+   "D": "scribbl"
+  }
+ },
+ "s99841a": {
+  "meeting": "IS1001c",
+  "judge": "fable",
+  "rotation": 1,
+  "mapping": {
+   "A": "granola",
+   "B": "otter",
+   "C": "scribbl",
+   "D": "fireflies"
+  }
+ },
+ "sf50f5a": {
+  "meeting": "IS1001c",
+  "judge": "fable",
+  "rotation": 2,
+  "mapping": {
+   "A": "otter",
+   "B": "scribbl",
+   "C": "fireflies",
+   "D": "granola"
+  }
+ },
+ "scc9fcb": {
+  "meeting": "IS1001c",
+  "judge": "fable",
+  "rotation": 3,
+  "mapping": {
+   "A": "scribbl",
+   "B": "fireflies",
+   "C": "granola",
+   "D": "otter"
+  }
+ },
+ "sddd071": {
+  "meeting": "IS1001c",
+  "judge": "sonnet",
+  "rotation": 0,
+  "mapping": {
+   "A": "fireflies",
+   "B": "granola",
+   "C": "otter",
+   "D": "scribbl"
+  }
+ },
+ "sb3bd39": {
+  "meeting": "IS1001c",
+  "judge": "sonnet",
+  "rotation": 1,
+  "mapping": {
+   "A": "granola",
+   "B": "otter",
+   "C": "scribbl",
+   "D": "fireflies"
+  }
+ },
+ "s0839cb": {
+  "meeting": "IS1001c",
+  "judge": "sonnet",
+  "rotation": 2,
+  "mapping": {
+   "A": "otter",
+   "B": "scribbl",
+   "C": "fireflies",
+   "D": "granola"
+  }
+ },
+ "sfd3abd": {
+  "meeting": "IS1001c",
+  "judge": "sonnet",
+  "rotation": 3,
+  "mapping": {
+   "A": "scribbl",
+   "B": "fireflies",
+   "C": "granola",
+   "D": "otter"
+  }
+ },
+ "s0b18a2": {
+  "meeting": "IS1001c",
+  "judge": "gpt-6.1-sol",
+  "rotation": 0,
+  "mapping": {
+   "A": "fireflies",
+   "B": "granola",
+   "C": "otter",
+   "D": "scribbl"
+  }
+ },
+ "s1437bd": {
+  "meeting": "IS1001c",
+  "judge": "gpt-6.1-sol",
+  "rotation": 1,
+  "mapping": {
+   "A": "granola",
+   "B": "otter",
+   "C": "scribbl",
+   "D": "fireflies"
+  }
+ },
+ "s532f83": {
+  "meeting": "IS1001c",
+  "judge": "gpt-6.1-sol",
+  "rotation": 2,
+  "mapping": {
+   "A": "otter",
+   "B": "scribbl",
+   "C": "fireflies",
+   "D": "granola"
+  }
+ },
+ "sc15521": {
+  "meeting": "IS1001c",
+  "judge": "gpt-6.1-sol",
+  "rotation": 3,
+  "mapping": {
+   "A": "scribbl",
+   "B": "fireflies",
+   "C": "granola",
+   "D": "otter"
+  }
+ },
+ "s1666ab": {
+  "meeting": "TS3012a",
+  "judge": "opus",
+  "rotation": 0,
+  "mapping": {
+   "A": "fireflies",
+   "B": "granola",
+   "C": "otter",
+   "D": "scribbl"
+  }
+ },
+ "sd2f4de": {
+  "meeting": "TS3012a",
+  "judge": "opus",
+  "rotation": 1,
+  "mapping": {
+   "A": "granola",
+   "B": "otter",
+   "C": "scribbl",
+   "D": "fireflies"
+  }
+ },
+ "sbbca5d": {
+  "meeting": "TS3012a",
+  "judge": "opus",
+  "rotation": 2,
+  "mapping": {
+   "A": "otter",
+   "B": "scribbl",
+   "C": "fireflies",
+   "D": "granola"
+  }
+ },
+ "s17caa0": {
+  "meeting": "TS3012a",
+  "judge": "opus",
+  "rotation": 3,
+  "mapping": {
+   "A": "scribbl",
+   "B": "fireflies",
+   "C": "granola",
+   "D": "otter"
+  }
+ },
+ "s4c7982": {
+  "meeting": "TS3012a",
+  "judge": "fable",
+  "rotation": 0,
+  "mapping": {
+   "A": "fireflies",
+   "B": "granola",
+   "C": "otter",
+   "D": "scribbl"
+  }
+ },
+ "s5ea65c": {
+  "meeting": "TS3012a",
+  "judge": "fable",
+  "rotation": 1,
+  "mapping": {
+   "A": "granola",
+   "B": "otter",
+   "C": "scribbl",
+   "D": "fireflies"
+  }
+ },
+ "se2229a": {
+  "meeting": "TS3012a",
+  "judge": "fable",
+  "rotation": 2,
+  "mapping": {
+   "A": "otter",
+   "B": "scribbl",
+   "C": "fireflies",
+   "D": "granola"
+  }
+ },
+ "sbd1ecb": {
+  "meeting": "TS3012a",
+  "judge": "fable",
+  "rotation": 3,
+  "mapping": {
+   "A": "scribbl",
+   "B": "fireflies",
+   "C": "granola",
+   "D": "otter"
+  }
+ },
+ "s761dec": {
+  "meeting": "TS3012a",
+  "judge": "sonnet",
+  "rotation": 0,
+  "mapping": {
+   "A": "fireflies",
+   "B": "granola",
+   "C": "otter",
+   "D": "scribbl"
+  }
+ },
+ "sdc0f54": {
+  "meeting": "TS3012a",
+  "judge": "sonnet",
+  "rotation": 1,
+  "mapping": {
+   "A": "granola",
+   "B": "otter",
+   "C": "scribbl",
+   "D": "fireflies"
+  }
+ },
+ "s35ef8e": {
+  "meeting": "TS3012a",
+  "judge": "sonnet",
+  "rotation": 2,
+  "mapping": {
+   "A": "otter",
+   "B": "scribbl",
+   "C": "fireflies",
+   "D": "granola"
+  }
+ },
+ "s8a1ff8": {
+  "meeting": "TS3012a",
+  "judge": "sonnet",
+  "rotation": 3,
+  "mapping": {
+   "A": "scribbl",
+   "B": "fireflies",
+   "C": "granola",
+   "D": "otter"
+  }
+ },
+ "seccf1a": {
+  "meeting": "TS3012a",
+  "judge": "gpt-6.1-sol",
+  "rotation": 0,
+  "mapping": {
+   "A": "fireflies",
+   "B": "granola",
+   "C": "otter",
+   "D": "scribbl"
+  }
+ },
+ "sd9c87b": {
+  "meeting": "TS3012a",
+  "judge": "gpt-6.1-sol",
+  "rotation": 1,
+  "mapping": {
+   "A": "granola",
+   "B": "otter",
+   "C": "scribbl",
+   "D": "fireflies"
+  }
+ },
+ "sdbbdf8": {
+  "meeting": "TS3012a",
+  "judge": "gpt-6.1-sol",
+  "rotation": 2,
+  "mapping": {
+   "A": "otter",
+   "B": "scribbl",
+   "C": "fireflies",
+   "D": "granola"
+  }
+ },
+ "s696f5b": {
+  "meeting": "TS3012a",
+  "judge": "gpt-6.1-sol",
+  "rotation": 3,
+  "mapping": {
+   "A": "scribbl",
+   "B": "fireflies",
+   "C": "granola",
+   "D": "otter"
+  }
+ }
+}

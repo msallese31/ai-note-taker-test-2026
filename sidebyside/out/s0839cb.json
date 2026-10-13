@@ -1,0 +1,122 @@
+{
+  "judge_model": "claude-sonnet-5-5",
+  "evaluations": [
+    {
+      "label": "A",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 5},
+        {"criterion": "completeness", "score": 6},
+        {"criterion": "decisions_and_actions", "score": 4},
+        {"criterion": "usefulness", "score": 5}
+      ],
+      "overall": 5.0,
+      "errors": [
+        "Refers to the 'IS1001c remote control'; that code never appears in the transcript.",
+        "Calls the UI designer 'UIZ'; the transcript gives the name Abdul al-Hasred.",
+        "Says the remote 'will include backlit buttons that activate upon movement'. The UI designer objected that a motion sensor is too expensive, and nothing was settled on the trigger.",
+        "Lists 'will adding motion sensors exceed 12 euros' as an open question; nobody framed it that way.",
+        "Says the spongy material provides 'tactile appeal'; the transcript gives robustness as the reason.",
+        "Describes an 'arched internal structure'; this is not in the transcript.",
+        "Says the earlier meeting agreed 'to prioritize ... volume, power, and channel controls' and lists the plastic cover as an earlier agreement. This is fine as a recap, but the notes never say the cover was effectively dropped in this meeting's decisions.",
+        "The Action Items section says '(none)', although the project manager clearly assigned the next tasks."
+      ],
+      "strengths": [
+        "Correct on the 50x wheel sensor cost, the 12 euro budget, the banana shape, the company colour fit and the spongy material.",
+        "Includes the voice recognition chip email as an open question.",
+        "The outline follows the meeting order and is easy to scan."
+      ],
+      "weaknesses": [
+        "Empty action items, and the next steps are only in the outline.",
+        "Speaker numbers instead of roles make it harder to follow.",
+        "Several invented or distorted details (backlit on movement, arched structure).",
+        "Does not mention the wheel on top with buttons on the side, the yellow colour, or the left/right-handed discussion.",
+        "Inaccurate about the lighting decision."
+      ]
+    },
+    {
+      "label": "B",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 8},
+        {"criterion": "completeness", "score": 8},
+        {"criterion": "decisions_and_actions", "score": 7},
+        {"criterion": "usefulness", "score": 8}
+      ],
+      "overall": 7.8,
+      "errors": [
+        "Calls the previous-channel button a 'preview button'.",
+        "Says the wheel push-down could be used 'to recall a channel'; the transcript says 'for the record', which is unclear.",
+        "Says the group 'did not document a detailed resolution' on left/right-hand use. The project manager did conclude it works for both hands.",
+        "The Action items heading is empty, though the next steps appear in the prototype section."
+      ],
+      "strengths": [
+        "Gives timestamps and clear roles.",
+        "Correctly captures the 50x cost, the 12 euro cap, the wheel retained for innovation and ease of use, and the banana concept (yellow, wheel on top, buttons on the side, spongy cover over an inner structure).",
+        "Correctly says no decision was made on the voice chip, and that the motion light and continuous light were questioned for cost and battery.",
+        "Records that the industrial designer and UI designer will build the prototype together, with the work listed and instructions to follow by email."
+      ],
+      "weaknesses": [
+        "Empty action items heading.",
+        "Slightly long and repetitive.",
+        "Weak on the final status of the plastic cover.",
+        "Gives only partial detail on the symmetry resolution."
+      ]
+    },
+    {
+      "label": "C",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 5},
+        {"criterion": "completeness", "score": 6},
+        {"criterion": "decisions_and_actions", "score": 6},
+        {"criterion": "usefulness", "score": 6}
+      ],
+      "overall": 5.8,
+      "errors": [
+        "Names the UI designer 'UL Hazred'; the transcript gives Abdul al-Hasred.",
+        "'Heart-shaped core with spongy cover suggested' is not supported; the transcript says an odd-shaped structure with a spongy cover.",
+        "Action items assigned to specific people are inferred; the project manager did not give these assignments, only that the two designers should work together.",
+        "'Provide meeting notes in shared folder' is assigned to the project manager, but he only said he would take notes.",
+        "'Facilitate discussion on wheel sensor necessity' and 'Assess cost implications of wheel sensor' are not actions that were assigned.",
+        "Timestamps are loose; for example the banana proposal at 16:30 is attributed inaccurately."
+      ],
+      "strengths": [
+        "Has an action items section organised by owner.",
+        "Covers the 50x cost, the 12 euro cap, the plastic cover debate, the symmetric/left-right design, the banana with yellow and company colours, and the collaboration on the prototype."
+      ],
+      "weaknesses": [
+        "Omits the voice recognition chip email entirely.",
+        "The action items are largely speculative.",
+        "The note-style bullets are terse and lose context.",
+        "Does not say clearly that the wheel was kept despite its cost.",
+        "A garbled name and an invented structure detail."
+      ]
+    },
+    {
+      "label": "D",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 9},
+        {"criterion": "completeness", "score": 9},
+        {"criterion": "decisions_and_actions", "score": 8},
+        {"criterion": "usefulness", "score": 9}
+      ],
+      "overall": 8.8,
+      "errors": [
+        "The 'recess or offset channel buttons' alternative is a slight over-specification of the UI designer's 'put the numbers somewhere a bit out of the way'.",
+        "'Backlit buttons confirmed' is slightly stronger than the discussion; the lighting trigger was left open (which the notes themselves say).",
+        "Assigns the final design to the industrial designer and the UI layout to the UI designer; this is inferred, though consistent with the project manager's next steps."
+      ],
+      "strengths": [
+        "Clear sections: previous decisions, component decisions, voice recognition update, banana design direction and next steps.",
+        "Accurately captures the wheel retained for innovation despite 50x cost, the 12 euro limit, the standard battery, the chip-on-print, and the plastic cover being reconsidered.",
+        "Shows the lighting trigger debate (motion sensor vs power press) and the battery concern.",
+        "Records the deferred voice chip decision, the priority ranking of fancy, innovative and easy to use, the left/right symmetry, and the four next steps with joint prototype work."
+      ],
+      "weaknesses": [
+        "No explicit action items section with named owners.",
+        "Does not say the project manager will send instructions by email.",
+        "Does not state the final outcome on the plastic cover."
+      ]
+    }
+  ],
+  "ranking": ["D", "B", "C", "A"],
+  "rationale": "D is the most accurate and complete. It separates previous decisions from new ones, keeps the open questions open (voice chip deferred, lighting trigger debated), and ends with the correct next steps. B is also accurate and well structured, with timestamps and roles, but it has an empty action items heading and a few small slips such as 'preview button'. C has an action items list, but most of the assignments are inferred, it garbles the UI designer's name, invents a 'heart-shaped core', and misses the voice chip email. A is weakest. It states that backlit buttons activate on movement as a decision, adds an invented code and structure details, and lists no action items."
+}

@@ -1,0 +1,127 @@
+{
+  "judge_model": "claude-sonnet-5-5",
+  "evaluations": [
+    {
+      "label": "A",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 7},
+        {"criterion": "completeness", "score": 8},
+        {"criterion": "decisions_and_actions", "score": 8},
+        {"criterion": "usefulness", "score": 8}
+      ],
+      "overall": 7.8,
+      "errors": [
+        "Uses the name 'Moritz' for the presenter and several speakers; no one named Moritz appears in the transcript (the speaker is the User Interface Designer, addressed as Agnes/Christine).",
+        "Action item owners are given only as 'Speaker 1', with no name or role, which is vague.",
+        "The first action item is timestamped [11:00] and reads 'discuss cost reductions with management'. The transcript says the project manager will speak to management about getting costs down, so this is roughly right."
+      ],
+      "strengths": [
+        "Closely follows the transcript: the 9.95 vs 12.50 euro figures, the 2-3 euro LCD addition, 8M vs 8-9M units, 25% share, 50 euro price with a 25 euro cost ceiling, and 2 to 4 weeks for evaluation.",
+        "Captures the real disagreement: the project manager wanted to proceed with the current design while the User Interface Designer argued there was no redesign time.",
+        "States the decision to keep the basic design and use feedback for a second generation, and the plan to convince management about a Sony Pictures campaign.",
+        "Covers the microphone placement debate (circuit board, closed-remote voice use, side placement) and the weight and button feedback.",
+        "Has timestamps and a clear hierarchy, with a short summary at the top."
+      ],
+      "weaknesses": [
+        "The invented name 'Moritz' appears throughout and would confuse a reader who missed the meeting.",
+        "Only two action items, and the owners are generic labels.",
+        "Leaves out the reasoning for the intentional weight, the disposable diapers anecdote and the World Cup detail.",
+        "The microphone issue is called 'unresolved' even though the side placement was largely agreed."
+      ]
+    },
+    {
+      "label": "B",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 9},
+        {"criterion": "completeness", "score": 7},
+        {"criterion": "decisions_and_actions", "score": 7},
+        {"criterion": "usefulness", "score": 8}
+      ],
+      "overall": 7.8,
+      "errors": [
+        "'Align launch timing with a major sports event' is listed as a next step although it was only a suggestion, with no one assigned.",
+        "Next steps have no owners, even though the project manager said he would negotiate with vendors and convince management on Sony Pictures."
+      ],
+      "strengths": [
+        "Free of invented names and fabricated claims; the numbers (9.95, 12.50, 2-3 euro, 8-9M units, 25%, 50 euro, 25 euro cost ceiling, 2-4 weeks) all match the transcript.",
+        "Records the button layout and colors, the intentional weight and the point that customization limits savings on the case cost.",
+        "States the decision to proceed with the current model and gather feedback for a second generation.",
+        "Notes the missing redesign window and the diapers example.",
+        "Concise and easy to scan, with next steps that include goals."
+      ],
+      "weaknesses": [
+        "No attribution of who said or proposed anything, so the redesign disagreement is blurred.",
+        "No owners on next steps.",
+        "Omits that the marketing expert raised the missing LCD price and the profit feasibility doubt.",
+        "Omits the project manager's commitment to talk to management about Sony Pictures.",
+        "Treats the microphone as 'unresolved' while saying under the flip was ruled out."
+      ]
+    },
+    {
+      "label": "C",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 5},
+        {"criterion": "completeness", "score": 7},
+        {"criterion": "decisions_and_actions", "score": 4},
+        {"criterion": "usefulness", "score": 6}
+      ],
+      "overall": 5.5,
+      "errors": [
+        "Action owner 'Christian' is not a name in the transcript.",
+        "'Continue refinement and adjustment of prototype design details' is assigned to a person, but the transcript fixed the design with no more changes.",
+        "'Finalize detailed production budget including promotional and transport costs' is assigned to the finance lead, but nobody was assigned this.",
+        "Marketing Lead (Ed) is assigned to 'develop and propose online sales and promotion strategy' and to plan campaigns around sports events and DVD releases. Ed was not assigned these; the industrial designer proposed them and the project manager said he would convince management.",
+        "'Organize closing celebration event upon successful completion of production milestone' is wrong: the project manager invited everyone for drinks that evening.",
+        "Says the team 'agreed on a fixed design'. The project manager decided it over the User Interface Designer's objections.",
+        "'Closing remarks... stressed importance of post-launch evaluation' and 'team urged to monitor post-launch feedback closely' are not in the transcript.",
+        "Attributes the brand-value remarks to 'Management'; the project manager said them about Ed.",
+        "Says event-driven launches 'allow time for user testing' as a team conclusion; it was one person's suggestion."
+      ],
+      "strengths": [
+        "Broadest coverage, with the same key numbers (9.95, 12.50, 2-3 euro LCD, 8-9M units, 25%, 50 euro, 25 euro ceiling, 2-4 weeks).",
+        "Includes the case cost of about 1 euro, the Amazon/eBay online channel, World Cup and Sony Pictures, and Plasticine limiting weight modeling.",
+        "Has timestamps and a structured summary."
+      ],
+      "weaknesses": [
+        "The action items section is largely invented, with made-up owners and tasks.",
+        "Misses the project manager's real commitments only partly: vendor negotiation is listed, but under 'Unknown (Finance Lead)', and the Sony Pictures commitment is given to the wrong person.",
+        "Pads the notes with invented 'leadership perspectives' and closing content.",
+        "Overstates consensus on the fixed design and downplays the redesign-time disagreement.",
+        "Long and repetitive for the actual content."
+      ]
+    },
+    {
+      "label": "D",
+      "criterion_scores": [
+        {"criterion": "accuracy", "score": 5},
+        {"criterion": "completeness", "score": 5},
+        {"criterion": "decisions_and_actions", "score": 4},
+        {"criterion": "usefulness", "score": 5}
+      ],
+      "overall": 4.8,
+      "errors": [
+        "'Ed proposed shifting from traditional retail to an online drop ship model' is a misattribution: the industrial designer proposed it. The outline attributes it to 'Speaker 2', so the notes contradict themselves.",
+        "'Ed suggested synchronizing the launch with major sporting events' is a misattribution: the industrial designer proposed the synchronization.",
+        "'IS1008d remote control prototype' is a label that does not appear in the transcript.",
+        "'Current calculations only account for production costs and do not yet include advertising, transportation, or labor'. Labor is in the cost; only advertising and transport are excluded.",
+        "'Agni presented' and 'Speaker 4 presented' are inconsistent; the name is also not clearly in the transcript ('Agnes').",
+        "Raises 'Will the company be able to accommodate a second generation?' as an open question; nobody asked this.",
+        "Says the team 'agreed' to conduct product evaluation with real users, while the project manager planned a prototype evaluation."
+      ],
+      "strengths": [
+        "Correctly reports the decision that no further major design changes will be made and that customer feedback will drive a second generation.",
+        "Gets the main numbers right (9.95 vs 12.50 euro, 2-3 euro LCD, 25% of 8-9M, 2 million units, 50 euro price).",
+        "Notes the project manager's plan to negotiate with vendors and the User Interface Designer's concern about redesign time."
+      ],
+      "weaknesses": [
+        "Action Items section says '(none)' even though the project manager committed to negotiating with vendors and convincing management.",
+        "Uses unlabeled 'Speaker N' tags, so a reader cannot tell who is who.",
+        "The summary and the outline are redundant and contradict each other on attribution.",
+        "Leaves out Sony Pictures, case cost, the 1 euro figure and the intentional weight.",
+        "Leaves out the project manager's commitment to talk to management."
+      ]
+    }
+  ],
+  "ranking": ["A", "B", "C", "D"],
+  "rationale": "A is the most useful because it accurately follows the transcript, gives who raised each point, records the project manager's decision to proceed with the current design over the User Interface Designer's redesign concern, and lists the two real commitments (vendor negotiation and convincing management on Sony Pictures). Its main flaw is the invented name 'Moritz'. B is nearly error-free and concise, but has no attribution and no owners, so it ranks just below A. C covers the most ground, but its action items section is largely fabricated, with an invented owner, invented tasks and a wrong closing event, and it overstates consensus. D has misattributions (Ed credited with the online channel and launch timing), an unsupported label, generic speaker tags and no action items, and it also omits several decisions and ideas."
+}
