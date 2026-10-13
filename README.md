@@ -51,7 +51,7 @@ Each cell is the number of judgments that ranked that tool first, then its avera
 
 - Five meetings, all in English, all from one research corpus. Most are product design meetings where people play assigned roles.
 - All grades come from AI models. No human graders were used.
-- Free plans were used for Fireflies and Otter. Paid plans may produce different notes.
+- All four tools ran on their free plans. Paid plans may produce different notes.
 - Granola has no file upload, so the audio was played through the Mac while Granola recorded.
 - Deviations from the written plan are listed at the end of [PROTOCOL.md](PROTOCOL.md).
 
